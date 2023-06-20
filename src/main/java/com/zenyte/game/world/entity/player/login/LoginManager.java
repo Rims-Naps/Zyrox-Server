@@ -179,10 +179,6 @@ public class LoginManager {
                         while (loadRequests.isEmpty() && saveRequests.isEmpty()) {
                             Thread.sleep(THREAD_SLEEP_FREQUENCY);
                         }
-                        //Sleep until backup manager finishes archiving.
-                        while(CoresManager.getBackupManager().status.isTrue()) {
-                            Thread.sleep(1);
-                        }
                         sleeping.setFalse();
                         LoginManager.this.process();
                         if (LoginManager.this.isShutdown()) {

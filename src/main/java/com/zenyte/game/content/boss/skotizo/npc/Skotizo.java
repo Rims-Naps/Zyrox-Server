@@ -1,11 +1,9 @@
 package com.zenyte.game.content.boss.skotizo.npc;
 
-import com.amazonaws.services.dynamodbv2.xspec.M;
 import com.zenyte.game.content.boss.skotizo.instance.SkotizoInstance;
 import com.zenyte.game.content.combatachievements.combattasktiers.EliteTasks;
 import com.zenyte.game.content.combatachievements.combattasktiers.MasterTasks;
 import com.zenyte.game.content.combatachievements.combattasktiers.MediumTasks;
-import com.zenyte.game.content.skills.prayer.Prayer;
 import com.zenyte.game.tasks.WorldTasksManager;
 import com.zenyte.game.util.Direction;
 import com.zenyte.game.util.TimeUnit;

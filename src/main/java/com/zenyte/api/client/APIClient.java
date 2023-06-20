@@ -44,8 +44,9 @@ public class APIClient {
                                                       .build();
     public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
     
-    public static RequestBody jsonBody(Object payload) {
-        return RequestBody.create(JSON, toJson(payload));
+    public static RequestBody jsonBody(final Object payload) {
+        final String jsonString = toJson(payload);
+        return RequestBody.create(jsonString, JSON);
     }
     
     public static HttpUrl.Builder urlBuilder() {

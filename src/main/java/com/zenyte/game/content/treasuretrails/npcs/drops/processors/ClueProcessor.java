@@ -18,6 +18,7 @@ import org.apache.commons.lang3.ArrayUtils;
 
 import java.util.List;
 import java.util.Map;
+import java.util.function.Predicate;
 
 /**
  * @author Kris | 22/11/2019
@@ -29,14 +30,14 @@ public abstract class ClueProcessor extends DropProcessor {
 
     @Override
     public void attach() {
-        for (val i : allIds) {
+        for (final int i : allIds) {
             val definitions = NPCDefinitions.get(i);
             if (definitions == null) {
                 continue;
             }
             val clueNPCs = map().get(definitions.getName().toLowerCase());
             val clueNPC = Utils.findMatching(clueNPCs, n -> {
-                val predicate = n.getPredicate();
+                final Predicate<NPCDefinitions> predicate = n.getPredicate();
                 return predicate == null || predicate.test(definitions);
             });
             if (clueNPC == null) {
@@ -63,7 +64,7 @@ public abstract class ClueProcessor extends DropProcessor {
             return;
         }
         val constant = Utils.findMatching(list, n -> {
-            val predicate = n.getPredicate();
+            final Predicate<NPCDefinitions> predicate = n.getPredicate();
             return predicate == null || predicate.test(definitions);
         });
         if (constant == null) {

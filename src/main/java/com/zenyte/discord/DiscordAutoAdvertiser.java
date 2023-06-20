@@ -1,15 +1,11 @@
 package com.zenyte.discord;
 
-import de.btobastian.javacord.AccountType;
-import de.btobastian.javacord.DiscordApi;
-import de.btobastian.javacord.DiscordApiBuilder;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.logging.log4j.util.Strings;
+import org.javacord.api.AccountType;
+import org.javacord.api.DiscordApi;
+import org.javacord.api.DiscordApiBuilder;
 
 import java.util.Random;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
 
 @Slf4j
 public class DiscordAutoAdvertiser {

@@ -1,12 +1,12 @@
 package com.zenyte.database;
 
 import lombok.val;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class DatabaseUtil {
 
-    private static final Logger log = LogManager.getLogger(DatabaseUtil.class);
+    private static final Logger log = LoggerFactory.getLogger(DatabaseUtil.class);
 
     public static String buildBatch(final String query, final int rows, final int columns) {
         val column = buildColumnStructure(columns);

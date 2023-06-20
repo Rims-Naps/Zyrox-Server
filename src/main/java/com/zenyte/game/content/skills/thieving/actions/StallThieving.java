@@ -109,7 +109,7 @@ public class StallThieving extends Action {
 
 	private final void checkGuards() {
 	    val list = CharacterLoop.find(player.getLocation(), 5, NPC.class, n -> {
-	        val name = n.getDefinitions().getName().toLowerCase();
+			final String name = n.getDefinitions().getName().toLowerCase();
                     return !n.isDead() && (name.contains("guard") || name.contains("tzhaar-ket"))
 							&& n.getDefinitions().containsOption("Attack")
 							&& !n.isProjectileClipped(player.getLocation(), false);

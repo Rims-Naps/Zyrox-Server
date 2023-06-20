@@ -1,6 +1,5 @@
 package com.zenyte.game.world.entity.npc.impl.kalphite;
 
-import com.amazonaws.services.dynamodbv2.datamodeling.PaginatedList;
 import com.zenyte.game.content.achievementdiary.diaries.DesertDiary;
 import com.zenyte.game.content.combatachievements.combattasktiers.EliteTasks;
 import com.zenyte.game.content.combatachievements.combattasktiers.HardTasks;

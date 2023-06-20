@@ -1,6 +1,5 @@
 package com.zenyte.plugins.item;
 
-import com.amazonaws.services.mturk.model.HIT;
 import com.zenyte.game.item.Item;
 import com.zenyte.game.item.pluginextensions.ItemPlugin;
 import com.zenyte.game.world.entity.ForceTalk;

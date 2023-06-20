@@ -6,7 +6,7 @@ import com.zenyte.api.model.WorldType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.val;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Constructor;
 
@@ -66,8 +66,9 @@ public class WorldProfile {
     public WorldProfile(String key) throws IOException {
         this.key = key;
         WorldProfile world;
-        val yaml = new Yaml(new Constructor(Worlds.class));
-        try (val br = new BufferedReader(new FileReader(new File("worlds.yml")))) {
+        final LoaderOptions loaderOptions = new LoaderOptions();
+        final Yaml yaml = new Yaml(new Constructor(Worlds.class, loaderOptions));
+        try (final BufferedReader br = new BufferedReader(new FileReader(new File("worlds.yml")))) {
             Worlds worlds = yaml.load(br);
             world = worlds.worlds.get(key);
             this.number = world.number;

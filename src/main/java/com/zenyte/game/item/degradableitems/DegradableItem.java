@@ -1,6 +1,5 @@
 package com.zenyte.game.item.degradableitems;
 
-import com.amazonaws.services.iot.model.transform.SecurityProfileTargetMappingMarshaller;
 import com.zenyte.game.item.Item;
 import com.zenyte.game.item.ItemId;
 import com.zenyte.plugins.item.TomeOfFire;

@@ -1,6 +1,5 @@
 package com.zenyte.game.content.grandexchange;
 
-import com.zenyte.cores.CoresManager;
 import com.zenyte.game.parser.Parse;
 import com.zenyte.game.world.World;
 import com.zenyte.game.world.entity.player.container.Container;
@@ -53,10 +52,6 @@ public class GrandExchangeHandler implements Parse {
 	    try {
             if (!loaded)
                 return;
-            //Wait until backup manager finishes saving the file(s).
-            while(CoresManager.getBackupManager().getStatus().isTrue()) {
-                Thread.sleep(1);
-            }
             status.setTrue();
             //synchronized (GrandExchange.LOCK) {
                 val gson = World.getGson();
@@ -115,9 +110,9 @@ public class GrandExchangeHandler implements Parse {
 
 	@Override
 	public void parse() throws Throwable {
+		offers = new HashMap<>();
 		final BufferedReader br = new BufferedReader(new FileReader(OFFERS_FILE_DIRECTORY));
 		val loadedOffers = World.getGson().fromJson(br, ExchangeOffer[].class);
-		offers = new HashMap<>();
 		for (val offer : loadedOffers) {
 			Int2ObjectOpenHashMap<ExchangeOffer> currentMap = offers.get(offer.getUsername());
 			if (currentMap == null) {

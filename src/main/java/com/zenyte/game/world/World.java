@@ -165,8 +165,6 @@ public final class World {
         ScheduledExternalizableManager.save();
         log.info("Waiting for any remaining characters to be saved.");
         CoresManager.getLoginManager().waitForShutdown();
-        log.info("Backing up all of the characters.");
-        CoresManager.getBackupManager().shutdown();
         log.info("Joining all the threads and threadpools.");
         CoresManager.join();
         log.info("Server shutdown complete.");

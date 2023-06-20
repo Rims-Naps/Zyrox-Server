@@ -1,13 +1,13 @@
 package com.zenyte.discord;
 
 import com.zenyte.game.util.Utils;
-import de.btobastian.javacord.DiscordApi;
-import de.btobastian.javacord.DiscordApiBuilder;
 import de.btobastian.sdcf4j.CommandExecutor;
 import de.btobastian.sdcf4j.CommandHandler;
 import de.btobastian.sdcf4j.handler.JavacordHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.logging.log4j.util.Strings;
+import org.javacord.api.DiscordApi;
+import org.javacord.api.DiscordApiBuilder;
 
 @Slf4j
 public class DiscordThread extends Thread {

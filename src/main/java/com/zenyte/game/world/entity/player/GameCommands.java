@@ -1,9 +1,5 @@
 package com.zenyte.game.world.entity.player;
 
-import static com.zenyte.game.util.AccessMask.CLICK_OP10;
-import static com.zenyte.game.world.entity.player.Emote.GIVE_THANKS_VARP;
-import static com.zenyte.game.world.entity.player.MessageType.GLOBAL_BROADCAST;
-
 import com.google.common.collect.ObjectArrays;
 import com.zenyte.Constants;
 import com.zenyte.api.client.query.DiscordVerificationPost;
@@ -17,18 +13,12 @@ import com.zenyte.game.content.Book;
 import com.zenyte.game.content.achievementdiary.AchievementDiaries;
 import com.zenyte.game.content.achievementdiary.Diary;
 import com.zenyte.game.content.boss.BossRespawnTimer;
-import com.zenyte.game.content.boss.corporealbeast.CorporealBeastDynamicArea;
 import com.zenyte.game.content.boss.grotesqueguardians.instance.GrotesqueGuardiansInstance;
 import com.zenyte.game.content.chambersofxeric.Raid;
 import com.zenyte.game.content.chambersofxeric.dialogue.RaidFloorOverviewD;
 import com.zenyte.game.content.chambersofxeric.map.RaidArea;
 import com.zenyte.game.content.clans.ClanManager;
-import com.zenyte.game.content.combatachievements.combattasktiers.EasyTasks;
-import com.zenyte.game.content.combatachievements.combattasktiers.EliteTasks;
-import com.zenyte.game.content.combatachievements.combattasktiers.GrandmasterTasks;
-import com.zenyte.game.content.combatachievements.combattasktiers.HardTasks;
-import com.zenyte.game.content.combatachievements.combattasktiers.MasterTasks;
-import com.zenyte.game.content.combatachievements.combattasktiers.MediumTasks;
+import com.zenyte.game.content.combatachievements.combattasktiers.*;
 import com.zenyte.game.content.event.DoubleDropsManager;
 import com.zenyte.game.content.event.christmas2019.AChristmasWarble;
 import com.zenyte.game.content.event.christmas2019.ChristmasConstants;
@@ -50,11 +40,7 @@ import com.zenyte.game.content.skills.magic.Spellbook;
 import com.zenyte.game.content.skills.magic.actions.Teleother;
 import com.zenyte.game.content.skills.magic.spells.teleports.Teleport;
 import com.zenyte.game.content.skills.magic.spells.teleports.TeleportType;
-import com.zenyte.game.content.skills.slayer.Assignment;
-import com.zenyte.game.content.skills.slayer.BossTask;
-import com.zenyte.game.content.skills.slayer.RegularTask;
-import com.zenyte.game.content.skills.slayer.SlayerMaster;
-import com.zenyte.game.content.skills.slayer.SlayerTask;
+import com.zenyte.game.content.skills.slayer.*;
 import com.zenyte.game.content.theatreofblood.TheatreOfBloodRaid;
 import com.zenyte.game.content.theatreofblood.TheatreRoom;
 import com.zenyte.game.content.theatreofblood.area.VerSinhazaArea;
@@ -77,23 +63,14 @@ import com.zenyte.game.tasks.WorldTask;
 import com.zenyte.game.tasks.WorldTasksManager;
 import com.zenyte.game.ui.InterfacePosition;
 import com.zenyte.game.ui.testinterfaces.GameNoticeboardInterface;
-import com.zenyte.game.util.AccessMask;
-import com.zenyte.game.util.Colour;
-import com.zenyte.game.util.StringUtilities;
-import com.zenyte.game.util.TextUtils;
-import com.zenyte.game.util.TimeUnit;
-import com.zenyte.game.util.Utils;
+import com.zenyte.game.util.*;
 import com.zenyte.game.world.Projectile;
 import com.zenyte.game.world.World;
 import com.zenyte.game.world.broadcasts.TriviaBroadcasts;
 import com.zenyte.game.world.entity.Location;
 import com.zenyte.game.world.entity.SoundEffect;
 import com.zenyte.game.world.entity.Toxins.ToxinType;
-import com.zenyte.game.world.entity.masks.Animation;
-import com.zenyte.game.world.entity.masks.Graphics;
-import com.zenyte.game.world.entity.masks.Hit;
-import com.zenyte.game.world.entity.masks.HitType;
-import com.zenyte.game.world.entity.masks.UpdateFlag;
+import com.zenyte.game.world.entity.masks.*;
 import com.zenyte.game.world.entity.npc.NPC;
 import com.zenyte.game.world.entity.npc.drop.matrix.NPCDrops;
 import com.zenyte.game.world.entity.player.container.impl.ContainerType;
@@ -103,7 +80,6 @@ import com.zenyte.game.world.entity.player.cutscene.FadeScreen;
 import com.zenyte.game.world.entity.player.cutscene.actions.CameraLookAction;
 import com.zenyte.game.world.entity.player.cutscene.actions.CameraPositionAction;
 import com.zenyte.game.world.entity.player.dialogue.Dialogue;
-import com.zenyte.game.world.entity.player.login.BackupManager;
 import com.zenyte.game.world.entity.player.login.InvitedPlayersList;
 import com.zenyte.game.world.entity.player.login.LoginManager;
 import com.zenyte.game.world.entity.player.punishments.PunishmentManager;
@@ -115,8 +91,6 @@ import com.zenyte.game.world.region.Area;
 import com.zenyte.game.world.region.CharacterLoop;
 import com.zenyte.game.world.region.DynamicArea;
 import com.zenyte.game.world.region.GlobalAreaManager;
-import com.zenyte.game.world.region.area.CorporealBeastArea;
-import com.zenyte.game.world.region.area.CorporealBeastCavern;
 import com.zenyte.game.world.region.area.bobsisland.EvilBobIsland;
 import com.zenyte.game.world.region.area.freakyforester.FreakyForesterArea;
 import com.zenyte.game.world.region.area.plugins.RandomEventRestrictionPlugin;
@@ -131,24 +105,6 @@ import com.zenyte.plugins.dialogue.WiseOldManD;
 import com.zenyte.plugins.item.DiceItem;
 import com.zenyte.tools.AnimationExtractor;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
-import java.io.IOException;
-import java.text.ParsePosition;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.BiConsumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import lombok.var;
@@ -165,6 +121,19 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.logging.log4j.util.Strings;
 import org.jetbrains.annotations.NotNull;
+
+import java.io.IOException;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.BiConsumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+import static com.zenyte.game.util.AccessMask.CLICK_OP10;
+import static com.zenyte.game.world.entity.player.Emote.GIVE_THANKS_VARP;
+import static com.zenyte.game.world.entity.player.MessageType.GLOBAL_BROADCAST;
 
 /**
  * @author Tom
@@ -1787,11 +1756,6 @@ public final class GameCommands {
 		new Command(Privilege.SPAWN_ADMINISTRATOR, "js5duplicates", (p, args) -> {
 			Constants.FILTERING_DUPLICATE_JS5_REQUESTS = !Constants.FILTERING_DUPLICATE_JS5_REQUESTS;
 			p.sendMessage("JS5 duplicates filtering: " + Constants.FILTERING_DUPLICATE_JS5_REQUESTS);
-		});
-
-		new Command(Privilege.SPAWN_ADMINISTRATOR, "backups", (p, args) -> {
-			BackupManager.PAUSE_BACKUPS = !BackupManager.PAUSE_BACKUPS;
-			p.sendMessage("Backups paused: " + BackupManager.PAUSE_BACKUPS);
 		});
 
 		new Command(Privilege.ADMINISTRATOR, "broadcast",

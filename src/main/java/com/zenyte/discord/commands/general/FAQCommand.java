@@ -1,15 +1,14 @@
 package com.zenyte.discord.commands.general;
 
-import java.awt.Color;
-import java.time.Instant;
-
 import com.zenyte.discord.CommandLog;
 import com.zenyte.game.util.Utils;
-
-import de.btobastian.javacord.entities.User;
-import de.btobastian.javacord.entities.message.embed.EmbedBuilder;
 import de.btobastian.sdcf4j.Command;
 import de.btobastian.sdcf4j.CommandExecutor;
+import org.javacord.api.entity.message.embed.EmbedBuilder;
+import org.javacord.api.entity.user.User;
+
+import java.awt.*;
+import java.time.Instant;
 
 public class FAQCommand implements CommandExecutor {
 

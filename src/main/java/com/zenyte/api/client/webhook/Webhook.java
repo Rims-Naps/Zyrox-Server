@@ -77,7 +77,7 @@ public abstract class Webhook {
         
         val request = new Request.Builder()
                               .url(webhookUrl)
-                              .post(RequestBody.create(APIClient.JSON, messageString))
+                              .post(RequestBody.create(messageString, APIClient.JSON))
                               .build();
         
         log.info(String.format("[%s] Sending Discord webhook", this.getClass().getSimpleName()));

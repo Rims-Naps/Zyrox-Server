@@ -3,7 +3,6 @@ package com.zenyte.cores;
 import com.zenyte.Constants;
 import com.zenyte.database.DatabaseThread;
 import com.zenyte.discord.DiscordThread;
-import com.zenyte.game.world.entity.player.login.BackupManager;
 import com.zenyte.game.world.entity.player.login.LoginManager;
 import lombok.Getter;
 import lombok.Setter;
@@ -114,7 +113,6 @@ public final class CoresManager {
 	private static ServiceProvider serviceProvider;
 	//@Getter private static ScheduledExecutorService grandExchangeExecutor;
 	@Getter private static LoginManager loginManager;
-	@Getter private static BackupManager backupManager;
 
 
 	private static final Logger logger = LogManager.getLogger(CoresManager.class);
@@ -132,7 +130,6 @@ public final class CoresManager {
 				new SlowThreadFactory(new SlowThreadHandler()), "Slow thread pool executor");
 		serviceProvider = new ServiceProvider(false);
 		loginManager = new LoginManager();
-		backupManager = new BackupManager();
 		worldThread.scheduleAtFixedRate(new WorldThread(), 0, 600, TimeUnit.MILLISECONDS);
 		//worldThread.start();
         //grandExchangeExecutor = new SlowThreadPoolExecutor(Runtime.getRuntime().availableProcessors(),

@@ -3,6 +3,7 @@ package com.zenyte.game.content.treasuretrails;
 import com.google.common.base.Preconditions;
 import com.zenyte.game.content.treasuretrails.challenges.*;
 import com.zenyte.game.content.treasuretrails.clues.*;
+import com.zenyte.game.content.treasuretrails.clues.emote.ItemRequirement;
 import com.zenyte.game.content.treasuretrails.npcs.*;
 import com.zenyte.game.item.Item;
 import com.zenyte.game.item.ItemId;
@@ -467,16 +468,17 @@ public class TreasureTrail {
 
     /* TODO: Handle double agents and double-emotes. */
     public static final boolean speakWithUri(@NotNull final Player player, @NotNull final UriNPC npc) {
-        val mutableEquipment = new MutableObject<Item[]>();
-        val entry = findClueScroll(player, EmoteRequest.class, clue -> {
+        final MutableObject<Item[]> mutableEquipment = new MutableObject<>();
+        final Optional<ClueEntry> entry = findClueScroll(player, EmoteRequest.class, clue -> {
             if (!npc.isTalkative() || !clue.getPolygon().contains(player.getLocation()) || !npc.getClue().equals(clue)) {
                 return false;
             }
-            var equipment = mutableEquipment.getValue();
+            Item[] equipment = mutableEquipment.getValue();
             if (equipment == null) {
                 mutableEquipment.setValue(equipment = buildEquipmentArray(player));
             }
-            for (val requirement : clue.getRequirements()) {
+            final ItemRequirement[] requirements = clue.getRequirements();
+            for (final ItemRequirement requirement : requirements) {
                 if (!requirement.fulfilledBy(equipment)) {
                     return false;
                 }

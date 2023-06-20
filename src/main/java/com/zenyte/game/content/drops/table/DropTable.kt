@@ -26,9 +26,9 @@ open class DropTable @JvmOverloads constructor(private val random: Random = Util
     }
     
     fun append(id: Int, weight: Int = 1, minAmount: Int = 1, maxAmount: Int = 1): DropTable {
-        assert(minAmount <= maxAmount)
+/*        assert(minAmount <= maxAmount)
         assert(id >= 1)
-        assert(minAmount >= 1)
+        assert(minAmount >= 1)*/
         
         appendSlot(BasicSlot(id, minAmount, maxAmount), weight)
         

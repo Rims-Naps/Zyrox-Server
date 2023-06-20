@@ -34,9 +34,6 @@ public class ScheduledExternalizableManager {
 	        if (Constants.WORLD_PROFILE.isDevelopment()) {
 	            return;
             }
-	        while(CoresManager.getBackupManager().getStatus().isTrue()) {
-	            Thread.sleep(1);
-            }
 	        status.setTrue();
             for (val scheduled : ScheduledExternalizableManager.scheduled) {
                 val interval = scheduled.writeInterval();

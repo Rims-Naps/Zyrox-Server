@@ -46,7 +46,7 @@ public final class HealGroup implements DefaultSpell {
             if (p2 == player || p2.isDead() || !p2.isRunning() || !p2.getBooleanSetting(Setting.ACCEPT_AID) || p2.getDuel() != null || p2.getHitpoints() >= p2.getMaxHitpoints()) {
                 return false;
             }
-            val inWilderness = WildernessArea.isWithinWilderness(p2.getX(), p2.getY());
+			final boolean inWilderness = WildernessArea.isWithinWilderness(p2.getX(), p2.getY());
             return !inWilderness || p2.isMultiArea();
         });
 

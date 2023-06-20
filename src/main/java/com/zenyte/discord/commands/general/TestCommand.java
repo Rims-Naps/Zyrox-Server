@@ -2,10 +2,9 @@ package com.zenyte.discord.commands.general;
 
 import com.zenyte.discord.CommandLog;
 import com.zenyte.game.util.Utils;
-
-import de.btobastian.javacord.entities.User;
 import de.btobastian.sdcf4j.Command;
 import de.btobastian.sdcf4j.CommandExecutor;
+import org.javacord.api.entity.user.User;
 
 public class TestCommand implements CommandExecutor {
 

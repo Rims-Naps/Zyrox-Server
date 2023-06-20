@@ -2,14 +2,18 @@ package mgi.custom;
 
 import com.zenyte.Game;
 import com.zenyte.GameEngine;
-import mgi.types.config.AnimationDefinitions;
-import mgi.types.Definitions;
 import lombok.val;
+import mgi.types.Definitions;
+import mgi.types.config.AnimationDefinitions;
 import org.apache.logging.log4j.util.Strings;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Constructor;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -24,8 +28,9 @@ public class AnimationFrame {
         Game.load();
         System.out.println("Loading sequence definitions.");
         Definitions.loadDefinitions(new Class<?>[] {AnimationDefinitions.class});
-        val scanner = new Scanner(System.in);
-        val yaml = new Yaml(new Constructor(AnimationDefinitions.class));
+        final Scanner scanner = new Scanner(System.in);
+        final LoaderOptions loaderOptions = new LoaderOptions();
+        final Yaml yaml = new Yaml(new Constructor(AnimationDefinitions.class, loaderOptions));
         do {
             System.out.println("Enter id of the sequence to extract, or type exit to close: ");
             try {
@@ -48,7 +53,8 @@ public class AnimationFrame {
 
     public static final void pack(final String fileName, final AnimationBase base, String framesFolder) throws IOException {
         val file = new File("assets/animations/sequence/" + fileName + ".seq");
-        val yaml = new Yaml(new Constructor(AnimationDefinitions.class));
+        final LoaderOptions loaderOptions = new LoaderOptions();
+        final Yaml yaml = new Yaml(new Constructor(AnimationDefinitions.class, loaderOptions));
         val anim = yaml.loadAs(new FileReader(file), AnimationDefinitions.class);
         val ids = anim.getFrameIds();
         for (int i = 0; i < ids.length; i++) {
