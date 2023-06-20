@@ -1,0 +1,32 @@
+{
+  "shopUID": 61,
+  "shopName": "Legends Guild Shop of Useful Items",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1590,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1542,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 2368,
+      "amount": 1,
+      "sellPrice": 250000,
+      "buyPrice": 750000
+    },
+    {
+      "id": 1052,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 675
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "shopUID": 153,
+  "shopName": "Oziach's Armour",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1127,
+      "amount": 2,
+      "sellPrice": 26000,
+      "buyPrice": 84500
+    },
+    {
+      "id": 1135,
+      "amount": 2,
+      "sellPrice": 3120,
+      "buyPrice": 10140
+    },
+    {
+      "id": 1540,
+      "amount": 35,
+      "sellPrice": 8,
+      "buyPrice": 26
+    }
+  ]
+}

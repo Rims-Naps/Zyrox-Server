@@ -1,0 +1,38 @@
+{
+  "shopUID": 8,
+  "shopName": "Frincos' Fabulous Herb Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 229,
+      "amount": 50,
+      "sellPrice": 1,
+      "buyPrice": 5
+    },
+    {
+      "id": 11877,
+      "amount": 10,
+      "sellPrice": 140,
+      "buyPrice": 200
+    },
+    {
+      "id": 233,
+      "amount": 3,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 221,
+      "amount": 50,
+      "sellPrice": 2,
+      "buyPrice": 3
+    },
+    {
+      "id": 12859,
+      "amount": 20,
+      "sellPrice": 210,
+      "buyPrice": 300
+    }
+  ]
+}

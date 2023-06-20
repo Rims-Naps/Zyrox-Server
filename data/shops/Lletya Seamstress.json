@@ -1,0 +1,62 @@
+{
+  "shopUID": 182,
+  "shopName": "Lletya Seamstress",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1734,
+      "amount": 8,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1733,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1759,
+      "amount": 5,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 1763,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 6
+    },
+    {
+      "id": 1765,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 6
+    },
+    {
+      "id": 1767,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 6
+    },
+    {
+      "id": 1769,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 6
+    },
+    {
+      "id": 1771,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 6
+    },
+    {
+      "id": 1773,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 6
+    }
+  ]
+}

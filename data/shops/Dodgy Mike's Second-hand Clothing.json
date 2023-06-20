@@ -1,0 +1,86 @@
+{
+  "shopUID": 229,
+  "shopName": "Dodgy Mike's Second-hand Clothing",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 7114,
+      "amount": 15,
+      "sellPrice": 210,
+      "buyPrice": 350
+    },
+    {
+      "id": 7110,
+      "amount": 10,
+      "sellPrice": 180,
+      "buyPrice": 300
+    },
+    {
+      "id": 7112,
+      "amount": 20,
+      "sellPrice": 60,
+      "buyPrice": 100
+    },
+    {
+      "id": 7116,
+      "amount": 10,
+      "sellPrice": 210,
+      "buyPrice": 350
+    },
+    {
+      "id": 7122,
+      "amount": 10,
+      "sellPrice": 180,
+      "buyPrice": 300
+    },
+    {
+      "id": 7124,
+      "amount": 20,
+      "sellPrice": 60,
+      "buyPrice": 100
+    },
+    {
+      "id": 7126,
+      "amount": 10,
+      "sellPrice": 210,
+      "buyPrice": 350
+    },
+    {
+      "id": 7128,
+      "amount": 10,
+      "sellPrice": 180,
+      "buyPrice": 300
+    },
+    {
+      "id": 7130,
+      "amount": 20,
+      "sellPrice": 60,
+      "buyPrice": 100
+    },
+    {
+      "id": 7132,
+      "amount": 10,
+      "sellPrice": 210,
+      "buyPrice": 350
+    },
+    {
+      "id": 7134,
+      "amount": 10,
+      "sellPrice": 180,
+      "buyPrice": 300
+    },
+    {
+      "id": 7136,
+      "amount": 20,
+      "sellPrice": 60,
+      "buyPrice": 100
+    },
+    {
+      "id": 7138,
+      "amount": 10,
+      "sellPrice": 210,
+      "buyPrice": 350
+    }
+  ]
+}

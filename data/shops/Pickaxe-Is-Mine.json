@@ -1,0 +1,38 @@
+{
+  "shopUID": 190,
+  "shopName": "Pickaxe-Is-Mine",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1265,
+      "amount": 6,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1269,
+      "amount": 4,
+      "sellPrice": 166,
+      "buyPrice": 650
+    },
+    {
+      "id": 1273,
+      "amount": 3,
+      "sellPrice": 433,
+      "buyPrice": 1690
+    },
+    {
+      "id": 1271,
+      "amount": 2,
+      "sellPrice": 1066,
+      "buyPrice": 4160
+    },
+    {
+      "id": 1275,
+      "amount": 1,
+      "sellPrice": 10666,
+      "buyPrice": 41600
+    }
+  ]
+}

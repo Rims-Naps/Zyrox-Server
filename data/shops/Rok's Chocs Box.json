@@ -1,0 +1,20 @@
+{
+  "shopUID": 135,
+  "shopName": "Rok's Chocs Box",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 6794,
+      "amount": 30,
+      "sellPrice": 19,
+      "buyPrice": 30
+    },
+    {
+      "id": 1973,
+      "amount": 25,
+      "sellPrice": 6,
+      "buyPrice": 10
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+# Fiendish ashes
+[[item]]
+id=31038
+inherit=592
+name="Fiendish ashes"
+placeholderid=31039
+originalcolours=[82]
+replacementcolours=[0]
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op1="Scatter"
+grandexchange=true
+notedid=31040
+
+# Fiendish ashes Placeholder
+[[item]]
+id=31039
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=31038
+
+
+# Fiendish ashes Note
+[[item]]
+inherit=592
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=31038
+id=31040
+
+# Vile ashes
+[[item]]
+id=31041
+inherit=592
+name="Vile ashes"
+originalcolours=[82]
+replacementcolours=[207914]
+placeholderid=31042
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op1="Scatter"
+grandexchange=true
+notedid=31043
+
+# Vile ashes Placeholder
+[[item]]
+id=31042
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=31041
+
+
+# Vile ashes Note
+[[item]]
+inherit=592
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=31041
+id=31043
+
+# Malicious ashes
+[[item]]
+id=31044
+inherit=592
+name="Malicious ashes"
+placeholderid=31045
+originalcolours=[82]
+replacementcolours=[13266]
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op1="Scatter"
+grandexchange=true
+notedid=31046
+
+# Malicious ashes Placeholder
+[[item]]
+id=31045
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=31044
+
+
+# Malicious ashes Note
+[[item]]
+inherit=592
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=31044
+id=31046
+
+
+# Abyssal ashes
+[[item]]
+id=31047
+inherit=592
+name="Abyssal ashes"
+riginalcolours=[82]
+replacementcolours=[62]
+placeholderid=31048
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op1="Scatter"
+grandexchange=true
+notedid=31049
+
+# Abyssal ashes Placeholder
+[[item]]
+id=31048
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=31047
+
+
+# Abyssal ashes Note
+[[item]]
+inherit=592
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=31047
+id=31049
+
+
+# Infernal ashes
+[[item]]
+id=30065
+inherit=592
+name="Infernal ashes"
+placeholderid=30066
+riginalcolours=[82]
+replacementcolours=[1950]
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op1="Scatter"
+grandexchange=true
+notedid=30067
+
+# Abyssal ashes Placeholder
+[[item]]
+id=30066
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30065
+
+
+# Abyssal ashes Note
+[[item]]
+inherit=592
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30065
+id=30067
+

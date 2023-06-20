@@ -1,0 +1,236 @@
+{
+  "shopUID": 67,
+  "shopName": "Warrior Guild Armoury",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1363,
+      "amount": 5,
+      "sellPrice": 109,
+      "buyPrice": 218
+    },
+    {
+      "id": 1365,
+      "amount": 2,
+      "sellPrice": 390,
+      "buyPrice": 780
+    },
+    {
+      "id": 1369,
+      "amount": 1,
+      "sellPrice": 1014,
+      "buyPrice": 2028
+    },
+    {
+      "id": 1277,
+      "amount": 5,
+      "sellPrice": 15,
+      "buyPrice": 31
+    },
+    {
+      "id": 1279,
+      "amount": 4,
+      "sellPrice": 54,
+      "buyPrice": 109
+    },
+    {
+      "id": 1281,
+      "amount": 4,
+      "sellPrice": 195,
+      "buyPrice": 390
+    },
+    {
+      "id": 1283,
+      "amount": 3,
+      "sellPrice": 374,
+      "buyPrice": 748
+    },
+    {
+      "id": 1285,
+      "amount": 3,
+      "sellPrice": 507,
+      "buyPrice": 1014
+    },
+    {
+      "id": 1287,
+      "amount": 2,
+      "sellPrice": 1248,
+      "buyPrice": 2496
+    },
+    {
+      "id": 1291,
+      "amount": 4,
+      "sellPrice": 24,
+      "buyPrice": 48
+    },
+    {
+      "id": 1293,
+      "amount": 3,
+      "sellPrice": 84,
+      "buyPrice": 168
+    },
+    {
+      "id": 1295,
+      "amount": 3,
+      "sellPrice": 300,
+      "buyPrice": 600
+    },
+    {
+      "id": 1297,
+      "amount": 2,
+      "sellPrice": 576,
+      "buyPrice": 1152
+    },
+    {
+      "id": 1299,
+      "amount": 2,
+      "sellPrice": 780,
+      "buyPrice": 1560
+    },
+    {
+      "id": 1301,
+      "amount": 1,
+      "sellPrice": 1920,
+      "buyPrice": 3840
+    },
+    {
+      "id": 1205,
+      "amount": 10,
+      "sellPrice": 6,
+      "buyPrice": 12
+    },
+    {
+      "id": 1203,
+      "amount": 6,
+      "sellPrice": 21,
+      "buyPrice": 42
+    },
+    {
+      "id": 1207,
+      "amount": 5,
+      "sellPrice": 75,
+      "buyPrice": 150
+    },
+    {
+      "id": 1217,
+      "amount": 4,
+      "sellPrice": 144,
+      "buyPrice": 288
+    },
+    {
+      "id": 1209,
+      "amount": 3,
+      "sellPrice": 195,
+      "buyPrice": 390
+    },
+    {
+      "id": 1211,
+      "amount": 2,
+      "sellPrice": 480,
+      "buyPrice": 960
+    },
+    {
+      "id": 1422,
+      "amount": 5,
+      "sellPrice": 10,
+      "buyPrice": 21
+    },
+    {
+      "id": 1420,
+      "amount": 4,
+      "sellPrice": 37,
+      "buyPrice": 75
+    },
+    {
+      "id": 1424,
+      "amount": 4,
+      "sellPrice": 135,
+      "buyPrice": 270
+    },
+    {
+      "id": 1428,
+      "amount": 3,
+      "sellPrice": 351,
+      "buyPrice": 702
+    },
+    {
+      "id": 1430,
+      "amount": 2,
+      "sellPrice": 864,
+      "buyPrice": 1728
+    },
+    {
+      "id": 1307,
+      "amount": 4,
+      "sellPrice": 48,
+      "buyPrice": 96
+    },
+    {
+      "id": 1309,
+      "amount": 3,
+      "sellPrice": 168,
+      "buyPrice": 336
+    },
+    {
+      "id": 1311,
+      "amount": 2,
+      "sellPrice": 600,
+      "buyPrice": 1200
+    },
+    {
+      "id": 1313,
+      "amount": 1,
+      "sellPrice": 1152,
+      "buyPrice": 2304
+    },
+    {
+      "id": 1315,
+      "amount": 1,
+      "sellPrice": 1560,
+      "buyPrice": 3120
+    },
+    {
+      "id": 1317,
+      "amount": 1,
+      "sellPrice": 3840,
+      "buyPrice": 7680
+    },
+    {
+      "id": 1103,
+      "amount": 5,
+      "sellPrice": 36,
+      "buyPrice": 72
+    },
+    {
+      "id": 1101,
+      "amount": 3,
+      "sellPrice": 126,
+      "buyPrice": 252
+    },
+    {
+      "id": 1105,
+      "amount": 3,
+      "sellPrice": 450,
+      "buyPrice": 900
+    },
+    {
+      "id": 1139,
+      "amount": 5,
+      "sellPrice": 14,
+      "buyPrice": 28
+    },
+    {
+      "id": 1137,
+      "amount": 3,
+      "sellPrice": 50,
+      "buyPrice": 100
+    },
+    {
+      "id": 1141,
+      "amount": 3,
+      "sellPrice": 180,
+      "buyPrice": 360
+    }
+  ]
+}

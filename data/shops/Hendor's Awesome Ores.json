@@ -1,0 +1,50 @@
+{
+  "shopUID": 63,
+  "shopName": "Hendor's Awesome Ores",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 436,
+      "amount": 0,
+      "sellPrice": 2,
+      "buyPrice": 3
+    },
+    {
+      "id": 438,
+      "amount": 0,
+      "sellPrice": 2,
+      "buyPrice": 3
+    },
+    {
+      "id": 440,
+      "amount": 0,
+      "sellPrice": 11,
+      "buyPrice": 17
+    },
+    {
+      "id": 447,
+      "amount": 0,
+      "sellPrice": 113,
+      "buyPrice": 162
+    },
+    {
+      "id": 449,
+      "amount": 0,
+      "sellPrice": 280,
+      "buyPrice": 400
+    },
+    {
+      "id": 451,
+      "amount": 0,
+      "sellPrice": 2240,
+      "buyPrice": 3200
+    },
+    {
+      "id": 453,
+      "amount": 0,
+      "sellPrice": 31,
+      "buyPrice": 45
+    }
+  ]
+}

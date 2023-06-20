@@ -1,0 +1,96 @@
+# Larran's Key 1
+[[item]]
+id=30540
+inherit=23083
+name="Larran's Key"
+placeholderid=30586
+invmodel=50249
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+stackids=[30541,30542,30543,30544]
+stackamounts=[2,3,4,5]
+grandexchange=false
+notedid=-1
+
+# Larran's Key 2
+[[item]]
+id=30541
+inherit=23083
+name="Larran's Key"
+placeholderid=30586
+invmodel=50250
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=-1
+
+# Larran's Key 3
+[[item]]
+id=30542
+inherit=23083
+name="Larran's Key"
+placeholderid=30586
+invmodel=50251
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=-1
+
+# Larran's Key 4
+[[item]]
+id=30543
+inherit=23083
+name="Larran's Key"
+placeholderid=30586
+invmodel=50252
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=-1
+
+# Larran's Key 5
+[[item]]
+id=30544
+inherit=23083
+name="Larran's Key"
+placeholderid=30586
+invmodel=50253
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=-1
+
+# Larran Key Placeholder
+[[item]]
+id=30586
+inherit=21026
+name="null"
+placeholdertemplate=14401
+placeholderid=30540
+invmodel=50249
+notedid=-1

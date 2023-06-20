@@ -1,0 +1,8 @@
+# Clue Hunter Expert
+[[npc]]
+id=13061
+inherit=6586
+name="Clue Hunter Expert"
+combatlevel=0
+op1="Trade"
+size=1

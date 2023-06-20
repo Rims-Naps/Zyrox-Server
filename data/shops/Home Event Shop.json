@@ -1,0 +1,190 @@
+{
+  "shopUID": 1009,
+  "shopName": "Event Token Exchange Shop",
+  "currency": "EVENT_REWARD_TOKEN",
+  "sellPolicy": "NO_SELLING",
+  "items": [
+    {
+      "id": 32302,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 125,
+      "restockTimer": 1
+    },
+    {
+      "id": 32300,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 125,
+      "restockTimer": 1
+    },
+    {
+      "id": 32303,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 125,
+      "restockTimer": 1
+    },
+    {
+      "id": 30766,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200,
+      "restockTimer": 1
+    },
+    {
+      "id": 30769,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200,
+      "restockTimer": 1
+    },
+    {
+      "id": 30772,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200,
+      "restockTimer": 1
+    },
+    {
+      "id": 30775,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200,
+      "restockTimer": 1
+    },
+    {
+      "id": 22689,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 150,
+      "restockTimer": 1
+    },
+    {
+      "id": 22692,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 150,
+      "restockTimer": 1
+    },
+    {
+      "id": 22695,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 150,
+      "restockTimer": 1
+    },
+    {
+      "id": 22698,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 150,
+      "restockTimer": 1
+    },
+    {
+      "id": 22701,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 150,
+      "restockTimer": 1
+    },
+    {
+      "id": 32351,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 150,
+      "restockTimer": 1
+    },
+    {
+      "id": 32354,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 150,
+      "restockTimer": 1
+    },
+    {
+      "id": 32357,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 150,
+      "restockTimer": 1
+    },
+    {
+      "id": 32360,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 150,
+      "restockTimer": 1
+    },
+    {
+      "id": 11862,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1100,
+      "restockTimer": 1
+    },
+    {
+      "id": 1046,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1100,
+      "restockTimer": 1
+    },
+    {
+      "id": 1048,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1100,
+      "restockTimer": 1
+    },
+    {
+      "id": 1040,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1100,
+      "restockTimer": 1
+    },
+    {
+      "id": 1038,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1200,
+      "restockTimer": 1
+    },
+    {
+      "id": 1044,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1200,
+      "restockTimer": 1
+    },
+    {
+      "id": 1042,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1300,
+      "restockTimer": 1
+    },
+    {
+      "id": 13173,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 4800,
+      "restockTimer": 1
+    },
+    {
+      "id": 19782,
+      "amount": 50,
+      "sellPrice": 0,
+      "buyPrice": 200,
+      "restockTimer": 1
+    },
+    {
+      "id": 19783,
+      "amount": 50,
+      "sellPrice": 0,
+      "buyPrice": 200,
+      "restockTimer": 1
+    }
+  ]
+}

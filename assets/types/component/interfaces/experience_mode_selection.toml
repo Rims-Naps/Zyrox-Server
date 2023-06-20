@@ -1,0 +1,177 @@
+id=703
+name="experience_mode_selection"
+
+# Universe
+[[component]]
+name="universe"
+type="layer"
+width=300
+height=300
+xmode=1
+y=20
+
+# Layout
+[[component]]
+name="layout"
+type="layer"
+layer="universe"
+xmode=1
+ymode=1
+widthmode=1
+heightmode=1
+onload=[227, "component:self", "Experience Mode"]
+
+# Main container
+[[component]]
+name="main_container"
+type="layer"
+layer="universe"
+widthmode=1
+heightmode=1
+
+[[component]]
+type="text"
+layer="main_container"
+text="Select an experience mode"
+font=496
+xallignment=1
+yalllignment=1
+x=27
+y=42
+width=180
+height=10
+
+# Body
+[[component]]
+name="body"
+type="layer"
+layer="main_container"
+x=42
+y=65
+width=150
+height=158
+
+# Body border
+[[component]]
+name="body_border"
+type="layer"
+layer="body"
+widthmode=1
+heightmode=1
+onload=[712, "component:self", 0]
+
+# Content
+[[component]]
+name="content"
+type="layer"
+layer="body"
+widthmode=1
+heightmode=1
+x=6
+y=6
+width=12
+height=12
+
+# 50x combat & 25x skilling
+[[component]]
+type="graphic"
+layer="content"
+sprite=297
+spritetiling=true
+op1="Select"
+opbase="<col=ff981f>50x Combat & 25x Skilling</col>"
+clickmask=2
+height=50
+widthmode=1
+onmouseover=[44, "component:self", 1040]
+onmouseleave=[44, "component:self", 297]
+
+[[component]]
+type="text"
+layer="content"
+text="50x Combat & 25x Skilling"
+font=495
+lineheight=18
+xallignment=1
+yallignment=1
+height=50
+widthmode=1
+
+# 10x combat & 10x skilling
+[[component]]
+type="graphic"
+layer="content"
+sprite=897
+spritetiling=true
+op1="Select"
+opbase="<col=ff981f>10x Combat & 10x Skilling</col>"
+clickmask=2
+height=50
+widthmode=1
+y=50
+onmouseover=[44, "component:self", 1040]
+onmouseleave=[44, "component:self", 897]
+
+[[component]]
+type="text"
+layer="content"
+text="10x Combat & 10x Skilling"
+font=495
+lineheight=18
+xallignment=1
+yallignment=1
+y=50
+height=50
+widthmode=1
+
+# 5x combat & 5x skilling
+[[component]]
+type="graphic"
+layer="content"
+sprite=297
+spritetiling=true
+op1="Select"
+opbase="<col=ff981f>5x Combat & 5x Skilling</col>"
+clickmask=2
+height=50
+widthmode=1
+y=100
+onmouseover=[44, "component:self", 1040]
+onmouseleave=[44, "component:self", 297]
+
+[[component]]
+type="text"
+layer="content"
+text="5x Combat & 5x Skilling"
+font=495
+lineheight=18
+xallignment=1
+yallignment=1
+y=100
+height=50
+widthmode=1
+
+# Stats icon
+[[component]]
+type="graphic"
+layer="main_container"
+sprite=222
+x=198
+y=94
+width=92
+height=106
+
+# Extra information
+[[component]]
+type="text"
+layer="main_container"
+text="If you choose choose the 5x or 10x combat & skilling mode, you can always talk to the Zenyte guide in Edgeville to change it to the easier 50x combat & 25x skilling one."
+font=494
+color="ffffff"
+xallignment=1
+yallignment=1
+x=13
+y=236
+width=270
+height=50
+

@@ -1,0 +1,16 @@
+#  Key of the Gods
+[[item]]
+id=30915
+inherit=11942
+name="Key of the Gods"
+grandexchange=false
+placeholderid=30916
+notedid=-1
+
+# Key of the Gods
+[[item]]
+id=30916
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30915

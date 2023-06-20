@@ -1,0 +1,18 @@
+[[npc]]
+id=14052
+inherit=6635
+name="Baby Mole-rat"
+op1="Talk-to"
+op2="Metamorphosis"
+op3="Pick-up"
+familiar=true
+size=1
+combatlevel=0
+originalcolours=[5388,5392,5268,5272,5276,4558]
+replacementcolours=[317,322,326,328,332,-1830]
+
+[[npc]]
+inherit=6635
+op1="Talk-to"
+op2="Metamorphosis"
+op3="Pick-up"

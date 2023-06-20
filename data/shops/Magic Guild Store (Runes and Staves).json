@@ -1,0 +1,109 @@
+{
+  "shopName": "Magic Guild Store (Runes and Staves)",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 556,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 555,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 557,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+	{
+      "id": 554,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+	{
+      "id": 558,
+      "amount": 5000,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 559,
+      "amount": 5000,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 562,
+      "amount": 250,
+      "sellPrice": 90,
+      "buyPrice": 90
+    },
+	{
+      "id": 561,
+      "amount": 250,
+      "sellPrice": 90,
+      "buyPrice": 180
+    },
+    {
+      "id": 560,
+      "amount": 250,
+      "sellPrice": 99,
+      "buyPrice": 180
+    },
+	{
+      "id": 563,
+      "amount": 250,
+      "sellPrice": 120,
+      "buyPrice": 240
+    },
+	{
+      "id": 565,
+      "amount": 250,
+      "sellPrice": 200,
+      "buyPrice": 400
+    },
+	{
+      "id": 566,
+      "amount": 250,
+      "sellPrice": 150,
+      "buyPrice": 300
+    },
+    {
+      "id": 1391,
+      "amount": 5,
+      "sellPrice": 3500,
+      "buyPrice": 7000
+    },
+	{
+      "id": 1387,
+      "amount": 2,
+      "sellPrice": 750,
+      "buyPrice": 1500
+    },
+	{
+      "id": 1383,
+      "amount": 2,
+      "sellPrice": 750,
+      "buyPrice": 1500
+    },
+	{
+      "id": 1381,
+      "amount": 2,
+      "sellPrice": 750,
+      "buyPrice": 1500
+    },
+	{
+      "id": 1385,
+      "amount": 2,
+      "sellPrice": 750,
+      "buyPrice": 1500
+    }
+  ]
+}

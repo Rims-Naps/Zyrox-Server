@@ -1,0 +1,14 @@
+{
+  "shopUID": 29,
+  "shopName": "Mythical Cape Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 22114,
+      "amount": 50,
+      "sellPrice": 0,
+      "buyPrice": 10000
+    }
+  ]
+}

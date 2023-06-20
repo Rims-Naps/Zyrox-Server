@@ -1,0 +1,50 @@
+{
+  "shopUID": 111,
+  "shopName": "Tamayu's Spear Stall",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 3170,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 26
+    },
+    {
+      "id": 3171,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 91
+    },
+    {
+      "id": 3172,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 325
+    },
+    {
+      "id": 3173,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 845
+    },
+    {
+      "id": 3174,
+      "amount": 0,
+      "sellPrice": 0,
+      "buyPrice": 2080
+    },
+    {
+      "id": 3175,
+      "amount": 0,
+      "sellPrice": 0,
+      "buyPrice": 20800
+    },
+    {
+      "id": 3188,
+      "amount": 10,
+      "sellPrice": 45,
+      "buyPrice": 60
+    }
+  ]
+}

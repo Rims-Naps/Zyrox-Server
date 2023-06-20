@@ -1,0 +1,38 @@
+{
+  "shopUID": 161,
+  "shopName": "Construction supplies",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 8794,
+      "amount": 1000,
+      "sellPrice": 3,
+      "buyPrice": 13
+    },
+    {
+      "id": 8790,
+      "amount": 1000,
+      "sellPrice": 195,
+      "buyPrice": 650
+    },
+    {
+      "id": 4819,
+      "amount": 95,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 4820,
+      "amount": 95,
+      "sellPrice": 2,
+      "buyPrice": 5
+    },
+    {
+      "id": 1539,
+      "amount": 95,
+      "sellPrice": 1,
+      "buyPrice": 3
+    }
+  ]
+}

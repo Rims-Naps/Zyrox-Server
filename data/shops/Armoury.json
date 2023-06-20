@@ -1,0 +1,128 @@
+{
+  "shopUID": 85,
+  "shopName": "Armoury",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 882,
+      "amount": 200,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 877,
+      "amount": 200,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 841,
+      "amount": 4,
+      "sellPrice": 25,
+      "buyPrice": 75
+    },
+    {
+      "id": 839,
+      "amount": 2,
+      "sellPrice": 40,
+      "buyPrice": 120
+    },
+    {
+      "id": 837,
+      "amount": 2,
+      "sellPrice": 35,
+      "buyPrice": 105
+    },
+    {
+      "id": 39,
+      "amount": 800,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 40,
+      "amount": 800,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 41,
+      "amount": 800,
+      "sellPrice": 3,
+      "buyPrice": 9
+    },
+    {
+      "id": 42,
+      "amount": 800,
+      "sellPrice": 8,
+      "buyPrice": 24
+    },
+    {
+      "id": 1349,
+      "amount": 5,
+      "sellPrice": 28,
+      "buyPrice": 84
+    },
+    {
+      "id": 1353,
+      "amount": 3,
+      "sellPrice": 100,
+      "buyPrice": 300
+    },
+    {
+      "id": 1363,
+      "amount": 5,
+      "sellPrice": 91,
+      "buyPrice": 273
+    },
+    {
+      "id": 1365,
+      "amount": 2,
+      "sellPrice": 325,
+      "buyPrice": 975
+    },
+    {
+      "id": 1369,
+      "amount": 1,
+      "sellPrice": 845,
+      "buyPrice": 2535
+    },
+    {
+      "id": 1307,
+      "amount": 4,
+      "sellPrice": 40,
+      "buyPrice": 120
+    },
+    {
+      "id": 1309,
+      "amount": 3,
+      "sellPrice": 140,
+      "buyPrice": 420
+    },
+    {
+      "id": 1311,
+      "amount": 2,
+      "sellPrice": 500,
+      "buyPrice": 1500
+    },
+    {
+      "id": 1313,
+      "amount": 1,
+      "sellPrice": 960,
+      "buyPrice": 2880
+    },
+    {
+      "id": 1315,
+      "amount": 1,
+      "sellPrice": 1300,
+      "buyPrice": 3900
+    },
+    {
+      "id": 1317,
+      "amount": 1,
+      "sellPrice": 3200,
+      "buyPrice": 9600
+    }
+  ]
+}

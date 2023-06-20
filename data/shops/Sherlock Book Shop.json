@@ -1,0 +1,50 @@
+{
+  "shopUID": 1015,
+  "shopName": "Sherlock's book shop",
+  "currency": "SHELOCK_NOTES",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 28894,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2,
+      "restockTimer": 1
+    },
+    {
+      "id":28896,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 3,
+      "restockTimer": 1
+    },
+    {
+      "id": 28898,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 4,
+      "restockTimer": 1
+    },
+    {
+      "id":28900,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 5,
+      "restockTimer": 1
+    },
+    {
+      "id":28902,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 6,
+      "restockTimer": 1
+    },
+    {
+      "id":28904,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 7,
+      "restockTimer": 1
+    }
+  ]
+}

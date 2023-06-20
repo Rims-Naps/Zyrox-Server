@@ -1,0 +1,55 @@
+# Ring of endurance (uncharged)
+[[item]]
+id=32234
+inherit=19550
+placeholderid=32235
+name="Ring of endurance (uncharged)"
+invmodel=50706
+grandexchange=true
+notedid=-1
+zoom=800
+modelroll=1916
+modelpitch=324
+modelyaw=0
+offsetx=3
+offsety=-15
+
+# Ring of endurance (uncharged) placeholder
+[[item]]
+name="null"
+id=32235
+inherit=22820
+placeholderid=32234
+placeholdertemplate=14401
+invmodel=50706
+
+# Ring of endurance
+[[item]]
+id=32236
+inherit=19550
+placeholderid=32237
+name="Ring of endurance"
+invmodel=50706
+grandexchange=false
+notedid=-1
+zoom=800
+modelroll=1916
+modelpitch=324
+modelyaw=0
+offsetx=3
+offsety=-15
+op1="Wear"
+op2="Uncharge"
+op3="Check"
+
+[item.parameters]
+451="Check"
+
+# Ring of endurance placeholder
+[[item]]
+name="null"
+id=32237
+inherit=22820
+placeholderid=32236
+placeholdertemplate=14401
+invmodel=50706

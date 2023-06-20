@@ -1,0 +1,50 @@
+{
+  "shopUID": 222,
+  "shopName": "Ifaba's General Store",
+  "currency": "COINS",
+  "sellPolicy": "CAN_SELL",
+  "items": [
+    {
+      "id": 1931,
+      "amount": 3,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1935,
+      "amount": 2,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 20742,
+      "amount": 8,
+      "sellPrice": -1,
+      "buyPrice": 140
+    },
+    {
+      "id": 954,
+      "amount": 8,
+      "sellPrice": 5,
+      "buyPrice": 18
+    },
+    {
+      "id": 1925,
+      "amount": 2,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 590,
+      "amount": 2,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 2347,
+      "amount": 5,
+      "sellPrice": 3,
+      "buyPrice": 13
+    }
+  ]
+}

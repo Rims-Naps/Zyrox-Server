@@ -1,0 +1,178 @@
+# Twisted Hat
+[[item]]
+id=30766
+inherit=23255
+name="Twisted hat (t3)"
+placeholderid=30767
+invmodel=50332
+primarymalemodel=50323
+primaryfemalemodel=50342
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Twisted Hat Placeholder
+[[item]]
+id=30767
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30766
+invmodel=50332
+
+
+# Twisted Coat
+[[item]]
+id=30769
+inherit=6184
+name="Twisted coat (t3)"
+placeholderid=30770
+invmodel=50330
+primarymalemodel=50324
+primaryfemalemodel=50327
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Twisted Coat Placeholder
+[[item]]
+id=30770
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30769
+invmodel=50330
+
+
+# Twisted Trousers
+[[item]]
+id=30772
+inherit=6185
+name="Twisted trousers (t3)"
+placeholderid=30773
+invmodel=50333
+primarymalemodel=50322
+primaryfemalemodel=50326
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Twisted Trousers Placeholder
+[[item]]
+id=30773
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30772
+invmodel=50333
+
+
+# Twisted Boots
+[[item]]
+id=30775
+inherit=5345
+name="Twisted boots (t3)"
+placeholderid=30776
+invmodel=50331
+primarymalemodel=50325
+primaryfemalemodel=50328
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Twisted Boots Placeholder
+[[item]]
+id=30776
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30775
+invmodel=50331
+
+
+################################ TWISTED SLAYER HELM ###################
+
+
+# Twisted Slayer Helm
+[[item]]
+id=30778
+inherit=11864
+name="Twisted slayer helmet"
+placeholderid=30779
+invmodel=50334
+primarymalemodel=50335
+primaryfemalemodel=50336
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Twisted Slayer Helm Placeholder
+[[item]]
+id=30779
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30778
+invmodel=50334
+
+
+# Twisted Slayer Helm (i)
+[[item]]
+id=32103
+inherit=11865
+name="Twisted slayer helmet (i)"
+grandexchange=false
+placeholderid=32104
+invmodel=50334
+primarymalemodel=50335
+primaryfemalemodel=50336
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+notedid=-1
+
+# Twisted Slayer Helm (i) Placeholder
+[[item]]
+id=32104
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32103
+invmodel=50334
+
+
+##Twisted slayer helm ornament kit
+[[item]]
+id=32106
+inherit=22246
+invmodel=50815
+name="Twisted horns"
+placeholderid=32107
+grandexchange=false
+price=5000000
+notedid=-1
+zoom=948
+modelpitch=432
+modelroll=0
+offsetx=1
+offsety=0
+modelyaw=0
+
+# wisted slayer helm ornament kit Placeholder
+[[item]]
+id=32107
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32106
+invmodel=50815
+zoom=948
+modelpitch=432
+modelroll=0
+offsetx=1
+offsety=0
+modelyaw=0

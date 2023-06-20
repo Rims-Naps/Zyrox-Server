@@ -1,0 +1,86 @@
+{
+  "shopUID": 183,
+  "shopName": "Quartermaster's Stores",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1931,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1935,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1735,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 590,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 2309,
+      "amount": 10,
+      "sellPrice": 5,
+      "buyPrice": 15
+    },
+    {
+      "id": 3190,
+      "amount": 10,
+      "sellPrice": 32,
+      "buyPrice": 104
+    },
+    {
+      "id": 3192,
+      "amount": 10,
+      "sellPrice": 112,
+      "buyPrice": 364
+    },
+    {
+      "id": 3194,
+      "amount": 10,
+      "sellPrice": 400,
+      "buyPrice": 1300
+    },
+    {
+      "id": 3196,
+      "amount": 10,
+      "sellPrice": 768,
+      "buyPrice": 2496
+    },
+    {
+      "id": 3198,
+      "amount": 7,
+      "sellPrice": 1040,
+      "buyPrice": 3380
+    },
+    {
+      "id": 3200,
+      "amount": 7,
+      "sellPrice": 2560,
+      "buyPrice": 8320
+    },
+    {
+      "id": 3202,
+      "amount": 7,
+      "sellPrice": 25600,
+      "buyPrice": 83200
+    },
+    {
+      "id": 3204,
+      "amount": 5,
+      "sellPrice": 100000,
+      "buyPrice": 325000
+    }
+  ]
+}

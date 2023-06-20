@@ -1,0 +1,22 @@
+# Golden Coffin
+[[item]]
+id=30905
+inherit=10171
+name="Gold coffin"
+placeholderid=30906
+invmodel=50552
+primarymalemodel=50550
+primaryfemalemodel=50551
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+
+
+# Golden Coffin Placeholder
+[[item]]
+id=30906
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30905
+invmodel=50552

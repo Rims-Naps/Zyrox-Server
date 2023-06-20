@@ -1,0 +1,92 @@
+{
+  "shopUID": 236,
+  "shopName": "Void Knight Magic Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 554,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 555,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 556,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 557,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 558,
+      "amount": 5000,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 559,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 3
+    },
+    {
+      "id": 562,
+      "amount": 250,
+      "sellPrice": 54,
+      "buyPrice": 90
+    },
+    {
+      "id": 560,
+      "amount": 250,
+      "sellPrice": 108,
+      "buyPrice": 180
+    },
+    {
+      "id": 12734,
+      "amount": 80,
+      "sellPrice": 236,
+      "buyPrice": 430
+    },
+    {
+      "id": 12730,
+      "amount": 80,
+      "sellPrice": 236,
+      "buyPrice": 430
+    },
+    {
+      "id": 12728,
+      "amount": 80,
+      "sellPrice": 236,
+      "buyPrice": 430
+    },
+    {
+      "id": 12732,
+      "amount": 80,
+      "sellPrice": 236,
+      "buyPrice": 430
+    },
+    {
+      "id": 12736,
+      "amount": 40,
+      "sellPrice": 181,
+      "buyPrice": 330
+    },
+    {
+      "id": 12738,
+      "amount": 35,
+      "sellPrice": 5472,
+      "buyPrice": 9950
+    }
+  ]
+}

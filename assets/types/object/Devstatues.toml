@@ -1,0 +1,36 @@
+# Kris Statue
+[[object]]
+inherit=565
+id=40030
+name="Statue of Kris"
+op1="Read"
+
+
+# Corey Statue
+[[object]]
+inherit=5789
+id=40031
+name="Statue of Corey"
+op1="Read"
+
+# Chris Statue
+[[object]]
+inherit=5790
+id=40032
+name="Statue of Chris"
+op1="Read"
+
+# Noele Statue
+[[object]]
+inherit=18045
+id=40033
+name="Statue of Noele"
+op1="Read"
+
+# Tommeh Statue
+[[object]]
+inherit=568
+id=40034
+name="Statue of Tommeh"
+op1="Read"
+

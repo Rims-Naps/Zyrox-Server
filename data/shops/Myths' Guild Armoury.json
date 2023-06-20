@@ -1,0 +1,20 @@
+{
+  "shopUID": 31,
+  "shopName": "Myths' Guild Armoury",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 2368,
+      "amount": 1,
+      "sellPrice": 250000,
+      "buyPrice": 750000
+    },
+    {
+      "id": 22097,
+      "amount": 1,
+      "sellPrice": 600000,
+      "buyPrice": 1800000
+    }
+  ]
+}

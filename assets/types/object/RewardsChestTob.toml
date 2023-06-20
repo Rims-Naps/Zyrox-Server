@@ -1,0 +1,6 @@
+# Rewards Chest outside ToB
+[[object]]
+id=40053
+inherit=32758
+name="Rewards Chest"
+op1="Claim"

@@ -1,0 +1,128 @@
+{
+  "shopUID": 201,
+  "shopName": "Regath's Wares",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 227,
+      "amount": 30,
+      "sellPrice": -1,
+      "buyPrice": 2
+    },
+    {
+      "id": 11879,
+      "amount": 25,
+      "sellPrice": -1,
+      "buyPrice": 281
+    },
+    {
+      "id": 954,
+      "amount": 10,
+      "sellPrice": -1,
+      "buyPrice": 25
+    },
+    {
+      "id": 554,
+      "amount": 500,
+      "sellPrice": 2,
+      "buyPrice": 5
+    },
+    {
+      "id": 555,
+      "amount": 500,
+      "sellPrice": 2,
+      "buyPrice": 5
+    },
+    {
+      "id": 556,
+      "amount": 500,
+      "sellPrice": 2,
+      "buyPrice": 5
+    },
+    {
+      "id": 557,
+      "amount": 500,
+      "sellPrice": 2,
+      "buyPrice": 5
+    },
+    {
+      "id": 558,
+      "amount": 300,
+      "sellPrice": 1,
+      "buyPrice": 4
+    },
+    {
+      "id": 559,
+      "amount": 300,
+      "sellPrice": 1,
+      "buyPrice": 4
+    },
+    {
+      "id": 565,
+      "amount": 50,
+      "sellPrice": -1,
+      "buyPrice": 560
+    },
+    {
+      "id": 566,
+      "amount": 50,
+      "sellPrice": -1,
+      "buyPrice": 420
+    },
+    {
+      "id": 12734,
+      "amount": 80,
+      "sellPrice": -1,
+      "buyPrice": 602
+    },
+    {
+      "id": 12730,
+      "amount": 80,
+      "sellPrice": -1,
+      "buyPrice": 602
+    },
+    {
+      "id": 12728,
+      "amount": 80,
+      "sellPrice": -1,
+      "buyPrice": 602
+    },
+    {
+      "id": 12732,
+      "amount": 80,
+      "sellPrice": -1,
+      "buyPrice": 602
+    },
+    {
+      "id": 12736,
+      "amount": 40,
+      "sellPrice": -1,
+      "buyPrice": 462
+    },
+    {
+      "id": 579,
+      "amount": 1,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 1017,
+      "amount": 1,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 221,
+      "amount": 300,
+      "sellPrice": 1,
+      "buyPrice": 4
+    },
+    {
+      "id": 12859,
+      "amount": 60,
+      "sellPrice": -1,
+      "buyPrice": 420
+    }
+  ]
+}

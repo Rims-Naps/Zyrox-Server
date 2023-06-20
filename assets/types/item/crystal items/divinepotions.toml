@@ -1,0 +1,1256 @@
+
+# Divine Super Combat 4
+
+[[item]]
+id=30620
+inherit=12695
+name="Divine super combat potion(4)"
+placeholderid=30621
+invmodel=50263
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30622
+
+# Divine Super Combat (4) Placeholder
+[[item]]
+id=30621
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30620
+invmodel=30263
+
+# Divine Super Combat 4 Note
+[[item]]
+inherit=12695
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30620
+id=30622
+
+# Divine Super Combat 3
+
+[[item]]
+id=30623
+inherit=12695
+name="Divine super combat potion(3)"
+placeholderid=30624
+invmodel=50303
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30625
+
+# Divine Super Combat (3) Placeholder
+[[item]]
+id=30624
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30623
+invmodel=50303
+
+# Divine Super Combat 3 Note
+[[item]]
+inherit=12695
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30623
+id=30625
+
+# Divine Super Combat (2 )
+[[item]]
+id=30626
+inherit=12695
+name="Divine super combat potion(2)"
+placeholderid=30627
+invmodel=50304
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30628
+
+# Divine Super Combat (2 ) Placeholder
+[[item]]
+id=30627
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30626
+invmodel=50304
+
+# Divine Super Combat 2 Note
+[[item]]
+inherit=12695
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30626
+id=30628
+
+# Divine Super Combat (1)
+[[item]]
+id=30629
+inherit=12695
+name="Divine super combat potion(1)"
+placeholderid=30630
+invmodel=50305
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30632
+
+# Divine Super Combat (1) Placeholder
+[[item]]
+id=30630
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30629
+invmodel=50305
+
+# Divine Super Combat 1 Note
+[[item]]
+inherit=12695
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30629
+id=30632
+
+
+# Divine Super Attack 4
+
+[[item]]
+id=30633
+inherit=2436
+name="Divine super attack potion(4)"
+placeholderid=30634
+invmodel=50263
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30635
+
+# Divine Super Attack Potion (4) Placeholder
+[[item]]
+id=30634
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30633
+invmodel=50305
+
+# Divine Super Attack Potion 4 Note
+[[item]]
+inherit=149
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30633
+id=30635
+
+[[item]]
+id=30636
+inherit=145
+name="Divine super attack potion(3)"
+placeholderid=30637
+invmodel=50303
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30638
+
+# Divine Super Attack Potion (3) Placeholder
+[[item]]
+id=30637
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30636
+invmodel=50305
+
+# Divine Super Attack Potion 3 Note
+[[item]]
+inherit=149
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30636
+id=30638
+
+[[item]]
+id=30639
+inherit=147
+name="Divine super attack potion(2)"
+placeholderid=30640
+invmodel=50304
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30641
+
+# Divine Super Attack Potion (2) Placeholder
+[[item]]
+id=30640
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30639
+invmodel=50305
+
+# Divine Super Attack Potion 2 Note
+[[item]]
+inherit=149
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30639
+id=30641
+
+[[item]]
+id=30642
+inherit=149
+name="Divine super attack potion(1)"
+placeholderid=30643
+invmodel=50305
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30644
+
+# Divine Super Attack Potion (1) Placeholder
+[[item]]
+id=30643
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30642
+invmodel=50305
+
+# Divine Super Attack Potion 1 Note
+[[item]]
+inherit=149
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30642
+id=30644
+
+# Divine super defense potion(4)
+[[item]]
+id=30657
+inherit=2442
+name="Divine super defense potion(4)"
+placeholderid=30658
+invmodel=50263
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30659
+
+# Divine super defense potion(4) Placeholder
+[[item]]
+id=30658
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30657
+invmodel=50263
+
+# Divine Super Defense Potion 4 Note
+[[item]]
+inherit=2442
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30657
+id=30659
+
+# Divine super defense potion(3)
+[[item]]
+id=30660
+inherit=2442
+name="Divine super defense potion(3)"
+placeholderid=30661
+invmodel=50303
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30717
+
+# Divine super defense potion(3) Placeholder
+[[item]]
+id=30661
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30660
+invmodel=50303
+
+# Divine Super Defense Potion 3 Note
+[[item]]
+inherit=2442
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30660
+id=30717
+
+# Divine super defense potion(2)
+[[item]]
+id=30662
+inherit=2442
+name="Divine super defense potion(2)"
+placeholderid=30663
+invmodel=50304
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30664
+
+# Divine super defense potion(2) Placeholder
+[[item]]
+id=30663
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30662
+invmodel=50304
+
+# Divine Super Defense Potion 2 Note
+[[item]]
+inherit=2442
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30662
+id=30664
+
+# Divine super defense potion(1)
+[[item]]
+id=30665
+inherit=2442
+name="Divine super defense potion(1)"
+placeholderid=30666
+invmodel=50305
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30667
+
+# Divine super defense potion(1) Placeholder
+[[item]]
+id=30666
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30665
+invmodel=50305
+
+# Divine Super Defense Potion 1 Note
+[[item]]
+inherit=2442
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30665
+id=30667
+
+# Divine ranging potion(4)
+[[item]]
+id=30668
+inherit=2444
+name="Divine ranging potion(4)"
+placeholderid=30716
+invmodel=50263
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30670
+
+# Divine ranging potion(4) Placeholder
+[[item]]
+id=30716
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30668
+invmodel=50263
+
+# Divine Ranging Potion 4 Note
+[[item]]
+inherit=2444
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30668
+id=30670
+
+# Divine ranging potion(3)
+[[item]]
+id=30671
+inherit=2444
+name="Divine ranging potion(3)"
+placeholderid=30672
+invmodel=50303
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30673
+
+# Divine ranging potion(3) Placeholder
+[[item]]
+id=30672
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30671
+invmodel=50303
+
+# Divine Ranging Potion 3 Note
+[[item]]
+inherit=2444
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30671
+id=30673
+
+
+## Divine ranging potion(2)
+[[item]]
+id=30674
+inherit=2444
+name="Divine ranging potion(2)"
+placeholderid=30675
+invmodel=50304
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30676
+
+# Divine ranging potion(2) Placeholder
+[[item]]
+id=30675
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30674
+invmodel=50304
+
+# Divine Ranging Potion 2 Note
+[[item]]
+inherit=2444
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30674
+id=30676
+
+# Divine ranging potion(1)
+[[item]]
+id=30677
+inherit=2444
+name="Divine ranging potion(1)"
+placeholderid=30678
+invmodel=50305
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30679
+
+# Divine ranging potion(1) Placeholder
+[[item]]
+id=30678
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30677
+invmodel=50305
+
+# Divine Ranging Potion 1 Note
+[[item]]
+inherit=2444
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30677
+id=30679
+
+# Divine magic potion(4)
+[[item]]
+id=30680
+inherit=3040
+name="Divine magic potion(4)"
+placeholderid=30681
+invmodel=50263
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30682
+
+# Divine magic potion(4) Placeholder
+[[item]]
+id=30681
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30680
+invmodel=50263
+
+# Divine Magic Potion 4 Note
+[[item]]
+inherit=3040
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30680
+id=30682
+
+# Divine magic potion(3)
+[[item]]
+id=30683
+inherit=3040
+name="Divine magic potion(3)"
+placeholderid=30684
+invmodel=50303
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30685
+
+# Divine magic potion(3) Placeholder
+[[item]]
+id=30684
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30683
+invmodel=50303
+
+# Divine Magic Potion 3 Note
+[[item]]
+inherit=3040
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30683
+id=30685
+
+## Divine magic potion(2)
+[[item]]
+id=30686
+inherit=3040
+name="Divine magic potion(2)"
+placeholderid=30687
+invmodel=50304
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30688
+
+# Divine magic potion(2) Placeholder
+[[item]]
+id=30687
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30686
+invmodel=50304
+
+# Divine Magic Potion 2 Note
+[[item]]
+inherit=3040
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30686
+id=30688
+
+# Divine magic potion(1)
+[[item]]
+id=30689
+inherit=3040
+name="Divine magic potion(1)"
+placeholderid=30690
+invmodel=50305
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30691
+
+# Divine magic potion(1) Placeholder
+[[item]]
+id=30690
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30689
+invmodel=50305
+
+# Divine Magic Potion 1 Note
+[[item]]
+inherit=3040
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30689
+id=30691
+
+# Divine bastion potion(4)
+[[item]]
+id=30692
+inherit=22461
+name="Divine bastion potion(4)"
+placeholderid=30693
+invmodel=50263
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30694
+
+# Divine bastion potion(4) Placeholder
+[[item]]
+id=30693
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30692
+invmodel=50263
+
+# Divine Bastion Potion 4 Note
+[[item]]
+inherit=22461
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30692
+id=30694
+
+# Divine bastion potion(3)
+[[item]]
+id=30695
+inherit=22461
+name="Divine bastion potion(3)"
+placeholderid=30696
+invmodel=50303
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30697
+
+# Divine bastion potion(3) Placeholder
+[[item]]
+id=30696
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30695
+invmodel=50303
+
+# Divine Bastion Potion 3 Note
+[[item]]
+inherit=22461
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30695
+id=30697
+
+## Divine bastion potion(2)
+[[item]]
+id=30698
+inherit=22461
+name="Divine bastion potion(2)"
+placeholderid=30699
+invmodel=50304
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30700
+
+# Divine bastion potion(2) Placeholder
+[[item]]
+id=30699
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30698
+invmodel=50304
+
+# Divine Bastion Potion 2 Note
+[[item]]
+inherit=22461
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30698
+id=30700
+
+# Divine bastion potion(1)
+[[item]]
+id=30701
+inherit=22461
+name="Divine bastion potion(1)"
+placeholderid=30702
+invmodel=50305
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30703
+
+# Divine bastion potion(1) Placeholder
+[[item]]
+id=30702
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30701
+invmodel=50305
+
+# Divine Bastion Potion 1 Note
+[[item]]
+inherit=22461
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30701
+id=30703
+
+
+#########################
+
+# Divine battlemage potion(4)
+[[item]]
+id=30704
+inherit=22449
+name="Divine battlemage potion(4)"
+placeholderid=30705
+invmodel=50263
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30706
+
+# Divine battlemage potion(4) Placeholder
+[[item]]
+id=30705
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30704
+invmodel=50263
+
+# Battlemage Potion 4
+[[item]]
+inherit=22449
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30704
+id=30706
+
+# Divine battlemage potion(3)
+[[item]]
+id=30707
+inherit=22449
+name="Divine battlemage potion(3)"
+placeholderid=30708
+invmodel=50303
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30709
+
+# Divine battlemage potion(3) Placeholder
+[[item]]
+id=30708
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30707
+invmodel=50303
+
+# Battlemage Potion 3
+[[item]]
+inherit=22449
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30707
+id=30709
+
+## Divine battlemage potion(2)
+[[item]]
+id=30710
+inherit=22449
+name="Divine battlemage potion(2)"
+placeholderid=30711
+invmodel=50304
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30712
+
+# Divine battlemage potion(2) Placeholder
+[[item]]
+id=30711
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30710
+invmodel=50304
+
+# Battlemage Potion 2
+[[item]]
+inherit=22449
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30710
+id=30712
+
+# Divine battlemage potion(1)
+[[item]]
+id=30713
+inherit=22449
+name="Divine battlemage potion(1)"
+placeholderid=30714
+invmodel=50305
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=30715
+
+# Divine battlemage potion(1) Placeholder
+[[item]]
+id=30714
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30713
+invmodel=50305
+
+# Battlemage Potion 1
+[[item]]
+inherit=22449
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30713
+id=30715
+
+# Divine strength potion(4)
+[[item]]
+id=32000
+inherit=2440
+name="Divine super strength potion(4)"
+placeholderid=32001
+invmodel=50263
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=32002
+
+# Divine super strength(4) Placeholder
+[[item]]
+id=32001
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32000
+invmodel=50263
+
+# Divine super strength Potion 4 noted
+[[item]]
+inherit=22449
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=32000
+id=32002
+
+# Divine strength potion(3)
+[[item]]
+id=32003
+inherit=157
+name="Divine super strength potion(3)"
+placeholderid=32004
+invmodel=50303
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=32005
+
+# Divine super strength(3) Placeholder
+[[item]]
+id=32004
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32003
+invmodel=50303
+
+# Divine super strength Potion 3 noted
+[[item]]
+inherit=22449
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=32003
+id=32005
+
+# Divine strength potion(2)
+[[item]]
+id=32006
+inherit=159
+name="Divine super strength potion(2)"
+placeholderid=32007
+invmodel=50304
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=32008
+
+# Divine super strength(2) Placeholder
+[[item]]
+id=32007
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32006
+invmodel=50304
+
+# Divine super strength Potion 2 noted
+[[item]]
+inherit=22449
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=32006
+id=32008
+
+# Divine strength potion(1)
+[[item]]
+id=32009
+inherit=161
+name="Divine super strength potion(1)"
+placeholderid=32010
+invmodel=50305
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=32011
+
+# Divine super strength(1) Placeholder
+[[item]]
+id=32010
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32009
+invmodel=50305
+
+# Divine super strength Potion 1 noted
+[[item]]
+inherit=22449
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=32009
+id=32011
+
+### DO NOT USE 30716
+### DO NOT USE 30717

@@ -1,0 +1,44 @@
+{
+  "shopUID": 148,
+  "shopName": "Ava's Odds and Ends",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 314,
+      "amount": 1000,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 11881,
+      "amount": 100,
+      "sellPrice": 80,
+      "buyPrice": 260
+    },
+    {
+      "id": 884,
+      "amount": 40,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 886,
+      "amount": 10,
+      "sellPrice": 5,
+      "buyPrice": 16
+    },
+    {
+      "id": 40,
+      "amount": 30,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 41,
+      "amount": 20,
+      "sellPrice": 2,
+      "buyPrice": 7
+    }
+  ]
+}

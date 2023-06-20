@@ -1,0 +1,26 @@
+{
+  "shopUID": 191,
+  "shopName": "Silver Cog Silver Stall",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1714,
+      "amount": 2,
+      "sellPrice": 160,
+      "buyPrice": 300
+    },
+    {
+      "id": 442,
+      "amount": 1,
+      "sellPrice": 60,
+      "buyPrice": 112
+    },
+    {
+      "id": 2355,
+      "amount": 1,
+      "sellPrice": 120,
+      "buyPrice": 225
+    }
+  ]
+}

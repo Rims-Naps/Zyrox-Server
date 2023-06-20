@@ -1,0 +1,197 @@
+# Amulet of blood fury (75-100)
+[[item]]
+id=24780
+inherit=6585
+name="Amulet of blood fury"
+op1="Wear"
+op2="Check"
+placeholderid=24781
+invmodel=50568
+primarymalemodel=50570
+primaryfemalemodel=50571
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+price=100000
+
+[item.parameters]
+451="Check"
+
+# Amulet of blood fury Placeholder
+[[item]]
+id=24781
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=24780
+invmodel=50568
+
+
+
+# Amulet of blood fury (50-75)
+[[item]]
+id=24782
+inherit=6585
+name="Amulet of blood fury"
+op1="Wear"
+op2="Check"
+placeholderid=24783
+invmodel=50568
+primarymalemodel=50570
+primaryfemalemodel=50571
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+price=100000
+
+[item.parameters]
+451="Check"
+
+# Amulet of blood fury Placeholder (50-75)
+[[item]]
+id=24783
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=24782
+invmodel=50568
+
+
+
+# Amulet of blood fury (25-50)
+[[item]]
+id=24784
+inherit=6585
+name="Amulet of blood fury"
+op1="Wear"
+op2="Check"
+placeholderid=24785
+invmodel=50568
+primarymalemodel=50570
+primaryfemalemodel=50571
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+price=100000
+
+[item.parameters]
+451="Check"
+
+# Amulet of blood fury Placeholder (25-50)
+[[item]]
+id=24785
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=24784
+invmodel=50568
+
+
+# Amulet of blood fury (0-25)
+[[item]]
+id=24786
+inherit=6585
+name="Amulet of blood fury"
+op1="Wear"
+op2="Check"
+placeholderid=24787
+invmodel=50568
+primarymalemodel=50570
+primaryfemalemodel=50571
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+price=100000
+
+[item.parameters]
+451="Check"
+
+# Amulet of blood fury Placeholder (0-25)
+[[item]]
+id=24787
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=24786
+invmodel=50568
+
+
+
+# Amulet of blood fury 100%
+[[item]]
+id=24788
+inherit=6585
+name="Amulet of blood fury"
+op1="Wear"
+op2="Check"
+placeholderid=24789
+invmodel=50568
+primarymalemodel=50570
+primaryfemalemodel=50571
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+price=100000
+
+[item.parameters]
+451="Check"
+
+# Amulet of blood fury Placeholder
+[[item]]
+id=24789
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=24788
+invmodel=50568
+
+
+
+# Blood shard
+[[item]]
+id=24777
+inherit=604
+name="Blood shard"
+placeholderid=24778
+invmodel=50569
+op1=""
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+notedid=-1
+zoom=1380
+modelroll=1017
+modelpitch=220
+modelyaw=0
+offsetx=-4
+offsety=12
+price=10000
+
+# Blood shard Place Holder
+[[item]]
+id=24778
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=24777
+invmodel=50569
+

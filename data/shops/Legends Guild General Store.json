@@ -1,0 +1,32 @@
+{
+  "shopUID": 60,
+  "shopName": "Legends Guild General Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 373,
+      "amount": 20,
+      "sellPrice": -1,
+      "buyPrice": 310
+    },
+    {
+      "id": 2323,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 46
+    },
+    {
+      "id": 121,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 18
+    },
+    {
+      "id": 886,
+      "amount": 500,
+      "sellPrice": -1,
+      "buyPrice": 18
+    }
+  ]
+}

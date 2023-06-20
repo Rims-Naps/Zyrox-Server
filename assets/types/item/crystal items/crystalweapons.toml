@@ -1,0 +1,119 @@
+# Bow of Faerdhinen FULL
+[[item]]
+id=30596
+inherit=4214
+name="Bow of Faerdhinen"
+placeholderid=30597
+invmodel=50294
+primarymalemodel=50293
+primaryfemalemodel=50293
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+notedid=-1
+price=2000000
+zoom=2000
+modelpitch=561
+modelroll=15
+offsetx=-1
+offsety=4
+modelyaw=0
+
+# Bow of Faerdhinen Placeholder
+[[item]]
+id=30597
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30596
+invmodel=50294
+
+# Blade of Saeldor
+[[item]]
+id=30763
+inherit=22324
+name="Blade of Saeldor"
+placeholderid=30764
+invmodel=50339
+primarymalemodel=50340
+primaryfemalemodel=50341
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=true
+notedid=-1
+price=2000000
+zoom=1876
+modelpitch=438
+modelroll=40
+offsetx=15
+offsety=-3
+modelyaw=84
+
+# Blade of Saeldor  Placeholder
+[[item]]
+id=30764
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30763
+invmodel=30764
+
+# Bow of Faerdinen Blueprint
+[[item]]
+id=30785
+inherit=2403
+name="Bow of Faerdinen blueprint"
+placeholderid=30786
+
+# Bow of Faerdinen Blueprint Placeholder
+[[item]]
+id=30786
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30785
+
+# Enhanced crystal weapon seed
+[[item]]
+id=30787
+inherit=4211
+name="Enhanced crystal weapon seed"
+placeholderid=30788
+grandexchange=true
+invmodel=50792
+zoom=1450
+modelpitch=303
+modelroll=12
+offsetx=2
+offsety=22
+
+# Enhanced crystal weapon seed Placeholder
+[[item]]
+id=30788
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30787
+
+# Blade of Saeldor Blueprint
+[[item]]
+id=30790
+inherit=2403
+name="Blade of Saeldor blueprint"
+placeholderid=30791
+grandexchange=false
+
+# Blade of Saeldor  Placeholder
+[[item]]
+id=30791
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30792
+grandexchange=false
+
+
+
+

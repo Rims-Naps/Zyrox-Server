@@ -1,0 +1,20 @@
+{
+  "shopUID": 59,
+  "shopName": "Happy Heroes' H'Emporium",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1377,
+      "amount": 1,
+      "sellPrice": 110000,
+      "buyPrice": 200000
+    },
+    {
+      "id": 1434,
+      "amount": 1,
+      "sellPrice": 27500,
+      "buyPrice": 50000
+    }
+  ]
+}

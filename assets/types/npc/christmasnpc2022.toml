@@ -1,0 +1,10 @@
+# Private Percy
+[[npc]]
+id=13335
+inherit=233
+name="Private Percy"
+op1="Talk-to"
+combatlevel=0
+size=1
+
+

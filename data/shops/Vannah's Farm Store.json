@@ -1,0 +1,104 @@
+{
+  "shopUID": 208,
+  "shopName": "Vannah's Farm Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 5341,
+      "amount": 5,
+      "sellPrice": 4,
+      "buyPrice": 6
+    },
+    {
+      "id": 5343,
+      "amount": 5,
+      "sellPrice": 4,
+      "buyPrice": 6
+    },
+    {
+      "id": 5329,
+      "amount": 5,
+      "sellPrice": 3,
+      "buyPrice": 5
+    },
+    {
+      "id": 952,
+      "amount": 5,
+      "sellPrice": 2,
+      "buyPrice": 3
+    },
+    {
+      "id": 5325,
+      "amount": 5,
+      "sellPrice": 8,
+      "buyPrice": 12
+    },
+    {
+      "id": 5331,
+      "amount": 5,
+      "sellPrice": 5,
+      "buyPrice": 8
+    },
+    {
+      "id": 5354,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 13250,
+      "amount": 10,
+      "sellPrice": 70,
+      "buyPrice": 100
+    },
+    {
+      "id": 6032,
+      "amount": 100,
+      "sellPrice": 14,
+      "buyPrice": 20
+    },
+    {
+      "id": 19704,
+      "amount": 10,
+      "sellPrice": 1400,
+      "buyPrice": 2000
+    },
+    {
+      "id": 1925,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 5418,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 13252,
+      "amount": 30,
+      "sellPrice": 70,
+      "buyPrice": 100
+    },
+    {
+      "id": 5376,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 13254,
+      "amount": 30,
+      "sellPrice": 70,
+      "buyPrice": 100
+    },
+    {
+      "id": 6036,
+      "amount": 40,
+      "sellPrice": 28,
+      "buyPrice": 40
+    }
+  ]
+}

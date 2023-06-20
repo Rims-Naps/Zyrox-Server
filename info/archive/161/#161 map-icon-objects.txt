@@ -1,0 +1,98 @@
+Emblem trader - 673
+Ironman - 674
+Minigames - 738
+Agility - 775
+General store - 2733
+Sword shop - 2734
+Magic shop - 2735
+Axe shop - 2736
+Helmet shop - 2737
+Bank - 2738
+Quest start - 2739
+Amulet shop - 2740
+Mining site - 2741
+Furnace - 2742
+Anvil - 2743
+Combat training - 2744
+Dungeon - 2745
+Staff shop - 2746
+Platebody shop - 2747
+Platelegs shop - 2748
+Scimitar shop - 2749
+Archery shop - 2750
+Shield shop - 2751
+Altar - 2752
+Herbalist - 2753
+Jewellery shop - 2754
+Gem shop - 2755
+Crafting shop - 2756
+Candle shop - 2757
+Fishing shop - 2758
+Fishing spot - 2759
+Clothes shop - 2760
+Apothecary - 2761
+Silk trader - 2762
+Kebab - 2763
+Pub - 2764
+Mace shop - 2765
+Tannery - 2766
+Rare trees - 2767
+Spinning wheel - 2768
+Food shop - 2769
+Unknown - fork and knife - 2770
+Water source - 2771
+Cooking range - 2772
+Plateskirt shop - 2773
+Pottery - 2774
+Windmill - 2775
+Mining shop - 2776
+Platebody shop - 2777
+Silver shop - 2778
+Fur trader - 2779
+Hot pot - 2780//unknown
+Green Apple - 4709
+Skull - 5118
+Barber - 5119
+Makeover mage - 5120
+Quest - 5249
+Information point - 7054
+Transportation - 7389
+Quest with floor - 8718
+Farming - 8719
+Pot - 8721
+Loom - 8722
+Keg - 8723
+Water source with floor - 9678
+Odd keg - 10095
+Light water source - 10176
+Water source with tile - 10462
+Tzhaar sword - 11981
+Tzhaar runes - 11982
+Tzhaar bank - 11983
+Tzhaar gem - 11984
+Tzhaar minigame - 11985
+Dungeon with map shortcut - 14108
+Purple portal - 15531
+Estate agent - 15532
+Sawmill - 15533
+Odd smithing - 15534
+Grand exchange - 16458
+Grand exchange sword - 16459
+Grand exchange logs - 16460
+Grand exchange herbs - 16461
+Grand exchange runes - 16462
+Grand exchange ores - 16463
+Green agility shortcut - 17030
+Hunter - 19750
+Hunter shop - 19751
+Seasonal quest - 20132
+Slice of bread - 20989
+Tree stump - 21655
+Achievement diary - 23590
+Voting booth - 26301
+Blue agility shortcut - 26710
+Pet shop - 26821
+Kourend symbol - 27120
+Chambers of Xeric symbol - 29994
+Transportation with tile - 30090
+Quest with wooden tile - 30243

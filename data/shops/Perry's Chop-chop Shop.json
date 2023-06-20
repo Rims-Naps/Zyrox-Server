@@ -1,0 +1,50 @@
+{
+  "shopUID": 207,
+  "shopName": "Perry's Chop-chop Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1351,
+      "amount": 4,
+      "sellPrice": 9,
+      "buyPrice": 51
+    },
+    {
+      "id": 1349,
+      "amount": 3,
+      "sellPrice": 33,
+      "buyPrice": 179
+    },
+    {
+      "id": 1353,
+      "amount": 2,
+      "sellPrice": 120,
+      "buyPrice": 640
+    },
+    {
+      "id": 1355,
+      "amount": 1,
+      "sellPrice": 312,
+      "buyPrice": 1664
+    },
+    {
+      "id": 1357,
+      "amount": 1,
+      "sellPrice": 768,
+      "buyPrice": 4096
+    },
+    {
+      "id": 1359,
+      "amount": 1,
+      "sellPrice": 7680,
+      "buyPrice": 40960
+    },
+    {
+      "id": 590,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 3
+    }
+  ]
+}

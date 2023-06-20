@@ -1,0 +1,38 @@
+{
+  "shopUID": 1100,
+  "shopName": "Mining Guild Mineral Exchange",
+  "currency": "UNIDENTIFIED_MINERALS",
+  "sellPolicy": "NO_SELLING",
+  "items": [
+    {
+      "id": 21343,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 60
+    },
+    {
+      "id": 21345,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 120
+    },
+    {
+      "id": 11920,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1000
+    },
+    {
+      "id": 19473,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 35
+    },
+    {
+      "id": 12009,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 25
+    }
+  ]
+}

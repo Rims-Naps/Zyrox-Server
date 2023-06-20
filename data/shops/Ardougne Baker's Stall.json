@@ -1,0 +1,32 @@
+{
+  "shopUID": 78,
+  "shopName": "Ardougne Baker's Stall",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 2309,
+      "amount": 10,
+      "sellPrice": 9,
+      "buyPrice": 12
+    },
+    {
+      "id": 1891,
+      "amount": 3,
+      "sellPrice": 40,
+      "buyPrice": 50
+    },
+    {
+      "id": 1901,
+      "amount": 8,
+      "sellPrice": 24,
+      "buyPrice": 30
+    },
+    {
+      "id": 1973,
+      "amount": 7,
+      "sellPrice": 8,
+      "buyPrice": 10
+    }
+  ]
+}

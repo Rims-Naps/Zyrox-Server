@@ -1,0 +1,114 @@
+# Golden Party Hat
+[[item]]
+id=28885
+inherit=1038
+name="Golden partyhat"
+placeholderid=28886
+originalcolours=[926]
+replacementcolours=[7114]
+op1=""
+grandexchange=false
+notedid=-1
+
+# Golden Party Hat (placeholder)
+[[item]]
+id=28886
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=28885
+
+# Golden Santa Hat
+[[item]]
+id=28887
+inherit=1050
+name="Golden santa hat"
+placeholderid=28888
+originalcolours=[933]
+replacementcolours=[7114]
+op1=""
+grandexchange=false
+notedid=-1
+
+# Golden Santa Hat (placeholder)
+[[item]]
+id=28888
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=28887
+
+# Golden Santa Suit
+[[item]]
+id=28889
+inherit=12888
+name="Golden santa suit"
+placeholderid=28890
+originalcolours=[933]
+replacementcolours=[7114]
+op1=""
+grandexchange=false
+notedid=-1
+
+# Golden Halloween Mask
+[[item]]
+id=28892
+inherit=1053
+name="Golden halloween mask"
+placeholderid=28893
+originalcolours=[926]
+replacementcolours=[7114]
+op1=""
+grandexchange=false
+notedid=-1
+
+# Golden Halloween Mask (placeholder)
+[[item]]
+id=28893
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=28892
+notedid=-1
+
+# Green Santa Hat
+[[item]]
+id=29030
+inherit=1050
+name="Green santa hat"
+placeholderid=29031
+originalcolours=[933]
+replacementcolours=[86933]
+op1=""
+grandexchange=false
+notedid=-1
+
+# Green Santa Hat (placeholder)
+[[item]]
+id=29031
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=29030
+notedid=-1
+
+# Purple Santa Hat
+[[item]]
+id=29032
+inherit=1050
+name="Purple santa hat"
+placeholderid=29033
+originalcolours=[933]
+replacementcolours=[50000]
+op1=""
+grandexchange=false
+notedid=-1
+
+# Purple Santa Hat (placeholder)
+[[item]]
+id=29033
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=29032
+notedid=-1

@@ -1,0 +1,8 @@
+# Teleport Merchant
+[[npc]]
+id=13082
+inherit=6703
+name="Teleport Merchant"
+combatlevel=0
+op1="Trade"
+size=1

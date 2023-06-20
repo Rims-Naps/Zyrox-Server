@@ -1,0 +1,54 @@
+# Crystal Dust
+[[item]]
+id=30566
+inherit=21622
+name="Crystal dust"
+placeholderid=30567
+invmodel=50262
+originalcolours=[82]
+replacementcolours=[31192]
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=-1
+
+# Crystal Dust Placeholder
+[[item]]
+id=30567
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30566
+invmodel=50262
+
+
+# Crystal Impling Jar
+[[item]]
+id=30592
+inherit=11256
+name="Crystal Impling jar"
+placeholderid=30593
+invmodel=50292
+zoom=770
+offsetx=1
+offsety=-6
+modelpitch=236
+modelroll=2000
+modelyaw=0
+op2=""
+grandexchange=false
+notedid=-1
+
+# Crystal Impling Jar Placeholder
+[[item]]
+id=30593
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30592
+invmodel=50292

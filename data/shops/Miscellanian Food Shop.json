@@ -1,0 +1,56 @@
+{
+  "shopUID": 49,
+  "shopName": "Miscellanian Food Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 2309,
+      "amount": 5,
+      "sellPrice": 6,
+      "buyPrice": 12
+    },
+    {
+      "id": 1985,
+      "amount": 5,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 1965,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1942,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1957,
+      "amount": 5,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 1933,
+      "amount": 5,
+      "sellPrice": 5,
+      "buyPrice": 10
+    },
+    {
+      "id": 1973,
+      "amount": 2,
+      "sellPrice": 5,
+      "buyPrice": 10
+    },
+    {
+      "id": 1927,
+      "amount": 5,
+      "sellPrice": 3,
+      "buyPrice": 6
+    }
+  ]
+}

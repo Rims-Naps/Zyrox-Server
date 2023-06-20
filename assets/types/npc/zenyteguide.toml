@@ -1,0 +1,9 @@
+# Zenyte Guide
+[[npc]]
+id=13035
+inherit=306
+name="Zenyte Guide"
+op1="Talk-to"
+combatlevel=0
+size=1
+

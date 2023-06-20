@@ -1,0 +1,44 @@
+{
+  "shopUID": 192,
+  "shopName": "Vermundi's Clothes Stall",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 5048,
+      "amount": 3,
+      "sellPrice": 192,
+      "buyPrice": 455
+    },
+    {
+      "id": 5036,
+      "amount": 3,
+      "sellPrice": 302,
+      "buyPrice": 715
+    },
+    {
+      "id": 5042,
+      "amount": 3,
+      "sellPrice": 154,
+      "buyPrice": 364
+    },
+    {
+      "id": 5024,
+      "amount": 3,
+      "sellPrice": 275,
+      "buyPrice": 650
+    },
+    {
+      "id": 5030,
+      "amount": 3,
+      "sellPrice": 247,
+      "buyPrice": 585
+    },
+    {
+      "id": 950,
+      "amount": 5,
+      "sellPrice": 16,
+      "buyPrice": 39
+    }
+  ]
+}

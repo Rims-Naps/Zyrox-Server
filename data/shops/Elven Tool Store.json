@@ -1,0 +1,50 @@
+{
+  "shopUID": 1012,
+  "shopName": "Elven Tool Shop",
+  "currency": "CRYSTAL_SHARD",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 30802,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000,
+      "restockTimer": 1
+    },
+    {
+      "id": 30800,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000,
+      "restockTimer": 1
+    },
+    {
+      "id": 30798,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000,
+      "restockTimer": 1
+    },
+    {
+      "id": 32012,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 50,
+      "restockTimer": 1
+    },
+    {
+      "id":32100,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000,
+      "restockTimer": 1
+    },
+    {
+      "id":30806,
+      "amount": 0,
+      "sellPrice": 1000,
+      "buyPrice": -1,
+      "restockTimer": 1
+    }
+  ]
+}

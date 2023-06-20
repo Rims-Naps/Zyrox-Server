@@ -1,0 +1,38 @@
+{
+  "shopUID": 209,
+  "shopName": "The Deeper Lode",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1917,
+      "amount": 10,
+      "sellPrice": -1,
+      "buyPrice": 2
+    },
+    {
+      "id": 1913,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 2
+    },
+    {
+      "id": 1911,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 2
+    },
+    {
+      "id": 1971,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 4
+    },
+    {
+      "id": 1919,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 2
+    }
+  ]
+}

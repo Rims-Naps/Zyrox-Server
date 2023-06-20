@@ -1,0 +1,109 @@
+
+# Beginners Cluehunter Book
+[[item]]
+name="Sherlock's beginners notebook"
+id=28894
+inherit=22415
+price=999
+stackable=1
+placeholderid=28895
+placeholdertemplate=-1
+op1=""
+
+#Placeholder
+[[item]]
+id=28895
+inherit=14577
+placeholdertemplate=14401
+placeholderid=28894
+
+
+# Easy Cluehunter Book
+[[item]]
+name="Sherlock's easy notebook"
+id=28896
+inherit=22415
+price=999
+stackable=1
+placeholderid=28897
+placeholdertemplate=-1
+op1=""
+
+#Placeholder
+[[item]]
+id=28897
+inherit=14577
+placeholdertemplate=14401
+placeholderid=28896
+
+# Medium Cluehunter Book
+[[item]]
+name="Sherlock's medium notebook"
+id=28898
+inherit=22415
+price=999
+stackable=1
+placeholderid=28899
+placeholdertemplate=-1
+op1=""
+
+#Placeholder
+[[item]]
+id=28899
+inherit=14577
+placeholdertemplate=14401
+placeholderid=28898
+
+# Hard Cluehunter Book
+[[item]]
+name="Sherlock's hard notebook"
+id=28900
+inherit=22415
+price=999
+stackable=1
+placeholderid=28901
+placeholdertemplate=-1
+op1=""
+
+#Placeholder
+[[item]]
+id=28901
+inherit=14577
+placeholdertemplate=14401
+placeholderid=28900
+
+# Elite Cluehunter Book
+[[item]]
+name="Sherlock's elite notebook"
+id=28902
+inherit=22415
+price=999
+stackable=1
+placeholderid=28903
+placeholdertemplate=-1
+op1=""
+
+#Placeholder
+[[item]]
+id=28903
+inherit=14577
+placeholdertemplate=14401
+placeholderid=28902
+
+# master Cluehunter Book
+[[item]]
+name="Sherlock's master notebook"
+id=28904
+inherit=22415
+price=999
+stackable=1
+placeholderid=28905
+placeholdertemplate=-1
+op1=""
+
+#Placeholder
+[[item]]
+id=28905
+inherit=14577
+placeholdertemplate=14401
+placeholderid=28904

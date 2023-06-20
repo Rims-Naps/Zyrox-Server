@@ -1,0 +1,50 @@
+{
+  "shopUID": 136,
+  "shopName": "Seddu's Adventurers' Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1093,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 60800
+    },
+    {
+      "id": 1079,
+      "amount": 1,
+      "sellPrice": 41600,
+      "buyPrice": 60800
+    },
+    {
+      "id": 1113,
+      "amount": 1,
+      "sellPrice": 33500,
+      "buyPrice": 47500
+    },
+    {
+      "id": 1099,
+      "amount": 1,
+      "sellPrice": 2613,
+      "buyPrice": 3705
+    },
+    {
+      "id": 1065,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 2375
+    },
+    {
+      "id": 1193,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 807
+    },
+    {
+      "id": 1151,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 547
+    }
+  ]
+}

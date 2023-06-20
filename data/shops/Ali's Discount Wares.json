@@ -1,0 +1,56 @@
+{
+  "shopUID": 122,
+  "shopName": "Ali's Discount Wares",
+  "currency": "COINS",
+  "sellPolicy": "CAN_SELL",
+  "items": [
+    {
+      "id": 6392,
+      "amount": 25,
+      "sellPrice": 21,
+      "buyPrice": 35
+    },
+    {
+      "id": 6394,
+      "amount": 25,
+      "sellPrice": 12,
+      "buyPrice": 20
+    },
+    {
+      "id": 6396,
+      "amount": 25,
+      "sellPrice": 24,
+      "buyPrice": 40
+    },
+    {
+      "id": 6398,
+      "amount": 25,
+      "sellPrice": 12,
+      "buyPrice": 20
+    },
+    {
+      "id": 6400,
+      "amount": 25,
+      "sellPrice": 21,
+      "buyPrice": 35
+    },
+    {
+      "id": 6402,
+      "amount": 25,
+      "sellPrice": 12,
+      "buyPrice": 20
+    },
+    {
+      "id": 6404,
+      "amount": 25,
+      "sellPrice": 24,
+      "buyPrice": 40
+    },
+    {
+      "id": 6406,
+      "amount": 25,
+      "sellPrice": 12,
+      "buyPrice": 20
+    }
+  ]
+}

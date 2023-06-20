@@ -1,0 +1,62 @@
+# Adamant rock
+[[object]]
+inherit=7493
+id=40062
+name="Rocks"
+op1="Mine"
+op2="Prospect"
+
+# Gold rock
+[[object]]
+inherit=7491
+id=40063
+name="Rocks"
+op1="Mine"
+op2="Prospect"
+
+# Mith rock
+[[object]]
+inherit=7459
+id=40064
+name="Rocks"
+op1="Mine"
+op2="Prospect"
+
+# Rune rock
+[[object]]
+inherit=7494
+id=40065
+name="Rocks"
+op1="Mine"
+op2="Prospect"
+
+# Coal rock
+[[object]]
+inherit=7489
+id=40066
+name="Rocks"
+op1="Mine"
+op2="Prospect"
+
+# Iron Rock
+[[object]]
+inherit=7455
+id=40067
+name="Rocks"
+op1="Mine"
+op2="Prospect"
+
+# Yew tree
+[[object]]
+inherit=1753
+id=40068
+name="Wilderness yew tree"
+op1="Chop down"
+
+# Magic tree
+[[object]]
+inherit=1761
+id=40069
+name="Wilderness magic tree"
+op1="Chop down"
+

@@ -1,0 +1,73 @@
+package com.zenyte.game.content.chambersofxeric.storageunit;
+
+import com.zenyte.game.constants.GameInterface;
+import com.zenyte.game.util.AccessMask;
+import com.zenyte.game.world.entity.player.Player;
+import lombok.val;
+
+import java.util.Optional;
+
+/**
+ * @author Kris | 21/07/2019 01:56
+ * @see <a href="https://www.rune-server.ee/members/kris/">Rune-Server profile</a>
+ */
+public class SharedStorageInterface extends StorageInterface {
+    @Override
+    protected void attach() {
+        put(4, "Container size");
+        put(5, "Switch to private storage");
+        put(7, "Interact with item");
+    }
+
+    @Override
+    public void open(final Player player) {
+        val raid = player.getRaid().orElseThrow(RuntimeException::new);
+        val storage = raid.constructOrGetSharedStorage();
+        storage.getViewingPlayers().add(player);
+        val container = storage.getContainer();
+        val dispatcher = player.getPacketDispatcher();
+        player.getInterfaceHandler().sendInterface(this);
+        dispatcher.sendComponentText(getInterface(), getComponent("Container size"), container.getContainerSize());
+        dispatcher.sendComponentSettings(getInterface(), getComponent("Interact with item"), 0, container.getContainerSize(),
+                AccessMask.CLICK_OP1, AccessMask.CLICK_OP2, AccessMask.CLICK_OP3, AccessMask.CLICK_OP4, AccessMask.CLICK_OP5, AccessMask.CLICK_OP10);
+        dispatcher.sendUpdateItemContainer(container);
+        GameInterface.RAIDS_STORAGE_INVENTORY_INTERFACE.open(player);
+    }
+
+    @Override
+    public void close(final Player player, final Optional<GameInterface> replacement) {
+        val raid = player.getRaid().orElseThrow(RuntimeException::new);
+        val storage = raid.constructOrGetSharedStorage();
+        storage.getViewingPlayers().remove(player);
+    }
+
+    @Override
+    protected void build() {
+        bind("Switch to private storage", player -> {
+            val raid = player.getRaid().orElseThrow(RuntimeException::new);
+            val storage = raid.constructOrGetSharedStorage();
+            val size = storage.getContainer().getContainerSize();
+            player.getPrivateStorage().open(size == 250 ? 30 : size == 500 ? 60 : 90);
+        });
+        bind("Interact with item", (player, slotId, itemId, option) -> {
+            val raid = player.getRaid().orElseThrow(RuntimeException::new);
+            val storage = raid.constructOrGetSharedStorage();
+            val container = storage.getContainer();
+            val slot = container.getSlotOf(itemId);
+            val item = container.get(slot);
+            if (item == null) {
+                return;
+            }
+            if (player.isIronman()) {
+                player.sendMessage("Ironmen cannot withdraw items from the shared raid storage");
+                return;
+            }
+            handleInteraction(player, storage, option, slot, item);
+        });
+    }
+
+    @Override
+    public GameInterface getInterface() {
+        return GameInterface.RAIDS_SHARED_STORAGE;
+    }
+}

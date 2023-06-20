@@ -1,0 +1,44 @@
+{
+  "shopUID": 143,
+  "shopName": "The Spice is Right",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1931,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 2169,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 3
+    },
+    {
+      "id": 5970,
+      "amount": 25,
+      "sellPrice": 7,
+      "buyPrice": 28
+    },
+    {
+      "id": 4689,
+      "amount": 0,
+      "sellPrice": 5,
+      "buyPrice": 30
+    },
+    {
+      "id": 4687,
+      "amount": 0,
+      "sellPrice": 7,
+      "buyPrice": 45
+    },
+    {
+      "id": 175,
+      "amount": 20,
+      "sellPrice": 72,
+      "buyPrice": 432
+    }
+  ]
+}

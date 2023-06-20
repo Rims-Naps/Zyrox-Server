@@ -1,0 +1,7 @@
+[[enum]]
+inherit=878
+keytype="int"
+
+[enum.values]
+51=19481
+52=19484

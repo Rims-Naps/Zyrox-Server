@@ -1,0 +1,14 @@
+{
+  "shopUID": 177,
+  "shopName": "Ak-Haranu's Exotic Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 4740,
+      "amount": 500,
+      "sellPrice": 27,
+      "buyPrice": 50
+    }
+  ]
+}

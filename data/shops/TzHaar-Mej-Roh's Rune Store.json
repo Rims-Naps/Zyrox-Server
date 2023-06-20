@@ -1,0 +1,80 @@
+{
+  "shopUID": 113,
+  "shopName": "TzHaar-Mej-Roh's Rune Store",
+  "currency": "TOKKUL",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 554,
+      "amount": 5000,
+      "sellPrice": 0,
+      "buyPrice": 6
+    },
+	{
+      "id": 555,
+      "amount": 5000,
+      "sellPrice": 0,
+      "buyPrice": 6
+    },
+	{
+      "id": 556,
+      "amount": 5000,
+      "sellPrice": 0,
+      "buyPrice": 6
+    },
+	{
+      "id": 557,
+      "amount": 5000,
+      "sellPrice": 0,
+      "buyPrice": 6
+    },
+	{
+      "id": 558,
+      "amount": 5000,
+      "sellPrice": 0,
+      "buyPrice": 4
+    },
+	{
+      "id": 559,
+      "amount": 5000,
+      "sellPrice": 0,
+      "buyPrice": 4
+    },
+	{
+      "id": 562,
+      "amount": 5000,
+      "sellPrice": 9,
+      "buyPrice": 45
+    },
+	{
+      "id": 560,
+      "amount": 5000,
+      "sellPrice": 18,
+      "buyPrice": 270
+    },
+	{
+      "id": 21698,
+      "amount": 50,
+      "sellPrice": 64,
+      "buyPrice": 645
+    },
+	{
+      "id": 21701,
+      "amount": 50,
+      "sellPrice": 64,
+      "buyPrice": 645
+    },
+	{
+      "id": 21704,
+      "amount": 50,
+      "sellPrice": 64,
+      "buyPrice": 645
+    },
+	{
+      "id": 21707,
+      "amount": 50,
+      "sellPrice": 64,
+      "buyPrice": 645
+    }
+  ]
+}

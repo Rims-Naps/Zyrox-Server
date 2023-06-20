@@ -1,0 +1,80 @@
+{
+  "shopUID": 52,
+  "shopName": "Fremennik Fur Trader",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 948,
+      "amount": 3,
+      "sellPrice": 9,
+      "buyPrice": 12
+    },
+    {
+      "id": 958,
+      "amount": 3,
+      "sellPrice": 47,
+      "buyPrice": 60
+    },
+    {
+      "id": 10117,
+      "amount": 0,
+      "sellPrice": 9,
+      "buyPrice": 12
+    },
+    {
+      "id": 10121,
+      "amount": 0,
+      "sellPrice": 11,
+      "buyPrice": 14
+    },
+    {
+      "id": 10119,
+      "amount": 0,
+      "sellPrice": 13,
+      "buyPrice": 16
+    },
+    {
+      "id": 10123,
+      "amount": 0,
+      "sellPrice": 16,
+      "buyPrice": 20
+    },
+    {
+      "id": 10093,
+      "amount": 0,
+      "sellPrice": 57,
+      "buyPrice": 72
+    },
+    {
+      "id": 10095,
+      "amount": 0,
+      "sellPrice": 76,
+      "buyPrice": 96
+    },
+    {
+      "id": 10097,
+      "amount": 0,
+      "sellPrice": 85,
+      "buyPrice": 108
+    },
+    {
+      "id": 10099,
+      "amount": 0,
+      "sellPrice": 114,
+      "buyPrice": 144
+    },
+    {
+      "id": 10101,
+      "amount": 0,
+      "sellPrice": 114,
+      "buyPrice": 144
+    },
+    {
+      "id": 10103,
+      "amount": 0,
+      "sellPrice": 152,
+      "buyPrice": 192
+    }
+  ]
+}

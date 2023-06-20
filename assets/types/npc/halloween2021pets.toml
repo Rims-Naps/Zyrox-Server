@@ -1,0 +1,458 @@
+[[npc]]
+id=13025
+inherit=2993
+name="Spooky Chicken"
+op1="Talk-to"
+op2="Pick-up"
+familiar=true
+size=1
+resizex=75
+resizey=75
+combatlevel=0
+
+[[npc]]
+id=13026
+inherit=2992
+name="Spooky Cow"
+op1="Talk-to"
+op2="Pick-up"
+familiar=true
+size=1
+resizex=75
+resizey=75
+combatlevel=0
+
+[[npc]]
+id=13027
+inherit=6824
+name="Spooky Bat"
+op1="Talk-to"
+op2="Pick-up"
+familiar=true
+size=1
+resizex=75
+resizey=75
+combatlevel=0
+
+[[npc]]
+id=13028
+inherit=3481
+name="Spooky Dracula"
+op1="Talk-to"
+op2="Pick-up"
+familiar=true
+size=1
+resizex=75
+resizey=75
+combatlevel=0
+
+[[npc]]
+id=13029
+inherit=5281
+name="Spooky Monkey"
+op1="Talk-to"
+op2="Pick-up"
+familiar=true
+size=1
+resizex=125
+resizey=125
+combatlevel=0
+
+[[npc]]
+id=13030
+inherit=2872
+name="Spooky Witch"
+op1="Talk-to"
+op2="Pick-up"
+familiar=true
+size=1
+resizex=75
+resizey=75
+combatlevel=0
+
+[[npc]]
+id=13031
+inherit=26
+name="Spooky Zombie"
+op1="Talk-to"
+op2="Pick-up"
+familiar=true
+size=1
+resizex=75
+resizey=75
+combatlevel=0
+
+[[npc]]
+id=13032
+inherit=920
+name="Spooky Ghost"
+op1="Talk-to"
+op2="Pick-up"
+familiar=true
+size=1
+resizex=75
+resizey=75
+combatlevel=0
+
+[[npc]]
+id=13033
+inherit=7632
+name="Spooky Killer"
+op1="Talk-to"
+op2="Pick-up"
+familiar=true
+size=1
+resizex=75
+resizey=75
+combatlevel=0
+
+[[npc]]
+id=13034
+inherit=6640
+name="Jack O Kraken"
+op1="Talk-to"
+models=[50486]
+familiar=true
+combatlevel=0
+
+[[npc]]
+id=13040
+inherit=4554
+name="Halloween Arachnid"
+op1="Talk-to"
+op2=""
+op3=""
+op4=""
+op5=""
+combatlevel=0
+resizex=75
+resizey=75
+
+# Spooky Chicken Inventory
+[[item]]
+id=24567
+inherit=1561
+name="Spooky Chicken"
+placeholderid=24568
+invmodel=20463
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+zoom=1852
+modelroll=436
+modelpitch=294
+modelyaw=9
+offsetx=8
+offsety=60
+
+#Spooky Chicken Inventory Placeholder
+[[item]]
+id=24568
+inherit=1561
+name="null"
+placeholdertemplate=14401
+placeholderid=24567
+resizex=55
+resizey=55
+
+
+# Spooky Cow Inventory
+[[item]]
+id=24569
+inherit=1561
+name="Spooky Cow"
+placeholderid=24570
+invmodel=23894
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+zoom=3000
+modelroll=217
+modelpitch=113
+modelyaw=0
+offsetx=-4
+offsety=-8
+
+#Spooky Cow Inventory Placeholder
+[[item]]
+id=24570
+inherit=1561
+name="null"
+placeholdertemplate=14401
+placeholderid=24569
+
+
+#Spooky Bat Inventory
+[[item]]
+id=24571
+inherit=1561
+name="Spooky Bat"
+placeholderid=24572
+invmodel=32769
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+zoom=1383
+modelroll=791
+modelpitch=861
+modelyaw=148
+offsetx=-9
+offsety=0
+
+#Spooky Bat Inventory Placeholder
+[[item]]
+id=24572
+inherit=1561
+name="null"
+placeholdertemplate=14401
+placeholderid=24571
+
+# Dracula Jr. Inventory
+[[item]]
+id=24573
+inherit=1561
+name="Spooky Dracula"
+placeholderid=24574
+invmodel=227
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+zoom=575
+modelroll=1991
+modelpitch=113
+modelyaw=25
+offsetx=12
+offsety=125
+
+#Dracula Jr.  Inventory Placeholder
+[[item]]
+id=24574
+inherit=1561
+name="null"
+placeholdertemplate=14401
+placeholderid=24573
+
+
+# Bone Ring Inventory
+[[item]]
+id=24575
+inherit=6583
+name="Ring of bone"
+placeholderid=24576
+invmodel=5636
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+notedid=30085
+
+#Bone Ring Inventory Placeholder
+[[item]]
+id=24576
+inherit=1561
+name="null"
+placeholdertemplate=14401
+placeholderid=24575
+
+# Bone Ring Inventory Note
+[[item]]
+inherit=12695
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=24575
+id=30085
+
+# Spooky Monkey Inventory
+[[item]]
+id=24577
+inherit=4034
+name="Spooky Monkey"
+placeholderid=24578
+invmodel=15734
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+
+
+#Spooky Monkey Inventory Placeholder
+[[item]]
+id=24578
+inherit=1561
+name="null"
+placeholdertemplate=14401
+placeholderid=24577
+
+# Spooky Witch Inventory
+[[item]]
+id=24579
+inherit=4034
+name="Spooky Witch"
+placeholderid=24580
+invmodel=9608
+zoom=1870
+modelroll=357
+modelpitch=287
+modelyaw=183
+offsetx=50
+offsety=-800
+
+#Spooky Witch Inventory Placeholder
+[[item]]
+id=24580
+inherit=1561
+name="null"
+placeholdertemplate=14401
+placeholderid=24579
+
+# Pet mystery box
+[[item]]
+id=30081
+inherit=6199
+name="Halloween mystery box"
+grandexchange=true
+placeholderid=30082
+replacementcolours=[0]
+price=100000
+
+# Pet mystery box (placeholder)
+[[item]]
+id=30082
+inherit=18086
+name="null"
+placeholderid=30081
+replacementcolours=[0]
+
+
+# Spooky Ghost Inventory
+[[item]]
+id=24581
+inherit=4034
+name="Spooky Ghost"
+placeholderid=24582
+invmodel=21154
+zoom=3280
+modelroll=26
+modelpitch=78
+modelyaw=9
+offsetx=-9
+offsety=-9
+price=6500000
+
+#Spooky Ghost Inventory Placeholder
+[[item]]
+id=24582
+inherit=1561
+name="null"
+placeholdertemplate=14401
+placeholderid=24581
+
+# Spooky Zombie Inventory
+[[item]]
+id=24583
+inherit=4034
+name="Spooky Zombie"
+placeholderid=24584
+invmodel=21102
+zoom=526
+modelroll=2010
+modelpitch=26
+modelyaw=96
+offsetx=60
+offsety=91
+price=6500000
+
+#Spooky Zombie Inventory Placeholder
+[[item]]
+id=24584
+inherit=1561
+name="null"
+placeholdertemplate=14401
+placeholderid=24583
+
+# Spooky Killer Inventory
+[[item]]
+id=24585
+inherit=4034
+name="Spooky Killer"
+placeholderid=24586
+invmodel=32324
+zoom=780
+modelroll=148
+modelpitch=130
+modelyaw=1
+offsetx=4
+offsety=124
+price=6500000
+
+#Spooky Killer Inventory Placeholder
+[[item]]
+id=24586
+inherit=1561
+name="null"
+placeholdertemplate=14401
+placeholderid=24585
+
+# Halloween Casket
+[[item]]
+id=30083
+inherit=405
+name="Halloween casket"
+grandexchange=true
+placeholderid=30084
+replacementcolours=[0]
+
+
+# Halloween Casket (placeholder)
+[[item]]
+id=30084
+inherit=18086
+name="null"
+placeholderid=30083
+replacementcolours=[0]
+
+
+# Jack O' Kraken Inventory
+[[item]]
+id=30087
+inherit=4034
+name="Jack O' Kraken"
+placeholderid=30088
+invmodel=50486
+zoom=11780
+modelroll=78
+modelpitch=217
+modelyaw=26
+offsetx=26
+offsety=-217
+
+
+#Jack O' Kraken Placeholder
+[[item]]
+id=30088
+inherit=4034
+name="null"
+placeholdertemplate=14401
+placeholderid=30087

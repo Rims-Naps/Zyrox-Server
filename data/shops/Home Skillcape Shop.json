@@ -1,0 +1,296 @@
+{
+  "shopUID": 1010,
+  "shopName": "Accomplishment Cape Shop",
+  "currency": "COINS",
+  "sellPolicy": "NO_SELLING",
+  "items": [
+    {
+      "id": 9748,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9751,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9754,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9757,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9760,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9763,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9766,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9769,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9772,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9775,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9778,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9781,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9784,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9787,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9790,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9793,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9796,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9799,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9802,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9805,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9808,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9811,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 9949,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 19476,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 13221,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 31050,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32037,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32039,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32041,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32043,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32045,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32047,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32049,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32051,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32053,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32055,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32058,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32060,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32062,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32064,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32066,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32068,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32070,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32072,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32074,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32076,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32078,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    },
+    {
+      "id": 32080,
+      "amount": 100,
+      "sellPrice": 59400,
+      "buyPrice": 99000
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "shopName": "Slayer Equipment",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 4155,
+      "amount": 50,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+	{
+      "id": 4156,
+      "amount": 50,
+      "sellPrice": 4000,
+      "buyPrice": 5000
+    },
+	{
+      "id": 4158,
+      "amount": 50,
+      "sellPrice": 24800,
+      "buyPrice": 31000
+    },
+	{
+      "id": 4160,
+      "amount": 50000,
+      "sellPrice": 48,
+      "buyPrice": 60
+    },
+	{
+      "id": 4161,
+      "amount": 5000,
+      "sellPrice": 8,
+      "buyPrice": 10
+    },
+	{
+      "id": 4162,
+      "amount": 50,
+      "sellPrice": 400,
+      "buyPrice": 500
+    },
+	{
+      "id": 4164,
+      "amount": 50,
+      "sellPrice": 160,
+      "buyPrice": 200
+    },
+	{
+      "id": 4166,
+      "amount": 50,
+      "sellPrice": 160,
+      "buyPrice": 200
+    },
+	{
+      "id": 4168,
+      "amount": 50,
+      "sellPrice": 160,
+      "buyPrice": 200
+    },
+	{
+      "id": 4170,
+      "amount": 50,
+      "sellPrice": 16800,
+      "buyPrice": 21000
+    },
+	{
+      "id": 4551,
+      "amount": 50,
+      "sellPrice": 520,
+      "buyPrice": 650
+    },
+	{
+      "id": 6664,
+      "amount": 5000,
+      "sellPrice": 48,
+      "buyPrice": 60
+    },
+	{
+      "id": 6696,
+      "amount": 5000,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+	{
+      "id": 6720,
+      "amount": 50,
+      "sellPrice": 160,
+      "buyPrice": 200
+    },
+	{
+      "id": 7051,
+      "amount": 50,
+      "sellPrice": 104,
+      "buyPrice": 130
+    },
+	{
+      "id": 7159,
+      "amount": 50,
+      "sellPrice": 160,
+      "buyPrice": 200
+    },
+	{
+      "id": 7421,
+      "amount": 50,
+      "sellPrice": 240,
+      "buyPrice": 300
+    },
+	{
+      "id": 7432,
+      "amount": 5000,
+      "sellPrice": 240,
+      "buyPrice": 300
+    },
+	{
+      "id": 8923,
+      "amount": 50,
+      "sellPrice": 720,
+      "buyPrice": 900
+    },
+	{
+      "id": 10952,
+      "amount": 50,
+      "sellPrice": 120,
+      "buyPrice": 150
+    },
+	{
+      "id": 11874,
+      "amount": 3000,
+      "sellPrice": 44,
+      "buyPrice": 55
+    },
+	{
+      "id": 11885,
+      "amount": 800,
+      "sellPrice": 4400,
+      "buyPrice": 5500
+    },
+	{
+      "id": 11876,
+      "amount": 5000,
+      "sellPrice": 44,
+      "buyPrice": 55
+    },
+	{
+      "id": 11887,
+      "amount": 1000,
+      "sellPrice": 4400,
+      "buyPrice": 5500
+    },
+	{
+      "id": 21754,
+      "amount": 5000,
+      "sellPrice": 160,
+      "buyPrice": 200
+    },
+    {
+      "id": 23037,
+      "amount": 100,
+      "sellPrice": 160,
+      "buyPrice": 200
+    }
+]
+}

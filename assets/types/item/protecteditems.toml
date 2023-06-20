@@ -1,0 +1,53 @@
+# Fire Cape (Protected)
+[[item]]
+inherit=6570
+id=30425
+name="Fire Cape(P)"
+
+# Infernal Cape
+[[item]]
+inherit=21295
+id=30426
+name="Infernal Cape(P)"
+
+# Ava's Assembler
+[[item]]
+inherit=22109
+id=30427
+name="Ava's Assembler(P)"
+
+# Imbued Guthix Cape
+[[item]]
+inherit=21793
+id=30428
+name="Imbued Guthix Cape(P)"
+
+# Imbued Saradomin Cape
+[[item]]
+inherit=21791
+id=30429
+name="Imbued Saradomin Cape(P)"
+
+# Imbued Zamorak Cape
+[[item]]
+inherit=21795
+id=30430
+name="Imbued Zamorak Cape(P)"
+
+# Fire Max Cape
+[[item]]
+inherit=13329
+id=30431
+name="Fire Max Cape(P)"
+
+# Infernal Max Cape
+[[item]]
+inherit=21285
+id=30432
+name="Infernal Max Cape(P)"
+
+# Assembler Max Cape
+[[item]]
+inherit=21898
+id=30433
+name="Assembler Max Cape(P)"

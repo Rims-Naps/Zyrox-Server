@@ -1,0 +1,57 @@
+{
+  "shopUID": 237,
+  "shopName": "Bandit Duty Free",
+  "currency": "COINS",
+  "sellPolicy": "CAN_SELL",
+  "sellMultiplier": 0.6,
+  "items": [
+    {
+      "id": 1931,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1935,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 20742,
+      "amount": 5,
+      "sellPrice": 84,
+      "buyPrice": 126
+    },
+    {
+      "id": 590,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1755,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 2347,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1265,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1351,
+      "amount": 10,
+      "sellPrice": 10,
+      "buyPrice": 14
+    }
+  ]
+}

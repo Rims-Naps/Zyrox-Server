@@ -1,0 +1,62 @@
+{
+  "shopUID": 215,
+  "shopName": "Leenz's General Supplies",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1931,
+      "amount": 50000,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1935,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 20742,
+      "amount": 6,
+      "sellPrice": -1,
+      "buyPrice": 154
+    },
+    {
+      "id": 1925,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1923,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 4
+    },
+    {
+      "id": 590,
+      "amount": 2,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 2347,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 4819,
+      "amount": 500,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 4820,
+      "amount": 500,
+      "sellPrice": 1,
+      "buyPrice": 4
+    }
+  ]
+}

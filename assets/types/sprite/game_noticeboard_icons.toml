@@ -1,0 +1,53 @@
+# Website icon
+[[sprite]]
+id=2501
+width=13
+height=13
+
+[sprite.images]
+0="game_noticeboard/website_icon.png"
+
+# Forums icon
+[[sprite]]
+id=2502
+width=13
+height=13
+
+[sprite.images]
+0="game_noticeboard/forums_icon.png"
+
+# Discord icon
+[[sprite]]
+id=2503
+width=13
+height=13
+
+[sprite.images]
+0="game_noticeboard/discord_icon.png"
+
+# Store icon
+[[sprite]]
+id=2504
+width=13
+height=13
+
+[sprite.images]
+0="game_noticeboard/store_icon.png"
+
+# Game settings icon
+[[sprite]]
+id=2505
+width=13
+height=13
+
+[sprite.images]
+0="game_noticeboard/game_settings_icon.png"
+
+# Daily challenges icon
+[[sprite]]
+id=2506
+width=13
+height=13
+
+[sprite.images]
+0="game_noticeboard/daily_challenges_icon.png"

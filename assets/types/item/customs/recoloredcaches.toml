@@ -1,0 +1,39 @@
+# Blue cache
+[[item]]
+id=32319
+inherit=8414
+name="Blue cache"
+originalcolours=[4510,4502,7093,8128]
+replacementcolours=[-26679,-26794,-26881,-25985]
+placeholderid=32320
+price=1
+grandexchange=false
+op1="Open"
+
+# Blue cache placeholder
+[[item]]
+id=32320
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32319
+
+# Red cache
+[[item]]
+id=32321
+inherit=8414
+name="Red cache"
+originalcolours=[4510,4502,7093,8128]
+replacementcolours=[412,420,268,275]
+placeholderid=32322
+price=1
+grandexchange=false
+op1="Open"
+
+# Red cache placeholder
+[[item]]
+id=32322
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32321

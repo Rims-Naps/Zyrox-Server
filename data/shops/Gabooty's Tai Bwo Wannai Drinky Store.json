@@ -1,0 +1,44 @@
+{
+  "shopUID": 110,
+  "shopName": "Gabooty's Tai Bwo Wannai Drinky Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 2084,
+      "amount": 0,
+      "sellPrice": 10,
+      "buyPrice": 30
+    },
+    {
+      "id": 2092,
+      "amount": 0,
+      "sellPrice": 10,
+      "buyPrice": 30
+    },
+    {
+      "id": 2048,
+      "amount": 0,
+      "sellPrice": 10,
+      "buyPrice": 30
+    },
+    {
+      "id": 2054,
+      "amount": 0,
+      "sellPrice": 10,
+      "buyPrice": 30
+    },
+    {
+      "id": 2064,
+      "amount": 0,
+      "sellPrice": 10,
+      "buyPrice": 30
+    },
+    {
+      "id": 2074,
+      "amount": 0,
+      "sellPrice": 10,
+      "buyPrice": 30
+    }
+  ]
+}

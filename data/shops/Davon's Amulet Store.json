@@ -1,0 +1,38 @@
+{
+  "shopUID": 101,
+  "shopName": "Davon's Amulet Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1718,
+      "amount": 0,
+      "sellPrice": 225,
+      "buyPrice": 360
+    },
+    {
+      "id": 1727,
+      "amount": 0,
+      "sellPrice": 675,
+      "buyPrice": 1080
+    },
+    {
+      "id": 1729,
+      "amount": 0,
+      "sellPrice": 956,
+      "buyPrice": 1530
+    },
+    {
+      "id": 1725,
+      "amount": 0,
+      "sellPrice": 1518,
+      "buyPrice": 2430
+    },
+    {
+      "id": 1731,
+      "amount": 0,
+      "sellPrice": 2643,
+      "buyPrice": 4230
+    }
+  ]
+}

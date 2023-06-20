@@ -1,0 +1,68 @@
+{
+  "shopUID": 216,
+  "shopName": "Tynan's Fishing Supplies",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1925,
+      "amount": 1000,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 303,
+      "amount": 5,
+      "sellPrice": 3,
+      "buyPrice": 5
+    },
+    {
+      "id": 305,
+      "amount": 5,
+      "sellPrice": 14,
+      "buyPrice": 20
+    },
+    {
+      "id": 307,
+      "amount": 5,
+      "sellPrice": 4,
+      "buyPrice": 5
+    },
+    {
+      "id": 311,
+      "amount": 2,
+      "sellPrice": 3,
+      "buyPrice": 5
+    },
+    {
+      "id": 301,
+      "amount": 2,
+      "sellPrice": 14,
+      "buyPrice": 20
+    },
+    {
+      "id": 313,
+      "amount": 1200,
+      "sellPrice": 2,
+      "buyPrice": 3
+    },
+    {
+      "id": 13431,
+      "amount": 500,
+      "sellPrice": 76,
+      "buyPrice": 90
+    },
+    {
+      "id": 11883,
+      "amount": 80,
+      "sellPrice": 210,
+      "buyPrice": 300
+    },
+    {
+      "id": 13432,
+      "amount": 50,
+      "sellPrice": 7650,
+      "buyPrice": 9000
+    }
+  ]
+}

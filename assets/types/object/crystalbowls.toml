@@ -1,0 +1,22 @@
+# CRYSTAL BOWL ARMOUR
+[[object]]
+inherit=17239
+id=40006
+name="Singing bowl (armour)"
+
+
+
+# Larran Chest OPEN
+[[object]]
+inherit=17239
+id=40007
+name="Singing bowl (weapons)"
+
+
+# Larran Chest OPEN
+[[object]]
+inherit=17239
+id=40008
+name="Singing bowl (tools)"
+
+

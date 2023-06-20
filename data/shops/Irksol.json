@@ -1,0 +1,13 @@
+{
+  "shopName": "Irksol",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1641,
+      "amount": 5,
+      "sellPrice": 748,
+      "buyPrice": 1012
+    }
+  ]
+}

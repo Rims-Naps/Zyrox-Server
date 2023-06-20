@@ -1,0 +1,78 @@
+{
+  "shopName": "Jackie's Jewellery Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+	//acc
+      "id": 1478,
+      "amount": 100,
+      "sellPrice": 1287,
+      "buyPrice": 3280
+    },
+	{
+	//gold
+      "id": 1692,
+      "amount": 100,
+      "sellPrice": 238,
+      "buyPrice": 1270,
+      "ironmanRestricted": true
+    },
+	{
+	//str
+      "id": 1725,
+      "amount": 100,
+      "sellPrice": 555,
+      "buyPrice": 1820,
+      "ironmanRestricted": true
+    },
+	{
+	//magic
+      "id": 1727,
+      "amount": 100,
+      "sellPrice": 580,
+      "buyPrice": 1890,
+      "ironmanRestricted": true
+    },
+	{
+	//def
+      "id": 1729,
+      "amount": 100,
+      "sellPrice": 568,
+      "buyPrice": 1800,
+      "ironmanRestricted": true
+    },
+	{
+	//power
+      "id": 1731,
+      "amount": 100,
+      "sellPrice": 872,
+      "buyPrice": 2870,
+      "ironmanRestricted": true
+    },
+	{
+	//glory
+      "id": 1712,
+      "amount": 100,
+      "sellPrice": 10274,
+      "buyPrice": 87052,
+      "ironmanRestricted": true
+    },
+    {
+      //ring of dueling
+      "id": 2552,
+      "amount": 100,
+      "sellPrice": 1500,
+      "buyPrice": 3000,
+      "ironmanRestricted": true
+    },
+    {
+      //games necklace
+      "id": 3853,
+      "amount": 100,
+      "sellPrice": 1500,
+      "buyPrice": 3000,
+      "ironmanRestricted": true
+    }
+  ]
+}

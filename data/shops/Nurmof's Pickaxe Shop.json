@@ -1,0 +1,44 @@
+{
+  "shopUID": 7,
+  "shopName": "Nurmof's Pickaxe Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1265,
+      "amount": 6,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1267,
+      "amount": 5,
+      "sellPrice": 84,
+      "buyPrice": 140
+    },
+    {
+      "id": 1269,
+      "amount": 4,
+      "sellPrice": 300,
+      "buyPrice": 500
+    },
+    {
+      "id": 1273,
+      "amount": 3,
+      "sellPrice": 780,
+      "buyPrice": 1300
+    },
+    {
+      "id": 1271,
+      "amount": 2,
+      "sellPrice": 1920,
+      "buyPrice": 3200
+    },
+    {
+      "id": 1275,
+      "amount": 1,
+      "sellPrice": 19200,
+      "buyPrice": 32000
+    }
+  ]
+}

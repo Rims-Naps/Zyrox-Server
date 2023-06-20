@@ -1,0 +1,44 @@
+{
+  "shopUID": 225,
+  "shopName": "Oobapohk's Javelin Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 825,
+      "amount": 500,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 826,
+      "amount": 500,
+      "sellPrice": 3,
+      "buyPrice": 6
+    },
+    {
+      "id": 827,
+      "amount": 500,
+      "sellPrice": 14,
+      "buyPrice": 24
+    },
+    {
+      "id": 828,
+      "amount": 500,
+      "sellPrice": 38,
+      "buyPrice": 64
+    },
+    {
+      "id": 829,
+      "amount": 500,
+      "sellPrice": 96,
+      "buyPrice": 160
+    },
+    {
+      "id": 830,
+      "amount": 500,
+      "sellPrice": 240,
+      "buyPrice": 400
+    }
+  ]
+}

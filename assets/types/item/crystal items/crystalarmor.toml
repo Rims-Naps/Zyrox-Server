@@ -1,0 +1,659 @@
+# Crystal Helmet
+[[item]]
+id=30580
+inherit=1163
+name="Crystal helm"
+placeholderid=30581
+invmodel=50272
+primarymalemodel=50275
+primaryfemalemodel=50267
+secondarymalemodel=50275
+secondaryfemalemodel=-1
+op3="Revert"
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=716
+modelpitch=157
+modelroll=103
+offsetx=0
+offsety=3
+modelyaw=13
+
+# Crystal Helmet Placeholder
+[[item]]
+id=30581
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30580
+invmodel=50272
+
+# Crystal body
+[[item]]
+id=30582
+inherit=1127
+name="Crystal body"
+placeholderid=30583
+invmodel=50274
+primarymalemodel=50266
+primaryfemalemodel=50269
+secondarymalemodel=50266
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1284
+modelpitch=488
+modelroll=0
+offsetx=-1
+offsety=5
+modelyaw=0
+
+# Crystal body Placeholder
+[[item]]
+id=30583
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30582
+invmodel=50274
+
+# Crystal legs
+[[item]]
+id=30584
+inherit=1079
+name="Crystal legs"
+placeholderid=30585
+invmodel=50273
+primarymalemodel=50265
+primaryfemalemodel=50268
+secondarymalemodel=50265
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2168
+modelpitch=444
+modelroll=0
+offsetx=0
+offsety=0
+modelyaw=0
+
+# Crystal legs Placeholder
+[[item]]
+id=30585
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30584
+invmodel=50274
+
+# Crystal Helmet 100
+[[item]]
+id=30724
+inherit=1163
+name="Crystal helm (100%)"
+placeholderid=30725
+invmodel=50272
+primarymalemodel=50275
+primaryfemalemodel=50267
+secondarymalemodel=50275
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=716
+modelpitch=157
+modelroll=103
+offsetx=0
+offsety=3
+modelyaw=13
+
+# Crystal Helmet Placeholder
+[[item]]
+id=30725
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30724
+invmodel=50272
+
+# Crystal Helmet 50
+[[item]]
+id=30726
+inherit=1163
+name="Crystal helm (50%)"
+placeholderid=30727
+invmodel=50272
+primarymalemodel=50275
+primaryfemalemodel=50267
+secondarymalemodel=50275
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=716
+modelpitch=157
+modelroll=103
+offsetx=0
+offsety=3
+modelyaw=13
+
+# Crystal Helmet Placeholder
+[[item]]
+id=30727
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30726
+invmodel=50272
+
+# Crystal Helmet inactive
+[[item]]
+id=30728
+inherit=1163
+name="Crystal helm inactive"
+placeholderid=30729
+invmodel=50272
+primarymalemodel=50275
+primaryfemalemodel=50267
+secondarymalemodel=50275
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=716
+modelpitch=157
+modelroll=103
+offsetx=0
+offsety=3
+modelyaw=13
+
+# Crystal Helmet Placeholder
+[[item]]
+id=30729
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30728
+invmodel=50272
+
+# Crystal body 100
+[[item]]
+id=30730
+inherit=1127
+name="Crystal body (100%)"
+placeholderid=30731
+invmodel=50274
+primarymalemodel=50266
+primaryfemalemodel=50269
+secondarymalemodel=50266
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1284
+modelpitch=488
+modelroll=0
+offsetx=-1
+offsety=5
+modelyaw=0
+
+# Crystal body 100 Placeholder
+[[item]]
+id=30731
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30730
+invmodel=50274
+
+# Crystal body 50
+[[item]]
+id=30732
+inherit=1127
+name="Crystal body (50%)"
+placeholderid=30733
+invmodel=50274
+primarymalemodel=50266
+primaryfemalemodel=50269
+secondarymalemodel=50266
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1284
+modelpitch=488
+modelroll=0
+offsetx=-1
+offsety=5
+modelyaw=0
+
+# Crystal body 50 Placeholder
+[[item]]
+id=30733
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30732
+invmodel=50274
+
+# Crystal body 50
+[[item]]
+id=30734
+inherit=1127
+name="Crystal body inactive"
+placeholderid=30735
+invmodel=50274
+primarymalemodel=50266
+primaryfemalemodel=50269
+secondarymalemodel=50266
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1284
+modelpitch=488
+modelroll=0
+offsetx=-1
+offsety=5
+modelyaw=0
+
+# Crystal body Inactive Placeholder
+[[item]]
+id=30735
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30734
+invmodel=50274
+
+# Crystal legs 100
+[[item]]
+id=30736
+inherit=1079
+name="Crystal legs (100%)"
+placeholderid=30737
+invmodel=50273
+primarymalemodel=50265
+primaryfemalemodel=50268
+secondarymalemodel=50265
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2168
+modelpitch=444
+modelroll=0
+offsetx=0
+offsety=0
+modelyaw=0
+
+# Crystal legs 100 Placeholder
+[[item]]
+id=30737
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30736
+invmodel=50274
+
+# Crystal legs 50
+[[item]]
+id=30738
+inherit=1079
+name="Crystal legs (50%)"
+placeholderid=30739
+invmodel=50273
+primarymalemodel=50265
+primaryfemalemodel=50268
+secondarymalemodel=50265
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2168
+modelpitch=444
+modelroll=0
+offsetx=0
+offsety=0
+modelyaw=0
+
+# Crystal legs 50 Placeholder
+[[item]]
+id=30739
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30738
+invmodel=50274
+
+# Crystal legs 25
+[[item]]
+id=30740
+inherit=1079
+name="Crystal legs inactive"
+placeholderid=30741
+invmodel=50273
+primarymalemodel=50265
+primaryfemalemodel=50268
+secondarymalemodel=50265
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2168
+modelpitch=444
+modelroll=0
+offsetx=0
+offsety=0
+modelyaw=0
+
+# Crystal legs 25 Placeholder
+[[item]]
+id=30741
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30740
+invmodel=50274
+
+
+# Crystal Helmet Blueprint
+[[item]]
+id=30792
+inherit=2403
+name="Crystal helmet blueprint"
+placeholderid=30793
+
+# Crystal Helmet  Placeholder
+[[item]]
+id=30793
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30792
+
+# Crystal Body Blueprint
+[[item]]
+id=30794
+inherit=2403
+name="Crystal body blueprint"
+placeholderid=30795
+
+# Crystal Body Placeholder
+[[item]]
+id=30795
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30794
+
+# Crystal Legs Blueprint
+[[item]]
+id=30796
+inherit=2403
+name="Crystal legs blueprint"
+placeholderid=30797
+
+# Crystal Legs Placeholder
+[[item]]
+id=30797
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30796
+
+# Crystal Pickaxe Blueprint
+[[item]]
+id=30798
+inherit=2403
+name="Crystal pickaxe blueprint"
+placeholderid=30799
+
+# Crystal Pickaxe Placeholder
+[[item]]
+id=30799
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30798
+
+# Crystal Hatchet Blueprint
+[[item]]
+id=30800
+inherit=2403
+name="Crystal hatchet blueprint"
+placeholderid=30801
+
+# Crystal Hatcket Placeholder
+[[item]]
+id=30801
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30800
+
+# Crystal harpoon Blueprint
+[[item]]
+id=30802
+inherit=2403
+name="Crystal harpoon blueprint"
+placeholderid=30803
+
+# Crystal harpoon Placeholder
+[[item]]
+id=30803
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30802
+
+# Crystal Armour Seed
+[[item]]
+id=30804
+inherit=4211
+name="Crystal armour seed"
+placeholderid=30805
+grandexchange=true
+invmodel=50790
+zoom=1032
+modelpitch=486
+modelroll=449
+offsetx=4
+offsety=4
+
+# Crystal Armour Seed Placeholder
+[[item]]
+id=30805
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30804
+
+# Crystal Tool Seed
+[[item]]
+id=30806
+inherit=4211
+name="Crystal tool seed"
+placeholderid=30807
+grandexchange=true
+invmodel=50791
+zoom=1032
+modelpitch=81
+modelroll=1441
+offsetx=0
+offsety=0
+
+# Crystal Tool Seed Placeholder
+[[item]]
+id=30807
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30806
+
+
+# Crystal Key Enchantment
+[[item]]
+id=32012
+inherit=20609
+name="Crystal key enchantment"
+placeholderid=32013
+grandexchange=false
+
+# Crystal Key Enchantment  Placeholder
+[[item]]
+id=32013
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32012
+
+# Raw Paddlefish
+[[item]]
+id=32020
+inherit=371
+name="Raw paddlefish"
+placeholderid=32021
+invmodel=50343
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=-32022
+
+# Raw Paddlefish Placeholder
+[[item]]
+id=32021
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32020
+invmodel=50343
+
+# Raw Paddlefish Note
+[[item]]
+inherit=371
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=32020
+id=32022
+
+# Cooked Paddlefish
+[[item]]
+id=32023
+inherit=373
+name="Paddlefish"
+placeholderid=32024
+invmodel=50344
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op1="Eat"
+grandexchange=false
+notedid=-32025
+
+# Paddlefish Placeholder
+[[item]]
+id=32024
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32023
+invmodel=50344
+
+# Paddlefish Note
+[[item]]
+inherit=373
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=32023
+id=32025
+
+# Burnt fish
+[[item]]
+id=32026
+inherit=375
+name="Burnt fish"
+placeholderid=32027
+invmodel=50346
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op1=-1
+grandexchange=false
+notedid=-32028
+
+# Paddlefish Placeholder
+[[item]]
+id=32027
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32026
+invmodel=50346
+
+# Paddlefish Note
+[[item]]
+inherit=375
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=32026
+id=32028
+
+
+##Recharging Orb
+[[item]]
+id=32100
+inherit=1481
+name="Recharging orb"
+placeholderid=32101
+grandexchange=true
+notedid=-1
+
+# Recharging Orb Placeholder
+[[item]]
+id=32101
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32100

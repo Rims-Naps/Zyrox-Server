@@ -1,0 +1,74 @@
+{
+  "shopUID": 170,
+  "shopName": "General Store (Canifis)",
+  "currency": "COINS",
+  "sellPolicy": "CAN_SELL",
+  "items": [
+    {
+      "id": 1733,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1734,
+      "amount": 50,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1931,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1925,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 4
+    },
+    {
+      "id": 1935,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 20742,
+      "amount": 6,
+      "sellPrice": -1,
+      "buyPrice": 280
+    },
+    {
+      "id": 590,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1755,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 2347,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 3377,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 10
+    },
+    {
+      "id": 946,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 12
+    }
+  ]
+}

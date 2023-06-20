@@ -1,0 +1,188 @@
+{
+  "shopUID": 109,
+  "shopName": "Gabooty's Tai Bwo Wannai Cooperative",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 6341,
+      "amount": 50,
+      "sellPrice": 100,
+      "buyPrice": -1
+    },
+    {
+      "id": 6343,
+      "amount": 50,
+      "sellPrice": 83,
+      "buyPrice": -1
+    },
+    {
+      "id": 6345,
+      "amount": 50,
+      "sellPrice": 66,
+      "buyPrice": -1
+    },
+    {
+      "id": 6349,
+      "amount": 50,
+      "sellPrice": 33,
+      "buyPrice": -1
+    },
+    {
+      "id": 6347,
+      "amount": 50,
+      "sellPrice": 50,
+      "buyPrice": -1
+    },
+    {
+      "id": 6313,
+      "amount": 50,
+      "sellPrice": 150,
+      "buyPrice": -1
+    },
+    {
+      "id": 6315,
+      "amount": 50,
+      "sellPrice": 333,
+      "buyPrice": -1
+    },
+    {
+      "id": 6317,
+      "amount": 50,
+      "sellPrice": 600,
+      "buyPrice": -1
+    },
+    {
+      "id": 6351,
+      "amount": 50,
+      "sellPrice": 100,
+      "buyPrice": -1
+    },
+    {
+      "id": 6353,
+      "amount": 50,
+      "sellPrice": 83,
+      "buyPrice": 250
+    },
+    {
+      "id": 6355,
+      "amount": 50,
+      "sellPrice": 66,
+      "buyPrice": -1
+    },
+    {
+      "id": 6357,
+      "amount": 50,
+      "sellPrice": 33,
+      "buyPrice": -1
+    },
+    {
+      "id": 6359,
+      "amount": 50,
+      "sellPrice": 50,
+      "buyPrice": -1
+    },
+    {
+      "id": 1625,
+      "amount": 0,
+      "sellPrice": 12,
+      "buyPrice": -1
+    },
+    {
+      "id": 1627,
+      "amount": 0,
+      "sellPrice": 18,
+      "buyPrice": -1
+    },
+    {
+      "id": 1629,
+      "amount": 0,
+      "sellPrice": 24,
+      "buyPrice": -1
+    },
+    {
+      "id": 6361,
+      "amount": 50,
+      "sellPrice": 100,
+      "buyPrice": -1
+    },
+    {
+      "id": 6363,
+      "amount": 50,
+      "sellPrice": 83,
+      "buyPrice": 250
+    },
+    {
+      "id": 6365,
+      "amount": 50,
+      "sellPrice": 66,
+      "buyPrice": -1
+    },
+    {
+      "id": 6367,
+      "amount": 50,
+      "sellPrice": 33,
+      "buyPrice": -1
+    },
+    {
+      "id": 6369,
+      "amount": 50,
+      "sellPrice": 50,
+      "buyPrice": -1
+    },
+    {
+      "id": 1609,
+      "amount": 0,
+      "sellPrice": 60,
+      "buyPrice": -1
+    },
+    {
+      "id": 1611,
+      "amount": 0,
+      "sellPrice": 90,
+      "buyPrice": -1
+    },
+    {
+      "id": 1613,
+      "amount": 0,
+      "sellPrice": 120,
+      "buyPrice": -1
+    },
+    {
+      "id": 6371,
+      "amount": 50,
+      "sellPrice": 100,
+      "buyPrice": -1
+    },
+    {
+      "id": 6373,
+      "amount": 50,
+      "sellPrice": 83,
+      "buyPrice": 250
+    },
+    {
+      "id": 6375,
+      "amount": 50,
+      "sellPrice": 66,
+      "buyPrice": -1
+    },
+    {
+      "id": 6377,
+      "amount": 50,
+      "sellPrice": 33,
+      "buyPrice": -1
+    },
+    {
+      "id": 6379,
+      "amount": 50,
+      "sellPrice": 50,
+      "buyPrice": -1
+    },
+    {
+      "id": 6311,
+      "amount": 0,
+      "sellPrice": 60,
+      "buyPrice": -1
+    }
+  ]
+}

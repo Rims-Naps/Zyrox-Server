@@ -1,0 +1,70 @@
+# Item retrieval service names
+[[enum]]
+id=1753
+keytype="int"
+valuetype="string"
+default="Item Retrieval Service"
+
+[enum.values]
+0="Zul-Gwenwynig's Item Retrieval Service"
+1="Petrified Pete's Item Retrieval Service"
+2="Petrified Pete's Item Retrieval Service"
+3="Magical chest of Item Retrieval"
+4="Magical chest of Item Retrieval"
+5="Torfinn's Item Retrieval Service"
+6="Torfinn's Item Retrieval Service"
+7="Lunar Item Retrieval Service"
+8="Lunar Item Retrieval Service"
+9="Theatre of Blood Item Retrieval Service"
+10="Theatre of Blood Item Retrieval Service"
+11="Theatre of Blood Item Retrieval Service"
+12="Theatre of Blood Item Retrieval Service"
+13="Orrvor quo Maten's Item Retrieval Service"
+14="Orrvor quo Maten's Item Retrieval Service"
+15="Arno's Item Retrieval Service"
+16="Arno's Item Retrieval Service"
+17="Things the Mimic rejected"
+18="Things the Mimic rejected"
+100="Dying Knight's salvage"
+101="Dying Knight's salvage"
+102="Hagavik's Item Retrieval Service"
+103="Hagavik's Item Retrieval Service"
+
+# Item retrieval service currency
+[[enum]]
+id=1756
+keytype="int"
+valuetype="namedobj"
+
+[enum.values]
+1=21555
+3=995
+5=995
+7=995
+9=995
+11=995
+13=995
+15=995
+17=995
+100=995
+102=995
+
+# Item retrieval service cost
+[[enum]]
+id=1757
+keytype="int"
+valuetype="int"
+default=0
+
+[enum.values]
+1=150
+3=50000
+5=100000
+7=100000
+9=20000
+11=100000
+13=100000
+15=25000
+17=90000
+100=1500000
+102=100000

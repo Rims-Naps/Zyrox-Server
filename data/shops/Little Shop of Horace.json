@@ -1,0 +1,110 @@
+{
+  "shopUID": 205,
+  "shopName": "Little Shop of Horace",
+  "currency": "COINS",
+  "sellPolicy": "CAN_SELL",
+  "items": [
+    {
+      "id": 227,
+      "amount": 60,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 11879,
+      "amount": 30,
+      "sellPrice": 196,
+      "buyPrice": 251
+    },
+    {
+      "id": 1931,
+      "amount": 30,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1935,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 20742,
+      "amount": 6,
+      "sellPrice": -1,
+      "buyPrice": 175
+    },
+    {
+      "id": 1925,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1923,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 5
+    },
+    {
+      "id": 975,
+      "amount": 1,
+      "sellPrice": 28,
+      "buyPrice": 50
+    },
+    {
+      "id": 1735,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 954,
+      "amount": 30,
+      "sellPrice": 12,
+      "buyPrice": 22
+    },
+    {
+      "id": 590,
+      "amount": 2,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 952,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 3
+    },
+    {
+      "id": 1759,
+      "amount": 30,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 1755,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 2347,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1733,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1734,
+      "amount": 40,
+      "sellPrice": 0,
+      "buyPrice": 1
+    }
+  ]
+}

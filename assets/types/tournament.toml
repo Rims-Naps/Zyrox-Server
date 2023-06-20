@@ -1,0 +1,122 @@
+# Rune Pouch
+[[item]]
+id=30006
+inherit=12791
+name="Tournament Rune Pouch"
+
+# Tournament Guard
+[[npc]]
+id=10011
+inherit=3434
+name="Tournament Guard"
+combatlevel=0
+op2=""
+op3="Spectate"
+
+# Tournament Guard
+[[npc]]
+id=10012
+inherit=3434
+name="Tournament Guard"
+combatlevel=0
+op2=""
+op3="View Tournaments"
+
+# Tournament Portal
+[[object]]
+inherit=12355
+name="Tournament Portal"
+op1="View Tournaments"
+
+# Tournament Barrier
+[[object]]
+id=35005
+inherit=32457
+name="Tournament Barrier"
+
+# Tournament Supplies (North-East)
+[[object]]
+id=35006
+inherit=31583
+name="Tournament Supplies"
+models=[38001]
+op1="View"
+offsetx=-78
+offsety=-78
+
+# Tournament Supplies (North-West)
+[[object]]
+id = 35007
+inherit = 31583
+name = "Tournament Supplies"
+models = [38001]
+op1 = "View"
+offsety = -78
+offsetx = -43
+
+# Tournament equipment slots
+# commented out as it breaks eco-presets
+#[[enum]]
+#id=2520
+#keytype="int"
+#valuetype="component"
+#default=-1
+#
+#[enum.values]
+#0=46333965
+#1=46333966
+#2=46333967
+#3=46333968
+#4=46333969
+#5=46333970
+#7=46333971
+#9=46333972
+#10=46333973
+#12=46333974
+#13=46333975
+
+# Tournament supplies
+[[enum]]
+id = 2522
+keytype = "int"
+valuetype = "namedobj"
+default = -1
+
+[enum.values]
+0 = 565
+1=560
+2=9075
+3=557
+4=555
+5=562
+6=566
+7=554
+8=556
+9=561
+10=563
+11=564
+12=21880
+13=3144
+14=385
+15=391
+16=397
+17=13441
+18=11936
+19=6685
+20=10925
+21=3024
+22=2434
+23=2440
+24=2442
+25=2436
+26=12695
+27=2444
+28=3040
+29=4417
+30=11090
+31=2550
+32=5698
+33=4153
+34=10887
+35=11802
+36=20784

@@ -1,0 +1,32 @@
+{
+  "shopUID": 128,
+  "shopName": "Zeke's Superior Scimitars",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1321,
+      "amount": 5,
+      "sellPrice": 17,
+      "buyPrice": 32
+    },
+    {
+      "id": 1323,
+      "amount": 3,
+      "sellPrice": 61,
+      "buyPrice": 112
+    },
+    {
+      "id": 1325,
+      "amount": 2,
+      "sellPrice": 220,
+      "buyPrice": 400
+    },
+    {
+      "id": 1329,
+      "amount": 1,
+      "sellPrice": 572,
+      "buyPrice": 1040
+    }
+  ]
+}

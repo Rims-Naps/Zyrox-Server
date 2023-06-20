@@ -1,0 +1,80 @@
+{
+  "shopUID": 220,
+  "shopName": "Briget's Armour",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1103,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 60
+    },
+    {
+      "id": 1101,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 210
+    },
+    {
+      "id": 1105,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 750
+    },
+    {
+      "id": 1075,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 80
+    },
+    {
+      "id": 1067,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 280
+    },
+    {
+      "id": 1069,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 1000
+    },
+    {
+      "id": 1087,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 80
+    },
+    {
+      "id": 1081,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 280
+    },
+    {
+      "id": 1083,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 1000
+    },
+    {
+      "id": 1139,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 24
+    },
+    {
+      "id": 1137,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 84
+    },
+    {
+      "id": 1141,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 300
+    }
+  ]
+}

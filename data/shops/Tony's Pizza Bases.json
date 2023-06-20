@@ -1,0 +1,14 @@
+{
+  "shopUID": 250,
+  "shopName": "Tony's Pizza Bases",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 2283,
+      "amount": 30,
+      "sellPrice": 2,
+      "buyPrice": 4
+    }
+  ]
+}

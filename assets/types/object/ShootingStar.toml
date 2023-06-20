@@ -1,0 +1,44 @@
+# Shooting Star #1
+[[object]]
+inherit=10827
+id=40040
+models=[50500]
+name="Shooting Star"
+op1="Mine Star"
+op2=""
+op3=""
+op4=""
+
+
+# Shooting Star #2
+[[object]]
+inherit=10827
+id=40041
+models=[50501]
+name="Shooting Star"
+op1="Mine Star"
+op2=""
+op3=""
+op4=""
+
+# Shooting Star #3
+[[object]]
+inherit=10827
+id=40042
+models=[50502]
+name="Shooting Star"
+op1="Mine Star"
+op2=""
+op3=""
+op4=""
+
+# Shooting Star #3
+[[object]]
+inherit=10827
+id=40043
+models=[50503]
+name="Empty Star"
+op1=""
+op2=""
+op3=""
+op4=""

@@ -1,0 +1,14 @@
+{
+  "shopUID": 168,
+  "shopName": "Ye Olde Tea Shoppe",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1978,
+      "amount": 20,
+      "sellPrice": 6,
+      "buyPrice": 10
+    }
+  ]
+}

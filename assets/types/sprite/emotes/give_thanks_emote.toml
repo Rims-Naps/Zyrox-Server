@@ -1,0 +1,17 @@
+# Give thanks lit
+[[sprite]]
+id=2509
+width=48
+height=48
+
+[sprite.images]
+0="emotes/give_thanks_lit.png"
+
+# Give thanks unlit
+[[sprite]]
+id=2510
+width=48
+height=48
+
+[sprite.images]
+0="emotes/give_thanks_unlit.png"

@@ -1,0 +1,18 @@
+# Mod crowns
+[sprite]
+inherit=423
+
+[sprite.images]
+4="chat_icons/ranks/in-game/support.png"
+5="chat_icons/ranks/in-game/global_mod.png"
+6="chat_icons/ranks/in-game/forum_mod.png"
+7="chat_icons/ranks/in-game/youtuber.png"
+13="chat_icons/announcement.png"
+14="chat_icons/ranks/in-game/sapphire.png"
+15="chat_icons/ranks/in-game/emerald.png"
+16="chat_icons/ranks/in-game/ruby.png"
+17="chat_icons/ranks/in-game/diamond.png"
+18="chat_icons/ranks/in-game/dragonstone.png"
+19="chat_icons/ranks/in-game/onyx.png"
+20="chat_icons/ranks/in-game/zenyte.png"
+21="chat_icons/ranks/in-game/booster.png"

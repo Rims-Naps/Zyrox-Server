@@ -1,0 +1,154 @@
+{
+  "shopUID": 1300,
+  "shopName": "Wilderness Merchant Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "sellMultiplier": 0.7,
+  "items": [
+    {
+
+      "id": 48,
+      "amount": 0,
+      "sellPrice": 30,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id": 56,
+      "amount": 0,
+      "sellPrice": 40,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id": 58,
+      "amount": 0,
+      "sellPrice": 85,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id": 62,
+      "amount": 0,
+      "sellPrice": 180,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id":66,
+      "amount": 0,
+      "sellPrice": 360,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id":70,
+      "amount": 0,
+      "sellPrice": 750,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+      "id": 1635,
+      "amount": 0,
+      "sellPrice": 200,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id": 4699,
+      "amount": 0,
+      "sellPrice": 50,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id": 10033,
+      "amount": 0,
+      "sellPrice": 50,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id": 10034,
+      "amount": 0,
+      "sellPrice": 125,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id": 2428,
+      "amount": 0,
+      "sellPrice": 10,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id": 2446,
+      "amount": 0,
+      "sellPrice": 200,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id": 113,
+      "amount": 0,
+      "sellPrice": 10,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id": 2430,
+      "amount": 0,
+      "sellPrice": 60,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id": 3008,
+      "amount": 0,
+      "sellPrice": 80,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+
+    },
+    {
+
+      "id": 2432,
+      "amount": 0,
+      "sellPrice": 85,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+
+      "id": 3032,
+      "amount": 0,
+      "sellPrice": 110,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+    },
+    {
+      // combat potion
+      "id": 9739,
+      "amount": 0,
+      "sellPrice": 120,
+      "buyPrice": 50000,
+      "restockTimer": 10000
+
+    }
+  ]
+}

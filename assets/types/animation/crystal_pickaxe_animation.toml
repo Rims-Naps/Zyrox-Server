@@ -1,0 +1,11 @@
+# Crystal pickaxe animation 1
+[[animation]]
+id=10003
+inherit=4482
+righthanditem=30742
+
+# Crystal pickaxe animation 2
+[[animation]]
+id=10004
+inherit=4481
+righthanditem=30742

@@ -1,0 +1,44 @@
+{
+  "shopUID": 14,
+  "shopName": "Wayne's Chains - Chainmail Specialist",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1103,
+      "amount": 3,
+      "sellPrice": 39,
+      "buyPrice": 60
+    },
+    {
+      "id": 1101,
+      "amount": 2,
+      "sellPrice": 136,
+      "buyPrice": 210
+    },
+    {
+      "id": 1105,
+      "amount": 1,
+      "sellPrice": 487,
+      "buyPrice": 750
+    },
+    {
+      "id": 1107,
+      "amount": 1,
+      "sellPrice": 936,
+      "buyPrice": 1440
+    },
+    {
+      "id": 1109,
+      "amount": 1,
+      "sellPrice": 1267,
+      "buyPrice": 1950
+    },
+    {
+      "id": 1111,
+      "amount": 1,
+      "sellPrice": 3120,
+      "buyPrice": 4800
+    }
+  ]
+}

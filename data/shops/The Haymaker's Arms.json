@@ -1,0 +1,32 @@
+{
+  "shopUID": 204,
+  "shopName": "The Haymaker's Arms",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1917,
+      "amount": 10,
+      "sellPrice": -1,
+      "buyPrice": 2
+    },
+    {
+      "id": 5763,
+      "amount": 10,
+      "sellPrice": -1,
+      "buyPrice": 2
+    },
+    {
+      "id": 1993,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 1
+    },
+    {
+      "id": 712,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 10
+    }
+  ]
+}

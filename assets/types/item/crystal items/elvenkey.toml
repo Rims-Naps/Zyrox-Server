@@ -1,0 +1,39 @@
+# Enhanced crystal key
+[[item]]
+id=30588
+inherit=788
+name="Enhanced crystal key"
+placeholderid=30589
+invmodel=50291
+grandexchange=false
+noteid=-32035
+zoom=1084
+modelpitch=552
+modelroll=20
+offsetx=5
+offsety=3
+modelyaw=0
+
+# Enhanced crystal key place holder
+[[item]]
+id=30589
+inherit=21026
+name="null"
+placeholdertemplate=14401
+placeholderid=30588
+invmodel=50291
+
+
+# Enhanced crystal key note
+[[item]]
+inherit=788
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30588
+id=32035
+

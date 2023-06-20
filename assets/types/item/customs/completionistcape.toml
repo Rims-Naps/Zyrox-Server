@@ -1,0 +1,73 @@
+# Completionist Cape
+[[item]]
+id=32367
+inherit=13342
+name="Completionist cape"
+placeholderid=32368
+invmodel=50809
+primarymalemodel=50810
+primaryfemalemodel=50811
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2232
+modelroll=15
+modelpitch=500
+modelyaw=0
+offsetx=0
+offsety=-5
+
+# Completionist Cape Placeholder
+[[item]]
+id=32368
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32367
+invmodel=50809
+zoom=2232
+modelroll=27
+modelpitch=687
+modelyaw=0
+offsetx=0
+offsety=-5
+
+# Completionist Cape hood
+[[item]]
+id=32369
+inherit=13281
+name="Completionist cape hood"
+placeholderid=32370
+invmodel=50812
+primarymalemodel=50813
+primaryfemalemodel=50814
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=720
+modelroll=1300
+modelpitch=21
+modelyaw=0
+offsetx=0
+offsety=0
+
+# Completionist Cape hood Placeholder
+[[item]]
+id=32370
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32369
+invmodel=50812
+zoom=720
+modelroll=18
+modelpitch=21
+modelyaw=0
+offsetx=0
+offsety=0

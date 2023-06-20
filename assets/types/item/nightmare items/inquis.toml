@@ -1,0 +1,110 @@
+# Inquisitor's great helm
+[[item]]
+id=24419
+inherit=4567
+name="Inquisitor's great helm"
+placeholderid=24501
+invmodel=50565
+primarymalemodel=50556
+primaryfemalemodel=50559
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+notedid=-1
+zoom=540
+modelpitch=115
+modelroll=47
+offsetx=0
+offsety=-5
+
+# Inquisitor's great helm Placeholder
+[[item]]
+id=24501
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=24419
+invmodel=50565
+
+# Inquisitor's hauberk
+[[item]]
+id=24420
+inherit=21892
+name="Inquisitor's hauberk"
+placeholderid=24503
+invmodel=50567
+primarymalemodel=50558
+primaryfemalemodel=50561
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+notedid=-1
+
+# Inquisitor's hauberk Placeholder
+[[item]]
+id=24502
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=24420
+invmodel=50567
+
+# Inquisitor's plateskirt
+[[item]]
+id=24421
+inherit=22619
+name="Inquisitor's plateskirt"
+placeholderid=24505
+invmodel=50566
+primarymalemodel=50557
+primaryfemalemodel=50560
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+notedid=-1
+
+# Inquisitor's plateskirt Placeholder
+[[item]]
+id=24505
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=24421
+invmodel=50566
+
+# Inquisitor's mace
+[[item]]
+id=24417
+inherit=8841
+name="Inquisitor's mace"
+placeholderid=24499
+invmodel=50564
+primarymalemodel=50562
+primaryfemalemodel=50563
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+notedid=-1
+zoom=1642
+modelpitch=348
+modelroll=0
+offsetx=1
+offsety=16
+
+# Inquisitor's mace Placeholder
+[[item]]
+id=24499
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=24417
+invmodel=50564
+

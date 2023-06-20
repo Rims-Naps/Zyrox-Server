@@ -1,0 +1,25 @@
+[[item]]
+id=30568
+inherit=608
+name="Task Skip Scroll"
+stackids=[]
+stackamounts=[]
+grandexchange=true
+placeholderid=30569
+op1=""
+op2=""
+price=275000
+stackable=1
+notedid=-1
+
+[[item]]
+id=30569
+inherit=18019
+name="Task Skip Scroll"
+stackids=[]
+stackamounts=[]
+grandexchange=false
+price=100
+stackable=1
+notedid=-1
+placeholderid=30568

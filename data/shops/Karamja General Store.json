@@ -1,0 +1,68 @@
+{
+  "shopUID": 104,
+  "shopName": "Karamja General Store",
+  "currency": "COINS",
+  "sellPolicy": "CAN_SELL",
+  "items": [
+    {
+      "id": 1931,
+      "amount": 30,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1935,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 20742,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 182
+    },
+    {
+      "id": 1735,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1925,
+      "amount": 30,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 1923,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 4
+    },
+    {
+      "id": 1887,
+      "amount": 10,
+      "sellPrice": 3,
+      "buyPrice": 10
+    },
+    {
+      "id": 590,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1755,
+      "amount": 10,
+      "sellPrice": 4,
+      "buyPrice": 14
+    },
+    {
+      "id": 2347,
+      "amount": 10,
+      "sellPrice": 4,
+      "buyPrice": 13
+    }
+  ]
+}

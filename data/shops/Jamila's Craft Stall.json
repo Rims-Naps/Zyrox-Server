@@ -1,0 +1,68 @@
+{
+  "shopUID": 140,
+  "shopName": "Jamila's Craft Stall",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1755,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1592,
+      "amount": 4,
+      "sellPrice": 1,
+      "buyPrice": 7
+    },
+    {
+      "id": 1597,
+      "amount": 2,
+      "sellPrice": 1,
+      "buyPrice": 7
+    },
+    {
+      "id": 1595,
+      "amount": 2,
+      "sellPrice": 1,
+      "buyPrice": 7
+    },
+    {
+      "id": 1733,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1734,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1599,
+      "amount": 3,
+      "sellPrice": 1,
+      "buyPrice": 7
+    },
+    {
+      "id": 2976,
+      "amount": 6,
+      "sellPrice": 2,
+      "buyPrice": 15
+    },
+    {
+      "id": 5523,
+      "amount": 10,
+      "sellPrice": 25,
+      "buyPrice": 150
+    },
+    {
+      "id": 11065,
+      "amount": 5,
+      "sellPrice": 1,
+      "buyPrice": 7
+    }
+  ]
+}

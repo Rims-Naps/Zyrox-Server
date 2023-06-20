@@ -1,0 +1,13 @@
+{
+  "shopName": "Ned's Handmade Rope",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 954,
+      "amount": 30,
+      "sellPrice": 3,
+      "buyPrice": 16
+    }
+  ]
+}

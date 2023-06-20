@@ -1,0 +1,158 @@
+{
+  "shopUID": 100,
+  "shopName": "Rasolo the Wandering Merchant",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1969,
+      "amount": 1,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 2023,
+      "amount": 1,
+      "sellPrice": 0,
+      "buyPrice": 4
+    },
+    {
+      "id": 660,
+      "amount": 1,
+      "sellPrice": 16,
+      "buyPrice": 320
+    },
+    {
+      "id": 1215,
+      "amount": 1,
+      "sellPrice": 3000,
+      "buyPrice": 60000
+    },
+    {
+      "id": 550,
+      "amount": 1,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 583,
+      "amount": 1,
+      "sellPrice": 1,
+      "buyPrice": 20
+    },
+    {
+      "id": 1941,
+      "amount": 1,
+      "sellPrice": 3,
+      "buyPrice": 60
+    },
+    {
+      "id": 273,
+      "amount": 1,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 970,
+      "amount": 1,
+      "sellPrice": 1,
+      "buyPrice": 20
+    },
+    {
+      "id": 975,
+      "amount": 1,
+      "sellPrice": 4,
+      "buyPrice": 80
+    },
+    {
+      "id": 1599,
+      "amount": 1,
+      "sellPrice": 0,
+      "buyPrice": 10
+    },
+    {
+      "id": 2976,
+      "amount": 1,
+      "sellPrice": 1,
+      "buyPrice": 20
+    },
+    {
+      "id": 1823,
+      "amount": 1,
+      "sellPrice": 3,
+      "buyPrice": 60
+    },
+    {
+      "id": 1837,
+      "amount": 1,
+      "sellPrice": 2,
+      "buyPrice": 40
+    },
+    {
+      "id": 1854,
+      "amount": 1,
+      "sellPrice": 0,
+      "buyPrice": 10
+    },
+    {
+      "id": 2524,
+      "amount": 1,
+      "sellPrice": 10,
+      "buyPrice": 200
+    },
+    {
+      "id": 3377,
+      "amount": 1,
+      "sellPrice": 0,
+      "buyPrice": 10
+    },
+    {
+      "id": 2894,
+      "amount": 1,
+      "sellPrice": 50,
+      "buyPrice": 1000
+    },
+    {
+      "id": 1909,
+      "amount": 1,
+      "sellPrice": 0,
+      "buyPrice": 4
+    },
+    {
+      "id": 3787,
+      "amount": 1,
+      "sellPrice": 25,
+      "buyPrice": 500
+    },
+    {
+      "id": 3711,
+      "amount": 1,
+      "sellPrice": 25,
+      "buyPrice": 500
+    },
+    {
+      "id": 3678,
+      "amount": 1,
+      "sellPrice": 1000,
+      "buyPrice": 20000
+    },
+    {
+      "id": 3424,
+      "amount": 1,
+      "sellPrice": 2,
+      "buyPrice": 40
+    },
+    {
+      "id": 3420,
+      "amount": 1,
+      "sellPrice": 2,
+      "buyPrice": 40
+    },
+    {
+      "id": 5,
+      "amount": 1,
+      "sellPrice": 0,
+      "buyPrice": 20
+    }
+  ]
+}

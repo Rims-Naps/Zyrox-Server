@@ -1,0 +1,36 @@
+# Present
+[[item]]
+id=29025
+inherit=13345
+name="Present"
+placeholderid=29026
+op1=""
+grandexchange=false
+notedid=-1
+
+# Present (placeholder)
+[[item]]
+id=29026
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=29025
+
+# Present2
+[[item]]
+id=29027
+inherit=13345
+name="Present"
+placeholderid=29028
+op1=""
+grandexchange=false
+notedid=-1
+
+# Present2 (placeholder)
+[[item]]
+id=29028
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=29027
+

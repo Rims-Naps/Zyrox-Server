@@ -1,0 +1,555 @@
+# Abyssal pearls 1
+[[item]]
+id=32188
+inherit=22820
+name="Abyssal pearls"
+originalcolours=[54381]
+replacementcolours=[553]
+price=50
+stackamounts=[2,3,4,5,0,0,0,0,0,0]
+stackids=[32190,32191,32192,32193,0,0,0,0,0,0]
+invmodel=50663
+isstackable=1
+offsetx=1
+offsety=5
+modelroll=222
+modelpitch=1337
+zoom=1808
+op1=""
+op2=""
+op3=""
+op4=""
+op5=""
+placeholderid=32189
+
+# Abyssal pearls placeholderid
+[[item]]
+name="null"
+id=32189
+inherit=22820
+placeholderid=32188
+placeholdertemplate=14401
+op1=""
+op2=""
+op3=""
+op4=""
+op5=""
+
+# Abyssal pearls 2
+[[item]]
+id=32190
+inherit=22820
+name="Abyssal pearls"
+originalcolours=[54381]
+replacementcolours=[553]
+invmodel=50664
+isstackable=1
+offsetx=1
+offsety=5
+modelroll=222
+modelpitch=1337
+zoom=1808
+op1=""
+op2=""
+op3=""
+op4=""
+op5=""
+
+# Abyssal pearls 3
+[[item]]
+id=32191
+inherit=22820
+name="Abyssal pearls"
+originalcolours=[54381]
+replacementcolours=[553]
+invmodel=50665
+isstackable=1
+offsetx=1
+offsety=5
+modelroll=222
+modelpitch=1337
+zoom=1808
+op1=""
+op2=""
+op3=""
+op4=""
+op5=""
+
+# Abyssal pearls 4
+[[item]]
+id=32192
+inherit=22820
+name="Abyssal pearls"
+originalcolours=[54381]
+replacementcolours=[553]
+invmodel=50666
+isstackable=1
+offsetx=1
+offsety=5
+modelroll=222
+modelpitch=1337
+zoom=1808
+op1=""
+op2=""
+op3=""
+op4=""
+op5=""
+
+# Abyssal pearls 5
+[[item]]
+id=32193
+inherit=22820
+name="Abyssal pearls"
+originalcolours=[54381]
+replacementcolours=[553]
+invmodel=50667
+isstackable=1
+offsetx=1
+offsety=5
+modelroll=222
+modelpitch=1337
+zoom=1808
+op1=""
+op2=""
+op3=""
+op4=""
+op5=""
+
+# Colossal pouch
+[[item]]
+id=32194
+inherit=5514
+name="Colossal pouch"
+placeholderid=32195
+grandexchange=false
+notedid=-1
+price=50
+shiftclickindex=1
+ismembers=true
+originalcolours=[6430, 7467]
+replacementcolours=[3615, 3615]
+
+# Colossal pouch placeholder
+[[item]]
+name="null"
+id=32195
+inherit=22820
+placeholderid=32194
+placeholdertemplate=14401
+invmodel=7508
+modelroll=128
+zoom=888
+
+# Hat of the eye
+[[item]]
+id=32196
+name="Hat of the eye"
+inherit=21018
+placeholderid=32203
+invmodel=50669
+primarymalemodel=50670
+primaryfemalemodel=50671
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1100
+modelyaw=2000
+
+# Hat of the eye placeholder
+[[item]]
+name="null"
+id=32203
+inherit=22820
+placeholderid=32196
+placeholdertemplate=14401
+invmodel=50669
+
+# Abyssal Needle
+[[item]]
+name="Abyssal needle"
+id=32201
+inherit=5343
+invmodel=2770
+placeholderid=32202
+zoom=850
+modelroll=400
+modelpitch=471
+offsetx=2
+offsety=4
+grandexchange=false
+isstackable=0
+
+# Abyssal Needle placeholder
+[[item]]
+name="null"
+id=32202
+inherit=22820
+placeholderid=32201
+placeholdertemplate=14401
+
+# Robe top of the eye
+[[item]]
+id=32204
+name="Robe top of the eye"
+inherit=3387
+placeholderid=32205
+invmodel=50678
+primarymalemodel=50679
+primaryfemalemodel=50680
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Robe top of the eye placeholder
+[[item]]
+name="null"
+id=32205
+inherit=22820
+placeholderid=32204
+placeholdertemplate=14401
+invmodel=50678
+
+# Robe bottoms of the eye
+[[item]]
+id=32206
+name="Robe bottoms of the eye"
+inherit=3389
+placeholderid=32207
+invmodel=50681
+primarymalemodel=50682
+primaryfemalemodel=50683
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Robe bottoms of the eye placeholder
+[[item]]
+name="null"
+id=32207
+inherit=22820
+placeholderid=32206
+placeholdertemplate=14401
+invmodel=50681
+
+# Boots of the eye
+[[item]]
+id=32208
+name="Boots of the eye"
+inherit=5557
+placeholderid=32209
+invmodel=50684
+primarymalemodel=50685
+primaryfemalemodel=50686
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Boots of the eye placeholder
+[[item]]
+name="null"
+id=32209
+inherit=22820
+placeholderid=32208
+placeholdertemplate=14401
+invmodel=50684
+
+# Gloves of the eye
+[[item]]
+id=32210
+name="Gloves of the eye"
+inherit=5556
+placeholderid=32211
+invmodel=50687
+primarymalemodel=50688
+primaryfemalemodel=50689
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Gloves of the eye placeholder
+[[item]]
+name="null"
+id=32211
+inherit=22820
+placeholderid=32210
+placeholdertemplate=14401
+invmodel=50687
+
+# Hat of the eye
+[[item]]
+id=32212
+name="Hat of the eye"
+inherit=21018
+placeholderid=32213
+invmodel=50690
+primarymalemodel=50691
+primaryfemalemodel=50692
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1100
+modelyaw=2000
+
+# Hat of the eye placeholder
+[[item]]
+name="null"
+id=32213
+inherit=22820
+placeholderid=32212
+placeholdertemplate=14401
+invmodel=50690
+
+# Robe top of the eye
+[[item]]
+id=32214
+name="Robe top of the eye"
+inherit=3387
+placeholderid=32215
+invmodel=50693
+primarymalemodel=50694
+primaryfemalemodel=50695
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Robe top of the eye placeholder
+[[item]]
+name="null"
+id=32215
+inherit=22820
+placeholderid=32214
+placeholdertemplate=14401
+invmodel=50693
+
+# Robe bottoms of the eye
+[[item]]
+id=32216
+name="Robe bottoms of the eye"
+inherit=3389
+placeholderid=32217
+invmodel=50696
+primarymalemodel=50697
+primaryfemalemodel=50698
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Robe bottoms of the eye placeholder
+[[item]]
+name="null"
+id=32217
+inherit=22820
+placeholderid=32216
+placeholdertemplate=14401
+invmodel=50696
+
+# Boots of the eye
+[[item]]
+id=32218
+name="Boots of the eye"
+inherit=5557
+placeholderid=32219
+invmodel=50699
+primarymalemodel=50700
+primaryfemalemodel=50701
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Boots of the eye placeholder
+[[item]]
+name="null"
+id=32219
+inherit=22820
+placeholderid=32218
+placeholdertemplate=14401
+invmodel=50698
+
+# Gloves of the eye
+[[item]]
+id=32220
+name="Gloves of the eye"
+inherit=5556
+placeholderid=32221
+invmodel=50702
+primarymalemodel=50703
+primaryfemalemodel=50704
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Gloves of the eye placeholder
+[[item]]
+name="null"
+id=32221
+inherit=22820
+placeholderid=32220
+placeholdertemplate=14401
+invmodel=50702
+
+# Hat of the eye (master)
+[[item]]
+id=32222
+name="Hat of the eye"
+inherit=21018
+placeholderid=32223
+invmodel=50690
+primarymalemodel=50691
+primaryfemalemodel=50692
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1100
+modelyaw=2000
+originalcolours=[12975, 12839, 12950, 7690, 3350, 7566, 3594, 12942]
+replacementcolours=[9152, 9038, 8014, 10334, 10334, 10332, 10332, 9152]
+
+# Hat of the eye (master) placeholder
+[[item]]
+name="null"
+id=32223
+inherit=22820
+placeholderid=32222
+placeholdertemplate=14401
+invmodel=50690
+
+# Robe top of the eye (master)
+[[item]]
+id=32224
+name="Robe top of the eye"
+inherit=3387
+placeholderid=32225
+invmodel=50693
+primarymalemodel=50694
+primaryfemalemodel=50695
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+originalcolours=[13117, 12975, 12839, 12950, 7690, 3350, 7566, 3594, 12942, 12824, 7586, 7700 , 7704]
+replacementcolours=[9152, 9152, 9152, 9152, 10334, 10334, 10334, 10334, 10334, 10334, 9152, 10334, 10334]
+
+# Robe top of the eye (master) placeholder
+[[item]]
+name="null"
+id=32225
+inherit=22820
+placeholderid=32224
+placeholdertemplate=14401
+invmodel=50693
+
+# Robe bottoms of the eye (master)
+[[item]]
+id=32226
+name="Robe bottoms of the eye"
+inherit=3389
+placeholderid=32227
+invmodel=50696
+primarymalemodel=50697
+primaryfemalemodel=50698
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+originalcolours=[13117, 12975, 12839, 12950, 7690, 3350, 7566, 3594, 12942, 12824, 7586, 7700 , 7704]
+replacementcolours=[9152, 9152, 9152, 9152, 10334, 10334, 10334, 10334, 10334, 10334, 9152, 10334, 10334]
+
+# Robe bottoms of the eye (master) placeholder
+[[item]]
+name="null"
+id=32227
+inherit=22820
+placeholderid=32226
+placeholdertemplate=14401
+invmodel=50696
+
+# Boots of the eye (master)
+[[item]]
+id=32228
+name="Boots of the eye"
+inherit=5557
+placeholderid=32229
+invmodel=50699
+primarymalemodel=50700
+primaryfemalemodel=50701
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+originalcolours=[13117, 12975, 12839, 12950, 7690, 3350, 7566, 3594, 12942, 12824, 7586, 7700 , 7704]
+replacementcolours=[9152, 9152, 9152, 9152, 10334, 10334, 10334, 10334, 10334, 10334, 9152, 10334, 10334]
+
+# Boots of the eye (master) placeholder
+[[item]]
+name="null"
+id=32229
+inherit=22820
+placeholderid=32228
+placeholdertemplate=14401
+invmodel=50698
+
+# Gloves of the eye (master)
+[[item]]
+id=32230
+name="Gloves of the eye"
+inherit=5556
+placeholderid=32231
+invmodel=50702
+primarymalemodel=50703
+primaryfemalemodel=50704
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+originalcolours=[13117, 12975, 12839, 12950, 7690, 3350, 7566, 3594, 12942, 12824, 7586, 7700 , 7704]
+replacementcolours=[9152, 9152, 9152, 9152, 10334, 10334, 10334, 10334, 10334, 10334, 9152, 10334, 10334]
+
+# Gloves of the eye (master) placeholder
+[[item]]
+name="null"
+id=32231
+inherit=22820
+placeholderid=32230
+placeholdertemplate=14401
+invmodel=50702

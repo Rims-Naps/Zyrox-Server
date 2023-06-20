@@ -1,0 +1,190 @@
+{
+  "shopUID": 1001,
+  "shopName": "Melee Weaponry Shop<Alternative>",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    //daggers
+    {
+      "id": 1205,
+      "amount": 100,
+      "sellPrice": 19,
+      "buyPrice": 32
+    },
+    {
+      "id": 1203,
+      "amount": 100,
+      "sellPrice": 67,
+      "buyPrice": 112
+    },
+    {
+      "id": 1207,
+      "amount": 100,
+      "sellPrice": 240,
+      "buyPrice": 400
+    },
+    {
+      "id": 1209,
+      "amount": 100,
+      "sellPrice": 393,
+      "buyPrice": 655
+    },
+    {
+      "id": 1211,
+      "amount": 100,
+      "sellPrice": 540,
+      "buyPrice": 899,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 1213,
+      "amount": 100,
+      "sellPrice": 4966,
+      "buyPrice": 8277,
+      "ironmanRestricted": true
+    },
+    //scims
+    {
+      "id": 1321,
+      "amount": 100,
+      "sellPrice": 19,
+      "buyPrice": 32
+    },
+    {
+      "id": 1323,
+      "amount": 100,
+      "sellPrice": 67,
+      "buyPrice": 112
+    },
+    {
+      "id": 1325,
+      "amount": 100,
+      "sellPrice": 240,
+      "buyPrice": 400
+    },
+    {
+      "id": 1329,
+      "amount": 100,
+      "sellPrice": 624,
+      "buyPrice": 1040
+    },
+    {
+      "id": 1331,
+      "amount": 100,
+      "sellPrice": 1758,
+      "buyPrice": 2930,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 1333,
+      "amount": 100,
+      "sellPrice": 14088,
+      "buyPrice": 23480,
+      "ironmanRestricted": true
+    },
+    //longswords
+    {
+      "id": 1291,
+      "amount": 100,
+      "sellPrice": 19,
+      "buyPrice": 32
+    },
+    {
+      "id": 1293,
+      "amount": 100,
+      "sellPrice": 67,
+      "buyPrice": 112
+    },
+    {
+      "id": 1295,
+      "amount": 100,
+      "sellPrice": 240,
+      "buyPrice": 400
+    },
+    {
+      "id": 1299,
+      "amount": 100,
+      "sellPrice": 624,
+      "buyPrice": 1040
+    },
+    {
+      "id": 1301,
+      "amount": 100,
+      "sellPrice": 1758,
+      "buyPrice": 2930,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 1303,
+      "amount": 100,
+      "sellPrice": 19488,
+      "buyPrice": 32480,
+      "ironmanRestricted": true
+    },
+    //2hs
+    {
+      "id": 1307,
+      "amount": 100,
+      "sellPrice": 46,
+      "buyPrice": 78
+    },
+    {
+      "id": 1309,
+      "amount": 100,
+      "sellPrice": 95,
+      "buyPrice": 158
+    },
+    {
+      "id": 1311,
+      "amount": 100,
+      "sellPrice": 420,
+      "buyPrice": 699
+    },
+    {
+      "id": 1315,
+      "amount": 100,
+      "sellPrice": 760,
+      "buyPrice": 1266
+    },
+    {
+      "id": 1317,
+      "amount": 100,
+      "sellPrice": 3873,
+      "buyPrice": 6455,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 1319,
+      "amount": 100,
+      "sellPrice": 27193,
+      "buyPrice": 45322,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 6746,
+      "amount": 100,
+      "sellPrice": 1012,
+      "buyPrice": 1688
+    },
+    {
+      "id": 4587,
+      "amount": 100,
+      "sellPrice": 75225,
+      "buyPrice": 125375,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 1215,
+      "amount": 100,
+      "sellPrice": 21135,
+      "buyPrice": 35225,
+      "ironmanRestricted": true
+    },
+	{
+      "id": 10858,
+      "amount": 100,
+      "sellPrice": 10000,
+      "buyPrice": 100000
+    }
+  ]
+}

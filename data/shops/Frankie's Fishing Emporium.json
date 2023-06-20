@@ -1,0 +1,74 @@
+{
+  "shopUID": 213,
+  "shopName": "Frankie's Fishing Emporium",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 317,
+      "amount": 50,
+      "sellPrice": -1,
+      "buyPrice": 7
+    },
+    {
+      "id": 327,
+      "amount": 50,
+      "sellPrice": -1,
+      "buyPrice": 15
+    },
+    {
+      "id": 345,
+      "amount": 25,
+      "sellPrice": -1,
+      "buyPrice": 22
+    },
+    {
+      "id": 353,
+      "amount": 25,
+      "sellPrice": -1,
+      "buyPrice": 25
+    },
+    {
+      "id": 341,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 50
+    },
+    {
+      "id": 321,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 30
+    },
+    {
+      "id": 359,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 220
+    },
+    {
+      "id": 377,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 300
+    },
+    {
+      "id": 363,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 240
+    },
+    {
+      "id": 371,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 400
+    },
+    {
+      "id": 383,
+      "amount": 50,
+      "sellPrice": -1,
+      "buyPrice": 600
+    }
+  ]
+}

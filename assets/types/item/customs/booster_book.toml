@@ -1,0 +1,9 @@
+[[item]]
+id=30572
+inherit=4829
+name="Book of Boosts"
+stackable=0
+placeholderid=-1
+price=0
+op1="Check perks"
+op2="Remaining time"

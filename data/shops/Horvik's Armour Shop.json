@@ -1,0 +1,80 @@
+{
+  "shopUID": 163,
+  "shopName": "Horvik's Armour Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1103,
+      "amount": 5,
+      "sellPrice": 36,
+      "buyPrice": 60
+    },
+    {
+      "id": 1101,
+      "amount": 3,
+      "sellPrice": 126,
+      "buyPrice": 210
+    },
+    {
+      "id": 1105,
+      "amount": 3,
+      "sellPrice": 450,
+      "buyPrice": 750
+    },
+    {
+      "id": 1109,
+      "amount": 1,
+      "sellPrice": 1170,
+      "buyPrice": 1950
+    },
+    {
+      "id": 1117,
+      "amount": 3,
+      "sellPrice": 96,
+      "buyPrice": 160
+    },
+    {
+      "id": 1115,
+      "amount": 1,
+      "sellPrice": 336,
+      "buyPrice": 560
+    },
+    {
+      "id": 1119,
+      "amount": 1,
+      "sellPrice": 1200,
+      "buyPrice": 2000
+    },
+    {
+      "id": 1125,
+      "amount": 1,
+      "sellPrice": 2304,
+      "buyPrice": 3840
+    },
+    {
+      "id": 1121,
+      "amount": 1,
+      "sellPrice": 3120,
+      "buyPrice": 5200
+    },
+    {
+      "id": 1067,
+      "amount": 1,
+      "sellPrice": 168,
+      "buyPrice": 280
+    },
+    {
+      "id": 1133,
+      "amount": 1,
+      "sellPrice": 510,
+      "buyPrice": 850
+    },
+    {
+      "id": 1097,
+      "amount": 1,
+      "sellPrice": 450,
+      "buyPrice": 750
+    }
+  ]
+}

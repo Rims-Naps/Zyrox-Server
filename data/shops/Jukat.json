@@ -1,0 +1,19 @@
+{
+  "shopName": "Jukat",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1305,
+      "amount": 2,
+      "sellPrice": 60000,
+      "buyPrice": 100000
+    },
+	{
+      "id": 1215,
+      "amount": 2,
+      "sellPrice": 18000,
+      "buyPrice": 30000
+    }
+  ]
+}

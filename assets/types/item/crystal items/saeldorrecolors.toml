@@ -1,0 +1,260 @@
+# Blade of Saeldor (c) orange
+[[item]]
+id=32140
+inherit=22324
+name="Blade of Saeldor (c)"
+placeholderid=32141
+invmodel=50572
+primarymalemodel=50573
+primaryfemalemodel=50574
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1876
+modelpitch=438
+modelroll=40
+offsetx=15
+offsety=-3
+modelyaw=84
+
+# Blade of Saeldor (c) orange Placeholder
+[[item]]
+id=32141
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32140
+invmodel=50572
+
+# Blade of Saeldor (c) black
+[[item]]
+id=32142
+inherit=22324
+name="Blade of Saeldor (c)"
+placeholderid=32143
+invmodel=50575
+primarymalemodel=50576
+primaryfemalemodel=50577
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1876
+modelpitch=438
+modelroll=40
+offsetx=15
+offsety=-3
+modelyaw=84
+
+# Blade of Saeldor (c) black Placeholder
+[[item]]
+id=32143
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32142
+invmodel=50575
+
+# Blade of Saeldor (c) purple
+[[item]]
+id=32144
+inherit=22324
+name="Blade of Saeldor (c)"
+placeholderid=32145
+invmodel=50578
+primarymalemodel=50579
+primaryfemalemodel=50580
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1876
+modelpitch=438
+modelroll=40
+offsetx=15
+offsety=-3
+modelyaw=84
+
+# Blade of Saeldor (c) purple Placeholder
+[[item]]
+id=32145
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32144
+invmodel=50578
+
+# Blade of Saeldor (c) white
+[[item]]
+id=32146
+inherit=22324
+name="Blade of Saeldor (c)"
+placeholderid=32147
+invmodel=50581
+primarymalemodel=50582
+primaryfemalemodel=50583
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1876
+modelpitch=438
+modelroll=40
+offsetx=15
+offsety=-3
+modelyaw=84
+
+# Blade of Saeldor (c) white Placeholder
+[[item]]
+id=32147
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32146
+invmodel=50581
+
+# Blade of Saeldor (c) red
+[[item]]
+id=32148
+inherit=22324
+name="Blade of Saeldor (c)"
+placeholderid=32149
+invmodel=50584
+primarymalemodel=50585
+primaryfemalemodel=50586
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1876
+modelpitch=438
+modelroll=40
+offsetx=15
+offsety=-3
+modelyaw=84
+
+# Blade of Saeldor (c) red Placeholder
+[[item]]
+id=32149
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32148
+invmodel=50584
+
+# Blade of Saeldor (c) green
+[[item]]
+id=32150
+inherit=22324
+name="Blade of Saeldor (c)"
+placeholderid=32151
+invmodel=50587
+primarymalemodel=50588
+primaryfemalemodel=50589
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1876
+modelpitch=438
+modelroll=40
+offsetx=15
+offsety=-3
+modelyaw=84
+
+# Blade of Saeldor (c) green Placeholder
+[[item]]
+id=32151
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32150
+invmodel=50587
+
+# Blade of Saeldor (c) yellow
+[[item]]
+id=32152
+inherit=22324
+name="Blade of Saeldor (c)"
+placeholderid=32153
+invmodel=50590
+primarymalemodel=50591
+primaryfemalemodel=50592
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1876
+modelpitch=438
+modelroll=40
+offsetx=15
+offsety=-3
+modelyaw=84
+
+# Blade of Saeldor (c) yellow Placeholder
+[[item]]
+id=32153
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32152
+invmodel=50590
+
+# Blade of Saeldor (c) blue
+[[item]]
+id=32154
+inherit=22324
+name="Blade of Saeldor (c)"
+placeholderid=32155
+invmodel=50593
+primarymalemodel=50594
+primaryfemalemodel=50595
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1876
+modelpitch=438
+modelroll=40
+offsetx=15
+offsety=-3
+modelyaw=84
+
+# Blade of Saeldor (c) blue Placeholder
+[[item]]
+id=32155
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32154
+invmodel=50593
+
+# Blade of Saeldor (c) dark green
+[[item]]
+id=32156
+inherit=22324
+name="Blade of Saeldor (c)"
+placeholderid=32157
+invmodel=50624
+primarymalemodel=50625
+primaryfemalemodel=50626
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1876
+modelpitch=438
+modelroll=40
+offsetx=15
+offsety=-3
+modelyaw=84
+
+# Blade of Saeldor (c) dark green Placeholder
+[[item]]
+id=32157
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32156
+invmodel=50624

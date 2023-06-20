@@ -1,0 +1,276 @@
+# Brown Graceful hood
+[[item]]
+id=32110
+inherit=11850
+name="Graceful hood"
+placeholderid=32111
+invmodel=50418
+primarymalemodel=50400
+primaryfemalemodel=50420
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Brown Graceful hood Placeholder
+[[item]]
+id=32111
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32110
+invmodel=50418
+
+# Brown Graceful cape
+[[item]]
+id=32112
+inherit=11852
+name="Graceful cape"
+placeholderid=32113
+invmodel=50415
+primarymalemodel=50401
+primaryfemalemodel=50406
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Brown Graceful cape Placeholder
+[[item]]
+id=32113
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32112
+invmodel=50415
+
+# Brown Graceful top
+[[item]]
+id=32114
+inherit=11854
+name="Graceful top"
+placeholderid=32115
+invmodel=50417
+primarymalemodel=50421
+primaryfemalemodel=50410
+secondarymalemodel=50404
+secondaryfemalemodel=50409
+grandexchange=false
+notedid=-1
+
+# Brown Graceful top Placeholder
+[[item]]
+id=32115
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32114
+invmodel=50417
+
+# Brown Graceful legs
+[[item]]
+id=32116
+inherit=11856
+name="Graceful legs"
+placeholderid=32117
+invmodel=50419
+primarymalemodel=50403
+primaryfemalemodel=50408
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Brown Graceful legs Placeholder
+[[item]]
+id=32117
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32116
+invmodel=50419
+
+# Brown Graceful gloves
+[[item]]
+id=32118
+inherit=11858
+name="Graceful gloves"
+placeholderid=32119
+invmodel=50414
+primarymalemodel=50402
+primaryfemalemodel=50407
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Brown Graceful gloves Placeholder
+[[item]]
+id=32119
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32118
+invmodel=50414
+
+# Brown Graceful boots
+[[item]]
+id=32120
+inherit=11860
+name="Graceful boots"
+placeholderid=32121
+invmodel=50416
+primarymalemodel=50405
+primaryfemalemodel=50411
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Brown Graceful boots Placeholder
+[[item]]
+id=32121
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32120
+invmodel=50416
+
+
+# Black Graceful hood
+[[item]]
+id=32122
+inherit=11850
+name="Graceful hood"
+placeholderid=32123
+invmodel=50424
+primarymalemodel=50431
+primaryfemalemodel=50443
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Black Graceful hood Placeholder
+[[item]]
+id=32123
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32122
+invmodel=50424
+
+# Black Graceful cape
+[[item]]
+id=32124
+inherit=11852
+name="Graceful cape"
+placeholderid=32125
+invmodel=50422
+primarymalemodel=50432
+primaryfemalemodel=50438
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Black Graceful cape Placeholder
+[[item]]
+id=32125
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32124
+invmodel=50422
+
+# Black Graceful top
+[[item]]
+id=32126
+inherit=11854
+name="Graceful top"
+placeholderid=32127
+invmodel=50427
+primarymalemodel=50428
+primaryfemalemodel=50435
+secondarymalemodel=50429
+secondaryfemalemodel=50436
+grandexchange=false
+notedid=-1
+
+# Black Graceful top Placeholder
+[[item]]
+id=32127
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32126
+invmodel=50427
+
+# Black Graceful legs
+[[item]]
+id=32128
+inherit=11856
+name="Graceful legs"
+placeholderid=32129
+invmodel=50425
+primarymalemodel=50430
+primaryfemalemodel=50437
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Black Graceful legs Placeholder
+[[item]]
+id=32129
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32128
+invmodel=50425
+
+# Black Graceful gloves
+[[item]]
+id=32130
+inherit=11858
+name="Graceful gloves"
+placeholderid=32131
+invmodel=50423
+primarymalemodel=50434
+primaryfemalemodel=50440
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Black Graceful gloves Placeholder
+[[item]]
+id=32131
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32130
+invmodel=50423
+
+# Black Graceful boots
+[[item]]
+id=32132
+inherit=11860
+name="Graceful boots"
+placeholderid=32133
+invmodel=50426
+primarymalemodel=50433
+primaryfemalemodel=50439
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Black Graceful boots Placeholder
+[[item]]
+id=32133
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32132
+invmodel=50426

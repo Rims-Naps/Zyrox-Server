@@ -1,0 +1,720 @@
+#Attack cape (200m)
+[[item]]
+id=31050
+inherit=9747
+name="Attack cape (200m)"
+placeholderid=32057
+invmodel=50348
+primarymalemodel=50347
+primaryfemalemodel=50347
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+
+#Attack cape (200m) Placeholder
+[[item]]
+id=32057
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=31050
+invmodel=50348
+
+#Defense cape (200m)
+[[item]]
+id=32037
+inherit=9754
+name="Defense cape (200m)"
+placeholderid=32038
+invmodel=50350
+primarymalemodel=50349
+primaryfemalemodel=50349
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+
+#Defense cape (200m) Placeholder
+[[item]]
+id=32038
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32037
+invmodel=50350
+
+#Strength cape (200m)
+[[item]]
+id=32039
+inherit=9751
+name="Strength cape (200m)"
+placeholderid=32040
+invmodel=50352
+primarymalemodel=50351
+primaryfemalemodel=50351
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+
+#Strength cape (200m) Placeholder
+[[item]]
+id=32040
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32039
+invmodel=50352
+
+#Agility cape (200m)
+[[item]]
+id=32041
+inherit=9772
+name="Agility cape (200m)"
+placeholderid=32042
+invmodel=50447
+primarymalemodel=50446
+primaryfemalemodel=50446
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Agility cape (200m) Placeholder
+[[item]]
+id=32042
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32041
+invmodel=50447
+
+#Construction cape (200m)
+[[item]]
+id=32043
+inherit=9790
+name="Construction cape (200m)"
+placeholderid=32044
+invmodel=50449
+primarymalemodel=50448
+primaryfemalemodel=50448
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Construction cape (200m) Placeholder
+[[item]]
+id=32044
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32043
+invmodel=50449
+
+#Cooking cape (200m)
+[[item]]
+id=32045
+inherit=9802
+name="Cooking cape (200m)"
+placeholderid=32046
+invmodel=50451
+primarymalemodel=50450
+primaryfemalemodel=50450
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Cooking cape (200m) Placeholder
+[[item]]
+id=32046
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32045
+invmodel=50451
+
+#Crafting cape (200m)
+[[item]]
+id=32047
+inherit=9781
+name="Crafting cape (200m)"
+placeholderid=32048
+invmodel=50453
+primarymalemodel=50452
+primaryfemalemodel=50452
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Crafting cape (200m) Placeholder
+[[item]]
+id=32048
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32047
+invmodel=50453
+
+#Farming cape (200m)
+[[item]]
+id=32049
+inherit=9811
+name="Farming cape (200m)"
+placeholderid=32050
+invmodel=50455
+primarymalemodel=50454
+primaryfemalemodel=50454
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Farming cape (200m) Placeholder
+[[item]]
+id=32050
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32049
+invmodel=50455
+
+#Fishing cape (200m)
+[[item]]
+id=32051
+inherit=9799
+name="Fishing cape (200m)"
+placeholderid=32052
+invmodel=50457
+primarymalemodel=50456
+primaryfemalemodel=50456
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Fletching cape (200m) Placeholder
+[[item]]
+id=32052
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32051
+invmodel=50457
+
+#Fletching cape (200m)
+[[item]]
+id=32053
+inherit=9784
+name="Fletching cape (200m)"
+placeholderid=32054
+invmodel=50459
+primarymalemodel=50458
+primaryfemalemodel=50458
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Fletching cape (200m) Placeholder
+[[item]]
+id=32054
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32053
+invmodel=50459
+
+#Firemaking cape (200m)
+[[item]]
+id=32055
+inherit=9805
+name="Firemaking cape (200m)"
+placeholderid=32056
+invmodel=50461
+primarymalemodel=50460
+primaryfemalemodel=50460
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Firemaking cape (200m) Placeholder
+[[item]]
+id=32056
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32055
+invmodel=50461
+
+#Herblore cape (200m)
+[[item]]
+id=32058
+inherit=9775
+name="Herblore cape (200m)"
+placeholderid=32059
+invmodel=50463
+primarymalemodel=50462
+primaryfemalemodel=50462
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Herblore cape (200m) Placeholder
+[[item]]
+id=32059
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32058
+invmodel=50463
+
+#Hitpoints cape (200m)
+[[item]]
+id=32060
+inherit=9769
+name="Hitpoints cape (200m)"
+placeholderid=32061
+invmodel=50465
+resizeY=160
+primarymalemodel=50464
+primaryfemalemodel=50464
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Hitpoints cape (200m) Placeholder
+[[item]]
+id=32061
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32060
+invmodel=50465
+
+#Hunter cape (200m) /// STARTED HERE
+[[item]]
+id=32062
+inherit=9949
+name="Hunter cape (200m)"
+placeholderid=32063
+invmodel=50467
+primarymalemodel=50466
+primaryfemalemodel=50466
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Hunter cape (200m) Placeholder
+[[item]]
+id=32063
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32062
+invmodel=50467
+
+#Magic cape (200m)
+[[item]]
+id=32064
+inherit=9763
+name="Magic cape (200m)"
+placeholderid=32065
+invmodel=50469
+primarymalemodel=50468
+primaryfemalemodel=50468
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Magic cape (200m) Placeholder
+[[item]]
+id=32065
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32064
+invmodel=50469
+
+#Mining cape (200m)
+[[item]]
+id=32066
+inherit=9793
+name="Mining cape (200m)"
+placeholderid=32067
+invmodel=50471
+primarymalemodel=50470
+primaryfemalemodel=50470
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+originalcolours=[10032, 10033]
+replacementcolours=[-29240, -29240]
+
+#Mining cape (200m) Placeholder
+[[item]]
+id=32067
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32066
+invmodel=50471
+
+#Prayer cape (200m)
+[[item]]
+id=32068
+inherit=9760
+name="Prayer cape (200m)"
+placeholderid=32069
+invmodel=50473
+primarymalemodel=50472
+primaryfemalemodel=50472
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Prayer cape (200m) Placeholder
+[[item]]
+id=32069
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32068
+invmodel=50473
+
+#Ranged cape (200m)
+[[item]]
+id=32070
+inherit=9757
+name="Ranging cape (200m)"
+placeholderid=32071
+invmodel=50475
+primarymalemodel=50474
+primaryfemalemodel=50474
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Ranged cape (200m) Placeholder
+[[item]]
+id=32071
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32070
+invmodel=50475
+
+#Runecrafting cape (200m)
+[[item]]
+id=32072
+inherit=9766
+name="Runecrafting cape (200m)"
+placeholderid=32073
+invmodel=50477
+primarymalemodel=50476
+primaryfemalemodel=50476
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Runecrafting cape (200m) Placeholder
+[[item]]
+id=32073
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32072
+invmodel=50477
+
+#Slayer cape (200m)
+[[item]]
+id=32074
+inherit=9787
+name="Slayer cape (200m)"
+placeholderid=32075
+invmodel=50479
+primarymalemodel=50478
+primaryfemalemodel=50478
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+originalcolours=[-1386, -1378]
+replacementcolours=[920, 920]
+
+#Slayer cape (200m) Placeholder
+[[item]]
+id=32075
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32074
+invmodel=50479
+
+#Smithing cape (200m)
+[[item]]
+id=32076
+inherit=9796
+name="Smithing cape (200m)"
+placeholderid=32077
+invmodel=50481
+primarymalemodel=50480
+primaryfemalemodel=50480
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Smithing cape (200m) Placeholder
+[[item]]
+id=32077
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32076
+invmodel=50481
+
+#Thieving cape (200m)
+[[item]]
+id=32078
+inherit=9778
+name="Thieving cape (200m)"
+placeholderid=32079
+invmodel=50483
+primarymalemodel=50482
+primaryfemalemodel=50482
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Thieving cape (200m) Placeholder
+[[item]]
+id=32079
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32078
+invmodel=50483
+
+#Woodcutting cape (200m)
+[[item]]
+id=32080
+inherit=9808
+name="Woodcut cape (200m)"
+placeholderid=32081
+invmodel=50485
+primarymalemodel=50484
+primaryfemalemodel=50484
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=1780
+modelroll=1017
+modelpitch=320
+modelyaw=0
+offsetx=-4
+offsety=12
+
+#Woodcut cape (200m) Placeholder
+[[item]]
+id=32081
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32080
+invmodel=50485

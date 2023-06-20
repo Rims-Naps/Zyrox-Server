@@ -1,0 +1,50 @@
+{
+  "shopUID": 1011,
+  "shopName": "Elven Armour Shop",
+  "currency": "CRYSTAL_SHARD",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 30792,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000,
+      "restockTimer": 1
+    },
+    {
+      "id": 30794,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000,
+      "restockTimer": 1
+    },
+    {
+      "id": 30796,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000,
+      "restockTimer": 1
+    },
+    {
+      "id": 32012,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 50,
+      "restockTimer": 1
+    },
+    {
+      "id":32100,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000,
+      "restockTimer": 1
+    },
+    {
+      "id":30804,
+      "amount": 0,
+      "sellPrice": 1000,
+      "buyPrice": -1,
+      "restockTimer": 1
+    }
+  ]
+}

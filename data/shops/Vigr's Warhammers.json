@@ -1,0 +1,44 @@
+{
+  "shopUID": 198,
+  "shopName": "Vigr's Warhammers",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1337,
+      "amount": 5,
+      "sellPrice": 25,
+      "buyPrice": 61
+    },
+    {
+      "id": 1335,
+      "amount": 4,
+      "sellPrice": 94,
+      "buyPrice": 224
+    },
+    {
+      "id": 1339,
+      "amount": 3,
+      "sellPrice": 352,
+      "buyPrice": 832
+    },
+    {
+      "id": 1341,
+      "amount": 3,
+      "sellPrice": 539,
+      "buyPrice": 1274
+    },
+    {
+      "id": 1343,
+      "amount": 2,
+      "sellPrice": 913,
+      "buyPrice": 2158
+    },
+    {
+      "id": 1345,
+      "amount": 1,
+      "sellPrice": 2266,
+      "buyPrice": 5356
+    }
+  ]
+}

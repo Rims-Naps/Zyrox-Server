@@ -1,0 +1,26 @@
+{
+  "shopUID": 245,
+  "shopName": "Mage Arena Staffs",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 2415,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 80000
+    },
+    {
+      "id": 2416,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 80000
+    },
+    {
+      "id": 2417,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 80000
+    }
+  ]
+}

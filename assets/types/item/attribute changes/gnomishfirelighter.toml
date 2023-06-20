@@ -1,0 +1,10 @@
+# Gnomish Firelighter
+[[item]]
+inherit=20278
+op2="Check"
+op3="Fill"
+op4="Empty"
+op5="Drop"
+grandexchange=true
+
+

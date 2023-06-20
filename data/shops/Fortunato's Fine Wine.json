@@ -1,0 +1,38 @@
+{
+  "shopUID": 151,
+  "shopName": "Fortunato's Fine Wine",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1993,
+      "amount": 50,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1935,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 20742,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 140
+    },
+    {
+      "id": 7919,
+      "amount": 2,
+      "sellPrice": 300,
+      "buyPrice": 500
+    },
+    {
+      "id": 7810,
+      "amount": 500,
+      "sellPrice": -1,
+      "buyPrice": 1
+    }
+  ]
+}

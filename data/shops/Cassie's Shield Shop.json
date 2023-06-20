@@ -1,0 +1,56 @@
+{
+  "shopUID": 10,
+  "shopName": "Cassie's Shield Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1171,
+      "amount": 5,
+      "sellPrice": 12,
+      "buyPrice": 20
+    },
+    {
+      "id": 1173,
+      "amount": 3,
+      "sellPrice": 28,
+      "buyPrice": 48
+    },
+    {
+      "id": 1189,
+      "amount": 3,
+      "sellPrice": 40,
+      "buyPrice": 68
+    },
+    {
+      "id": 1175,
+      "amount": 2,
+      "sellPrice": 100,
+      "buyPrice": 168
+    },
+    {
+      "id": 1191,
+      "amount": 0,
+      "sellPrice": 142,
+      "buyPrice": 223
+    },
+    {
+      "id": 1177,
+      "amount": 0,
+      "sellPrice": 360,
+      "buyPrice": 600
+    },
+    {
+      "id": 1193,
+      "amount": 0,
+      "sellPrice": 510,
+      "buyPrice": 850
+    },
+    {
+      "id": 1181,
+      "amount": 0,
+      "sellPrice": 936,
+      "buyPrice": 1560
+    }
+  ]
+}

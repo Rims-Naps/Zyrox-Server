@@ -1,0 +1,38 @@
+{
+  "shopUID": 83,
+  "shopName": "Zenesha's Plate Mail Body Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1117,
+      "amount": 3,
+      "sellPrice": 53,
+      "buyPrice": 160
+    },
+    {
+      "id": 1115,
+      "amount": 1,
+      "sellPrice": 186,
+      "buyPrice": 560
+    },
+    {
+      "id": 1119,
+      "amount": 1,
+      "sellPrice": 666,
+      "buyPrice": 2000
+    },
+    {
+      "id": 1125,
+      "amount": 1,
+      "sellPrice": 1280,
+      "buyPrice": 3840
+    },
+    {
+      "id": 1121,
+      "amount": 1,
+      "sellPrice": 1733,
+      "buyPrice": 5200
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "shopUID": 194,
+  "shopName": "Agmundi Quality Clothes",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 5050,
+      "amount": 3,
+      "sellPrice": 302,
+      "buyPrice": 715
+    },
+    {
+      "id": 5052,
+      "amount": 3,
+      "sellPrice": 343,
+      "buyPrice": 812
+    },
+    {
+      "id": 5038,
+      "amount": 3,
+      "sellPrice": 385,
+      "buyPrice": 910
+    },
+    {
+      "id": 5040,
+      "amount": 3,
+      "sellPrice": 412,
+      "buyPrice": 975
+    },
+    {
+      "id": 5044,
+      "amount": 3,
+      "sellPrice": 198,
+      "buyPrice": 468
+    },
+    {
+      "id": 5046,
+      "amount": 3,
+      "sellPrice": 214,
+      "buyPrice": 507
+    },
+    {
+      "id": 5026,
+      "amount": 3,
+      "sellPrice": 343,
+      "buyPrice": 812
+    },
+    {
+      "id": 5028,
+      "amount": 3,
+      "sellPrice": 357,
+      "buyPrice": 845
+    },
+    {
+      "id": 5032,
+      "amount": 3,
+      "sellPrice": 330,
+      "buyPrice": 780
+    },
+    {
+      "id": 5034,
+      "amount": 3,
+      "sellPrice": 343,
+      "buyPrice": 812
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+# Dagon Hat
+[[item]]
+id=30528
+inherit=21018
+name="Dagon'hai hat"
+placeholderid=30529
+invmodel=50231
+primarymalemodel=50229
+primaryfemalemodel=50230
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+notedid=-1
+
+#  Dagon Hat Place Holder
+[[item]]
+id=30529
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30528
+invmodel=50231
+
+# # Dagon Top
+[[item]]
+id=30530
+inherit=21021
+name="Dagon'hai robe top"
+placeholderid=30531
+invmodel=50234
+primarymalemodel=50232
+primaryfemalemodel=50233
+secondarymalemodel=50232
+secondaryfemalemodel=50233
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+notedid=-1
+
+# Dagon Top Place Holder
+[[item]]
+id=30531
+inherit=21023
+name="null"
+placeholdertemplate=14401
+placeholderid=30530
+invmodel=50234
+
+# Dagon Bottom
+[[item]]
+id=30532
+inherit=21024
+name="Dagon'hai robe bottom"
+placeholderid=30533
+invmodel=50237
+primarymalemodel=50235
+primaryfemalemodel=50236
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+notedid=-1
+
+# Dagon Bottom Place Holder
+[[item]]
+id=30533
+inherit=21026
+name="null"
+placeholdertemplate=14401
+placeholderid=30532
+
+invmodel=50237

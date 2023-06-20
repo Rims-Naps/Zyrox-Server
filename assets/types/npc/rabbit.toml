@@ -1,0 +1,9 @@
+# Evil Rabbit
+[[npc]]
+id=13003
+inherit=8593
+name="Rabbit"
+combatlevel=2
+op1="Attack"
+models=[50345]
+size=1

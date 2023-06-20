@@ -1,0 +1,17 @@
+# Freeze lit
+[[sprite]]
+id=2513
+width=48
+height=48
+
+[sprite.images]
+0="emotes/freeze_lit.png"
+
+# Freeze unlit
+[[sprite]]
+id=2514
+width=48
+height=48
+
+[sprite.images]
+0="emotes/freeze_unlit.png"

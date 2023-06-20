@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" packages="org.apache.logging.log4j.core,net.kencochrane.raven.log4j2">
+    <Appenders>
+        <!--<Raven name="Sentry">
+            <dsn>YOUR SENTRY DSN</dsn>
+        </Raven>--> <!-- Comment out for Sentry (also below!) -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{1} - %msg%n"/>
+        </Console>
+        <File name="File" fileName="data/logs/error.log" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{1} - %msg%n"/>
+        </File>
+        <File name="All" fileName="data/logs/info.log" append="false">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{1} - %msg%n"/>
+        </File>
+        <File name="Tick" fileName="data/logs/tickinfo.log" append="true">
+            <PatternLayout pattern="%msg%n"/>
+        </File>
+		<File name="HCIM Deaths" fileName="data/logs/hcim_deaths.log" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} - %msg%n"/>
+        </File>
+        <File name="Grand Exchange" fileName="data/logs/grand_exchange_transactions.log" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <logger name="Tick logger" level="info" additivity="false">
+            <AppenderRef ref="Tick"/>
+        </logger>
+        <logger name="HCIM Death Logger" level="info" additivity="false">
+            <AppenderRef ref="HCIM Deaths"/>
+        </logger>
+        <logger name="Grand Exchange Transactions Logger" level="info" additivity="false">
+            <AppenderRef ref="Grand Exchange"/>
+        </logger>
+        <Root level="info">
+            <AppenderRef level="error" ref="File"/>
+            <AppenderRef level="all" ref="All"/>
+            <AppenderRef level="all" ref="Console"/>
+            <!--<AppenderRef level="error" ref="Sentry"/>--> <!-- Comment out for Sentry (also above!) -->
+        </Root>
+    </Loggers>
+</Configuration>

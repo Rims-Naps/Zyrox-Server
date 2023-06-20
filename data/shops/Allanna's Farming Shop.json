@@ -1,0 +1,116 @@
+{
+  "shopUID": 115,
+  "shopName": "Allanna's Farming Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 5341,
+      "amount": 5,
+      "buyPrice": 6,
+      "sellPrice": 3
+    },
+    {
+      "id": 5343,
+      "amount": 5,
+      "buyPrice": 6,
+      "sellPrice": 3
+    },
+    {
+      "id": 5329,
+      "amount": 5,
+      "buyPrice": 5,
+      "sellPrice": 3
+    },
+    {
+      "id": 952,
+      "amount": 5,
+      "buyPrice": 3,
+      "sellPrice": 1
+    },
+    {
+      "id": 5325,
+      "amount": 3,
+      "buyPrice": 12,
+      "sellPrice": 7
+    },
+    {
+      "id": 5331,
+      "amount": 30,
+      "buyPrice": 8,
+      "sellPrice": 4
+    },
+    {
+      "id": 5350,
+      "amount": 100,
+      "buyPrice": 1,
+      "sellPrice": 0
+    },
+    {
+      "id": 5354,
+      "amount": 100,
+      "buyPrice": 1,
+      "sellPrice": 0
+    },
+    {
+      "id": 13250,
+      "amount": 10,
+      "buyPrice": 100,
+      "sellPrice": 60
+    },
+    {
+      "id": 6032,
+      "amount": 100,
+      "buyPrice": 20,
+      "sellPrice": 12
+    },
+    {
+      "id": 19704,
+      "amount": 10,
+      "buyPrice": 2000,
+      "sellPrice": 1200
+    },
+    {
+      "id": 1925,
+      "amount": 100,
+      "buyPrice": 2,
+      "sellPrice": 1
+    },
+    {
+      "id": 22660,
+      "amount": 15,
+      "buyPrice": 500,
+      "sellPrice": 300
+    },
+    {
+      "id": 5418,
+      "amount": 100,
+      "buyPrice": 1,
+      "sellPrice": 0
+    },
+    {
+      "id": 13252,
+      "amount": 30,
+      "buyPrice": 100,
+      "sellPrice": 60
+    },
+    {
+      "id": 5376,
+      "amount": 100,
+      "buyPrice": 1,
+      "sellPrice": 0
+    },
+    {
+      "id": 13254,
+      "amount": 30,
+      "buyPrice": 100,
+      "sellPrice": 60
+    },
+    {
+      "id": 6036,
+      "amount": 40,
+      "buyPrice": 40,
+      "sellPrice": 24
+    }
+  ]
+}

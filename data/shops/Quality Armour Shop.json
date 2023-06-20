@@ -1,0 +1,62 @@
+{
+  "shopUID": 196,
+  "shopName": "Quality Armour Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1105,
+      "amount": 3,
+      "sellPrice": 225,
+      "buyPrice": 750
+    },
+    {
+      "id": 1109,
+      "amount": 1,
+      "sellPrice": 585,
+      "buyPrice": 1950
+    },
+    {
+      "id": 1107,
+      "amount": 1,
+      "sellPrice": 432,
+      "buyPrice": 1440
+    },
+    {
+      "id": 1111,
+      "amount": 1,
+      "sellPrice": 1440,
+      "buyPrice": 4800
+    },
+    {
+      "id": 1141,
+      "amount": 3,
+      "sellPrice": 90,
+      "buyPrice": 300
+    },
+    {
+      "id": 1143,
+      "amount": 1,
+      "sellPrice": 234,
+      "buyPrice": 1014
+    },
+    {
+      "id": 1145,
+      "amount": 1,
+      "sellPrice": 576,
+      "buyPrice": 2496
+    },
+    {
+      "id": 1177,
+      "amount": 0,
+      "sellPrice": 180,
+      "buyPrice": 600
+    },
+    {
+      "id": 1195,
+      "amount": 0,
+      "sellPrice": 636,
+      "buyPrice": 2121
+    }
+  ]
+}

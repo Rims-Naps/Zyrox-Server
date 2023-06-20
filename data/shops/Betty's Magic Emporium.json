@@ -1,0 +1,116 @@
+{
+  "shopUID": 15,
+  "shopName": "Betty's Magic Emporium",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 554,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 555,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 556,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 557,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 558,
+      "amount": 5000,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 559,
+      "amount": 5000,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 562,
+      "amount": 250,
+      "sellPrice": 54,
+      "buyPrice": 96
+    },
+    {
+      "id": 560,
+      "amount": 250,
+      "sellPrice": 108,
+      "buyPrice": 220
+    },
+    {
+      "id": 12734,
+      "amount": 80,
+      "sellPrice": 258,
+      "buyPrice": 430
+    },
+    {
+      "id": 12730,
+      "amount": 80,
+      "sellPrice": 258,
+      "buyPrice": 430
+    },
+    {
+      "id": 12728,
+      "amount": 80,
+      "sellPrice": 258,
+      "buyPrice": 430
+    },
+    {
+      "id": 12732,
+      "amount": 80,
+      "sellPrice": 258,
+      "buyPrice": 430
+    },
+    {
+      "id": 12736,
+      "amount": 40,
+      "sellPrice": 198,
+      "buyPrice": 330
+    },
+    {
+      "id": 12738,
+      "amount": 35,
+      "sellPrice": 5970,
+      "buyPrice": 9950
+    },
+    {
+      "id": 221,
+      "amount": 300,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 12859,
+      "amount": 60,
+      "sellPrice": 180,
+      "buyPrice": 300
+    },
+    {
+      "id": 579,
+      "amount": 1,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 1017,
+      "amount": 1,
+      "sellPrice": 1,
+      "buyPrice": 2
+    }
+  ]
+}

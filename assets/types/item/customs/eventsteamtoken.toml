@@ -1,0 +1,17 @@
+# Event Reward Ticket
+[[item]]
+id=30590
+inherit=2996
+name="Event Reward Ticket"
+placeholderid=30591
+op2=""
+grandexchange=false
+notedid=-1
+
+# Event Reward Ticket
+[[item]]
+id=30591
+inherit=2996
+name="null"
+placeholdertemplate=14401
+placeholderid=30590

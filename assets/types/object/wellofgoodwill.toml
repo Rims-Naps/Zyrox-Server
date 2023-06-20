@@ -1,0 +1,40 @@
+# Well of goodwill
+[[object]]
+id=40047
+name="Well of Goodwill"
+varbit=-1
+optionsInvisible=-1
+models=[50769]
+ambientSoundId=-1
+varp=-1
+supportItems=-1
+sizex=2
+clipType=1
+isRotated=false
+sizey=2
+projectileClip=false
+anInt455= 0
+nonFlatShading=false
+contouredGround=-1
+anInt456=0
+ambient=0
+op1="Donate"
+op2="Donate-items"
+op3="Info"
+op4="Event"
+contrast=0
+anInt457=0
+animationId=-1
+modelSizeX=128
+decorDisplacement=16
+modelSizeHeight=128
+modelSizeY=128
+mapSceneId=-1
+offsetX=0
+offsetHeight=0
+offsetY=0
+
+
+
+
+

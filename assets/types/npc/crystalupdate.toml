@@ -1,0 +1,20 @@
+# Crystal Imp
+[[npc]]
+id=13000
+inherit=1644
+name="Crystal Imp"
+combatlevel=0
+models=[50277]
+size=1
+
+
+# Elf Trader
+[[npc]]
+id=13001
+inherit=638
+name="Elder Elf Trader"
+combatlevel=0
+op1="Crystal Weapons"
+op2="Crystal Armours"
+op3="Crystal Tools"
+size=1

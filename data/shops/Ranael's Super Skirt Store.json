@@ -1,0 +1,44 @@
+{
+  "shopUID": 126,
+  "shopName": "Ranael's Super Skirt Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1087,
+      "amount": 5,
+      "sellPrice": 24,
+      "buyPrice": 80
+    },
+    {
+      "id": 1081,
+      "amount": 3,
+      "sellPrice": 84,
+      "buyPrice": 280
+    },
+    {
+      "id": 1083,
+      "amount": 2,
+      "sellPrice": 300,
+      "buyPrice": 1000
+    },
+    {
+      "id": 1089,
+      "amount": 1,
+      "sellPrice": 576,
+      "buyPrice": 1920
+    },
+    {
+      "id": 1085,
+      "amount": 1,
+      "sellPrice": 780,
+      "buyPrice": 2600
+    },
+    {
+      "id": 1091,
+      "amount": 1,
+      "sellPrice": 1920,
+      "buyPrice": 6400
+    }
+  ]
+}

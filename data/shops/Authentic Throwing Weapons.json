@@ -1,0 +1,80 @@
+{
+  "shopUID": 65,
+  "shopName": "Authentic Throwing Weapons",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 825,
+      "amount": 900,
+      "sellPrice": 2,
+      "buyPrice": 5
+    },
+    {
+      "id": 826,
+      "amount": 800,
+      "sellPrice": 2,
+      "buyPrice": 7
+    },
+    {
+      "id": 827,
+      "amount": 700,
+      "sellPrice": 12,
+      "buyPrice": 31
+    },
+    {
+      "id": 828,
+      "amount": 600,
+      "sellPrice": 32,
+      "buyPrice": 83
+    },
+    {
+      "id": 829,
+      "amount": 500,
+      "sellPrice": 82,
+      "buyPrice": 208
+    },
+    {
+      "id": 830,
+      "amount": 400,
+      "sellPrice": 208,
+      "buyPrice": 520
+    },
+    {
+      "id": 800,
+      "amount": 900,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 801,
+      "amount": 800,
+      "sellPrice": 4,
+      "buyPrice": 9
+    },
+    {
+      "id": 802,
+      "amount": 700,
+      "sellPrice": 12,
+      "buyPrice": 33
+    },
+    {
+      "id": 803,
+      "amount": 600,
+      "sellPrice": 35,
+      "buyPrice": 91
+    },
+    {
+      "id": 804,
+      "amount": 500,
+      "sellPrice": 87,
+      "buyPrice": 228
+    },
+    {
+      "id": 805,
+      "amount": 400,
+      "sellPrice": 232,
+      "buyPrice": 572
+    }
+  ]
+}

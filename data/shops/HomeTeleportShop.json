@@ -1,0 +1,70 @@
+{
+  "shopName": "Teleport Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 32306,
+      "amount": 10,
+      "sellPrice": 1000000,
+      "buyPrice": 2000000,
+      "restockTimer": 1
+    },
+    {
+      "id": 32305,
+      "amount": 10,
+      "sellPrice": 1000000,
+      "buyPrice": 2000000,
+      "restockTimer": 1
+    },
+    {
+      "id": 32238,
+      "amount": 10,
+      "sellPrice": 1000000,
+      "buyPrice": 2000000,
+      "restockTimer": 1
+    },
+    {
+      "id": 12103,
+      "amount": 10,
+      "sellPrice": 1000000,
+      "buyPrice": 2000000,
+      "restockTimer": 1
+    },
+    {
+      "id": 12104,
+      "amount": 10,
+      "sellPrice": 1000000,
+      "buyPrice": 2000000,
+      "restockTimer": 1
+    },
+    {
+      "id": 12102,
+      "amount": 10,
+      "sellPrice": 1000000,
+      "buyPrice": 2000000,
+      "restockTimer": 1
+    },
+    {
+      "id": 12101,
+      "amount": 10,
+      "sellPrice": 1000000,
+      "buyPrice": 2000000,
+      "restockTimer": 1
+    },
+    {
+      "id": 12105,
+      "amount": 10,
+      "sellPrice": 1000000,
+      "buyPrice": 2000000,
+      "restockTimer": 1
+    },
+    {
+      "id": 12100,
+      "amount": 10,
+      "sellPrice": 1000000,
+      "buyPrice": 2000000,
+      "restockTimer": 1
+    }
+  ]
+}

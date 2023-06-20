@@ -1,0 +1,65 @@
+{
+  "shopUID": 1013,
+  "shopName": "Theatre of Blood Resupply Chest",
+  "currency": "TOB_RESUPPLY_POINTS",
+  "sellPolicy": "NO_SELLING",
+  "items": [
+    {
+      "id": 12625,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1,
+      "restockTimer": 1
+    },
+    {
+      "id": 2434,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2,
+      "restockTimer": 1
+    },
+    {
+      "id": 6685,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 3,
+      "restockTimer": 1
+    },
+    {
+      "id": 3024,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 3,
+      "restockTimer": 1
+    },
+    {
+      "id": 7058,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1,
+      "restockTimer": 1
+    },
+    {
+      "id": 385,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1,
+      "restockTimer": 1
+    },
+    {
+      "id": 397,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2,
+      "restockTimer": 1
+    },
+    {
+      "id": 391,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2,
+      "restockTimer": 1
+    }
+
+  ]
+}

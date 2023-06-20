@@ -1,0 +1,67 @@
+# Graceful dye
+[[item]]
+id=2710
+inherit=22667
+name="Graceful dye"
+op1="Info"
+op5="Drop"
+
+
+# Blue dye
+[[item]]
+id=32300
+inherit=1767
+name="Blue graceful dye"
+grandexchange=false
+placeholderid=32466
+op5="Drop"
+notedid=-1
+
+# Black dye
+[[item]]
+id=32302
+inherit=1767
+name="Black graceful dye"
+grandexchange=false
+placeholderid=32465
+originalcolours=[61]
+replacementcolours=[0]
+op5="Drop"
+notedid=-1
+
+# Trailblazer graceful dye
+[[item]]
+id=32303
+inherit=1767
+name="Trailblazer graceful dye"
+grandexchange=false
+placeholderid=32304
+originalcolours=[61]
+replacementcolours=[4515]
+op5="Drop"
+notedid=-1
+
+# Trailblazer graceful dye Placeholder
+[[item]]
+id=32304
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32303
+
+# black dye Placeholder
+[[item]]
+id=32465
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32302
+
+# black dye Placeholder
+[[item]]
+id=32466
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32300
+

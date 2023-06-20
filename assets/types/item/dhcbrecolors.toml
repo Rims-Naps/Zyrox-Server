@@ -1,0 +1,75 @@
+# Black dhcb
+[[item]]
+id=32197
+inherit=21012
+name="Dragon hunter crossbow (b)"
+placeholderid=32198
+invmodel=50672
+primarymalemodel=50673
+primaryfemalemodel=50674
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=926
+modelroll=258
+modelpitch=432
+modelyaw=0
+offsetx=0
+offsety=9
+op4="Dismantle"
+
+# Black dhcb Placeholder
+[[item]]
+id=32198
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32197
+invmodel=50672
+zoom=926
+modelroll=258
+modelpitch=432
+modelyaw=0
+offsetx=0
+offsety=9
+
+# Blue dhcb
+[[item]]
+id=32199
+inherit=21012
+name="Dragon hunter crossbow (t)"
+placeholderid=32200
+invmodel=50675
+primarymalemodel=50676
+primaryfemalemodel=50677
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=926
+modelroll=258
+modelpitch=432
+modelyaw=0
+offsetx=0
+offsety=9
+op4="Dismantle"
+
+# Blue dhcb Placeholder
+[[item]]
+id=32200
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32199
+invmodel=50675
+zoom=926
+modelroll=258
+modelpitch=432
+modelyaw=0
+offsetx=0
+offsety=9

@@ -1,0 +1,11 @@
+# Crystal hatchet animation
+[[animation]]
+id=10001
+inherit=877
+lefthanditem=30718
+
+# Crystal hatchet animation for pyreship
+[[animation]]
+id=10006
+inherit=6745
+lefthanditem=30718

@@ -1,0 +1,71 @@
+{
+  "shopUID": 1011,
+  "shopName": "Cap'n Izzy No-beard's Shop",
+  "currency": "AGILITY_ARENA_TICKET",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 2997,
+      "amount": 100,
+      "sellPrice": 75,
+      "buyPrice": 100,
+      "restockTimer": 1
+    },
+    {
+      "id": 2998,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 3,
+      "restockTimer": 1
+    },
+    {
+      "id": 3000,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 10,
+      "restockTimer": 1
+    },
+    {
+      "id": 11919,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 100,
+      "restockTimer": 1
+    },
+    {
+      "id": 12956,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 100,
+      "restockTimer": 1
+    },
+    {
+      "id": 12957,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 100,
+      "restockTimer": 1
+    },
+    {
+      "id": 12958,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 100,
+      "restockTimer": 1
+    },
+    {
+      "id": 12959,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 100,
+      "restockTimer": 1
+    },
+    {
+      "id": 7498,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 10,
+      "restockTimer": 1
+    }
+  ]
+}

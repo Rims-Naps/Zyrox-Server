@@ -1,0 +1,26 @@
+{
+  "shopUID": 147,
+  "shopName": "Reldak's Leather Armour",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 10954,
+      "amount": 50,
+      "sellPrice": 400,
+      "buyPrice": 1000
+    },
+    {
+      "id": 10956,
+      "amount": 50,
+      "sellPrice": 360,
+      "buyPrice": 900
+    },
+    {
+      "id": 10958,
+      "amount": 50,
+      "sellPrice": 80,
+      "buyPrice": 200
+    }
+  ]
+}

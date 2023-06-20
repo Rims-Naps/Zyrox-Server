@@ -1,0 +1,44 @@
+{
+  "shopUID": 200,
+  "shopName": "Filamina's Wares",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1379,
+      "amount": 5,
+      "sellPrice": 9,
+      "buyPrice": 15
+    },
+    {
+      "id": 1389,
+      "amount": 5,
+      "sellPrice": 120,
+      "buyPrice": 200
+    },
+    {
+      "id": 1381,
+      "amount": 2,
+      "sellPrice": 900,
+      "buyPrice": 1500
+    },
+    {
+      "id": 1383,
+      "amount": 2,
+      "sellPrice": 900,
+      "buyPrice": 1500
+    },
+    {
+      "id": 1385,
+      "amount": 2,
+      "sellPrice": 900,
+      "buyPrice": 1500
+    },
+    {
+      "id": 1387,
+      "amount": 2,
+      "sellPrice": 900,
+      "buyPrice": 1500
+    }
+  ]
+}

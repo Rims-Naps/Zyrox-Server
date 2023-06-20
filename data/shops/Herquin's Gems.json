@@ -1,0 +1,56 @@
+{
+  "shopUID": 13,
+  "shopName": "Herquin's Gems",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1623,
+      "amount": 1,
+      "sellPrice": 17,
+      "buyPrice": 25
+    },
+    {
+      "id": 1621,
+      "amount": 0,
+      "sellPrice": 35,
+      "buyPrice": 50
+    },
+    {
+      "id": 1619,
+      "amount": 0,
+      "sellPrice": 70,
+      "buyPrice": 100
+    },
+    {
+      "id": 1617,
+      "amount": 0,
+      "sellPrice": 140,
+      "buyPrice": 200
+    },
+    {
+      "id": 1607,
+      "amount": 1,
+      "sellPrice": 175,
+      "buyPrice": 250
+    },
+    {
+      "id": 1605,
+      "amount": 0,
+      "sellPrice": 350,
+      "buyPrice": 500
+    },
+    {
+      "id": 1603,
+      "amount": 0,
+      "sellPrice": 700,
+      "buyPrice": 1000
+    },
+    {
+      "id": 1601,
+      "amount": 0,
+      "sellPrice": 1400,
+      "buyPrice": 2000
+    }
+  ]
+}

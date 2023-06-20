@@ -1,0 +1,104 @@
+{
+  "shopUID": 113,
+  "shopName": "TzHaar-Hur-Lek's Ore and Gem Store",
+  "currency": "TOKKUL",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 438,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 4
+    },
+    {
+      "id": 436,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 4
+    },
+    {
+      "id": 440,
+      "amount": 2,
+      "sellPrice": 2,
+      "buyPrice": 25
+    },
+    {
+      "id": 442,
+      "amount": 0,
+      "sellPrice": 11,
+      "buyPrice": 112
+    },
+    {
+      "id": 453,
+      "amount": 0,
+      "sellPrice": 6,
+      "buyPrice": 67
+    },
+    {
+      "id": 444,
+      "amount": 0,
+      "sellPrice": 22,
+      "buyPrice": 225
+    },
+    {
+      "id": 447,
+      "amount": 0,
+      "sellPrice": 24,
+      "buyPrice": 243
+    },
+    {
+      "id": 449,
+      "amount": 0,
+      "sellPrice": 60,
+      "buyPrice": 600
+    },
+    {
+      "id": 451,
+      "amount": 0,
+      "sellPrice": 480,
+      "buyPrice": 4800
+    },
+    {
+      "id": 1623,
+      "amount": 1,
+      "sellPrice": 3,
+      "buyPrice": 37
+    },
+    {
+      "id": 1621,
+      "amount": 1,
+      "sellPrice": 7,
+      "buyPrice": 75
+    },
+    {
+      "id": 1619,
+      "amount": 0,
+      "sellPrice": 15,
+      "buyPrice": 150
+    },
+    {
+      "id": 1617,
+      "amount": 0,
+      "sellPrice": 30,
+      "buyPrice": 300
+    },
+    {
+      "id": 1631,
+      "amount": 0,
+      "sellPrice": 150,
+      "buyPrice": 1500
+    },
+    {
+      "id": 6571,
+      "amount": 1,
+      "sellPrice": 30000,
+      "buyPrice": 300000
+    },
+    {
+      "id": 9194,
+      "amount": 50,
+      "sellPrice": 150,
+      "buyPrice": 1500
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "shopUID": 1,
+  "shopName": "Martin Thwait's Lost and Found",
+  "currency": "COINS",
+  "sellPolicy": "CAN_SELL",
+  "sellMultiplier": 0.6,
+  "items": [
+    {
+      "id": 954,
+      "amount": 50,
+      "sellPrice": 10,
+      "buyPrice": 18
+    },
+    {
+      "id": 1523,
+      "amount": 25,
+      "sellPrice": 12,
+      "buyPrice": 20
+    },
+    {
+      "id": 1755,
+      "amount": 30,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 946,
+      "amount": 20,
+      "sellPrice": 3,
+      "buyPrice": 6
+    },
+    {
+      "id": 5560,
+      "amount": 25,
+      "sellPrice": 0,
+      "buyPrice": 10
+    },
+    {
+      "id": 864,
+      "amount": 15,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 863,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 865,
+      "amount": 5,
+      "sellPrice": 6,
+      "buyPrice": 11
+    },
+    {
+      "id": 3095,
+      "amount": 3,
+      "sellPrice": 9,
+      "buyPrice": 15
+    },
+    {
+      "id": 3096,
+      "amount": 2,
+      "sellPrice": 30,
+      "buyPrice": 50
+    },
+    {
+      "id": 3097,
+      "amount": 1,
+      "sellPrice": 105,
+      "buyPrice": 175
+    }
+  ]
+}

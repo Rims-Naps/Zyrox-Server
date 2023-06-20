@@ -1,0 +1,44 @@
+{
+  "shopUID": 173,
+  "shopName": "Trader Sven's Black-market Goods",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 9640,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 6
+    },
+    {
+      "id": 9642,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 6
+    },
+    {
+      "id": 9644,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 6
+    },
+    {
+      "id": 9634,
+      "amount": 10,
+      "sellPrice": 260,
+      "buyPrice": 650
+    },
+    {
+      "id": 9636,
+      "amount": 10,
+      "sellPrice": 260,
+      "buyPrice": 650
+    },
+    {
+      "id": 9638,
+      "amount": 10,
+      "sellPrice": 260,
+      "buyPrice": 650
+    }
+  ]
+}

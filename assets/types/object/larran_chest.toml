@@ -1,0 +1,18 @@
+# Larran Chest CLOSED
+[[object]]
+inherit=6448
+id=40000
+name="Larran's Chest"
+op1="Open"
+
+
+# Larran Chest OPEN
+[[object]]
+inherit=6448
+id=40001
+name="Larran's Chest"
+op1="Open"
+
+
+
+

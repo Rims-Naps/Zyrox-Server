@@ -1,0 +1,45 @@
+# Halloween Scythe
+[[item]]
+id=32317
+inherit=1419
+name="Halloween scythe"
+primarymalemodel=50771
+primaryfemalemodel=50771
+invmodel=50772
+zoom=2930
+modelpitch=409
+modelroll=1243
+offsetx=-5
+offsety=-9
+placeholderid=32318
+
+# Halloween Scythe placeholder
+[[item]]
+id=32318
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32317
+
+# Golden Scythe
+[[item]]
+id=32323
+inherit=1419
+name="Golden scythe"
+primarymalemodel=50773
+primaryfemalemodel=50773
+invmodel=50774
+zoom=2930
+modelpitch=409
+modelroll=1243
+offsetx=-5
+offsety=-9
+placeholderid=32324
+
+# Golden Scythe placeholder
+[[item]]
+id=32324
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32323

@@ -1,0 +1,92 @@
+{
+  "shopUID": 134,
+  "shopName": "Nardah Hunter Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 10010,
+      "amount": 5,
+      "sellPrice": 14,
+      "buyPrice": 24
+    },
+    {
+      "id": 10012,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 10025,
+      "amount": 30,
+      "sellPrice": 420,
+      "buyPrice": 720
+    },
+    {
+      "id": 10150,
+      "amount": 50,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 10006,
+      "amount": 50,
+      "sellPrice": 3,
+      "buyPrice": 6
+    },
+    {
+      "id": 10008,
+      "amount": 25,
+      "sellPrice": 22,
+      "buyPrice": 38
+    },
+    {
+      "id": 10029,
+      "amount": 5,
+      "sellPrice": 35,
+      "buyPrice": 60
+    },
+    {
+      "id": 596,
+      "amount": 20,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 10031,
+      "amount": 10,
+      "sellPrice": 10,
+      "buyPrice": 18
+    },
+    {
+      "id": 12740,
+      "amount": 3,
+      "sellPrice": 353,
+      "buyPrice": 606
+    },
+    {
+      "id": 12742,
+      "amount": 3,
+      "sellPrice": 2240,
+      "buyPrice": 3840
+    },
+    {
+      "id": 12744,
+      "amount": 3,
+      "sellPrice": 42000,
+      "buyPrice": 72000
+    },
+    {
+      "id": 10156,
+      "amount": 3,
+      "sellPrice": 10000,
+      "buyPrice": 20000
+    },
+    {
+      "id": 10158,
+      "amount": 4000,
+      "sellPrice": 30,
+      "buyPrice": 60
+    }
+  ]
+}

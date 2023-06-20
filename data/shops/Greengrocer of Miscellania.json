@@ -1,0 +1,38 @@
+{
+  "shopUID": 46,
+  "shopName": "Greengrocer of Miscellania",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1965,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1942,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1957,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 3
+    },
+    {
+      "id": 1982,
+      "amount": 10,
+      "sellPrice": 3,
+      "buyPrice": 4
+    },
+    {
+      "id": 1550,
+      "amount": 2,
+      "sellPrice": 2,
+      "buyPrice": 3
+    }
+  ]
+}

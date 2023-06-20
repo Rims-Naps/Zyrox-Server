@@ -1,0 +1,110 @@
+{
+  "shopUID": 48,
+  "shopName": "Miscellanian Clothes Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 3767,
+      "amount": 5,
+      "sellPrice": 137,
+      "buyPrice": 250
+    },
+    {
+      "id": 3769,
+      "amount": 5,
+      "sellPrice": 137,
+      "buyPrice": 250
+    },
+    {
+      "id": 3771,
+      "amount": 5,
+      "sellPrice": 137,
+      "buyPrice": 250
+    },
+    {
+      "id": 3773,
+      "amount": 5,
+      "sellPrice": 137,
+      "buyPrice": 250
+    },
+    {
+      "id": 3775,
+      "amount": 5,
+      "sellPrice": 137,
+      "buyPrice": 250
+    },
+    {
+      "id": 3793,
+      "amount": 5,
+      "sellPrice": 275,
+      "buyPrice": 500
+    },
+    {
+      "id": 3795,
+      "amount": 5,
+      "sellPrice": 275,
+      "buyPrice": 500
+    },
+    {
+      "id": 5050,
+      "amount": 3,
+      "sellPrice": 302,
+      "buyPrice": 550
+    },
+    {
+      "id": 5052,
+      "amount": 3,
+      "sellPrice": 343,
+      "buyPrice": 625
+    },
+    {
+      "id": 5038,
+      "amount": 3,
+      "sellPrice": 385,
+      "buyPrice": 700
+    },
+    {
+      "id": 5040,
+      "amount": 3,
+      "sellPrice": 412,
+      "buyPrice": 750
+    },
+    {
+      "id": 5044,
+      "amount": 3,
+      "sellPrice": 198,
+      "buyPrice": 360
+    },
+    {
+      "id": 5046,
+      "amount": 3,
+      "sellPrice": 214,
+      "buyPrice": 390
+    },
+    {
+      "id": 5026,
+      "amount": 3,
+      "sellPrice": 343,
+      "buyPrice": 625
+    },
+    {
+      "id": 5028,
+      "amount": 3,
+      "sellPrice": 357,
+      "buyPrice": 650
+    },
+    {
+      "id": 5032,
+      "amount": 3,
+      "sellPrice": 330,
+      "buyPrice": 600
+    },
+    {
+      "id": 5034,
+      "amount": 3,
+      "sellPrice": 343,
+      "buyPrice": 625
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[item]
+inherit=12100
+id=23550
+name="Inferno skip scroll"
+invmodel=32770
+originalcolours=[5563]
+replacementcolours=[-26433]
+grandexchange=false
+op2=""

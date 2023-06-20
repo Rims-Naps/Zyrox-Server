@@ -1,0 +1,58 @@
+# Neitiznot faceguard
+[[item]]
+id=30536
+inherit=10828
+name="Neitiznot faceguard"
+placeholderid=30537
+invmodel=50246
+2dxan=204
+2dyan=112
+2dzan=1860
+2dzoom=1080
+2dxof=-1
+2dyof=-26
+primarymalemodel=50243
+primaryfemalemodel=50244
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op3="Dismantle"
+grandexchange=true
+notedid=-1
+
+# Neitiznot faceguard Placeholder
+[[item]]
+id=30537
+inherit=10828
+name="null"
+placeholdertemplate=14401
+placeholderid=30536
+invmodel=50246
+
+# Basilisk Jaw
+[[item]]
+id=30538
+inherit=21024
+name="Basilisk Jaw"
+placeholderid=30539
+invmodel=50248
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=-1
+
+# Basilisk Jaw Placeholder
+[[item]]
+id=30539
+inherit=21026
+name="null"
+placeholdertemplate=14401
+placeholderid=30538
+invmodel=50248
+notedid=-1

@@ -1,0 +1,182 @@
+{
+  "shopUID": 25,
+  "shopName": "Sarah's Farming Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 5341,
+      "amount": 500,
+      "sellPrice": 4,
+      "buyPrice": 6
+    },
+    {
+      "id": 5343,
+      "amount": 500,
+      "sellPrice": 4,
+      "buyPrice": 6
+    },
+    {
+      "id": 5329,
+      "amount": 500,
+      "sellPrice": 3,
+      "buyPrice": 5
+    },
+    {
+      "id": 952,
+      "amount": 500,
+      "sellPrice": 2,
+      "buyPrice": 3
+    },
+    {
+      "id": 5325,
+      "amount": 500,
+      "sellPrice": 8,
+      "buyPrice": 12
+    },
+    {
+      "id": 5331,
+      "amount": 500,
+      "sellPrice": 5,
+      "buyPrice": 8
+    },
+    {
+      "id": 5354,
+      "amount": 500,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 13250,
+      "amount": 30,
+      "sellPrice": 70,
+      "buyPrice": 100
+    },
+    {
+      "id": 6032,
+      "amount": 500,
+      "sellPrice": 14,
+      "buyPrice": 20
+    },
+    {
+      "id": 19704,
+      "amount": 10,
+      "sellPrice": 1400,
+      "buyPrice": 2000
+    },
+    {
+      "id": 5418,
+      "amount": 500,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 13252,
+      "amount": 30,
+      "sellPrice": 70,
+      "buyPrice": 100
+    },
+    {
+      "id": 5376,
+      "amount": 500,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 13254,
+      "amount": 30,
+      "sellPrice": 70,
+      "buyPrice": 100
+    },
+    {
+      "id": 1942,
+      "amount": 0,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1957,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 3
+    },
+    {
+      "id": 1965,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1982,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 4
+    },
+    {
+      "id": 5986,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 9
+    },
+    {
+      "id": 5504,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 17
+    },
+    {
+      "id": 5982,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 48
+    },
+    {
+      "id": 5994,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 4
+    },
+    {
+      "id": 5996,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 5
+    },
+    {
+      "id": 5998,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 7
+    },
+    {
+      "id": 6000,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 10
+    },
+    {
+      "id": 6002,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 15
+    },
+    {
+      "id": 5931,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 6
+    },
+    {
+      "id": 6006,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 4
+    },
+    {
+      "id": 6036,
+      "amount": 100,
+      "sellPrice": 28,
+      "buyPrice": 40
+    }
+  ]
+}

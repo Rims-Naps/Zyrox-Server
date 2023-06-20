@@ -1,0 +1,177 @@
+{
+  "shopUID": 43,
+  "shopName": "Baba Yaga's Magic Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 556,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4,
+	  "restockTimer": 5
+    },
+    {
+      "id": 555,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4,
+	  "restockTimer": 5
+    },
+    {
+      "id": 557,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4,
+	  "restockTimer": 5
+    },
+    {
+      "id": 554,
+      "amount": 5000,
+      "sellPrice": 2,
+      "buyPrice": 4,
+	  "restockTimer": 5
+    },
+    {
+      "id": 558,
+      "amount": 5000,
+      "sellPrice": 1,
+      "buyPrice": 3,
+	  "restockTimer": 5
+    },
+    {
+      "id": 559,
+      "amount": 5000,
+      "sellPrice": 1,
+      "buyPrice": 16,
+	  "restockTimer": 5
+    },
+    {
+      "id": 562,
+      "amount": 250,
+      "sellPrice": 49,
+      "buyPrice": 90,
+	  "restockTimer": 5
+    },
+    {
+      "id": 561,
+      "amount": 250,
+      "sellPrice": 99,
+      "buyPrice": 180,
+	  "restockTimer": 5
+    },
+    {
+      "id": 560,
+      "amount": 250,
+      "sellPrice": 99,
+      "buyPrice": 180,
+	  "restockTimer": 5
+    },
+    {
+      "id": 563,
+      "amount": 250,
+      "sellPrice": 132,
+      "buyPrice": 240,
+	  "restockTimer": 5
+    },
+    {
+      "id": 565,
+      "amount": 250,
+      "sellPrice": 220,
+      "buyPrice": 400,
+	  "restockTimer": 5
+    },
+    {
+      "id": 566,
+      "amount": 250,
+      "sellPrice": 161,
+      "buyPrice": 300,
+	  "restockTimer": 5
+    },
+    {
+      "id": 9075,
+      "amount": 250,
+      "sellPrice": 27,
+      "buyPrice": 50,
+	  "restockTimer": 5
+    },
+    {
+      "id": 12734,
+      "amount": 80,
+      "sellPrice": 236,
+      "buyPrice": 430
+    },
+    {
+      "id": 12730,
+      "amount": 80,
+      "sellPrice": 236,
+      "buyPrice": 430
+    },
+    {
+      "id": 12728,
+      "amount": 80,
+      "sellPrice": 236,
+      "buyPrice": 430
+    },
+    {
+      "id": 12732,
+      "amount": 80,
+      "sellPrice": 236,
+      "buyPrice": 430
+    },
+    {
+      "id": 12736,
+      "amount": 40,
+      "sellPrice": 181,
+      "buyPrice": 330
+    },
+    {
+      "id": 12738,
+      "amount": 35,
+      "sellPrice": 5472,
+      "buyPrice": 9950
+    },
+    {
+      "id": 1391,
+      "amount": 5,
+      "sellPrice": 3850,
+      "buyPrice": 7000
+    },
+    {
+      "id": 1387,
+      "amount": 2,
+      "sellPrice": 900,
+      "buyPrice": 1500
+    },
+    {
+      "id": 1383,
+      "amount": 2,
+      "sellPrice": 900,
+      "buyPrice": 1500
+    },
+    {
+      "id": 1381,
+      "amount": 2,
+      "sellPrice": 900,
+      "buyPrice": 1500
+    },
+    {
+      "id": 1385,
+      "amount": 2,
+      "sellPrice": 900,
+      "buyPrice": 1500
+    },
+    {
+      "id": 20613,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 9078,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1
+    }
+  ]
+}

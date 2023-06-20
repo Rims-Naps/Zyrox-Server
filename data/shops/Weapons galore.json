@@ -1,0 +1,38 @@
+{
+  "shopUID": 40,
+  "shopName": "Weapons galore",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1299,
+      "amount": 4,
+      "sellPrice": 910,
+      "buyPrice": 1430
+    },
+    {
+      "id": 1343,
+      "amount": 4,
+      "sellPrice": 1162,
+      "buyPrice": 1826
+    },
+    {
+      "id": 1369,
+      "amount": 4,
+      "sellPrice": 1183,
+      "buyPrice": 1859
+    },
+    {
+      "id": 3099,
+      "amount": 4,
+      "sellPrice": 332,
+      "buyPrice": 522
+    },
+    {
+      "id": 1315,
+      "amount": 4,
+      "sellPrice": 1820,
+      "buyPrice": 2860
+    }
+  ]
+}

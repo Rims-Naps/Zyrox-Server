@@ -1,0 +1,74 @@
+{
+  "shopUID": 113,
+  "shopName": "TzHaar-Hur-Zal's Equipment Store",
+  "currency": "TOKKUL",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 6522,
+      "amount": 500,
+      "sellPrice": 34,
+      "buyPrice": 375
+    },
+	{
+      "id": 6523,
+      "amount": 1,
+      "sellPrice": 6000,
+      "buyPrice": 60000
+    },
+	{
+      "id": 6525,
+      "amount": 1,
+      "sellPrice": 3550,
+      "buyPrice": 37500
+    },
+	{
+      "id": 6528,
+      "amount": 1,
+      "sellPrice": 7500,
+      "buyPrice": 75000
+    },
+	{
+      "id": 6526,
+      "amount": 1,
+      "sellPrice": 5000,
+      "buyPrice": 52500
+    },
+	{
+      "id": 6527,
+      "amount": 1,
+      "sellPrice": 4000,
+      "buyPrice": 45000
+    },
+	{
+      "id": 6524,
+      "amount": 1,
+      "sellPrice": 6750,
+      "buyPrice": 67500
+    },
+	{
+      "id": 6568,
+      "amount": 1,
+      "sellPrice": 9000,
+      "buyPrice": 90000
+    },
+	{
+      "id": 21298,
+      "amount": 1,
+      "sellPrice": 8448,
+      "buyPrice": 84480
+    },
+	{
+      "id": 21301,
+      "amount": 1,
+      "sellPrice": 12600,
+      "buyPrice": 126000
+    },
+	{
+      "id": 21304,
+      "amount": 1,
+      "sellPrice": 10050,
+      "buyPrice": 100500
+    }
+  ]
+}

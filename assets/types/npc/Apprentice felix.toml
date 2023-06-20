@@ -1,0 +1,11 @@
+# Apprentice felix
+[[npc]]
+id=10050
+inherit=4398
+name="Apprentice felix"
+op1="Talk-to"
+op2="Trade"
+
+
+
+

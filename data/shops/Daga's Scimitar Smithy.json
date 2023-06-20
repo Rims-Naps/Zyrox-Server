@@ -1,0 +1,38 @@
+{
+  "shopUID": 223,
+  "shopName": "Daga's Scimitar Smithy",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1321,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 32
+    },
+    {
+      "id": 1323,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 112
+    },
+    {
+      "id": 1325,
+      "amount": 8,
+      "sellPrice": 2,
+      "buyPrice": 400
+    },
+    {
+      "id": 1329,
+      "amount": 6,
+      "sellPrice": 2,
+      "buyPrice": 1040
+    },
+    {
+      "id": 4587,
+      "amount": 4,
+      "sellPrice": 1,
+      "buyPrice": 100000
+    }
+  ]
+}

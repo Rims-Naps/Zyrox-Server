@@ -1,0 +1,14 @@
+{
+  "shopUID": 253,
+  "shopName": "Fairy Fixit's Fairy Enchantment",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 20609,
+      "amount": 4,
+      "sellPrice": 60,
+      "buyPrice": 100
+    }
+  ]
+}

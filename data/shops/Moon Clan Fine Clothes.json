@@ -1,0 +1,50 @@
+{
+  "shopUID": 44,
+  "shopName": "Moon Clan Fine Clothes",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 9068,
+      "amount": 9,
+      "sellPrice": 0,
+      "buyPrice": 1000
+    },
+    {
+      "id": 9069,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 1000
+    },
+    {
+      "id": 9070,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 1000
+    },
+    {
+      "id": 9071,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 1000
+    },
+    {
+      "id": 9072,
+      "amount": 9,
+      "sellPrice": 0,
+      "buyPrice": 900
+    },
+    {
+      "id": 9073,
+      "amount": 12,
+      "sellPrice": 0,
+      "buyPrice": 900
+    },
+    {
+      "id": 9074,
+      "amount": 15,
+      "sellPrice": 0,
+      "buyPrice": 200
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+# $5 Bond
+[[item]]
+id=30051
+inherit=13190
+name="$5 Bond"
+invmodel=29209
+placeholderid=30052
+price=500000
+grandexchange=false
+op1="Redeem"
+op3=""
+
+# $5 Bond (placeholder)
+[[item]]
+id=30052
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=30051
+invmodel=29209
+
+# $10 Bond
+[[item]]
+inherit=13190
+name="$10 Bond"
+price=500000
+op1="Redeem"
+op3=""
+
+# $50 Bond
+[[item]]
+id=30017
+inherit=13190
+name="$50 Bond"
+invmodel=38005
+placeholderid=30025
+price=500000
+op1="Redeem"
+op3=""
+
+# $50 Bond (placeholder)
+[[item]]
+id=30025
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=30017
+invmodel=38005
+
+# $100 Bond
+[[item]]
+id=30018
+inherit=13190
+name="$100 Bond"
+invmodel=38006
+placeholderid=30026
+price=500000
+op1="Redeem"
+op3=""
+
+# $100 Bond (placeholder)
+[[item]]
+id=30026
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=30018
+invmodel=38006
+
+

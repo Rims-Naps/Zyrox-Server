@@ -1,0 +1,460 @@
+{
+  "shopUID": 1008, //TODO prices when all shop items have been decided
+  "shopName": "Tools Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 2347,
+      "amount": 100,
+      "sellPrice": 15,
+      "buyPrice": 25
+    },
+    {
+      "id": 946,
+      "amount": 100,
+      "sellPrice": 15,
+      "buyPrice": 25
+    },
+    {
+      "id": 1755,
+      "amount": 100,
+      "sellPrice": 15,
+      "buyPrice": 25
+    },
+    {
+      "id": 590,
+      "amount": 100,
+      "sellPrice": 15,
+      "buyPrice": 25
+    },
+    {
+      "id": 303,
+      "amount": 100,
+      "sellPrice": 15,
+      "buyPrice": 25
+    },
+    {
+      "id": 305,
+      "amount": 100,
+      "sellPrice": 45,
+      "buyPrice": 75
+    },
+    {
+      "id": 307,
+      "amount": 100,
+      "sellPrice": 30,
+      "buyPrice": 50
+    },
+    {
+      "id": 309,
+      "amount": 100,
+      "sellPrice": 30,
+      "buyPrice": 50
+    },
+    {
+      "id": 301,
+      "amount": 100,
+      "sellPrice": 45,
+      "buyPrice": 75
+    },
+    {
+      "id": 311,
+      "amount": 100,
+      "sellPrice": 45,
+      "buyPrice": 75
+    },
+    {
+      "id": 11323,
+      "amount": 100,
+      "sellPrice": 48,
+      "buyPrice": 80
+    },
+	{
+      "id": 1585,
+      "amount": 100,
+      "sellPrice": 84,
+      "buyPrice": 180
+    },
+    {
+      "id": 952,
+      "amount": 100,
+      "sellPrice": 15,
+      "buyPrice": 25
+    },
+    {
+      "id": 5325,
+      "amount": 100,
+      "sellPrice": 15,
+      "buyPrice": 25
+    },
+    {
+      "id": 5343,
+      "amount": 100,
+      "sellPrice": 15,
+      "buyPrice": 25
+    },
+	{
+      "id": 5329,
+      "amount": 100,
+      "sellPrice": 3,
+      "buyPrice": 6
+    },
+	{
+      "id": 5331,
+      "amount": 100,
+      "sellPrice": 5,
+      "buyPrice": 10
+    },
+    {
+      "id": 5341,
+      "amount": 100,
+      "sellPrice": 5,
+      "buyPrice": 10
+    },
+    {
+      "id": 313,
+      "amount": 7500,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 11883,
+      "amount": 250,
+      "sellPrice": 270,
+      "buyPrice": 450
+    },
+    {
+      "id": 314,
+      "amount": 7500,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 11881,
+      "amount": 250,
+      "sellPrice": 270,
+      "buyPrice": 450
+    },
+    {
+      "id": 233,
+      "amount": 100,
+      "sellPrice": 15,
+      "buyPrice": 25
+    },
+    //axes
+    {
+      "id": 1351,
+      "amount": 100,
+      "sellPrice": 9,
+      "buyPrice": 15
+    },
+    {
+      "id": 1349,
+      "amount": 100,
+      "sellPrice": 25,
+      "buyPrice": 43
+    },
+    {
+      "id": 1353,
+      "amount": 100,
+      "sellPrice": 67,
+      "buyPrice": 112
+    },
+    {
+      "id": 1355,
+      "amount": 100,
+      "sellPrice": 493,
+      "buyPrice": 822
+    },
+    {
+      "id": 1357,
+      "amount": 100,
+      "sellPrice": 658,
+      "buyPrice": 12833
+    },
+    {
+      "id": 1359,
+      "amount": 100,
+      "sellPrice": 6744,
+      "buyPrice": 25630
+    },
+    //pickaxes
+    {
+      "id": 1265,
+      "amount": 100,
+      "sellPrice": 9,
+      "buyPrice": 15
+    },
+    {
+      "id": 1267,
+      "amount": 100,
+      "sellPrice": 19,
+      "buyPrice": 33
+    },
+    {
+      "id": 1269,
+      "amount": 100,
+      "sellPrice": 127,
+      "buyPrice": 212
+    },
+    {
+      "id": 1273,
+      "amount": 100,
+      "sellPrice": 539,
+      "buyPrice": 899
+    },
+    {
+      "id": 1271,
+      "amount": 100,
+      "sellPrice": 2125,
+      "buyPrice": 3542
+    },
+    {
+      "id": 1275,
+      "amount": 100,
+      "sellPrice": 12807,
+      "buyPrice": 21345
+    },
+    {
+      "id": 10006,
+      "amount": 100,
+      "sellPrice": 31,
+      "buyPrice": 53
+    },
+    {
+      "id": 10008,
+      "amount": 100,
+      "sellPrice": 37,
+      "buyPrice": 63
+    },
+    {
+      "id": 229,
+      "amount": 1000,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 11877,
+      "amount": 250,
+      "sellPrice": 270,
+      "buyPrice": 450
+    },
+    {
+      "id": 227,
+      "amount": 1000,
+      "sellPrice": 7,
+      "buyPrice": 12
+    },
+    {
+      "id": 11879,
+      "amount": 250,
+      "sellPrice": 261,
+      "buyPrice": 1250
+    },
+    {
+      "id": 954,
+      "amount": 100,
+      "sellPrice": 18,
+      "buyPrice": 346
+    },
+    {
+      "id": 1592,
+      "amount": 100,
+      "sellPrice": 207,
+      "buyPrice": 346
+    },
+    {
+      "id": 1595,
+      "amount": 100,
+      "sellPrice": 207,
+      "buyPrice": 346
+    },
+    {
+      "id": 1597,
+      "amount": 100,
+      "sellPrice": 207,
+      "buyPrice": 346
+    },
+    {
+      "id": 11065,
+      "amount": 100,
+      "sellPrice": 207,
+      "buyPrice": 346
+    },
+    {
+      "id": 5523,
+      "amount": 100,
+      "sellPrice": 207,
+      "buyPrice": 346
+    },
+    {
+      "id": 4,
+      "amount": 100,
+      "sellPrice": 207,
+      "buyPrice": 346
+    },
+    {
+      "id": 1785,
+      "amount": 100,
+      "sellPrice": 154,
+      "buyPrice": 256
+    },
+	{
+      "id": 1733,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+	{
+      "id": 1734,
+      "amount": 1000,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1438,
+      "amount": 1000,
+      "sellPrice": 6,
+      "buyPrice": 10
+    },
+    {
+      "id": 1440,
+      "amount": 1000,
+      "sellPrice": 6,
+      "buyPrice": 10
+    },
+    {
+      "id": 1442,
+      "amount": 1000,
+      "sellPrice": 6,
+      "buyPrice": 10
+    },
+    {
+      "id": 1444,
+      "amount": 1000,
+      "sellPrice": 6,
+      "buyPrice": 10
+    },
+    {
+      "id": 1446,
+      "amount": 1000,
+      "sellPrice": 6,
+      "buyPrice": 10
+    },
+    {
+      "id": 1448,
+      "amount": 1000,
+      "sellPrice": 6,
+      "buyPrice": 10
+    },
+    {
+      "id": 1458,
+      "amount": 5,
+      "sellPrice": 1500,
+      "buyPrice": 3000
+    },
+    {
+      "id": 7650,
+      "amount": 1000,
+      "sellPrice": 183,
+      "buyPrice": 334
+    },
+	{
+      "id": 3695,
+      "amount": 1000,
+      "sellPrice": 47,
+      "buyPrice": 215
+    },
+	{
+      "id": 2961,
+      "amount": 1000,
+      "sellPrice": 4,
+      "buyPrice": 135
+    },
+	{
+      "id": 2963,
+      "amount": 1000,
+      "sellPrice": 40,
+      "buyPrice": 1895
+    },
+	{
+      "id": 1523,
+      "amount": 1000,
+      "sellPrice": 12,
+      "buyPrice": 20
+    },
+    {
+      "id": 10937,
+      "amount": 1500,
+      "sellPrice": 344,
+      "buyPrice": 456
+    },
+    {
+      "id": 3188,
+      "amount": 1500,
+      "sellPrice": 188,
+      "buyPrice": 354
+    },
+    {
+      "id": 8792,
+      "amount": 1500,
+      "sellPrice": 753,
+      "buyPrice": 10255
+    },
+	{
+      "id": 2575,
+      "amount": 100,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+	{
+      "id": 2576,
+      "amount": 100,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+	{
+      "id": 2574,
+      "amount": 100,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+	{
+      "id": 10125,
+      "amount": 25,
+      "sellPrice": 82,
+      "buyPrice": 680
+    },
+	{
+      "id": 10127,
+      "amount": 25,
+      "sellPrice": 144,
+      "buyPrice": 1760
+    },
+	{
+      "id": 3470,
+      "amount": 100,
+      "sellPrice": 126,
+      "buyPrice": 1444
+    },
+    {
+      "id": 22660,
+      "amount": 50,
+      "sellPrice": 100,
+      "buyPrice": 200
+    },
+     {
+      "id": 10129,
+      "amount": 50,
+      "sellPrice": 500,
+      "buyPrice": 1000
+    },
+    {
+      "id": 3157,
+      "amount": 50,
+      "sellPrice": 500,
+      "buyPrice": 1000
+    }
+  ]
+}

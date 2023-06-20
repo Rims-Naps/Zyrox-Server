@@ -1,0 +1,32 @@
+{
+  "shopUID": 195,
+  "shopName": "Keldagrim Stonemason",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 3420,
+      "amount": 1000,
+      "sellPrice": 7,
+      "buyPrice": 26
+    },
+    {
+      "id": 8786,
+      "amount": 20,
+      "sellPrice": 108333,
+      "buyPrice": 325000
+    },
+    {
+      "id": 8784,
+      "amount": 20,
+      "sellPrice": 43333,
+      "buyPrice": 130000
+    },
+    {
+      "id": 8788,
+      "amount": 10,
+      "sellPrice": 325000,
+      "buyPrice": 975000
+    }
+  ]
+}

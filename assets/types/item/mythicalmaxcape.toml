@@ -1,0 +1,73 @@
+# Mythical max cape
+[[item]]
+id=32184
+inherit=22114
+name="Mythical max cape"
+placeholderid=32185
+invmodel=50657
+primarymalemodel=50658
+primaryfemalemodel=50659
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2232
+modelroll=27
+modelpitch=687
+modelyaw=0
+offsetx=0
+offsety=-5
+
+# Mythical max cape Placeholder
+[[item]]
+id=32185
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32184
+invmodel=50657
+zoom=2232
+modelroll=27
+modelpitch=687
+modelyaw=0
+offsetx=0
+offsety=-5
+
+# Mythical max hood
+[[item]]
+id=32186
+inherit=13281
+name="Mythical max hood"
+placeholderid=32187
+invmodel=50660
+primarymalemodel=50661
+primaryfemalemodel=50662
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=720
+modelroll=18
+modelpitch=21
+modelyaw=0
+offsetx=0
+offsety=0
+
+# Mythical max hood Placeholder
+[[item]]
+id=32187
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32186
+invmodel=50660
+zoom=720
+modelroll=18
+modelpitch=21
+modelyaw=0
+offsetx=0
+offsety=0

@@ -1,0 +1,155 @@
+# Crystal Shard 1
+[[item]]
+id=30560
+inherit=23083
+name="Crystal Shards"
+placeholderid=32030
+invmodel=50255
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+stackids=[30561,30562,30563,30564, 30565]
+stackamounts=[2,3,4,5, 25]
+grandexchange=false
+price=100
+notedid=-1
+zoom=1032
+modelpitch=700
+modelroll=54
+offsetx=-1
+offsety=-1
+modelyaw=0
+
+# Crystal Shard 2
+[[item]]
+id=30561
+inherit=23083
+name="Crystal Shards"
+placeholderid=32030
+invmodel=50256
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=-1
+zoom=1032
+modelpitch=700
+modelroll=54
+offsetx=-1
+offsety=-1
+modelyaw=0
+
+# Crystal Shard 3
+[[item]]
+id=30562
+inherit=23083
+name="Crystal Shard"
+placeholderid=32030
+invmodel=50258
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=-1
+zoom=1032
+modelpitch=700
+modelroll=54
+offsetx=-1
+offsety=-1
+modelyaw=0
+
+# Crystal Shard 4
+[[item]]
+id=30563
+inherit=23083
+name="Crystal Shards"
+placeholderid=32030
+invmodel= 50259
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=-1
+zoom=1032
+modelpitch=700
+modelroll=54
+offsetx=-1
+offsety=-1
+modelyaw=0
+
+# Crystal Shard 5
+[[item]]
+id=30564
+inherit=23083
+name="Crystal Shards"
+placeholderid=32030
+invmodel=50260
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=-1
+zoom=1032
+modelpitch=700
+modelroll=54
+offsetx=-1
+offsety=-1
+modelyaw=0
+
+# Crystal Shard 25
+[[item]]
+id=30565
+inherit=23083
+name="Crystal Shard"
+placeholderid=32030
+invmodel=50257
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op2=""
+grandexchange=false
+notedid=-1
+zoom=1124
+modelpitch=249
+modelroll=162
+offsetx=-3
+offsety=-7
+modelyaw=0
+
+# Crystal Shard Placeholder
+[[item]]
+id=32030
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30560
+invmodel=50255
+zoom=1032
+modelpitch=700
+modelroll=54
+offsetx=-1
+offsety=-1
+modelyaw=0

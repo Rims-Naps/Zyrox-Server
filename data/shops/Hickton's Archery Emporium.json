@@ -1,0 +1,176 @@
+{
+  "shopUID": 74,
+  "shopName": "Hickton's Archery Emporium",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 877,
+      "amount": 200,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 882,
+      "amount": 1000,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 884,
+      "amount": 800,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 886,
+      "amount": 0,
+      "sellPrice": 4,
+      "buyPrice": 12
+    },
+    {
+      "id": 888,
+      "amount": 0,
+      "sellPrice": 10,
+      "buyPrice": 32
+    },
+    {
+      "id": 890,
+      "amount": 0,
+      "sellPrice": 26,
+      "buyPrice": 80
+    },
+    {
+      "id": 892,
+      "amount": 0,
+      "sellPrice": 133,
+      "buyPrice": 400
+    },
+    {
+      "id": 4773,
+      "amount": 0,
+      "sellPrice": 1,
+      "buyPrice": 5
+    },
+    {
+      "id": 4778,
+      "amount": 0,
+      "sellPrice": 3,
+      "buyPrice": 10
+    },
+    {
+      "id": 4783,
+      "amount": 0,
+      "sellPrice": 6,
+      "buyPrice": 20
+    },
+    {
+      "id": 4788,
+      "amount": 0,
+      "sellPrice": 11,
+      "buyPrice": 35
+    },
+    {
+      "id": 4793,
+      "amount": 0,
+      "sellPrice": 16,
+      "buyPrice": 50
+    },
+    {
+      "id": 4798,
+      "amount": 0,
+      "sellPrice": 31,
+      "buyPrice": 95
+    },
+    {
+      "id": 4803,
+      "amount": 0,
+      "sellPrice": 150,
+      "buyPrice": 450
+    },
+    {
+      "id": 39,
+      "amount": 1000,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 40,
+      "amount": 800,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 41,
+      "amount": 600,
+      "sellPrice": 2,
+      "buyPrice": 6
+    },
+    {
+      "id": 42,
+      "amount": 400,
+      "sellPrice": 8,
+      "buyPrice": 16
+    },
+    {
+      "id": 43,
+      "amount": 200,
+      "sellPrice": 20,
+      "buyPrice": 40
+    },
+    {
+      "id": 44,
+      "amount": 100,
+      "sellPrice": 100,
+      "buyPrice": 200
+    },
+    {
+      "id": 841,
+      "amount": 4,
+      "sellPrice": 16,
+      "buyPrice": 50
+    },
+    {
+      "id": 839,
+      "amount": 2,
+      "sellPrice": 26,
+      "buyPrice": 80
+    },
+    {
+      "id": 837,
+      "amount": 2,
+      "sellPrice": 23,
+      "buyPrice": 70
+    },
+    {
+      "id": 843,
+      "amount": 4,
+      "sellPrice": 33,
+      "buyPrice": 100
+    },
+    {
+      "id": 845,
+      "amount": 4,
+      "sellPrice": 53,
+      "buyPrice": 160
+    },
+    {
+      "id": 4827,
+      "amount": 0,
+      "sellPrice": 60,
+      "buyPrice": 180
+    },
+    {
+      "id": 1133,
+      "amount": 2,
+      "sellPrice": 283,
+      "buyPrice": 850
+    },
+    {
+      "id": 1097,
+      "amount": 2,
+      "sellPrice": 250,
+      "buyPrice": 750
+    }
+  ]
+}

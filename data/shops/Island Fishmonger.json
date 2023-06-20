@@ -1,0 +1,152 @@
+{
+  "shopUID": 47,
+  "shopName": "Island Fishmonger",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 303,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 6
+    },
+    {
+      "id": 307,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 6
+    },
+    {
+      "id": 309,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 6
+    },
+    {
+      "id": 311,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 6
+    },
+    {
+      "id": 301,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 26
+    },
+    {
+      "id": 313,
+      "amount": 1500,
+      "sellPrice": -1,
+      "buyPrice": 3
+    },
+    {
+      "id": 11883,
+      "amount": 80,
+      "sellPrice": -1,
+      "buyPrice": 390
+    },
+    {
+      "id": 314,
+      "amount": 1000,
+      "sellPrice": -1,
+      "buyPrice": 2
+    },
+    {
+      "id": 11881,
+      "amount": 100,
+      "sellPrice": -1,
+      "buyPrice": 260
+    },
+    {
+      "id": 305,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 26
+    },
+    {
+      "id": 317,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 6
+    },
+    {
+      "id": 327,
+      "amount": 200,
+      "sellPrice": -1,
+      "buyPrice": 13
+    },
+    {
+      "id": 345,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 19
+    },
+    {
+      "id": 353,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 22
+    },
+    {
+      "id": 341,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 32
+    },
+    {
+      "id": 321,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 19
+    },
+    {
+      "id": 335,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 26
+    },
+    {
+      "id": 349,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 32
+    },
+    {
+      "id": 331,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 65
+    },
+    {
+      "id": 359,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 130
+    },
+    {
+      "id": 377,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 195
+    },
+    {
+      "id": 363,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 156
+    },
+    {
+      "id": 371,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 260
+    },
+    {
+      "id": 383,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 390
+    }
+  ]
+}

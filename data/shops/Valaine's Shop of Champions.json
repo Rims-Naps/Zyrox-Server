@@ -1,0 +1,32 @@
+{
+  "shopUID": 56,
+  "shopName": "Valaine's Shop of Champions",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1021,
+      "amount": 2,
+      "sellPrice": 12,
+      "buyPrice": 41
+    },
+    {
+      "id": 1165,
+      "amount": 1,
+      "sellPrice": 422,
+      "buyPrice": 1372
+    },
+    {
+      "id": 1077,
+      "amount": 1,
+      "sellPrice": 767,
+      "buyPrice": 2496
+    },
+    {
+      "id": 1123,
+      "amount": 1,
+      "sellPrice": 5120,
+      "buyPrice": 21632
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "shopUID": 16,
+  "shopName": "Brian's Battleaxe Bazaar",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1375,
+      "amount": 4,
+      "sellPrice": 28,
+      "buyPrice": 52
+    },
+    {
+      "id": 1363,
+      "amount": 3,
+      "sellPrice": 100,
+      "buyPrice": 182
+    },
+    {
+      "id": 1365,
+      "amount": 2,
+      "sellPrice": 260,
+      "buyPrice": 650
+    },
+    {
+      "id": 1367,
+      "amount": 1,
+      "sellPrice": 686,
+      "buyPrice": 1248
+    },
+    {
+      "id": 1369,
+      "amount": 1,
+      "sellPrice": 929,
+      "buyPrice": 1690
+    },
+    {
+      "id": 1371,
+      "amount": 1,
+      "sellPrice": 2160,
+      "buyPrice": 4160
+    }
+  ]
+}

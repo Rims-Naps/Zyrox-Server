@@ -1,0 +1,550 @@
+0 - 5 Eggs
+1 - Empty sack
+2 - Question marks moving, full screen.
+3 - Empty bottle
+4 - Items kept on death
+5 - Green/red buttons, agility arena in brimhaven.
+6 - Silver casting, crafting.
+7 - Clan chat
+8 - Map to dragontooth island, with amount of steps.
+9 - Rune-draw.
+10 - Windspeed:
+12 - Bank
+13 - Damage: 0
+25 - Barrows puzzle
+26 - Book
+27 - Book
+28 - Blast furnace bar stock
+29 - Blast furnace plan
+30 - Blast furnace temp gauge
+31 - Challenge: select game
+32 - Draughts
+33 - Draughts, options
+34 - Draugths, rank
+35 - Draughts
+36 - Runelink
+37 - Runelink, options
+38 - Runelink, rank
+39 - Runelink
+40 - Runesquares
+41 - Runesquares, options
+42 - Runesquares, rank
+43 - Runesquares
+44 - Runeversi
+45 - Runeversi, options
+46 - Runeversi, rank
+47 - Runeversi
+48 - Odd looking pizza with circling shape
+49 - Book
+50 - Black screen
+51 - Brooch
+52 - Canoes
+53 - Path to the temple in Canifis
+54 - Catapult controls for castle wars
+55 - Total castle-wars wins this season
+57 - Canoe destination
+58 - Castlewars information overlay
+59 - Castlewars information overlay
+60 - Advanced options
+61 - Name your cat
+62 - A picture of a rock with an odd shape
+63 - Congratulations interface (Quest, champions defeating..)
+64 - Convert old school bonds
+65 - Old school bonds purchasing
+66 - Redeem old school bonds
+67 - Ava's devices selection
+68 - Slayer partner
+69 - World switcher
+70 - Empty interface with a scrollbar.
+71 - No place like home
+72 - Ship port destination selection
+75 - Lunars, NPC contact, choose a character
+76 - Minigame selector
+77 - Quick prayers
+78 - Empty interface, no scrollbar
+79 - Teletab creation
+80 - Crossbow bolt enchanting
+81 - Unknown, inventory overlay, possibly looting bag
+82 - Hairdresser's salon colour
+83 - Castle wars ticket exchange
+84 - Equip your character (bonuses interface)
+86 - Clue scroll map, river crossing
+87 - Clue scroll map, inside a river near three big rocks
+89 - A scroll paper, no scrollbar
+90 - Safe zone overlay, skull with a red sign over it
+91 - Last man standing game creation interface
+92 - A square interface with Check the options! written on it
+93 - Possibly tzhaar viewing interface, inventory overlay
+94 - Clan chat setup
+96 - Almost pitch black screen - 90%
+97 - Darker screen - 20%
+98 - Even darker screen - 40%
+99 - Harold vs player - you win.
+100 - Tournament supplies
+101 - Champions scroll defeated
+102 - Clue scroll, check the box near a house
+103 - What comes next?
+104 - Star chart viewer
+105 - PvP overlay, small skull.
+107 - Brimhaven agility arena ticket exchange
+108 - Duel arena scoreboard
+110 - Duel arena win interface
+111 - Book
+112 - Name, line1, line1. A weird circle around a neck, two characters
+113 - Some weird looking plan
+114 - Schematic moving interface
+116 - Scroll page, scrollbar.
+117 - Weird light stripes moving, possibly the zanaris quest
+118 - Smoke overlay
+119 - Duel arena loss interface
+120 - Tournament spectator interface
+121 - Keybinding interface
+123 - Certificate of Advanced healing from Poxstead college
+124 - List of fairy queen's symptoms
+125 - Amazing farming equipment store
+126 - Farming storing interface
+127 - Keychain interface
+128 - Seed box
+129 - Nightmare zone
+130 - Tournament viewer - survivors, fog status
+131 - Castle wars, waiting for players to join the other team
+132 - Items I need to get for King roald's garden
+133 - Option A, B, C
+134 - Choose the stat you wish to be advanced!
+135 - Signpost interface, north, west, east, south
+136 - Dual character dialogue interface
+137 - Configure XP drops
+138 - Flying interface for gnomes
+139 - Gnomeball score
+140 - Dialogue, select an option
+141 - Coffin opened, along with a spade
+142 - Dagannoth quest in lighthouse, runes on interface with dagannoth head. Unlock door
+143 - Aiming interface
+144 - Cart interface, points settings
+145 - Recipe for disaster, 8 miniquests
+146 - Overlay of a moving shape circling
+147 - Golden bird puzzle
+148 - Pet insurance
+153 - Oh dear, you're dead, but don't despair!
+154 - What would you like to make? Leather items
+155 - Barrows chest
+156 - Bug report form
+157 - Puro puro implings overlay
+158 - Player 1 interface screen - team - barbarian assault
+159 - Player 2 interface screen - select a role - barbarian assault
+160 - Orbs around the minimap
+162 - Chatbox
+165 - Login overlay
+166 - A glass
+167 - Snowing overlay
+168 - Ghost coming in your face, overlay
+169 - Underwater overlay
+170 - Darker underwater overlay
+171 - Temple repair
+172 - A scroll with a ship moving into a statue, collapsing it
+173 - A lightball comes in your face, screen goes absolutely white and then returns to normal slowly
+174 - Black overlay
+175 - Text interface (possibly) with a close button, full screen
+176 - Very light underwater (or smoke) overlay.
+177 - Snow overlay
+178 - Bounty hunter store
+179 - Farming patch status
+180 - Impling tracker - Surface world, puro-puro
+181 - Rotate mirror
+182 - Logout
+183 - A history of the goblin race, book
+184 - Is this: questionnaire, A B C
+185 - Unlock interface with 3 slots
+186 - Water the statue! Fish here!
+187 - Invisible interface, only close button
+188 - Mime emotes selection
+189 - Lock unlock interface
+190 - Rune pouch
+191 - Pick the odd one out.
+192 - The bank of Runescape - deposit box
+193 - Dialogue
+194 - Pizazz points - 5 item names, mage arena
+195 - Enchantment - Pizazz points:, mage arena
+196 - Graveyard - Pizazz points:, mage arena
+197 - Mage training arena shop
+198 - Telekinetic - Pizazz points
+200 - Yrsa's shoe store
+203 - Clue scroll, empty interface
+204 - Snowing hard
+205 - Select skin colour and gender
+206 - Dom onion's rewards hop
+208 - Your clan: Opponents: Next kill wins!
+209 - Complete the maze as fast as possible - overlay
+210 - Pet list
+211 - Pet house, construction
+212 - Room creation menu, construction
+213 - Bank pin interface
+214 - This skill - overlay, skill guides
+215 - Iron man setup
+216 - Emotes tab
+218 - Magic book
+220 - Large scroll empty interface, x button
+221 - Gravestone inspection interface
+222 - Large scroll empty interface, x button
+223 - Penguin emotes
+224 - Ship interface from rellekka
+225 - Gravestone inspection interface
+226 - Deadman mode, lost on death
+227 - List of needed items: Mourning death alter item
+228 - Running away? Not so fast! chatbox overlay, deadman mode
+230 - Safe deposit box, deadman mode
+233 - Click here to continue - dialogue
+234 - Bank raid, deadman mode
+235 - Meat pie, pineapple pizza, stew - overlay
+236 - Farmer gricoller's rewards
+239 - Music
+240 - Grab the right person inventory overlay, sandwich lady
+241 - Cabbage points
+242 - Servery cupboard
+243 - Great kourend house favour
+244 - Junction setting interface
+245 - Kourend favour
+247 - Junction setting interface, harder
+248 - Junction setting interface, easier
+249 - A message, not readable
+250 - A message, readable. Surok magis
+251 - A message from zaff, instructions for beacon ring
+252 - Lock opening interface, 5 locks
+253 - A skull and bones, pull options on the side
+254 - A map
+255 - A old scroll, empty
+256 - Current team - leader, player 1-4
+258 - Some vehicles quickly moving across the screen
+259 - Achievement diary overlay (quest tab)
+260 - Cyrisus's bank, Chest
+261 - Settings interface
+262 - Attach, detach pipes
+263 - Score: 0, light underwater overlay
+264 - Arceuus teleport tablets creation
+265 - Party drop chest
+267 - Void knights' reward options
+268 - Pick a kitten
+269 - Welcome to runescape, character design interface
+270 - Grand exchange item search
+271 - Chambers of xeric private storage
+272 - Grave monument
+273 - Pop the correct balloon animal to find the key
+274 - Temple trekking rewards
+275 - ifquestname scroll interface with scrollbar
+276 - Time left, water collected
+277 - Congratulations, you have completed death plateau - Quest completion interface
+278 - Ranging guild ticket exchange
+279 - Cat vs cat
+280 - Do you really want to bet X!, yes, no
+281 - Cat vs cat, rat in the bottom
+282 - Piano playing
+283 - Piano playing instructions
+284 - A rat overlay
+285 - Combination lock door
+286 - Fractional still
+287 - Monkey madness puzzle
+288 - Open casket, runes, 9x9 tiles
+289 - Place rune, open casket, 4x4
+290 - Gears moving
+291 - Inventory overlay, 6 selectable boxes
+292 - 1 gear moving, 3 squares - place a gear there
+293 - Weird flames overlay, "ok" buttons scattered
+294 - Rum deal, cat playing with ball
+295 - Rum deal overlay
+296 - Yellow moving overlay, oval shapes
+297 - Choose your refreshment from the sandwich tray
+298 - Combination lock door
+299 - You journey on the shop...
+300 - Right click on shop to buy item - right click on inventory to sell item
+302 - Jossik's salvaged prayerbooks
+308 - N overlay, points north. 4 rings around it
+310 - Poll history
+312 - What would you like to make?
+313 - Overlay with a yellow bar in the bottom, moving smoke
+314 - Clue scroll, X near a cave entrance
+315 - Rage level, huge bar
+316 - Clue scroll, x near a furnace
+317 - Clue scroll, x near three trees
+318 - Clue scroll, X near a mine
+319 - One way into the wilderness, select whether to go or not
+320 - Skills interface
+321 - A map with a boat and N sign
+322 - Light box clue scroll puzzle
+323 - Two bwo wannai parcel service
+324 - What hides would you like tanning?
+325 - Target view - shots left
+326 - Regular teleother interface
+327 - This area is so cold that you will experience a constant, slow drain of your stats while you remain within it. Warning
+328 - Survivors: 25, kills: 0, fog: safe deadman mode overlay
+329 - Choose a route to the temple
+330 - Safe opening interface
+331 - Combination for lock
+332 - What would you like to enchant? Battlestaves enchantment interface
+333 - Rank: Novice, coffer: empty, mode: none overlay
+334 - Trade second screen
+335 - Trade first screen
+337 - Clue scroll, falador statue
+338 - Clue scroll, wilderness volcano
+339 - Clue scroll, south of camelot, tables
+340 - Clue scroll, trees
+341 - Clue scroll, swamp
+342 - Clue scroll, lava
+343 - Clue scroll, southern part of an island
+344 - Clue scroll, fremennik
+345 - Large interface with nothing on it, X button
+346 - Clue scroll, varrock
+347 - Clue scroll, varrock mine
+348 - Clue scroll, draynor
+349 - Clue scroll, trees
+350 - Clue scroll, box in castle wars
+351 - Clue scroll, north of falador
+352 - Clue scroll, rimmington
+353 - Clue scroll, yanille
+354 - Clue scroll, mcgrubors woods
+355 - Clue scroll, search a box, trees
+356 - Clue scroll, wizards guild
+357 - Clue scroll, squares
+358 - Clue scroll, near castle wars
+359 - Clue scroll, 4 boxes
+360 - Clue scroll, woods
+361 - Clue scroll, ardougne
+362 - Clue scroll, rimmington
+363 - Clue scroll puzzle box
+364 - Clue scroll reward
+365 - Sextant
+366 - Water, activity bars
+367 - Trawler catch
+368 - How to play trawler
+369 - Combination lock door
+370 - House options overlay
+371 - Tutorial island instructions
+372 - 4 lines dialogue
+373 - TzHaar champion
+374 - TzHaar viewing interface
+375 - Unmorph
+376 - A ball with 7 coins around it
+377 - Tai bwo favour
+378 - Login screen
+379 - Time, xp score
+380 - Empty interface, gravestone, X
+381 - Travel log for fairy rings
+382 - Sack with 0 on it
+383 - Grand exchange trade history
+384 - Scroll interface, no scroll bar. 16 lines
+385 - Cracked screen overlay
+386 - Viewing telescope interface, overlay
+387 - Equipment screen
+388 - Reward chest
+389 - Duel arena overlay
+390 - Show riddle - select an item
+391 - Kingdom of miscellania
+392 - Resources collected
+393 - Enter up to five letters in any order and click guess again
+394 - Tournament viewer, deadman mode
+395 - Last man standing - wins, kills, games played
+396 - Wintertodt's energy
+397 - Furniture creation menu
+398 - Fairy ring combination
+399 - Quest tab
+400 - Empty large interface, X
+401 - 4 tabs of Player, Shots & score
+402 - Grand exchange collection box
+403 - What wood do you want converting to planks
+404 - Purple overlay, a portal comes in your face
+407 - Pest control departure
+408 - Pest control overlay
+409 - Choose a tool to use on each of the moving parts
+410 - Catapult defence game key
+411 - Catapult defence inventory overlay
+412 - Attack dummy key
+414 - Congratulations, your team won. Score. Pieces of eight
+415 - Score overlay with items all around it.
+416 - Vending shrine
+417 - Tai vwo wannai - Bamboo pipe, bridge section, bucket, axe, lumber patch. Item selection
+418 - Players waiting, next game in:
+419 - Buy bandana
+420 - Bee house creation
+421 - Chatbox interface, scrollable with 12 lines
+422 - House viewer
+423 - Advanced healing from poxstead college certificate
+424 - Large interface with unknown characters, X
+425 - Blue interface with unknown characters
+426 - Slayer rewards shop
+427 - A report to fairy godfather
+428 - Pyramid plunder
+429 - Friend list interface
+431 - Goes around pirates cove, ship
+432 - Ignore list interface
+433 - Crossbow bolt pouch
+434 - Gnome battas
+435 - Gnome bowls
+436 - Gnome cocktails
+437 - Gnome crunchies
+438 - Silver casting
+439 - Two flags go against eachother
+440 - Certificate of qualification overlay, tier 1
+441 - Certificate of qualification overlay, tier 2
+442 - Odd exchange interface
+443 - An interface with colourful boxes, 7 sets
+444 - Certificate of qualification overlay, tier 3
+445 - Insert disc interface
+446 - What would you like to make? Rings, necklaces, amulets, bracelets
+447 - Transaction interface with cupboard open
+448 - Light underwater overlay
+450 - Underwater overlay, fills up fast
+451 - Item sets
+452 - Statue with a key
+453 - Goes from black to light, with circles. Light spot in the middle.
+454 - Some water map overlay
+455 - Castle map
+456 - Castle map
+457 - Castle map
+458 - Furniture creation menu
+459 - What would you like to spin
+460 - Smoke overlay with close button
+461 - Map, witchaven, island, fishing platform
+462 - Rotate fragments
+463 - Quest completed interface, empty
+464 - Grand exchange guide prices, price checker
+465 - Grand exchange offers interface
+466 - A scroll with close button, instructions to pull something
+467 - Inventory highlight overlay
+468 - A large closeable scroll, no scrollbar
+469 - Travel to castle wars, grand tree, entrana, taverley, crafting guild or varrock
+470 - Balloon interface
+471 - Balloon controls
+472 - Balloon instructions
+473 - A large closeable scroll, no scrollbar
+474 - Coffer with coins and amount
+475 - Warning - Enter wilderness.
+476 - Duel confirmation, check before accepting
+477 - Custom fur clothing
+478 - Imp release negotiation form
+479 - A map interface
+480 - Ava's accumulator interface, off buttoms
+481 - Duel stake
+482 - Duel options
+483 - Low alchemy
+484 - Barbarian assault horn of glory
+485 - Barbarian assault overlay
+486 - Barbarian assault overlay
+487 - Barbarian assault overlay
+488 - Barbarian assault overlay, player names below
+489 - Players in room, barbarian assault
+490 - Barbarian assault scoreboard
+491 - Barbarian assault reward shop
+492 - Notifications settings interface
+493 - STASH Units
+494 - Time until next wave: Exit room to cancel
+495 - There are no eggs in the hopper chatbox interface
+496 - Barbarian assault tutorial
+497 - Barbarian assault wave complete
+498 - Bloody scroll to Kaleef, from Os
+499 - Raiding parties, chambers of xeric
+500 - Raiding party, chambers of xeric
+501 - A chest with five items, cannon barrel, fuse, ramrod, cannonball, cannon cannister
+502 - A chest with five items
+503 - Clockwork toys - a clockwork mechanism
+504 - Odd piano-like interface
+505 - A map or travelling interface near rellekka
+506 - Jester controls - dance, skip, jig, juggle, pie, bow
+507 - Raids, chambers of xeric
+508 - The mind of the homunculus
+509 - Place bar, horizontal, vertical
+510 - Pipes, water, controls
+511 - Construct the pipes
+513 - Raids, chambers of xeric overlay. Total: 0, Kris: 0
+514 - A cat playing with a ball overlay
+515 - Light underwater overlay
+516 - 99% black overlay
+518 - Follower inv - Right click on items in your inventory to add them here, then click close
+519 - A small dome
+520 - Cyrisus's courage
+521 - Guidance system
+522 - Lunar spells, monster examine
+523 - Lunar spells, player examine
+524 - Message of the day probably
+525 - Broken message
+526 - Full message
+527 - Odd overlay
+528 - Pitch black interface, Display number
+529 - Right half of the broken message
+530 - Two books side by side, both with a scrollbar
+531 - V.T.A.M
+532 - Museum kudos
+533 - Pitch black interface, display number
+534 - Pitch black interface, display number
+535 - Piano, play notes
+536 - Shrink-me-quick recipe
+537 - Piano instructions
+538 - Things to do: Message
+539 - Chambers of xeric, rewards, raids
+540 - Elnocks exchange, puro puro
+541 - Prayers interface
+543 - Animated clouds and lightning overlay
+544 - Ship travelling to an island, animated, overlay
+545 - Elvarg flying across the screen
+546 - Elvarg flying near clouds
+547 - Map to an island
+549 - This is a title! - Monster, kills, streak
+550 - Shared storage
+551 - Shared storage warning
+552 - Telescope, viewing stars
+553 - Report abuse
+554 - Piano playing
+555 - Gemstone switch panel
+556 - Apothecary's potions
+557 - Lost property shop
+559 - Select a square - 3x5 squares
+560 - Warning! Low level players beward. Goblins have taken over and there are poisonous spiders warning
+561 - Kalphite queen warning, climb down
+562 - Very dark area, light source extinquish warning
+563 - Enter build mode warning house construction
+564 - Warning - can be attacked by archers
+565 - Desert entering warning
+566 - Collect any dropped items before leaving
+567 - Dark area, go without light source warning
+568 - Very dark area, extinquish light source
+569 - Very dark area, go without light source
+570 - Very dark cave, no light source
+571 - Very dark tunnel - go without a light source
+572 - Light source going out warning
+573 - Dangerous area follows warning
+574 - Very dangerous area warning
+575 - King black dragon lever warning
+576 - Wilderness warning, one way
+577 - Very dark tunnel, no light source warning
+578 - The fairy ring code leads to a dark area warning
+579 - Climb down warning
+580 - Mort myre warning
+581 - Death plateau warning
+583 - Reset warning messages
+584 - Destroy item dialogue chatbox
+585 - Knights helping a mage go out of a window cutscene
+586 - Seers village change of address form
+587 - Meet at camel, we'll storm she'll ensure w The servants of silence message, broken
+588 - Tumbler
+589 - Display name changing interface
+591 - Thesselia's makeovers, clothes
+592 - Empty large interface, X
+593 - Combat interface
+594 - Pitch black interface, 99%
+595 - World map
+596 - TzKal-Zuk health remaining interface
+597 - Master scroll book
+598 - Coal, gold, mithril, adamant and runite ores with amounts
+599 - Streamers tournament, torvesta, b0aty, sick nerd, knightenator, mmorpgrs
+600 - Kudos list
+602 - Zul-Gwenwynig's item retrieval service
+603 - Progress
+604 - Fossil island sailing interface
+605 - Fossil storage
+606 - Process progress, calcium added and phosphate added overlay
+607 - Drift net
+608 - Mycelium transportation system
+609 - Oxygen level
+611 - Mine stability - fossil island
+612 - Petrified pete's ore shop
+613 - Fossil pool
+615 - Show tutors - map of F2P
+616 - What would you like to blow?

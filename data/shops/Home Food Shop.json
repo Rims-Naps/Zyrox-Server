@@ -1,0 +1,156 @@
+{
+  "shopUID": 1007,
+  "shopName": "Food Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 326,
+      "amount": 2000,
+      "sellPrice": 15,
+      "buyPrice": 25
+    },
+    {
+      "id": 334,
+      "amount": 2000,
+      "sellPrice": 46,
+      "buyPrice": 78
+    },
+    {
+      "id": 330,
+      "amount": 2000,
+      "sellPrice": 58,
+      "buyPrice": 98,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 362,
+      "amount": 2000,
+      "sellPrice": 87,
+      "buyPrice": 146,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 380,
+      "amount": 2000,
+      "sellPrice": 146,
+      "buyPrice": 244,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 374,
+      "amount": 2000,
+      "sellPrice": 173,
+      "buyPrice": 289,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 7947,
+      "amount": 2000,
+      "sellPrice": 289,
+      "buyPrice": 483,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 2446,
+      "amount": 2000,
+      "sellPrice": 150,
+      "buyPrice": 250,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 2428,
+      "amount": 2000,
+      "sellPrice": 150,
+      "buyPrice": 250,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 113,
+      "amount": 2000,
+      "sellPrice": 150,
+      "buyPrice": 250,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 2432,
+      "amount": 2000,
+      "sellPrice": 150,
+      "buyPrice": 250,
+      "ironmanRestricted": true
+    },
+	
+	{
+      "id": 2436,
+      "amount": 2000,
+      "sellPrice": 50,
+      "buyPrice": 4000,
+      "ironmanRestricted": true,
+	  "restockTimer": 5
+    },
+	{
+      "id": 2440,
+      "amount": 2000,
+      "sellPrice": 50,
+      "buyPrice": 5000,
+      "ironmanRestricted": true,
+	  "restockTimer": 5
+    },
+	{
+      "id": 2442,
+      "amount": 2000,
+      "sellPrice": 50,
+      "buyPrice": 4000,
+      "ironmanRestricted": true,
+	  "restockTimer": 5
+    },
+	{
+      "id": 3040,
+      "amount": 2000,
+      "sellPrice": 50,
+      "buyPrice": 4000,
+      "ironmanRestricted": true,
+	  "restockTimer": 5
+    },
+	{
+      "id": 2444,
+      "amount": 2000,
+      "sellPrice": 50,
+      "buyPrice": 5000,
+      "ironmanRestricted": true,
+	  "restockTimer": 5
+    },
+	{
+      "id": 2452,
+      "amount": 2000,
+      "sellPrice": 50,
+      "buyPrice": 3500,
+      "ironmanRestricted": true,
+	  "restockTimer": 5
+    },
+	{
+      "id": 2434,
+      "amount": 2000,
+      "sellPrice": 50,
+      "buyPrice": 12500,
+      "ironmanRestricted": true,
+	  "restockTimer": 5
+    },
+	{
+      "id": 3008,
+      "amount": 2000,
+      "sellPrice": 50,
+      "buyPrice": 2000,
+      "ironmanRestricted": true,
+	  "restockTimer": 5
+    },
+	{
+      "id": 7510,
+      "amount": 2000,
+      "sellPrice": 50,
+      "buyPrice": 382,
+	  "restockTimer": 5
+    }
+  ]
+ 
+}

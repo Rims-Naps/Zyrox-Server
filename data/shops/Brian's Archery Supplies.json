@@ -1,0 +1,62 @@
+{
+  "shopUID": 21,
+  "shopName": "Brian's Archery Supplies",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 886,
+      "amount": 1500,
+      "sellPrice": 7,
+      "buyPrice": 12
+    },
+    {
+      "id": 888,
+      "amount": 1000,
+      "sellPrice": 20,
+      "buyPrice": 32
+    },
+    {
+      "id": 890,
+      "amount": 800,
+      "sellPrice": 52,
+      "buyPrice": 80
+    },
+    {
+      "id": 843,
+      "amount": 4,
+      "sellPrice": 65,
+      "buyPrice": 100
+    },
+    {
+      "id": 845,
+      "amount": 4,
+      "sellPrice": 104,
+      "buyPrice": 160
+    },
+    {
+      "id": 849,
+      "amount": 3,
+      "sellPrice": 130,
+      "buyPrice": 200
+    },
+    {
+      "id": 847,
+      "amount": 3,
+      "sellPrice": 208,
+      "buyPrice": 320
+    },
+    {
+      "id": 853,
+      "amount": 2,
+      "sellPrice": 260,
+      "buyPrice": 400
+    },
+    {
+      "id": 851,
+      "amount": 2,
+      "sellPrice": 416,
+      "buyPrice": 640
+    }
+  ]
+}

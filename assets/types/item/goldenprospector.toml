@@ -1,0 +1,128 @@
+################################ Golden Prospector ###################
+
+
+# Golden Prospector Helmet
+[[item]]
+id=30251
+inherit=12013
+name="Golden prospector helmet"
+placeholderid=30252
+invmodel=50531
+primarymalemodel=50539
+primaryfemalemodel=50539
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Golden Prospector Helmet Place Holder
+[[item]]
+id=30252
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30251
+invmodel=50531
+
+
+# Golden Prospector Jacket
+[[item]]
+id=30253
+inherit=12014
+name="Golden prospector jacket"
+placeholderid=30254
+invmodel=50530
+primarymalemodel=50534
+primaryfemalemodel=50540
+secondarymalemodel=50535
+secondaryfemalemodel=50541
+grandexchange=false
+notedid=-1
+
+# Golden Prospector Jacket Place Holder
+[[item]]
+id=30254
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30253
+invmodel=50530
+
+
+# Golden Prospector Legs
+[[item]]
+id=30255
+inherit=12015
+name="Golden prospector legs"
+placeholderid=30256
+invmodel=50533
+primarymalemodel=50536
+primaryfemalemodel=50542
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Golden Prospector Legs Place Holder
+[[item]]
+id=30256
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30255
+invmodel=50533
+
+# Golden Prospector Boots
+[[item]]
+id=30257
+inherit=12016
+name="Golden prospector boots"
+placeholderid=30258
+invmodel=50532
+primarymalemodel=50537
+primaryfemalemodel=50538
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+
+# Golden Prospector Boots Place Holder
+[[item]]
+id=30258
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30257
+invmodel=50532
+
+
+
+################################ Star Fragments ###################
+
+# Star Fragment
+[[item]]
+id=30259
+inherit=8778
+name="Star fragment"
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+zoom=980
+modelroll=320
+modelpitch=436
+placeholderid=30260
+invmodel=50545
+grandexchange=false
+notedid=-1
+
+#  Star Fragment Place Holder
+[[item]]
+id=30260
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30259
+invmodel=50545

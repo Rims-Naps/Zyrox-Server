@@ -1,0 +1,68 @@
+{
+  "shopUID": 57,
+  "shopName": "Pie Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 7162,
+      "amount": 50,
+      "sellPrice": -1,
+      "buyPrice": 5
+    },
+    {
+      "id": 2325,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 12
+    },
+    {
+      "id": 2327,
+      "amount": 4,
+      "sellPrice": -1,
+      "buyPrice": 15
+    },
+    {
+      "id": 7170,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 54
+    },
+    {
+      "id": 2323,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 30
+    },
+    {
+      "id": 7178,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 24
+    },
+    {
+      "id": 7188,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 100
+    },
+    {
+      "id": 7198,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 310
+    },
+    {
+      "id": 7208,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 182
+    },
+    {
+      "id": 7218,
+      "amount": 0,
+      "sellPrice": -1,
+      "buyPrice": 140
+    }
+  ]
+}

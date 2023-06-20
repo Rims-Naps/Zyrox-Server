@@ -1,0 +1,38 @@
+{
+  "shopUID": 246,
+  "shopName": "Neil's Wilderness Cape Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 4327,
+      "amount": 100,
+      "sellPrice": 30,
+      "buyPrice": 50
+    },
+    {
+      "id": 4347,
+      "amount": 100,
+      "sellPrice": 30,
+      "buyPrice": 50
+    },
+    {
+      "id": 4367,
+      "amount": 100,
+      "sellPrice": 30,
+      "buyPrice": 50
+    },
+    {
+      "id": 4387,
+      "amount": 100,
+      "sellPrice": 30,
+      "buyPrice": 50
+    },
+    {
+      "id": 4407,
+      "amount": 100,
+      "sellPrice": 30,
+      "buyPrice": 50
+    }
+  ]
+}

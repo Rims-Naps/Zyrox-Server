@@ -1,0 +1,74 @@
+{
+  "shopUID": 218,
+  "shopName": "Warrens General Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1931,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1935,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 20742,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 182
+    },
+    {
+      "id": 1735,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1925,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1923,
+      "amount": 2,
+      "sellPrice": 1,
+      "buyPrice": 5
+    },
+    {
+      "id": 590,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1755,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 2347,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 952,
+      "amount": 5,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 946,
+      "amount": 4,
+      "sellPrice": 2,
+      "buyPrice": 7
+    }
+  ]
+}

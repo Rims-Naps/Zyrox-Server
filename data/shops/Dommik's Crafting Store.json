@@ -1,0 +1,74 @@
+{
+  "shopUID": 123,
+  "shopName": "Dommik's Crafting Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1755,
+      "amount": 2,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1592,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 5
+    },
+    {
+      "id": 1597,
+      "amount": 2,
+      "sellPrice": 1,
+      "buyPrice": 5
+    },
+    {
+      "id": 1595,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 5
+    },
+    {
+      "id": 1733,
+      "amount": 3,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1734,
+      "amount": 100,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1599,
+      "amount": 3,
+      "sellPrice": 1,
+      "buyPrice": 5
+    },
+    {
+      "id": 2976,
+      "amount": 10,
+      "sellPrice": 3,
+      "buyPrice": 10
+    },
+    {
+      "id": 5523,
+      "amount": 10,
+      "sellPrice": 33,
+      "buyPrice": 100
+    },
+    {
+      "id": 9434,
+      "amount": 10,
+      "sellPrice": 8,
+      "buyPrice": 25
+    },
+    {
+      "id": 11065,
+      "amount": 5,
+      "sellPrice": 1,
+      "buyPrice": 5
+    }
+  ]
+}

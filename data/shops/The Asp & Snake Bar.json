@@ -1,0 +1,44 @@
+{
+  "shopUID": 138,
+  "shopName": "The Asp & Snake Bar",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1917,
+      "amount": 83,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 2017,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 5
+    },
+    {
+      "id": 1993,
+      "amount": 13,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 2015,
+      "amount": 5,
+      "sellPrice": 1,
+      "buyPrice": 5
+    },
+    {
+      "id": 2021,
+      "amount": 4,
+      "sellPrice": 1,
+      "buyPrice": 5
+    },
+    {
+      "id": 1915,
+      "amount": 12,
+      "sellPrice": 1,
+      "buyPrice": 3
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Dramatic point lit
+[[sprite]]
+id=2515
+width=48
+height=48
+
+[sprite.images]
+0="emotes/dramatic_point_lit.png"
+
+# Dramatic point unlit
+[[sprite]]
+id=2516
+width=48
+height=48
+
+[sprite.images]
+0="emotes/dramatic_point_unlit.png"

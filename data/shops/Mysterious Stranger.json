@@ -1,0 +1,14 @@
+{
+  "shopUID": 200,
+  "shopName": "Mysterious Stranger",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 22517,
+      "amount": 9500,
+      "sellPrice": 10000,
+      "buyPrice": 75000
+    }
+  ]
+}

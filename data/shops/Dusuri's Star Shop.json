@@ -1,0 +1,38 @@
+{
+  "shopUID": 1125,
+  "shopName": "Dusuri's Star Shop",
+  "currency": "STARDUST",
+  "sellPolicy": "NO_SELLING",
+  "items": [
+    {
+      "id": 19473,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 350
+    },
+    {
+      "id": 12009,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200
+    },
+    {
+      "id": 30259,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000
+    },
+    {
+      "id": 32307,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 10000
+    },
+    {
+      "id": 30907,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 10000
+    }
+  ]
+}

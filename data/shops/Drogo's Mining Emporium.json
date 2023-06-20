@@ -1,0 +1,62 @@
+{
+  "shopUID": 5,
+  "shopName": "Drogo's Mining Emporium",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 2347,
+      "amount": 4,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1265,
+      "amount": 4,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 436,
+      "amount": 0,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 438,
+      "amount": 0,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 440,
+      "amount": 0,
+      "sellPrice": 5,
+      "buyPrice": 17
+    },
+    {
+      "id": 453,
+      "amount": 0,
+      "sellPrice": 13,
+      "buyPrice": 45
+    },
+    {
+      "id": 2349,
+      "amount": 0,
+      "sellPrice": 2,
+      "buyPrice": 8
+    },
+    {
+      "id": 2351,
+      "amount": 0,
+      "sellPrice": 8,
+      "buyPrice": 28
+    },
+    {
+      "id": 2357,
+      "amount": 0,
+      "sellPrice": 90,
+      "buyPrice": 300
+    }
+  ]
+}

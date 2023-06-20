@@ -1,0 +1,14 @@
+{
+  "shopUID": 72,
+  "shopName": "Candle Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 36,
+      "amount": 5,
+      "sellPrice": 1,
+      "buyPrice": 3
+    }
+  ]
+}

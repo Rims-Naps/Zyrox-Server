@@ -1,0 +1,50 @@
+{
+  "shopUID": 167,
+  "shopName": "Zaff's Superior Staffs!",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1391,
+      "amount": 5,
+      "sellPrice": 3850,
+      "buyPrice": 7000
+    },
+    {
+      "id": 1379,
+      "amount": 5,
+      "sellPrice": 8,
+      "buyPrice": 15
+    },
+    {
+      "id": 1389,
+      "amount": 5,
+      "sellPrice": 110,
+      "buyPrice": 200
+    },
+    {
+      "id": 1381,
+      "amount": 2,
+      "sellPrice": 825,
+      "buyPrice": 1500
+    },
+    {
+      "id": 1383,
+      "amount": 2,
+      "sellPrice": 825,
+      "buyPrice": 1500
+    },
+    {
+      "id": 1385,
+      "amount": 2,
+      "sellPrice": 825,
+      "buyPrice": 1500
+    },
+    {
+      "id": 1387,
+      "amount": 2,
+      "sellPrice": 825,
+      "buyPrice": 1500
+    }
+  ]
+}

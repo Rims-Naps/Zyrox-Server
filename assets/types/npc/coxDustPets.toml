@@ -1,0 +1,27 @@
+[[npc]]
+id=14036
+inherit=7530
+name="Flying Vespina"
+op1="Talk-to"
+op2="Metamorphosis"
+op3="Pick-up"
+familiar=true
+size=1
+resizex=25
+resizey=25
+combatlevel=0
+chatmodels=[35118]
+
+[[npc]]
+id=14038
+inherit=7544
+name="Enraged Tektiny"
+op1="Talk-to"
+op2="Metamorphosis"
+op3="Pick-up"
+familiar=true
+size=1
+resizex=25
+resizey=25
+combatlevel=0
+chatmodels=[34602]

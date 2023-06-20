@@ -1,0 +1,16 @@
+# Items with destroy option
+[[item]]
+inherit=[11862, 13343, 11847, 1419, 1037, 7927, 21859, 13288,
+         13655, 12746, 12748, 12749, 12750, 12751, 12752, 12753,
+         12754, 12755, 12756, 9920, 12845, 20779, 13182, 13663,
+         13664, 13665, 23448, 4565]
+grandexchange=true
+tradeable=true
+op5="Drop"
+
+
+# Items without destroy option
+[[item]]
+inherit=[6199, 6666, 12747]
+grandexchange=true
+tradeable=true

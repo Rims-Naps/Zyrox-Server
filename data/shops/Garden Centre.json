@@ -1,0 +1,146 @@
+{
+  "shopUID": 11,
+  "shopName": "Garden Centre",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 8417,
+      "amount": 20,
+      "sellPrice": 400,
+      "buyPrice": 1000
+    },
+    {
+      "id": 8419,
+      "amount": 20,
+      "sellPrice": 800,
+      "buyPrice": 2000
+    },
+    {
+      "id": 8421,
+      "amount": 20,
+      "sellPrice": 2000,
+      "buyPrice": 5000
+    },
+    {
+      "id": 8423,
+      "amount": 20,
+      "sellPrice": 4000,
+      "buyPrice": 10000
+    },
+    {
+      "id": 8425,
+      "amount": 20,
+      "sellPrice": 6000,
+      "buyPrice": 15000
+    },
+    {
+      "id": 8427,
+      "amount": 20,
+      "sellPrice": 8000,
+      "buyPrice": 20000
+    },
+    {
+      "id": 8429,
+      "amount": 20,
+      "sellPrice": 20000,
+      "buyPrice": 50000
+    },
+    {
+      "id": 8431,
+      "amount": 20,
+      "sellPrice": 400,
+      "buyPrice": 1000
+    },
+    {
+      "id": 8433,
+      "amount": 20,
+      "sellPrice": 2000,
+      "buyPrice": 5000
+    },
+    {
+      "id": 8435,
+      "amount": 20,
+      "sellPrice": 4000,
+      "buyPrice": 10000
+    },
+    {
+      "id": 8203,
+      "amount": 20,
+      "sellPrice": 2000,
+      "buyPrice": 5000
+    },
+    {
+      "id": 8204,
+      "amount": 20,
+      "sellPrice": 4000,
+      "buyPrice": 10000
+    },
+    {
+      "id": 8205,
+      "amount": 20,
+      "sellPrice": 6000,
+      "buyPrice": 15000
+    },
+    {
+      "id": 8206,
+      "amount": 20,
+      "sellPrice": 8000,
+      "buyPrice": 20000
+    },
+    {
+      "id": 8207,
+      "amount": 20,
+      "sellPrice": 10000,
+      "buyPrice": 25000
+    },
+    {
+      "id": 8208,
+      "amount": 20,
+      "sellPrice": 20000,
+      "buyPrice": 50000
+    },
+    {
+      "id": 8209,
+      "amount": 20,
+      "sellPrice": 40000,
+      "buyPrice": 100000
+    },
+    {
+      "id": 8451,
+      "amount": 20,
+      "sellPrice": 2000,
+      "buyPrice": 5000
+    },
+    {
+      "id": 8453,
+      "amount": 20,
+      "sellPrice": 4000,
+      "buyPrice": 10000
+    },
+    {
+      "id": 8455,
+      "amount": 20,
+      "sellPrice": 6000,
+      "buyPrice": 15000
+    },
+    {
+      "id": 8457,
+      "amount": 20,
+      "sellPrice": 2000,
+      "buyPrice": 5000
+    },
+    {
+      "id": 8459,
+      "amount": 20,
+      "sellPrice": 4000,
+      "buyPrice": 10000
+    },
+    {
+      "id": 8461,
+      "amount": 20,
+      "sellPrice": 6000,
+      "buyPrice": 15000
+    }
+  ]
+}

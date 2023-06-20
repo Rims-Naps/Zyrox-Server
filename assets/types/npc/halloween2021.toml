@@ -1,0 +1,153 @@
+[[npc]]
+id=13017
+inherit=5567
+name="Death Jr"
+op1="Talk-to"
+op2="Pick-up"
+familiar=true
+size=1
+resizex=75
+resizey=75
+
+# Taxidermist
+[[npc]]
+id=13018
+inherit=1785
+name="Grant"
+op1="Talk-to"
+combatlevel=0
+size=1
+
+# Sad Boy
+[[npc]]
+id=13019
+inherit=3994
+name="Sad boy"
+op1="Talk-to"
+combatlevel=0
+size=1
+
+# Halloween Guide
+[[npc]]
+id=13020
+inherit=5567
+name="A Halloween Guide"
+op1="Talk-to"
+combatlevel=0
+size=1
+
+
+# Death Jr (INV ICON)
+[[item]]
+id=24560
+inherit=964
+name="Death Jr."
+placeholderid=24561
+op2="Destroy"
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+
+# Death Jr (INV ICON) PLACEHOLDER
+[[item]]
+id=24561
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=24560
+
+
+# Taxidermist's Skull (1)
+[[item]]
+id=24562
+inherit=964
+name="A random skull (1)"
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+
+# Taxidermist's Skull (2)
+[[item]]
+id=24563
+inherit=964
+name="A random skull (2)"
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+
+# Taxidermist's Skull (3)
+[[item]]
+id=24564
+inherit=964
+name="A random skull (3)"
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+
+
+# Halloween Candy
+[[item]]
+id=24565
+inherit=10476
+name="Halloween candy"
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+
+grandexchange=false
+
+
+
+# A ghostly note
+[[item]]
+id=24566
+inherit=4597
+name="A ghostly note"
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+
+grandexchange=false
+
+# CCandy bucket Inventory
+[[item]]
+id=30089
+inherit=4034
+name="Candy bucket"
+placeholderid=30090
+invmodel=50488
+primarymalemodel=50487
+primaryfemalemodel=50487
+secondarymalemodel=50487
+secondaryfemalemodel=50487
+op1="Wield"
+
+#Candy bucket Placeholder
+[[item]]
+id=30090
+inherit=4034
+name="null"
+placeholdertemplate=14401
+placeholderid=30089

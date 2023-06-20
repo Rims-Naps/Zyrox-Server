@@ -1,0 +1,25 @@
+#Zenyte Donator Ring
+[[item]]
+id=32135
+inherit=19538
+name="Zenyte Donator Ring"
+placeholderid=32136
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op1="Wear"
+op2="Teleport"
+grandexchange=false
+notedid=32011
+
+#Zenyte donator ring Placeholder
+[[item]]
+id=32136
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32135
+

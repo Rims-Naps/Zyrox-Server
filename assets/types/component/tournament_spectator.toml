@@ -1,0 +1,149 @@
+# Close button
+[[component]]
+id=154
+componentid=59
+type="graphic"
+sprite=541
+xmode=2
+x=10
+y=20
+width=26
+height=23
+clickmask=2
+op1="Close"
+onmouseover=[44, "component:self", 542]
+onmouseleave=[44, "component:self", 541]
+onclick=[29]
+
+# Manual layout
+[[component]]
+id=154
+name="manual_layout"
+componentid=60
+xmode=2
+ymode=1
+x=49
+y=-75
+width=202
+height=180
+onload=[712, "component:self", 1]
+
+# Manual background
+[[component]]
+layer="manual_layout"
+type="graphic"
+sprite=897
+spritetiling=true
+widthmode=1
+heightmode=1
+width=2
+height=2
+xmode=1
+ymode=1
+
+# Manual title
+[[component]]
+layer="manual_layout"
+type="text"
+text="Spectator Manual"
+font=496
+xallignment=1
+yallignment=1
+y=9
+widthmode=1
+height=20
+
+# Manual body
+[[component]]
+name="manual_body"
+type="layer"
+x=3
+y=26
+width=196
+height=168
+
+# A
+[[component]]
+type="layer"
+layer="manual_body"
+x=13
+y=40
+width=32
+height=32
+onload=[1661, "component:self", "A"]
+
+# S
+[[component]]
+type="layer"
+layer="manual_body"
+x=44
+y=40
+width=32
+height=32
+onload=[1661, "component:self", "S"]
+
+# D
+[[component]]
+type="layer"
+layer="manual_body"
+x=75
+y=40
+width=32
+height=32
+onload=[1661, "component:self", "D"]
+
+# W
+[[component]]
+type="layer"
+layer="manual_body"
+x=44
+y=10
+width=32
+height=32
+onload=[1661, "component:self", "W"]
+
+[[component]]
+type="text"
+layer="manual_body"
+text="WASD<br>Move Camera"
+font=494
+color="ffffff"
+xallignment=1
+yallignment=1
+x=109
+y=25
+width=75
+height=28
+
+# R
+[[component]]
+type="layer"
+layer="manual_body"
+x=44
+y=75
+width=32
+height=32
+onload=[1661, "component:self", "R"]
+
+# F
+[[component]]
+type="layer"
+layer="manual_body"
+x=44
+y=105
+width=32
+height=32
+onload=[1661, "component:self", "F"]
+
+[[component]]
+type="text"
+layer="manual_body"
+text="R/F<br>Adjust Camera Height"
+font=494
+color="ffffff"
+xallignment=1
+yallignment=1
+x=109
+y=90
+width=75
+height=28

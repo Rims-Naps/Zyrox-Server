@@ -1,0 +1,27 @@
+{
+  "shopUID": 82,
+  "shopName": "Ardougne Spice Stall",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 2007,
+      "amount": 1,
+      "sellPrice": 138,
+      "buyPrice": 230
+    },
+    {
+      "id": 946,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 6
+    },
+    {
+      "id": 1550,
+      "amount": 1000,
+      "sellPrice": 1,
+      "buyPrice": 3,
+	  "restockTimer": 1
+    }
+  ]
+}

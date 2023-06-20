@@ -1,0 +1,7 @@
+# Dark Altar
+[[object]]
+id=28900
+inherit=28900
+name="Altar"
+op1="Teleport"
+op2="Totem"

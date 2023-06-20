@@ -1,0 +1,127 @@
+# Crystal Axe
+[[item]]
+id=30718
+inherit=6739
+name="Crystal axe"
+placeholderid=30719
+invmodel=50288
+primarymalemodel=50284
+primaryfemalemodel=50285
+secondarymalemodel=50284
+secondaryfemalemodel=50285
+grandexchange=false
+notedid=30720
+zoom=1663
+modelpitch=593
+modelroll=1199
+offsetx=-6
+offsety=3
+modelyaw=0
+
+# Crystal Axe Placeholder
+[[item]]
+id=30719
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30718
+invmodel=50305
+
+#  Crystal Axe Note
+[[item]]
+inherit=6739
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30718
+id=30720
+
+# Crystal Pickaxe
+[[item]]
+id=30742
+inherit=11920
+name="Crystal pickaxe"
+placeholderid=30743
+invmodel=50289
+primarymalemodel=50282
+primaryfemalemodel=50283
+secondarymalemodel=50282
+secondaryfemalemodel=50283
+grandexchange=false
+notedid=30744
+zoom=1454
+modelpitch=302
+modelroll=1143
+offsetx=-6
+offsety=-1
+modelyaw=0
+
+# Crystal Pickaxe Placeholder
+[[item]]
+id=30743
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30742
+invmodel=50289
+
+
+
+#  Crystal Axe Note
+[[item]]
+inherit=11920
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30742
+id=30744
+
+# Crystal Harpoon
+[[item]]
+id=30745
+inherit=21028
+name="Crystal harpoon"
+placeholderid=30746
+invmodel=50290
+primarymalemodel=50286
+primaryfemalemodel=50287
+secondarymalemodel=50286
+secondaryfemalemodel=50287
+grandexchange=false
+notedid=30747
+zoom=1347
+modelpitch=600
+modelroll=54
+offsetx=2
+offsety=2
+modelyaw=1953
+
+# Crystal Harpoon Placeholder
+[[item]]
+id=30746
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30745
+invmodel=50289
+
+#  Crystal Harpoon Note
+[[item]]
+inherit=21028
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30745
+id=30747

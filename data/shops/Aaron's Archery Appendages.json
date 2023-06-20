@@ -1,0 +1,56 @@
+{
+  "shopUID": 64,
+  "shopName": "Aaron's Archery Appendages",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1129,
+      "amount": 10,
+      "sellPrice": 10,
+      "buyPrice": 21
+    },
+    {
+      "id": 1131,
+      "amount": 10,
+      "sellPrice": 85,
+      "buyPrice": 170
+    },
+    {
+      "id": 1133,
+      "amount": 10,
+      "sellPrice": 425,
+      "buyPrice": 850
+    },
+    {
+      "id": 1095,
+      "amount": 20,
+      "sellPrice": 10,
+      "buyPrice": 20
+    },
+    {
+      "id": 1097,
+      "amount": 15,
+      "sellPrice": 375,
+      "buyPrice": 750
+    },
+    {
+      "id": 1169,
+      "amount": 10,
+      "sellPrice": 100,
+      "buyPrice": 200
+    },
+    {
+      "id": 1167,
+      "amount": 10,
+      "sellPrice": 12,
+      "buyPrice": 24
+    },
+    {
+      "id": 1063,
+      "amount": 10,
+      "sellPrice": 9,
+      "buyPrice": 18
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "shopUID": 219,
+  "shopName": "Briget's Weapons",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1363,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 182
+    },
+    {
+      "id": 1365,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 650
+    },
+    {
+      "id": 1369,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 1690
+    },
+    {
+      "id": 1277,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 26
+    },
+    {
+      "id": 1279,
+      "amount": 4,
+      "sellPrice": -1,
+      "buyPrice": 91
+    },
+    {
+      "id": 1281,
+      "amount": 4,
+      "sellPrice": -1,
+      "buyPrice": 325
+    },
+    {
+      "id": 1283,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 624
+    },
+    {
+      "id": 1285,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 845
+    },
+    {
+      "id": 1287,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 2080
+    },
+    {
+      "id": 1291,
+      "amount": 4,
+      "sellPrice": -1,
+      "buyPrice": 40
+    },
+    {
+      "id": 1293,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 140
+    },
+    {
+      "id": 1295,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 500
+    },
+    {
+      "id": 1297,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 960
+    },
+    {
+      "id": 1299,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 1300
+    },
+    {
+      "id": 1301,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 3200
+    },
+    {
+      "id": 1205,
+      "amount": 10,
+      "sellPrice": -1,
+      "buyPrice": 10
+    },
+    {
+      "id": 1203,
+      "amount": 6,
+      "sellPrice": -1,
+      "buyPrice": 35
+    },
+    {
+      "id": 1207,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 125
+    },
+    {
+      "id": 1217,
+      "amount": 4,
+      "sellPrice": -1,
+      "buyPrice": 240
+    },
+    {
+      "id": 1209,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 325
+    },
+    {
+      "id": 1211,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 800
+    },
+    {
+      "id": 1422,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 18
+    },
+    {
+      "id": 1420,
+      "amount": 4,
+      "sellPrice": -1,
+      "buyPrice": 63
+    },
+    {
+      "id": 1424,
+      "amount": 4,
+      "sellPrice": -1,
+      "buyPrice": 225
+    },
+    {
+      "id": 1428,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 585
+    },
+    {
+      "id": 1430,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 1440
+    },
+    {
+      "id": 1307,
+      "amount": 4,
+      "sellPrice": -1,
+      "buyPrice": 80
+    },
+    {
+      "id": 1309,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 280
+    },
+    {
+      "id": 1311,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 1000
+    },
+    {
+      "id": 1313,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 1920
+    },
+    {
+      "id": 1315,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 2600
+    },
+    {
+      "id": 1317,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 6400
+    },
+    {
+      "id": 1321,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 32
+    },
+    {
+      "id": 1323,
+      "amount": 4,
+      "sellPrice": -1,
+      "buyPrice": 112
+    },
+    {
+      "id": 1325,
+      "amount": 4,
+      "sellPrice": -1,
+      "buyPrice": 400
+    },
+    {
+      "id": 1327,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 768
+    },
+    {
+      "id": 1329,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 1040
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Star Shop
+[[npc]]
+id=13041
+inherit=2812
+name="Carl"
+op1="Trade"
+
+combatlevel=0
+models=[50544]
+size=1
+

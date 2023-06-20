@@ -1,0 +1,32 @@
+{
+  "shopUID": 32,
+  "shopName": "Myths' Guild Weaponry",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1215,
+      "amount": 2,
+      "sellPrice": 18000,
+      "buyPrice": 30000
+    },
+    {
+      "id": 1305,
+      "amount": 2,
+      "sellPrice": 60000,
+      "buyPrice": 100000
+    },
+    {
+      "id": 1434,
+      "amount": 2,
+      "sellPrice": 30000,
+      "buyPrice": 50000
+    },
+    {
+      "id": 1377,
+      "amount": 2,
+      "sellPrice": 120000,
+      "buyPrice": 200000
+    }
+  ]
+}

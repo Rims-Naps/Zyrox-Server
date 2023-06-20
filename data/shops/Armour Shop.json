@@ -1,0 +1,56 @@
+{
+  "shopUID": 35,
+  "shopName": "Armour Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1109,
+      "amount": 4,
+      "sellPrice": 1365,
+      "buyPrice": 2145
+    },
+    {
+      "id": 1143,
+      "amount": 4,
+      "sellPrice": 546,
+      "buyPrice": 858
+    },
+    {
+      "id": 1159,
+      "amount": 4,
+      "sellPrice": 1001,
+      "buyPrice": 1573
+    },
+    {
+      "id": 1181,
+      "amount": 4,
+      "sellPrice": 1092,
+      "buyPrice": 1716
+    },
+    {
+      "id": 1197,
+      "amount": 4,
+      "sellPrice": 1547,
+      "buyPrice": 2431
+    },
+    {
+      "id": 1071,
+      "amount": 4,
+      "sellPrice": 1820,
+      "buyPrice": 2860
+    },
+    {
+      "id": 1085,
+      "amount": 4,
+      "sellPrice": 1820,
+      "buyPrice": 2860
+    },
+    {
+      "id": 1121,
+      "amount": 4,
+      "sellPrice": 3640,
+      "buyPrice": 5720
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "shopUID": 105,
+  "shopName": "Karamja Wines, Spirits, and Beers",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1917,
+      "amount": 3,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 431,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 30
+    },
+    {
+      "id": 1993,
+      "amount": 1,
+      "sellPrice": 0,
+      "buyPrice": 1
+    }
+  ]
+}

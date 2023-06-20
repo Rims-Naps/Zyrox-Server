@@ -1,0 +1,181 @@
+# Dragonstone Full Helm
+[[item]]
+id=30748
+inherit=1163
+name="Dragonstone full helm"
+placeholderid=30749
+invmodel=50320
+primarymalemodel=50306
+primaryfemalemodel=50311
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=30750
+
+# Dragonstone full helm Placeholder
+[[item]]
+id=30749
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30748
+invmodel=50320
+
+# Dragonstone full helm Note
+[[item]]
+inherit=1163
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30748
+id=30750
+
+# Dragonstone body
+[[item]]
+id=30751
+inherit=1127
+name="Dragonstone full body"
+placeholderid=30752
+invmodel=50321
+primarymalemodel=50309
+primaryfemalemodel=50314
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=30753
+
+# Dragonstone body Placeholder
+[[item]]
+id=30752
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30751
+invmodel=50321
+
+# Dragonstone body Note
+[[item]]
+inherit=1127
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30751
+id=30753
+
+# Dragonstone legs
+[[item]]
+id=30754
+inherit=1079
+name="Dragonstone platelegs"
+placeholderid=30755
+invmodel=50319
+primarymalemodel=50308
+primaryfemalemodel=50313
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=30756
+
+# Dragonstone platelegs Placeholder
+[[item]]
+id=30755
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30754
+invmodel=50319
+
+# Dragonstone platelegs Note
+[[item]]
+inherit=1079
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30754
+id=30756
+
+# Dragonstone boots
+[[item]]
+id=30757
+inherit=4131
+name="Dragonstone boots"
+placeholderid=30758
+invmodel=50318
+primarymalemodel=50310
+primaryfemalemodel=50315
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=30759
+
+# Dragonstone boots Placeholder
+[[item]]
+id=30758
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30757
+invmodel=50318
+
+# Dragonstone boots Note
+[[item]]
+inherit=4131
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30757
+id=30759
+
+# Dragonstone gauntlets
+[[item]]
+id=30760
+inherit=7462
+name="Dragonstone gauntlets"
+placeholderid=30761
+invmodel=50317
+primarymalemodel=50307
+primaryfemalemodel=50312
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+grandexchange=false
+notedid=30762
+
+# Dragonstone gauntlets Placeholder
+[[item]]
+id=30761
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30760
+invmodel=50317
+
+# Dragonstone gauntlets Note
+[[item]]
+inherit=7462
+op1=""
+op2=""
+op3=""
+op4=""
+op5="Drop"
+groundops=["", "", "Take", "", ""]
+notedtemplate=799
+notedid=30760
+id=30762
+
+

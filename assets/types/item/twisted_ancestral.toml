@@ -1,0 +1,105 @@
+# Twisted Ancestral Hat
+[[item]]
+id=30520
+inherit=21018
+name="Twisted ancestral hat"
+placeholderid=30521
+invmodel=50225
+primarymalemodel=50217
+primaryfemalemodel=50221
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op3="Dismantle"
+grandexchange=false
+notedid=-1
+
+# Twisted Ancestral Hat Placeholder
+[[item]]
+id=30521
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30520
+invmodel=50225
+
+# Twisted Ancestral Top
+[[item]]
+id=30522
+inherit=21021
+name="Twisted ancestral robe top"
+placeholderid=30523
+invmodel=50226
+primarymalemodel=50218
+primaryfemalemodel=50222
+secondarymalemodel=50219
+secondaryfemalemodel=50223
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op3="Dismantle"
+grandexchange=false
+notedid=-1
+
+# Twisted Ancestral Top Placeholder
+[[item]]
+id=30523
+inherit=21023
+name="null"
+placeholdertemplate=14401
+placeholderid=30522
+invmodel=50226
+
+# Twisted Ancestral Robe Bottom
+[[item]]
+id=30524
+inherit=21024
+name="Twisted ancestral robe bottom"
+placeholderid=30525
+invmodel=50224
+primarymalemodel=50216
+primaryfemalemodel=50220
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+op3="Dismantle"
+grandexchange=false
+notedid=-1
+
+# Twisted Ancestral Robe Bottoms Placeholder
+[[item]]
+id=30525
+inherit=21026
+name="null"
+placeholdertemplate=14401
+placeholderid=30524
+invmodel=50224
+
+# Twisted Ancestral colour kit
+[[item]]
+id=30526
+inherit=21024
+name="Twisted ancestral colour kit"
+placeholderid=30527
+invmodel=50227
+primarymalemodel=-1
+primaryfemalemodel=-1
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+price=5000000
+op2=""
+grandexchange=false
+notedid=-1
+
+# Twisted Ancestral colour kit
+[[item]]
+id=30527
+inherit=21026
+name="null"
+placeholdertemplate=14401
+placeholderid=30526
+invmodel=50227
+notedid=-1

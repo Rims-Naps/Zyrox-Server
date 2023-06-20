@@ -1,0 +1,116 @@
+{
+  "shopUID": 150,
+  "shopName": "Amelia's Seed Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 5318,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2,
+	  "restockTimer": 10
+    },
+    {
+      "id": 5319,
+      "amount": 60,
+      "sellPrice": 1,
+      "buyPrice": 3,
+	  "restockTimer": 10
+    },
+    {
+      "id": 5324,
+      "amount": 30,
+      "sellPrice": 1,
+      "buyPrice": 3,
+	  "restockTimer": 10
+    },
+    {
+      "id": 5322,
+      "amount": 0,
+      "sellPrice": 0,
+      "buyPrice": 4
+    },
+    {
+      "id": 5320,
+      "amount": 0,
+      "sellPrice": 0,
+      "buyPrice": 9
+    },
+    {
+      "id": 5323,
+      "amount": 0,
+      "sellPrice": 0,
+      "buyPrice": 21
+    },
+    {
+      "id": 5321,
+      "amount": 0,
+      "sellPrice": 0,
+      "buyPrice": 67
+    },
+    {
+      "id": 5305,
+      "amount": 100,
+      "sellPrice": 1,
+      "buyPrice": 2,
+	  "restockTimer": 10
+    },
+    {
+      "id": 5306,
+      "amount": 30,
+      "sellPrice": 3,
+      "buyPrice": 6,
+	  "restockTimer": 10
+    },
+    {
+      "id": 5097,
+      "amount": 100,
+      "sellPrice": 2,
+      "buyPrice": 4,
+	  "restockTimer": 10
+    },
+    {
+      "id": 5096,
+      "amount": 100,
+      "sellPrice": 1,
+      "buyPrice": 2,
+	  "restockTimer": 10
+    },
+    {
+      "id": 5307,
+      "amount": 100,
+      "sellPrice": 1,
+      "buyPrice": 2,
+	  "restockTimer": 10
+    },
+    {
+      "id": 5308,
+      "amount": 60,
+      "sellPrice": 1,
+      "buyPrice": 3,
+	  "restockTimer": 10
+    },
+    {
+      "id": 5309,
+      "amount": 30,
+      "sellPrice": 3,
+      "buyPrice": 7,
+	  "restockTimer": 10
+    },
+    {
+      "id": 5310,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 9,
+	  "restockTimer": 10
+    },
+    {
+      "id": 5311,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 16,
+	  "restockTimer": 10
+    }
+  ]
+}

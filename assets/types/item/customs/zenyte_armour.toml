@@ -1,0 +1,144 @@
+# Zenyte helm
+[[item]]
+id=2683
+inherit=23101
+name="Zenyte helm"
+placeholderid=30019
+invmodel=52511
+primarymalemodel=52512
+primaryfemalemodel=52512
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+
+# Zenyte helm (placeholder)
+[[item]]
+id=30019
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=2683
+invmodel=52511
+
+# Zenyte platebody
+[[item]]
+id=2684
+inherit=23097
+name="Zenyte platebody"
+placeholderid=30020
+invmodel=52513
+primarymalemodel=52514
+primaryfemalemodel=52514
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+
+# Zenyte platebody (placeholder)
+[[item]]
+id=30020
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=2684
+invmodel=52513
+
+# Zenyte platelegs
+[[item]]
+id=2685
+inherit=23095
+name="Zenyte platelegs"
+placeholderid=30021
+invmodel=52515
+primarymalemodel=52516
+primaryfemalemodel=52516
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+
+# Zenyte platelegs (placeholder)
+[[item]]
+id=30021
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=2685
+invmodel=52515
+
+# Zenyte cape
+[[item]]
+id=2686
+inherit=23099
+name="Zenyte cape"
+placeholderid=30022
+invmodel=52507
+primarymalemodel=52508
+primaryfemalemodel=52508
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+zoom=2800
+grandexchange=true
+
+# Zenyte cape (placeholder)
+[[item]]
+id=30022
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=2686
+invmodel=52507
+
+# Zenyte boots
+[[item]]
+id=2687
+inherit=23093
+name="Zenyte boots"
+placeholderid=30023
+invmodel=52505
+primarymalemodel=52506
+primaryfemalemodel=52506
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+
+# Zenyte boots (placeholder)
+[[item]]
+id=30023
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=2687
+invmodel=52505
+
+# Zenyte gloves
+[[item]]
+id=2688
+inherit=23091
+name="Zenyte gloves"
+placeholderid=30024
+invmodel=52509
+primarymalemodel=52510
+primaryfemalemodel=52510
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=true
+
+# Zenyte gloves (placeholder)
+[[item]]
+id=30024
+inherit=15430
+name="null"
+placeholdertemplate=14401
+placeholderid=2688
+invmodel=52509

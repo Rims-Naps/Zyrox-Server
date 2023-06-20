@@ -1,0 +1,62 @@
+{
+  "shopUID": 2,
+  "shopName": "Grace's Graceful Clothing",
+  "currency": "MARK_OF_GRACE",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 11850,
+      "amount": 100,
+      "sellPrice": 11,
+      "buyPrice": 14
+    },
+    {
+      "id": 11852,
+      "amount": 100,
+      "sellPrice": 12,
+      "buyPrice": 16
+    },
+    {
+      "id": 11854,
+      "amount": 100,
+      "sellPrice": 17,
+      "buyPrice": 22
+    },
+    {
+      "id": 11856,
+      "amount": 100,
+      "sellPrice": 19,
+      "buyPrice": 24
+    },
+    {
+      "id": 11858,
+      "amount": 100,
+      "sellPrice": 9,
+      "buyPrice": 12
+    },
+    {
+      "id": 11860,
+      "amount": 100,
+      "sellPrice": 12,
+      "buyPrice": 16
+    },
+    {
+      "id": 32234,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000
+    },
+    {
+      "id": 32283,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1000
+    },
+    {
+      "id": 12641,
+      "amount": 1000,
+      "sellPrice": 1,
+      "buyPrice": 4
+    }
+  ]
+}

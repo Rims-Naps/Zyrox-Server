@@ -1,0 +1,128 @@
+{
+  "shopUID": 158,
+  "shopName": "Culinaromancer's Chest",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 7453,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 65
+    },
+    {
+      "id": 7454,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 130
+    },
+    {
+      "id": 7455,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 325
+    },
+    {
+      "id": 7456,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 650
+    },
+    {
+      "id": 7457,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 1300
+    },
+    {
+      "id": 7458,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 1950
+    },
+    {
+      "id": 7459,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 3250
+    },
+    {
+      "id": 7460,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 6500
+    },
+    {
+      "id": 7461,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 130000
+    },
+    {
+      "id": 7462,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 130000
+    },
+    {
+      "id": 7433,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 45
+    },
+    {
+      "id": 7435,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 65
+    },
+    {
+      "id": 7437,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 422
+    },
+    {
+      "id": 7439,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 2496
+    },
+    {
+      "id": 7441,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 2158
+    },
+    {
+      "id": 7443,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 4160
+    },
+    {
+      "id": 7445,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 18720
+    },
+    {
+      "id": 7447,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 10400
+    },
+    {
+      "id": 7449,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 53950
+    },
+    {
+      "id": 7451,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 33280
+    }
+  ]
+}

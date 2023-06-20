@@ -1,0 +1,146 @@
+{
+  "shopUID": 149,
+  "shopName": "Diango's Toy Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 13660,
+      "amount": 1,
+      "sellPrice": 0,
+      "buyPrice": 300
+    },
+    {
+      "id": 13658,
+      "amount": 100,
+      "sellPrice": 50,
+      "buyPrice": 150
+    },
+    {
+      "id": 6865,
+      "amount": 100,
+      "sellPrice": 50,
+      "buyPrice": 150
+    },
+    {
+      "id": 6866,
+      "amount": 100,
+      "sellPrice": 50,
+      "buyPrice": 150
+    },
+    {
+      "id": 6867,
+      "amount": 100,
+      "sellPrice": 50,
+      "buyPrice": 150
+    },
+    {
+      "id": 6868,
+      "amount": 100,
+      "sellPrice": 50,
+      "buyPrice": 150
+    },
+    {
+      "id": 13188,
+      "amount": 100,
+      "sellPrice": 100000,
+      "buyPrice": 500000
+    },
+    {
+      "id": 13328,
+      "amount": 100,
+      "sellPrice": 5000,
+      "buyPrice": 10000
+    },
+    {
+      "id": 13681,
+      "amount": 1,
+      "sellPrice": 5000,
+      "buyPrice": 10000
+    },
+    {
+      "id": 2529,
+      "amount": 100,
+      "sellPrice": 2000,
+      "buyPrice": 4000
+    },
+    {
+      "id": 2522,
+      "amount": 100,
+      "sellPrice": 2000,
+      "buyPrice": 4000
+    },
+    {
+      "id": 2524,
+      "amount": 100,
+      "sellPrice": 2000,
+      "buyPrice": 4000
+    },
+    {
+      "id": 2526,
+      "amount": 100,
+      "sellPrice": 2000,
+      "buyPrice": 4000
+    },
+    {
+      "id": 2520,
+      "amount": 100,
+      "sellPrice": 2000,
+      "buyPrice": 4000
+    },
+    {
+      "id": 2522,
+      "amount": 100,
+      "sellPrice": 2000,
+      "buyPrice": 4000
+    },
+    {
+      "id": 2524,
+      "amount": 100,
+      "sellPrice": 2000,
+      "buyPrice": 4000
+    },
+    {
+      "id": 2526,
+      "amount": 100,
+      "sellPrice": 2000,
+      "buyPrice": 4000
+    },
+    {
+      "id": 4613,
+      "amount": 100,
+      "sellPrice": 4000,
+      "buyPrice": 8000
+    },
+    {
+      "id": 7671,
+      "amount": 100,
+      "sellPrice": 4000,
+      "buyPrice": 8000
+    },
+    {
+      "id": 7673,
+      "amount": 100,
+      "sellPrice": 4000,
+      "buyPrice": 8000
+    },
+    {
+      "id": 11705,
+      "amount": 100,
+      "sellPrice": 4000,
+      "buyPrice": 8000
+    },
+    {
+      "id": 11706,
+      "amount": 100,
+      "sellPrice": 4000,
+      "buyPrice": 8000
+    },
+    {
+      "id": 19699,
+      "amount": 100,
+      "sellPrice": 10000,
+      "buyPrice": 25000
+    }
+  ]
+}

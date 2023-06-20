@@ -1,0 +1,44 @@
+{
+  "shopUID": 38,
+  "shopName": "Keepa Kettilon's Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 361,
+      "amount": 20,
+      "sellPrice": 70,
+      "buyPrice": 110
+    },
+    {
+      "id": 329,
+      "amount": 20,
+      "sellPrice": 35,
+      "buyPrice": 55
+    },
+    {
+      "id": 339,
+      "amount": 20,
+      "sellPrice": 17,
+      "buyPrice": 27
+    },
+    {
+      "id": 379,
+      "amount": 10,
+      "sellPrice": 105,
+      "buyPrice": 165
+    },
+    {
+      "id": 373,
+      "amount": 0,
+      "sellPrice": 140,
+      "buyPrice": 220
+    },
+    {
+      "id": 385,
+      "amount": 0,
+      "sellPrice": 210,
+      "buyPrice": 330
+    }
+  ]
+}

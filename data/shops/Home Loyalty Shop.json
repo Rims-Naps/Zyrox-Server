@@ -1,0 +1,640 @@
+{
+  "shopName": "Loyalty Shop",
+  "currency": "LOYALTY_POINTS",
+  "sellPolicy": "NO_SELLING",
+  "items": [
+    {
+      //Redirection scroll: Note: If editing price, make sure to rewrite "Refund" option on them so it doesn't start duping loyalty points!
+      "id": 11740,
+      "amount": 10000,
+      "sellPrice": 0,
+      "buyPrice": 10,
+      "restockTimer": 1
+    },
+    {
+      //Tome of Experience - 30215
+      "id": 30215,
+      "amount": 1000,
+      "sellPrice": 0,
+      "buyPrice": 250,
+      "restockTimer": 1
+    },
+    {
+      //Imbue scroll
+      "id": 11681,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 150
+    },
+    {
+      //Emote scroll
+      "id": 2678,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 50
+    },
+    {
+      //Prop sword
+      "id": 22316,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200
+    },
+    {
+      //Yo-Yo
+      "id": 4079,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 300
+    },
+    {
+      //Monkey
+      "id": 19556,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 6000
+    },
+    {
+      //Rubber Chicken
+      "id": 4566,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1000
+    },
+    {
+      //Event RPG
+      "id": 12727,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 100
+    },
+    {
+      //Cursed Gobin Warhammer
+      "id": 11707,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200
+    },
+    {
+      //Cursed Gobin Bow
+      "id": 11708,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200
+    },
+    {
+      //Cursed Goblin Staff
+      "id": 11709,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200
+    },
+    {
+      //Holy Handegg
+      "id": 22355,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200
+    },
+    {
+      //Peaceful Handegg
+      "id": 22358,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200
+    },
+    {
+      //Chaotic Handegg
+      "id": 22361,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200
+    },
+    {
+      //Hand Fan
+      "id":21354,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Mask of Balance
+      "id": 13203,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Blue Tricorn
+      "id": 8959,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Blue Naval Shirt
+      "id": 8952,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Blue Navy Slacks
+      "id": 8991,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Green Tricorn
+      "id": 8960,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Green Naval Shirt
+      "id": 8953,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Green Navy Slacks
+      "id": 8992,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Red Tricorn
+      "id": 8961,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Red Naval Shirt
+      "id": 8954,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Red Navy Slacks
+      "id": 8993,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Brown Tricorn
+      "id": 8962,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Brown Naval Shirt
+      "id": 8955,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Brown Navy Slacks
+      "id": 8994,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Black Tricorn
+      "id": 8963,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Black Naval Shirt
+      "id": 8956,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Black Navy Slacks
+      "id": 8995,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Purple Tricorn
+      "id": 8964,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Purple Naval Shirt
+      "id": 8957,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Purple Navy Slacks
+      "id": 8996,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Grey Tricorn Hat
+      "id": 8965,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Grey Naval Shirt
+      "id": 8958,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Grey Navy Slacks
+      "id": 8997,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Camel Mask
+      "id": 7003,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 300
+    },
+    {
+      //Dwarven Helmet
+      "id": 11200,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 300
+    },
+    {
+      //Gnome Goggles
+      "id": 9472,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 300
+    },
+    {
+      //Gnomeball
+      "id": 751,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 100
+    },
+    {
+      //Gnome Scarf
+      "id": 9470,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 5000
+    },
+    {
+      //Segacious Spectacles
+      "id": 12337,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 300
+    },
+    {
+      //Mudskipper Hat
+      "id": 6665,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 200
+    },
+    {
+      //Bomber Cap
+      "id": 9945,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 250
+    },
+    {
+      //Bomber Jacket
+      "id": 9944,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 250
+    },
+    {
+      //Birthday Balloons
+      "id": 21209,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 5000
+    },
+    {
+      //Doctor's Gown
+      "id": 430,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Doctor's Hat
+      "id": 6547,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      //Builder Shirt
+      "id": 10863,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 400
+    },
+    {
+      //Builder Trousers
+      "id": 10864,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 400
+    },
+    {
+      //Builder Boots
+      "id": 10865,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 400
+    },
+    {
+      //Chicken
+      "id": 5609,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000
+    },
+    {
+      //Fox
+      "id": 5608,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000
+    },
+    {
+      //Camouflage Hat
+      "id": 6656,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 250
+    },
+    {
+      //Camouflage Top
+      "id": 6654,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 300
+    },
+    {
+      //Camouflage Bottom
+      "id": 6655,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 300
+    },
+    {
+      //Princess Blouse
+      "id": 6186,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 300
+    },
+    {
+      //Princess Skirt
+      "id": 6187,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 300
+    },
+    {
+      //Prince Tunic
+      "id": 6184,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 300
+    },
+    {
+      //Prince Leggings
+      "id": 6185,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 300
+    },
+    {
+      //Frog Mask
+      "id": 6188,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 750
+    },
+    {
+      //Rat Pole
+      "id": 6779,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1000
+
+    },
+    {
+      //Mouse Toy
+      "id": 6541,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1000
+
+    },
+    {
+      //Silly Jester Hat
+      "id": 10836,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 600
+
+    },
+    {
+      //Silly Jester Top
+      "id": 10837,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 600
+
+    },
+    {
+      //Silly Jester Tights
+      "id": 10838,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 600
+
+    },
+    {
+      //Silly Jester Boots
+      "id": 10839,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 600
+
+    },
+    {
+      //Silly Jester Cape
+      "id": 23297,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 600
+
+    },
+    {
+      //Bow Sword
+      "id": 6818,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 5000
+    },
+    {
+      //Decorative armor from here down
+      "id": 11898,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      "id": 11896,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1000
+    },
+    {
+      "id": 11897,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 750
+    },
+    {
+      "id": 11899,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1000
+    },
+    {
+      "id": 11900,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 750
+    },
+    {
+      "id": 11901,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      "id": 4071,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 500
+    },
+    {
+      "id": 4069,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1000
+    },
+    {
+      "id": 4070,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 750
+    },
+    {
+      "id": 11893,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 750
+    },
+    {
+      "id": 4068,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1000
+    },
+    {
+      "id": 4506,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1000
+    },
+    {
+      "id": 4504,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000
+    },
+    {
+      "id": 4505,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1500
+    },
+    {
+      "id": 11894,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 1500
+    },
+    {
+      "id": 4503,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000
+    },
+    {
+      "id": 4511,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 2000
+    },
+    {
+      "id": 4509,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 4000
+    },
+    {
+      "id": 4510,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 3000
+    },
+    {
+      "id": 11895,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 3000
+    },
+    {
+      "id": 4508,
+      "amount": 100,
+      "sellPrice": 0,
+      "buyPrice": 4000
+    }
+  ]
+}

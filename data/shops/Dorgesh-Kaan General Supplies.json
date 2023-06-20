@@ -1,0 +1,62 @@
+{
+  "shopUID": 144,
+  "shopName": "Dorgesh-Kaan General Supplies",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 596,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 5
+    },
+    {
+      "id": 590,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1931,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1935,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 1
+    },
+    {
+      "id": 20742,
+      "amount": 6,
+      "sellPrice": -1,
+      "buyPrice": 182
+    },
+    {
+      "id": 1923,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 5
+    },
+    {
+      "id": 1887,
+      "amount": 2,
+      "sellPrice": -1,
+      "buyPrice": 13
+    },
+    {
+      "id": 954,
+      "amount": 3,
+      "sellPrice": -1,
+      "buyPrice": 23
+    },
+    {
+      "id": 1785,
+      "amount": 1,
+      "sellPrice": -1,
+      "buyPrice": 2
+    }
+  ]
+}

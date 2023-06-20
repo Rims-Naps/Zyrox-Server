@@ -1,0 +1,32 @@
+{
+  "shopUID": 226,
+  "shopName": "Solihib's Food Stall",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 4012,
+      "amount": 200,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 1963,
+      "amount": 1000,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 4016,
+      "amount": 10,
+      "sellPrice": 150,
+      "buyPrice": 300
+    },
+    {
+      "id": 4014,
+      "amount": 20,
+      "sellPrice": 25,
+      "buyPrice": 50
+    }
+  ]
+}

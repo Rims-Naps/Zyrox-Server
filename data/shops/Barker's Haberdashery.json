@@ -1,0 +1,188 @@
+{
+  "shopUID": 171,
+  "shopName": "Barker's Haberdashery",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 2894,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2896,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2898,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2900,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2902,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2904,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2906,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2908,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2910,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2912,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2914,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2916,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2918,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2920,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2922,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2924,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2926,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2928,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2930,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2932,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2934,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2936,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2938,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2940,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 2942,
+      "amount": 5,
+      "sellPrice": 200,
+      "buyPrice": 650
+    },
+    {
+      "id": 1007,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1019,
+      "amount": 5,
+      "sellPrice": 2,
+      "buyPrice": 9
+    },
+    {
+      "id": 1021,
+      "amount": 5,
+      "sellPrice": 12,
+      "buyPrice": 41
+    },
+    {
+      "id": 1023,
+      "amount": 5,
+      "sellPrice": 12,
+      "buyPrice": 41
+    },
+    {
+      "id": 1027,
+      "amount": 5,
+      "sellPrice": 12,
+      "buyPrice": 41
+    }
+  ]
+}

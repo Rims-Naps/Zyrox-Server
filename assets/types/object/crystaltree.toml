@@ -1,0 +1,24 @@
+# Crystal Tree
+[[object]]
+inherit=1753
+id=40050
+name="Crystal Tree"
+op1="Chop down"
+models=[50254]
+sizex=3
+sizey=3
+
+
+#Crystal tree stump
+[[object]]
+inherit=9713
+id=40051
+name="Crystal Tree Stump"
+op1=""
+models=[50770]
+sizex=3
+sizey=3
+
+
+
+

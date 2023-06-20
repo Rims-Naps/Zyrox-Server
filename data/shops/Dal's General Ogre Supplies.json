@@ -1,0 +1,50 @@
+{
+  "shopUID": 26,
+  "shopName": "Dal's General Ogre Supplies",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1931,
+      "amount": 30,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1935,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 946,
+      "amount": 10,
+      "sellPrice": 7,
+      "buyPrice": 25
+    },
+    {
+      "id": 1925,
+      "amount": 30,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 590,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1755,
+      "amount": 10,
+      "sellPrice": 4,
+      "buyPrice": 14
+    },
+    {
+      "id": 2347,
+      "amount": 10,
+      "sellPrice": 3,
+      "buyPrice": 13
+    }
+  ]
+}

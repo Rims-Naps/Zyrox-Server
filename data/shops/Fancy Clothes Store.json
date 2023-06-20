@@ -1,0 +1,140 @@
+{
+  "shopUID": 162,
+  "shopName": "Fancy Clothes Store",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1949,
+      "amount": 0,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 579,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1023,
+      "amount": 1,
+      "sellPrice": 12,
+      "buyPrice": 41
+    },
+    {
+      "id": 958,
+      "amount": 3,
+      "sellPrice": 20,
+      "buyPrice": 150
+    },
+    {
+      "id": 948,
+      "amount": 3,
+      "sellPrice": 4,
+      "buyPrice": 13
+    },
+    {
+      "id": 1733,
+      "amount": 3,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1734,
+      "amount": 100,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1059,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 7
+    },
+    {
+      "id": 1061,
+      "amount": 10,
+      "sellPrice": 2,
+      "buyPrice": 7
+    },
+    {
+      "id": 428,
+      "amount": 3,
+      "sellPrice": 1,
+      "buyPrice": 6
+    },
+    {
+      "id": 426,
+      "amount": 3,
+      "sellPrice": 1,
+      "buyPrice": 6
+    },
+    {
+      "id": 1757,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1013,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1015,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1011,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1007,
+      "amount": 10,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 1025,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 10088,
+      "amount": 0,
+      "sellPrice": 4,
+      "buyPrice": 13
+    },
+    {
+      "id": 10090,
+      "amount": 0,
+      "sellPrice": 7,
+      "buyPrice": 16
+    },
+    {
+      "id": 10091,
+      "amount": 0,
+      "sellPrice": 5,
+      "buyPrice": 19
+    },
+    {
+      "id": 10089,
+      "amount": 0,
+      "sellPrice": 9,
+      "buyPrice": 20
+    },
+    {
+      "id": 10087,
+      "amount": 0,
+      "sellPrice": 8,
+      "buyPrice": 26
+    }
+  ]
+}

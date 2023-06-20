@@ -1,0 +1,21 @@
+# 3rd birthday cake
+[[item]]
+id=32232
+inherit=23108
+name="3rd birthday cake"
+invmodel=50705
+primarymalemodel=50705
+primaryfemalemodel=50705
+placeholderid=32233
+grandexchange=false
+notedid=-1
+
+# 3rd birthday cake Placeholder
+[[item]]
+id=32233
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32232
+invmodel=50705
+

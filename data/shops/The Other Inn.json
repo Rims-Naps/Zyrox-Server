@@ -1,0 +1,32 @@
+{
+  "shopUID": 232,
+  "shopName": "The Other Inn",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1917,
+      "amount": 3,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 7157,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 30
+    },
+    {
+      "id": 1993,
+      "amount": 1,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 2003,
+      "amount": 5,
+      "sellPrice": 12,
+      "buyPrice": 20
+    }
+  ]
+}

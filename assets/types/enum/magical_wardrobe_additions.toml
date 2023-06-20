@@ -1,0 +1,17 @@
+# additions to magical wardrobe interface
+[[enum]]
+inherit=380
+keytype="obj"
+
+[enum.values]
+776="Goldsmith gauntlets"
+1580="Ice gloves"
+30030="Enhanced ice gloves"
+20214="Team cape x"
+20217="Team cape i"
+20211="Team cape zero"
+32196="Raiments of the eye"
+6665="Mudskipper kit"
+32122="Graceful outfit (Black)"
+32110="Graceful outfit (Brown)"
+32232="Birthday cake 2022"

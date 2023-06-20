@@ -1,0 +1,38 @@
+{
+  "shopUID": 37,
+  "shopName": "Flosi's Fishmongers",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 377,
+      "amount": 5,
+      "sellPrice": 105,
+      "buyPrice": 165
+    },
+    {
+      "id": 359,
+      "amount": 20,
+      "sellPrice": 70,
+      "buyPrice": 110
+    },
+    {
+      "id": 331,
+      "amount": 20,
+      "sellPrice": 35,
+      "buyPrice": 55
+    },
+    {
+      "id": 341,
+      "amount": 20,
+      "sellPrice": 17,
+      "buyPrice": 27
+    },
+    {
+      "id": 383,
+      "amount": 0,
+      "sellPrice": 210,
+      "buyPrice": 330
+    }
+  ]
+}

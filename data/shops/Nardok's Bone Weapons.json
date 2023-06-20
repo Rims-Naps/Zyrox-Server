@@ -1,0 +1,44 @@
+{
+  "shopUID": 145,
+  "shopName": "Nardok's Bone Weapons",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 5018,
+      "amount": 10,
+      "sellPrice": 360,
+      "buyPrice": 600
+    },
+    {
+      "id": 5016,
+      "amount": 10,
+      "sellPrice": 360,
+      "buyPrice": 600
+    },
+    {
+      "id": 8872,
+      "amount": 5,
+      "sellPrice": 1200,
+      "buyPrice": 2000
+    },
+    {
+      "id": 8880,
+      "amount": 5,
+      "sellPrice": 1200,
+      "buyPrice": 2000
+    },
+    {
+      "id": 8882,
+      "amount": 1000,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 13193,
+      "amount": 80,
+      "sellPrice": 210,
+      "buyPrice": 350
+    }
+  ]
+}

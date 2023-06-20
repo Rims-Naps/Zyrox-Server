@@ -1,0 +1,18 @@
+# Merchant Wagon
+[[object]]
+inherit=23055
+id=40091
+name="Broken wagon"
+op1=""
+op2=""
+op3=""
+op4=""
+
+# Wayward Merchant
+[[npc]]
+name="Wayward Merchant"
+inherit=1304
+id=13044
+op1="Talk-to"
+combatlevel=0
+size=1

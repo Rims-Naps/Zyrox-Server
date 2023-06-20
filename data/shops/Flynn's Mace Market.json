@@ -1,0 +1,38 @@
+{
+  "shopUID": 12,
+  "shopName": "Flynn's Mace Market",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1422,
+      "amount": 5,
+      "sellPrice": 10,
+      "buyPrice": 18
+    },
+    {
+      "id": 1420,
+      "amount": 4,
+      "sellPrice": 37,
+      "buyPrice": 63
+    },
+    {
+      "id": 1424,
+      "amount": 4,
+      "sellPrice": 135,
+      "buyPrice": 225
+    },
+    {
+      "id": 1428,
+      "amount": 3,
+      "sellPrice": 351,
+      "buyPrice": 585
+    },
+    {
+      "id": 1430,
+      "amount": 2,
+      "sellPrice": 864,
+      "buyPrice": 1440
+    }
+  ]
+}

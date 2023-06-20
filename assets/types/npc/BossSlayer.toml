@@ -1,0 +1,11 @@
+[[npc]]
+id=8038
+inherit=8038
+name="Ellen"
+op1="Talk-to"
+op2="Assignment"
+op3="Trade"
+op4="Rewards"
+
+
+

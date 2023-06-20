@@ -1,0 +1,178 @@
+{
+  "shopUID": 1003,
+  "shopName": "Ranged Armoury Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1167,
+      "amount": 1000,
+      "sellPrice": 14,
+      "buyPrice": 24
+    },
+    {
+      "id": 1129,
+      "amount": 1000,
+      "sellPrice": 13,
+      "buyPrice": 21
+    },
+    {
+      "id": 1095,
+      "amount": 1000,
+      "sellPrice": 12,
+      "buyPrice": 20
+    },
+    {
+      "id": 1063,
+      "amount": 1000,
+      "sellPrice": 10,
+      "buyPrice": 16
+    },
+    {
+      "id": 1061,
+      "amount": 1000,
+      "sellPrice": 3,
+      "buyPrice": 6
+    },
+    {
+      "id": 1169,
+      "amount": 1000,
+      "sellPrice": 120,
+      "buyPrice": 200,
+      "ironmanRestricted": true
+
+    },
+    {
+      "id": 1133,
+      "amount": 1000,
+      "sellPrice": 510,
+      "buyPrice": 850,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 1097,
+      "amount": 1000,
+      "sellPrice": 450,
+      "buyPrice": 750,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 6322,
+      "amount": 1000,
+      "sellPrice": 4560,
+      "buyPrice": 7600,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 6324,
+      "amount": 1000,
+      "sellPrice": 1380,
+      "buyPrice": 2300,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 6328,
+      "amount": 1000,
+      "sellPrice": 3420,
+      "buyPrice": 5700,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 1135,
+      "amount": 1000,
+      "sellPrice": 2800,
+      "buyPrice": 10140,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 1099,
+      "amount": 1000,
+      "sellPrice": 1400,
+      "buyPrice": 3900,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 1065,
+      "amount": 1000,
+      "sellPrice": 900,
+      "buyPrice": 2500,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 2499,
+      "amount": 1000,
+      "sellPrice": 3300,
+      "buyPrice": 15378,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 2493,
+      "amount": 1000,
+      "sellPrice": 1600,
+      "buyPrice": 5235,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 2487,
+      "amount": 1000,
+      "sellPrice": 1200,
+      "buyPrice": 4100,
+      "ironmanRestricted": true
+    },
+	{
+      "id": 2501,
+      "amount": 1000,
+      "sellPrice": 3900,
+      "buyPrice": 24080,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 2495,
+      "amount": 1000,
+      "sellPrice": 1900,
+      "buyPrice": 10024,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 2489,
+      "amount": 1000,
+      "sellPrice": 1400,
+      "buyPrice": 8843,
+      "ironmanRestricted": true
+    },
+	
+	{
+      "id": 2503,
+      "amount": 1000,
+      "sellPrice": 4700,
+      "buyPrice": 42276,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 2497,
+      "amount": 1000,
+      "sellPrice": 2300,
+      "buyPrice": 18258,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 2491,
+      "amount": 1000,
+      "sellPrice": 1600,
+      "buyPrice": 15233,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 10499,
+      "amount": 1000,
+      "sellPrice": 3280,
+      "buyPrice": 4467
+    },
+    {
+      "id": 3749,
+      "amount": 1000,
+      "sellPrice": 34566,
+      "buyPrice": 81500
+    }
+  ]
+}

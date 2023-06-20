@@ -1,0 +1,23 @@
+[[npc]]
+id=14032
+inherit=2270
+name="Mr Goblin"
+op1="Talk-to"
+op2="Pick-up"
+familiar=true
+size=1
+resizex=75
+resizey=75
+combatlevel=0
+
+[[npc]]
+id=14034
+inherit=7233
+name="Lucky Impling"
+op1="Talk-to"
+op2="Pick-up"
+familiar=true
+size=1
+resizex=75
+resizey=75
+combatlevel=0

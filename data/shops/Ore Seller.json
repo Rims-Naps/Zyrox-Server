@@ -1,0 +1,57 @@
+{
+  "shopUID": 189,
+  "shopName": "Ore Seller",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 436,
+      "amount": 1000,
+      "sellPrice": 1,
+      "buyPrice": 4,
+	  "restockTimer": 5
+    },
+    {
+      "id": 438,
+      "amount": 1000,
+      "sellPrice": 1,
+      "buyPrice": 4,
+	  "restockTimer": 5
+    },
+    {
+      "id": 440,
+      "amount": 1000,
+      "sellPrice": 6,
+      "buyPrice": 25,
+	  "restockTimer": 5
+    },
+    {
+      "id": 447,
+      "amount": 1000,
+      "sellPrice": 64,
+      "buyPrice": 243,
+	  "restockTimer": 5
+    },
+    {
+      "id": 442,
+      "amount": 1000,
+      "sellPrice": 30,
+      "buyPrice": 112,
+	  "restockTimer": 5
+    },
+    {
+      "id": 444,
+      "amount": 1000,
+      "sellPrice": 60,
+      "buyPrice": 225,
+	  "restockTimer": 5
+    },
+    {
+      "id": 453,
+      "amount": 1000,
+      "sellPrice": 18,
+      "buyPrice": 67,
+	  "restockTimer": 5
+    }
+  ]
+}

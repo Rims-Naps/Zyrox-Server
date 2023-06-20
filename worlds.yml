@@ -1,0 +1,194 @@
+# World flags can be combined together.
+# Possible world flags:
+#  FREE
+#  MEMBERS
+#  PVP
+#  BOUNTY
+#  SKILL_TOTAL
+#  PVP_HIGH_RISK
+#  LAST_MAN_STANDING
+#  BETA
+#  DEADMAN_TOURNAMENT
+#  DEADMAN
+#  SEASONAL_DEADMAN
+#
+# Possible locations:
+#  UNITED_STATES
+#  UNITED_KINGDOM
+#  CANADA
+#  AUSTRALIA
+#  NETHERLANDS
+#  SWEDEN
+#  FINLAND
+#  GERMANY
+
+worlds:
+  main:
+    number: 1
+    host: game.zenyte.com
+    port: 43594
+    activity: "Main World"
+    private: false
+    development: false
+    verifyPasswords: true
+    location: GERMANY
+    flags:
+      - MEMBERS
+    api:
+      enabled: true
+      scheme: "https"
+      host: "api.zenyte.com"
+      port: 443
+      token: "eZ02dvQi-JwZ7-gett-fukt-9TLNqtjR2Yuj"
+
+  beta:
+    number: 5
+    host: 52.49.124.174
+    port: 43594
+    activity: "Beta World"
+    private: false
+    development: false
+    verifyPasswords: true
+    location: UNITED_STATES
+    flags:
+      - BETA
+      - MEMBERS
+    api:
+      enabled: true
+      scheme: "https"
+      host: "api.zenyte.com"
+      port: 443
+      token: "eZ02dvQi-JwZ7-s3o7-rxIw-9TLNqtjR2Yuj"
+
+  corey_remote:
+    number: 88
+    host: 127.0.0.1
+    port: 43594
+    activity: "local dev world"
+    private: false
+    development: false
+    verifyPasswords: true
+    location: UNITED_KINGDOM
+    flags:
+      - BETA
+      - MEMBERS
+    api:
+      enabled: true
+      scheme: "https"
+      host: "api.zenyte.com"
+      port: 443
+      token: "eZ02dvQi-JwZ7-s3o7-rxIw-9TLNqtjR2Yuj"
+
+  corey_local:
+    number: 100
+    host: 127.0.0.1
+    port: 43594
+    activity: "Local development world"
+    private: false
+    development: true
+    verifyPasswords: false
+    location: UNITED_KINGDOM
+    flags:
+      - BETA
+      - MEMBERS
+    api:
+      enabled: true
+      scheme: "http"
+      host: "localhost"
+      port: 8080
+      token: "1111"
+
+  offline_dev:
+    number: 100
+    host: 127.0.0.1
+    port: 43594
+    activity: "Local development world"
+    private: false
+    development: true
+    verifyPasswords: false
+    location: UNITED_KINGDOM
+    flags:
+      - BETA
+      - MEMBERS
+    api:
+      enabled: false
+      scheme: "http"
+      host: "localhost"
+      port: 8080
+      token: "1234567890"
+
+  tommeh_local:
+    number: 98
+    host: 127.0.0.1
+    port: 43594
+    activity: "local dev world"
+    private: false
+    development: true
+    verifyPasswords: false
+    location: NETHERLANDS
+    flags:
+      - BETA
+      - MEMBERS
+    api:
+      enabled: false
+      scheme: "https"
+      host: "api.zenyte.com"
+      port: 443
+      token: ""
+
+  kris_local:
+    number: 97
+    host: 127.0.0.1
+    port: 43594
+    activity: "local dev world"
+    private: true
+    development: true
+    verifyPasswords: true
+    location: FINLAND
+    flags:
+      - BETA
+      - MEMBERS
+    api:
+      enabled: true
+      scheme: "https"
+      host: "api.zenyte.com"
+      port: 443
+      token: "eZ02dvQi-JwZ7-s3o7-rxIw-9TLNqtjR2Yuj"
+
+  noele_local:
+    number: 98
+    host: 127.0.0.1
+    port: 43594
+    activity: "local dev world"
+    private: true
+    development: true
+    verifyPasswords: true
+    location: UNITED_STATES
+    flags:
+      - BETA
+      - MEMBERS
+    api:
+      enabled: false
+      scheme: "https"
+      host: "api.zenyte.com"
+      port: 443
+      token: "eZ02dvQi-JwZ7-s3o7-rxIw-9TLNqtjR2Yuj"
+
+  chris_local:
+    number: 1337
+    host: 127.0.0.1
+    port: 43594
+    activity: "local dev world"
+    private: false
+    development: true
+    verifyPasswords: false
+    location: UNITED_STATES
+    flags:
+      - BETA
+      - MEMBERS
+    api:
+      enabled: false
+      scheme: "https"
+      host: "api.zenyte.com"
+      port: 443
+      token: "eZ02dvQi-JwZ7-s3o7-rxIw-9TLNqtjR2Yuj"

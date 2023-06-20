@@ -1,0 +1,32 @@
+# Rock #1
+[[object]]
+inherit=7465
+id=7465
+name="Crystalized Rock"
+op1="Mine"
+originalcolours=[37,24]
+replacementcolours=[31850, 31971]
+
+# Rock #2
+[[object]]
+inherit=7468
+id=7468
+name="Rock"
+op1=""
+
+# Rock #2
+[[object]]
+inherit=7466
+id=7466
+name="Crystalized Rock"
+op1="Mine"
+originalcolours=[37,24]
+replacementcolours=[31850, 31971]
+
+# Rock #3
+[[object]]
+inherit=8725
+id=8725
+name="Crystalized Rock"
+originalcolours=[37,24]
+replacementcolours=[31850, 31971]

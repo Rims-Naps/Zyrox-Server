@@ -1,0 +1,74 @@
+{
+  "shopUID": 76,
+  "shopName": "Aemad's Adventuring Supplies",
+  "currency": "COINS",
+  "sellPolicy": "CAN_SELL",
+  "items": [
+    {
+      "id": 227,
+      "amount": 500,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 11879,
+      "amount": 250,
+      "sellPrice": 80,
+      "buyPrice": 261
+    },
+    {
+      "id": 1265,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1349,
+      "amount": 2,
+      "sellPrice": 22,
+      "buyPrice": 72
+    },
+    {
+      "id": 2142,
+      "amount": 2,
+      "sellPrice": 1,
+      "buyPrice": 5
+    },
+    {
+      "id": 590,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1759,
+      "amount": 30,
+      "sellPrice": 0,
+      "buyPrice": 2
+    },
+    {
+      "id": 882,
+      "amount": 500,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 954,
+      "amount": 20,
+      "sellPrice": 7,
+      "buyPrice": 23
+    },
+    {
+      "id": 970,
+      "amount": 50,
+      "sellPrice": 4,
+      "buyPrice": 13
+    },
+    {
+      "id": 946,
+      "amount": 2,
+      "sellPrice": 2,
+      "buyPrice": 7
+    }
+  ]
+}

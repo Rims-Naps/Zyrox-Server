@@ -1,0 +1,74 @@
+{
+  "shopUID": 197,
+  "shopName": "Quality Weapons Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1365,
+      "amount": 10,
+      "sellPrice": 216,
+      "buyPrice": 650
+    },
+    {
+      "id": 1369,
+      "amount": 10,
+      "sellPrice": 563,
+      "buyPrice": 1690
+    },
+    {
+      "id": 1285,
+      "amount": 10,
+      "sellPrice": 281,
+      "buyPrice": 845
+    },
+    {
+      "id": 1287,
+      "amount": 10,
+      "sellPrice": 693,
+      "buyPrice": 2080
+    },
+    {
+      "id": 1325,
+      "amount": 10,
+      "sellPrice": 133,
+      "buyPrice": 400
+    },
+    {
+      "id": 1297,
+      "amount": 10,
+      "sellPrice": 320,
+      "buyPrice": 960
+    },
+    {
+      "id": 1303,
+      "amount": 10,
+      "sellPrice": 10666,
+      "buyPrice": 42560
+    },
+    {
+      "id": 853,
+      "amount": 10,
+      "sellPrice": 133,
+      "buyPrice": 400
+    },
+    {
+      "id": 851,
+      "amount": 10,
+      "sellPrice": 213,
+      "buyPrice": 640
+    },
+    {
+      "id": 888,
+      "amount": 100,
+      "sellPrice": 25,
+      "buyPrice": 76
+    },
+    {
+      "id": 890,
+      "amount": 100,
+      "sellPrice": 57,
+      "buyPrice": 172
+    }
+  ]
+}

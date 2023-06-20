@@ -1,0 +1,97 @@
+{
+  "shopUID": 1004,
+  "shopName": "Magic Armoury Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 579,
+      "amount": 100,
+      "sellPrice": 2,
+      "buyPrice": 800
+    },
+    {
+      "id": 577,
+      "amount": 100,
+      "sellPrice": 2,
+      "buyPrice": 1566
+    },
+    {
+      "id": 1011,
+      "amount": 100,
+      "sellPrice": 2,
+      "buyPrice": 1122
+    },
+    {
+      "id": 4089,
+      "amount": 100,
+      "sellPrice": 10500,
+      "buyPrice": 17500,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 4091,
+      "amount": 100,
+      "sellPrice": 60000,
+      "buyPrice": 100000,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 4093,
+      "amount": 100,
+      "sellPrice": 42000,
+      "buyPrice": 70000,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 4095,
+      "amount": 100,
+      "sellPrice": 4800,
+      "buyPrice": 8000,
+      "ironmanRestricted": true
+    },
+    {
+      "id": 4097,
+      "amount": 100,
+      "sellPrice": 4800,
+      "buyPrice": 8000,
+      "ironmanRestricted": true
+    },
+	{
+      "id": 6109,
+      "amount": 100,
+      "sellPrice": 10,
+      "buyPrice": 384
+    },
+	{
+      "id": 6107,
+      "amount": 100,
+      "sellPrice": 10,
+      "buyPrice": 852
+    },
+	{
+      "id": 6108,
+      "amount": 100,
+      "sellPrice": 10,
+      "buyPrice": 685
+    },
+	{
+      "id": 6111,
+      "amount": 100,
+      "sellPrice": 10,
+      "buyPrice": 255
+    },
+	{
+      "id": 6110,
+      "amount": 100,
+      "sellPrice": 10,
+      "buyPrice": 257
+    },
+	{
+      "id": 6106,
+      "amount": 100,
+      "sellPrice": 10,
+      "buyPrice": 244
+    }
+  ]
+}

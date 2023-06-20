@@ -1,0 +1,56 @@
+{
+  "shopUID": 176,
+  "shopName": "Port Phasmatys General Store",
+  "currency": "COINS",
+  "sellPolicy": "CAN_SELL",
+  "items": [
+    {
+      "id": 1931,
+      "amount": 100,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1925,
+      "amount": 100,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 1735,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1935,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 20742,
+      "amount": 5,
+      "sellPrice": 56,
+      "buyPrice": 182
+    },
+    {
+      "id": 590,
+      "amount": 10,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1755,
+      "amount": 10,
+      "sellPrice": 4,
+      "buyPrice": 14
+    },
+    {
+      "id": 2347,
+      "amount": 10,
+      "sellPrice": 3,
+      "buyPrice": 13
+    }
+  ]
+}

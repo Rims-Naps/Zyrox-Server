@@ -1,0 +1,6 @@
+#Crystal Fishing
+[[npc]]
+id=13008
+inherit=3419
+name="Fishing spot"
+size=1

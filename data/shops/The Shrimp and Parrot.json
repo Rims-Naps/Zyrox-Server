@@ -1,0 +1,44 @@
+{
+  "shopUID": 103,
+  "shopName": "The Shrimp and Parrot",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 347,
+      "amount": 5,
+      "sellPrice": 11,
+      "buyPrice": 19
+    },
+    {
+      "id": 339,
+      "amount": 5,
+      "sellPrice": 18,
+      "buyPrice": 32
+    },
+    {
+      "id": 361,
+      "amount": 5,
+      "sellPrice": 75,
+      "buyPrice": 130
+    },
+    {
+      "id": 379,
+      "amount": 3,
+      "sellPrice": 112,
+      "buyPrice": 195
+    },
+    {
+      "id": 373,
+      "amount": 2,
+      "sellPrice": 150,
+      "buyPrice": 260
+    },
+    {
+      "id": 3144,
+      "amount": 3,
+      "sellPrice": 187,
+      "buyPrice": 325
+    }
+  ]
+}

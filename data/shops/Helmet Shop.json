@@ -1,0 +1,68 @@
+{
+  "shopUID": 154,
+  "shopName": "Helmet Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1139,
+      "amount": 5,
+      "sellPrice": 14,
+      "buyPrice": 24
+    },
+    {
+      "id": 1137,
+      "amount": 3,
+      "sellPrice": 50,
+      "buyPrice": 84
+    },
+    {
+      "id": 1141,
+      "amount": 3,
+      "sellPrice": 180,
+      "buyPrice": 300
+    },
+    {
+      "id": 1143,
+      "amount": 1,
+      "sellPrice": 468,
+      "buyPrice": 780
+    },
+    {
+      "id": 1145,
+      "amount": 1,
+      "sellPrice": 1152,
+      "buyPrice": 1920
+    },
+    {
+      "id": 1155,
+      "amount": 4,
+      "sellPrice": 26,
+      "buyPrice": 44
+    },
+    {
+      "id": 1153,
+      "amount": 3,
+      "sellPrice": 92,
+      "buyPrice": 154
+    },
+    {
+      "id": 1157,
+      "amount": 2,
+      "sellPrice": 330,
+      "buyPrice": 550
+    },
+    {
+      "id": 1159,
+      "amount": 1,
+      "sellPrice": 858,
+      "buyPrice": 1430
+    },
+    {
+      "id": 1161,
+      "amount": 1,
+      "sellPrice": 2112,
+      "buyPrice": 3520
+    }
+  ]
+}

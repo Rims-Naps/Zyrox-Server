@@ -1,0 +1,92 @@
+{
+  "shopUID": 238,
+  "shopName": "Battle Runes",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 554,
+      "amount": 1000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 555,
+      "amount": 1000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 556,
+      "amount": 1000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 557,
+      "amount": 1000,
+      "sellPrice": 2,
+      "buyPrice": 4
+    },
+    {
+      "id": 558,
+      "amount": 1000,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 559,
+      "amount": 1000,
+      "sellPrice": 1,
+      "buyPrice": 3
+    },
+    {
+      "id": 562,
+      "amount": 500,
+      "sellPrice": 54,
+      "buyPrice": 90
+    },
+    {
+      "id": 560,
+      "amount": 500,
+      "sellPrice": 108,
+      "buyPrice": 180
+    },
+    {
+      "id": 12734,
+      "amount": 50,
+      "sellPrice": 258,
+      "buyPrice": 430
+    },
+    {
+      "id": 12730,
+      "amount": 50,
+      "sellPrice": 258,
+      "buyPrice": 430
+    },
+    {
+      "id": 12728,
+      "amount": 50,
+      "sellPrice": 258,
+      "buyPrice": 430
+    },
+    {
+      "id": 12732,
+      "amount": 50,
+      "sellPrice": 258,
+      "buyPrice": 430
+    },
+    {
+      "id": 12736,
+      "amount": 35,
+      "sellPrice": 198,
+      "buyPrice": 330
+    },
+    {
+      "id": 12738,
+      "amount": 35,
+      "sellPrice": 5970,
+      "buyPrice": 9950
+    }
+  ]
+}

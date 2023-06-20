@@ -1,0 +1,255 @@
+################################ New Slayer Helms ###################
+
+# Purple slayer helmet
+[[item]]
+id=21264
+inherit=11864
+name="Purple slayer helmet"
+invmodel=50493
+primarymalemodel=50490
+primaryfemalemodel=50546
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=21265
+grandexchange=false
+notedid=-1
+
+# Purple slayer helmet
+[[item]]
+id=21266
+inherit=11865
+name="Purple slayer helmet (i)"
+invmodel=50493
+primarymalemodel=50490
+primaryfemalemodel=50546
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=21267
+grandexchange=false
+notedid=-1
+
+# Black slayer helmet
+[[item]]
+id=19639
+inherit=11864
+name="Black slayer helmet"
+invmodel=50498
+primarymalemodel=50499
+primaryfemalemodel=50520
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=19640
+grandexchange=false
+notedid=-1
+
+# Black slayer helmet (i)
+[[item]]
+id=19641
+inherit=11865
+name="Black slayer helmet (i)"
+invmodel=50498
+primarymalemodel=50499
+primaryfemalemodel=50520
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=19642
+grandexchange=false
+notedid=-1
+
+# Green slayer helmet
+[[item]]
+id=19643
+inherit=11864
+name="Green slayer helmet"
+invmodel=50524
+primarymalemodel=50525
+primaryfemalemodel=50526
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=19644
+grandexchange=false
+notedid=-1
+
+# Green slayer helmet (i)
+[[item]]
+id=19645
+inherit=11865
+name="Green slayer helmet (i)"
+invmodel=50524
+primarymalemodel=50525
+primaryfemalemodel=50526
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=19646
+grandexchange=false
+notedid=-1
+
+# Red slayer helmet
+[[item]]
+id=19647
+inherit=11864
+name="Red slayer helmet"
+invmodel=50527
+primarymalemodel=50528
+primaryfemalemodel=50529
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=19648
+grandexchange=false
+notedid=-1
+
+# Red slayer helmet (i)
+[[item]]
+id=19649
+inherit=11865
+name="Red slayer helmet (i)"
+invmodel=50527
+primarymalemodel=50528
+primaryfemalemodel=50529
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=19650
+grandexchange=false
+notedid=-1
+
+# Hydra slayer helmet
+[[item]]
+id=23073
+inherit=11864
+name="Hydra slayer helmet"
+invmodel=50521
+primarymalemodel=50491
+primaryfemalemodel=50523
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=23074
+grandexchange=false
+notedid=-1
+
+# Hydra slayer helmet (i)
+[[item]]
+id=23075
+inherit=11865
+name="Hydra slayer helmet (i)"
+invmodel=50521
+primarymalemodel=50491
+primaryfemalemodel=50523
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=23076
+grandexchange=false
+notedid=-1
+
+
+# Turquoise slayer helmet
+[[item]]
+id=21888
+inherit=11864
+name="Turquoise slayer helmet"
+invmodel=50495
+primarymalemodel=50496
+primaryfemalemodel=50497
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=21889
+grandexchange=false
+notedid=-1
+
+# Turquoise slayer helmet (i)
+[[item]]
+id=21890
+inherit=11865
+name="Turquoise slayer helmet (i)"
+invmodel=50495
+primarymalemodel=50496
+primaryfemalemodel=50497
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=21891
+grandexchange=false
+notedid=-1
+
+# Tztok slayer helmet
+[[item]]
+id=30901
+inherit=11864
+name="Tztok slayer helmet"
+invmodel=50547
+primarymalemodel=50548
+primaryfemalemodel=50549
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=30902
+grandexchange=false
+notedid=-1
+
+# Tztok slayer helmet placeholder
+[[item]]
+id=30902
+inherit=21020
+invmodel=50547
+placeholderid=30901
+placeholdertemplate=14401
+name="null"
+
+# Tztok slayer helmet (i)
+[[item]]
+id=30903
+inherit=11865
+name="Tztok slayer helmet (i)"
+invmodel=50547
+primarymalemodel=50548
+primaryfemalemodel=50549
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+placeholderid=30904
+grandexchange=false
+notedid=-1
+
+# Tztok slayer helmet (i) placeholder
+[[item]]
+id=30904
+inherit=21020
+invmodel=50547
+placeholderid=30903
+placeholdertemplate=14401
+name="null"
+
+# TzHaar imbue scroll
+[[item]]
+id=30910
+inherit=6071
+name="TzHaar imbue scroll"
+grandexchange=false
+placeholderid=30911
+op1=""
+op2=""
+op3=""
+op4=""
+notedid=-1
+
+# TzHaar imbue Placeholder
+[[item]]
+id=30911
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30910
+
+
+# TzHaar Key
+[[item]]
+id=30912
+inherit=3460
+name="TzHaar Key"
+grandexchange=false
+placeholderid=30913
+notedid=-1
+
+# TzHaar Key
+[[item]]
+id=30913
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=30912

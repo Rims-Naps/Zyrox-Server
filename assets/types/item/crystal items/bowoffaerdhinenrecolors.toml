@@ -1,0 +1,278 @@
+# Bow of Faerdhinen (c) purple
+[[item]]
+id=32158
+inherit=4214
+name="Bow of Faerdhinen (c)"
+placeholderid=32159
+invmodel=50596
+primarymalemodel=50597
+primaryfemalemodel=50597
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2000
+modelpitch=561
+modelroll=15
+offsetx=-1
+offsety=4
+modelyaw=0
+
+# Bow of Faerdhinen (c) purple Placeholder
+[[item]]
+id=32159
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32158
+invmodel=50596
+
+# Bow of Faerdhinen (c) green
+[[item]]
+id=32160
+inherit=4214
+name="Bow of Faerdhinen (c)"
+placeholderid=32161
+invmodel=50598
+primarymalemodel=50599
+primaryfemalemodel=50599
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2000
+modelpitch=561
+modelroll=15
+offsetx=-1
+offsety=4
+modelyaw=0
+
+# Bow of Faerdhinen (c) green Placeholder
+[[item]]
+id=32161
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32160
+invmodel=50598
+
+# Bow of Faerdhinen (c) dark green
+[[item]]
+id=32162
+inherit=4214
+name="Bow of Faerdhinen (c)"
+placeholderid=32163
+invmodel=50600
+primarymalemodel=50601
+primaryfemalemodel=50601
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2000
+modelpitch=561
+modelroll=15
+offsetx=-1
+offsety=4
+modelyaw=0
+
+# Bow of Faerdhinen (c) dark green Placeholder
+[[item]]
+id=32163
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32162
+invmodel=50600
+
+# Bow of Faerdhinen (c) red
+[[item]]
+id=32164
+inherit=4214
+name="Bow of Faerdhinen (c)"
+placeholderid=32165
+invmodel=50602
+primarymalemodel=50603
+primaryfemalemodel=50603
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2000
+modelpitch=561
+modelroll=15
+offsetx=-1
+offsety=4
+modelyaw=0
+
+# Bow of Faerdhinen (c) red Placeholder
+[[item]]
+id=32165
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32164
+invmodel=50602
+
+# Bow of Faerdhinen (c) blue
+[[item]]
+id=32166
+inherit=4214
+name="Bow of Faerdhinen (c)"
+placeholderid=32167
+invmodel=50604
+primarymalemodel=50605
+primaryfemalemodel=50605
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2000
+modelpitch=561
+modelroll=15
+offsetx=-1
+offsety=4
+modelyaw=0
+
+# Bow of Faerdhinen (c) blue Placeholder
+[[item]]
+id=32167
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32166
+invmodel=50604
+
+# Bow of Faerdhinen (c) yellow
+[[item]]
+id=32168
+inherit=4214
+name="Bow of Faerdhinen (c)"
+placeholderid=32169
+invmodel=50606
+primarymalemodel=50607
+primaryfemalemodel=50607
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2000
+modelpitch=561
+modelroll=15
+offsetx=-1
+offsety=4
+modelyaw=0
+
+# Bow of Faerdhinen (c) yellow Placeholder
+[[item]]
+id=32169
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32168
+invmodel=50606
+
+# Bow of Faerdhinen (c) white
+[[item]]
+id=32170
+inherit=4214
+name="Bow of Faerdhinen (c)"
+placeholderid=32171
+invmodel=50608
+primarymalemodel=50609
+primaryfemalemodel=50609
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2000
+modelpitch=561
+modelroll=15
+offsetx=-1
+offsety=4
+modelyaw=0
+
+# Bow of Faerdhinen (c) white Placeholder
+[[item]]
+id=32171
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32170
+invmodel=50608
+
+# Bow of Faerdhinen (c) black
+[[item]]
+id=32172
+inherit=4214
+name="Bow of Faerdhinen (c)"
+placeholderid=32173
+invmodel=50610
+primarymalemodel=50611
+primaryfemalemodel=50611
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2000
+modelpitch=561
+modelroll=15
+offsetx=-1
+offsety=4
+modelyaw=0
+
+# Bow of Faerdhinen (c) black Placeholder
+[[item]]
+id=32173
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32172
+invmodel=50610
+
+# Bow of Faerdhinen (c) orange
+[[item]]
+id=32174
+inherit=4214
+name="Bow of Faerdhinen (c)"
+placeholderid=32175
+invmodel=50612
+primarymalemodel=50613
+primaryfemalemodel=50613
+secondarymalemodel=-1
+secondaryfemalemodel=-1
+tertiarymalemodel=-1
+tertiaryfemalemodel=-1
+grandexchange=false
+notedid=-1
+zoom=2000
+modelpitch=561
+modelroll=15
+offsetx=-1
+offsety=4
+modelyaw=0
+
+# Bow of Faerdhinen (c) orange Placeholder
+[[item]]
+id=32175
+inherit=21020
+name="null"
+placeholdertemplate=14401
+placeholderid=32174
+invmodel=50612

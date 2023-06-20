@@ -1,0 +1,98 @@
+{
+  "shopUID": 137,
+  "shopName": "Pollnivneach general store",
+  "currency": "COINS",
+  "sellPolicy": "CAN_SELL",
+  "items": [
+    {
+      "id": 1931,
+      "amount": 3,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1935,
+      "amount": 2,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 20742,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 140
+    },
+    {
+      "id": 1825,
+      "amount": 20,
+      "sellPrice": 9,
+      "buyPrice": 27
+    },
+    {
+      "id": 1833,
+      "amount": 3,
+      "sellPrice": 13,
+      "buyPrice": 40
+    },
+    {
+      "id": 1837,
+      "amount": 2,
+      "sellPrice": 6,
+      "buyPrice": 20
+    },
+    {
+      "id": 1925,
+      "amount": 12,
+      "sellPrice": 1,
+      "buyPrice": 2
+    },
+    {
+      "id": 4593,
+      "amount": 11,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 4591,
+      "amount": 12,
+      "sellPrice": 0,
+      "buyPrice": 1
+    },
+    {
+      "id": 1985,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 4
+    },
+    {
+      "id": 2120,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 2
+    },
+    {
+      "id": 1982,
+      "amount": 5,
+      "sellPrice": -1,
+      "buyPrice": 4
+    },
+    {
+      "id": 1937,
+      "amount": 5,
+      "sellPrice": 1,
+      "buyPrice": 1
+    },
+    {
+      "id": 1921,
+      "amount": 7,
+      "sellPrice": 1,
+      "buyPrice": 4
+    },
+    {
+      "id": 1929,
+      "amount": 8,
+      "sellPrice": 2,
+      "buyPrice": 6
+    }
+  ]
+}

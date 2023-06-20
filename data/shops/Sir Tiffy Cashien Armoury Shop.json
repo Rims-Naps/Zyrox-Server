@@ -1,0 +1,53 @@
+{
+  "shopUID": 1006,
+  "shopName": "Initiate & Proselyte Armour",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    //initiate
+    {
+      "id": 5574,
+      "amount": 2000,
+      "sellPrice": 2400,
+      "buyPrice": 6000
+    },
+    {
+      "id": 5575,
+      "amount": 2000,
+      "sellPrice": 4000,
+      "buyPrice": 10000
+    },
+    {
+      "id": 5576,
+      "amount": 2000,
+      "sellPrice": 3200,
+      "buyPrice": 8000
+    },
+    //proselyte
+    {
+      "id": 9672,
+      "amount": 2000,
+      "sellPrice": 3200,
+      "buyPrice": 8000
+    },
+    {
+      "id": 9674,
+      "amount": 2000,
+      "sellPrice": 4800,
+      "buyPrice": 12000
+    },
+    {
+      "id": 9676,
+      "amount": 2000,
+      "sellPrice": 4000,
+      "buyPrice": 10000
+    },
+    {
+      "id": 9678,
+      "amount": 2000,
+      "sellPrice": 4000,
+      "buyPrice": 10000
+    }
+
+  ]
+}

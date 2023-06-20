@@ -1,0 +1,38 @@
+{
+  "shopUID": 230,
+  "shopName": "Smithing Smith's Shop",
+  "currency": "COINS",
+  "sellPolicy": "STOCK_ONLY",
+  "items": [
+    {
+      "id": 1321,
+      "amount": 5,
+      "sellPrice": 10,
+      "buyPrice": 32
+    },
+    {
+      "id": 1323,
+      "amount": 3,
+      "sellPrice": 37,
+      "buyPrice": 112
+    },
+    {
+      "id": 1325,
+      "amount": 2,
+      "sellPrice": 133,
+      "buyPrice": 400
+    },
+    {
+      "id": 1329,
+      "amount": 1,
+      "sellPrice": 346,
+      "buyPrice": 1040
+    },
+    {
+      "id": 2347,
+      "amount": 5,
+      "sellPrice": 0,
+      "buyPrice": 1
+    }
+  ]
+}
