@@ -30,7 +30,7 @@ worlds:
     activity: "Main World"
     private: false
     development: false
-    verifyPasswords: true
+    verifyPasswords: false
     location: UNITED_STATES
     flags:
       - MEMBERS
@@ -105,7 +105,7 @@ worlds:
     activity: "Local development world"
     private: false
     development: false
-    verifyPasswords: true
+    verifyPasswords: false
     location: UNITED_STATES
     flags:
       - MEMBERS
