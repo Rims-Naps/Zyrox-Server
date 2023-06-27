@@ -25,17 +25,17 @@
 worlds:
   main:
     number: 1
-    host: game.zenyte.com
+    host: game.ruinrsps.com
     port: 43594
     activity: "Main World"
     private: false
     development: false
     verifyPasswords: true
-    location: GERMANY
+    location: UNITED_STATES
     flags:
       - MEMBERS
     api:
-      enabled: true
+      enabled: false
       scheme: "https"
       host: "api.zenyte.com"
       port: 443
@@ -100,13 +100,13 @@ worlds:
 
   offline_dev:
     number: 100
-    host: 24.34.229.157
+    host: game.ruinrsps.com
     port: 43594
     activity: "Local development world"
     private: false
     development: false
-    verifyPasswords: false
-    location: UNITED_KINGDOM
+    verifyPasswords: true
+    location: UNITED_STATES
     flags:
       - MEMBERS
     api:
