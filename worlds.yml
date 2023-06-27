@@ -100,15 +100,14 @@ worlds:
 
   offline_dev:
     number: 100
-    host: 127.0.0.1
+    host: 24.34.229.157
     port: 43594
     activity: "Local development world"
     private: false
-    development: true
+    development: false
     verifyPasswords: false
     location: UNITED_KINGDOM
     flags:
-      - BETA
       - MEMBERS
     api:
       enabled: false

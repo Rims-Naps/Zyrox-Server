@@ -77,7 +77,7 @@ public class GameEngine {
             if (args.length > 0) {
                 Constants.WORLD_PROFILE = new WorldProfile(args[0]);
             } else {
-                Constants.WORLD_PROFILE = new WorldProfile("main");
+                Constants.WORLD_PROFILE = new WorldProfile("offline_dev");
             }
             
             log.info("Loaded world: '" + Constants.WORLD_PROFILE.getKey() + "'");

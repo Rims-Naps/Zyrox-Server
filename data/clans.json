@@ -1,0 +1,36 @@
+[
+  {
+    "owner": "foot_fetish",
+    "prefix": "Feetsies",
+    "disabled": false,
+    "enterRank": "ANYONE",
+    "talkRank": "ANYONE",
+    "kickRank": "OWNER",
+    "rankedMembers": {
+      "cody": "CAPTAIN"
+    },
+    "permBannedMembers": []
+  },
+  {
+    "owner": "krankii",
+    "prefix": "HELP",
+    "disabled": false,
+    "enterRank": "ANYONE",
+    "talkRank": "ANYONE",
+    "kickRank": "OWNER",
+    "rankedMembers": {
+      "peppercat700": "RECRUIT"
+    },
+    "permBannedMembers": []
+  },
+  {
+    "owner": "cody",
+    "prefix": "lol",
+    "disabled": false,
+    "enterRank": "ANYONE",
+    "talkRank": "ANYONE",
+    "kickRank": "OWNER",
+    "rankedMembers": {},
+    "permBannedMembers": []
+  }
+]
