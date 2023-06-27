@@ -19,12 +19,10 @@ import it.unimi.dsi.fastutil.ints.IntOpenHashSet;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import lombok.var;
-import org.apache.logging.log4j.util.Strings;
 
 import java.io.IOException;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author Tommeh | 27 jul. 2018 | 20:55:07
@@ -46,20 +44,20 @@ public class UpdateHandler extends SimpleChannelInboundHandler<UpdatePacketIn> {
 
     @Override
     public void handlerAdded(final ChannelHandlerContext ctx) throws Exception {
-        pollTask = ctx.channel().eventLoop().scheduleAtFixedRate(() -> pollRequests(ctx), POLL_RATE, POLL_RATE, TimeUnit.MILLISECONDS);
+        //pollTask = ctx.channel().eventLoop().scheduleAtFixedRate(() -> pollRequests(ctx), POLL_RATE, POLL_RATE, TimeUnit.MILLISECONDS);
         ctx.channel().attr(NetworkBootstrap.FILE_REQUESTS).set(new IntOpenHashSet(Byte.SIZE << 8));
         ctx.channel().attr(NetworkBootstrap.FILE_REQUESTS_COUNTER).set(new NetworkBootstrap.FileRequestCounter());
     }
 
     @Override
     public void channelUnregistered(final ChannelHandlerContext ctx) throws Exception {
-        if (pollTask != null) {
+        /*if (pollTask != null) {
             pollTask.cancel(false);
             pollTask = null;
-        }
+        }*/
     }
 
-    private void pollRequests(final ChannelHandlerContext ctx) {
+/*    private void pollRequests(final ChannelHandlerContext ctx) {
         int count = 0;
         while (!highPriorityRequests.isEmpty() && count < POLL_LIMIT) {
             handleFileRequest(ctx, highPriorityRequests.poll());
@@ -74,7 +72,7 @@ public class UpdateHandler extends SimpleChannelInboundHandler<UpdatePacketIn> {
         if (count > 0) {
             ctx.flush();
         }
-    }
+    }*/
 
     @Override
     protected void channelRead0(final ChannelHandlerContext ctx, final UpdatePacketIn msg) throws Exception {
@@ -82,15 +80,20 @@ public class UpdateHandler extends SimpleChannelInboundHandler<UpdatePacketIn> {
             val request = (FileRequest) msg;
 
             if (request.isPriority()) {
-                highPriorityRequests.offer(request);
+                handleFileRequest(ctx, request);//highPriorityRequests.offer(request);
             } else {
-                lowPriorityRequests.offer(request);
+                handleFileRequest(ctx, request);//lowPriorityRequests.offer(request);
             }
         } else if (msg instanceof LoginUpdate) {
             // unsupported
         } else if (msg instanceof EncryptionKeyUpdate) {
             // unsupported
         }
+    }
+
+    @Override
+    public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+        ctx.flush();
     }
 
     private void handleFileRequest(final ChannelHandlerContext ctx, final FileRequest request) {
@@ -112,7 +115,7 @@ public class UpdateHandler extends SimpleChannelInboundHandler<UpdatePacketIn> {
             }
             cachedFiles.put(hash, file = container);
         }
-        ctx.write(new UpdatePacketOut(request, file));
+        ctx.write(new UpdatePacketOut(request, file), ctx.voidPromise());
     }
 
     @Override

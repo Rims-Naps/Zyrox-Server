@@ -133,7 +133,7 @@ public class Constants {
 	
 	public static int BOOSTED_XP_MODIFIER = 50;
 	
-	public static boolean FILTERING_DUPLICATE_JS5_REQUESTS = true;
+	public static boolean FILTERING_DUPLICATE_JS5_REQUESTS = false;
 	
 	public static final Object2IntMap<String> starterIPMap = new Object2IntOpenHashMap<>();
 	

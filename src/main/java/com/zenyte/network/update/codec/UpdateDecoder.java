@@ -43,7 +43,7 @@ public class UpdateDecoder extends ByteToMessageDecoder {
             }
 			val file = in.readUnsignedShort();
 			val hash = index | (file << 16);
-			if (Constants.FILTERING_DUPLICATE_JS5_REQUESTS) {
+			if (false && Constants.FILTERING_DUPLICATE_JS5_REQUESTS) {
                 val set = ctx.channel().attr(NetworkBootstrap.FILE_REQUESTS).get();
                 if (!set.add(hash)) {
                     if (Constants.WORLD_PROFILE.isDevelopment()) {
