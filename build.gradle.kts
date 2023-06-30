@@ -56,6 +56,7 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
     implementation("org.jsoup:jsoup:1.16.1")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.2")
+    implementation("org.jctools:jctools-core:4.0.1")
 }
 
 tasks.withType<JavaCompile>().configureEach {
@@ -63,9 +64,10 @@ tasks.withType<JavaCompile>().configureEach {
 }
 
 val defaultJvmArgs = arrayOf(
-    "-XX:-OmitStackTraceInFastThrow",
     //"-XX:+UseZGC",
-    "-Xmx16g", "-Xms8g",
+    "-Xmx8g",
+    "-Xms2g",
+    "-XX:-OmitStackTraceInFastThrow",
     /*    "--add-opens=java.base/java.time=ALL-UNNAMED",
         "--add-exports=java.base/sun.nio.ch=ALL-UNNAMED",
         "--add-opens=java.base/java.lang=ALL-UNNAMED",
