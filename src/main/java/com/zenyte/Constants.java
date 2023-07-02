@@ -87,7 +87,7 @@ public class Constants {
 	}
 
 	public static final String[] spawn_admins = new String[] {
-			"gepan", "jade_dev"
+			"Taziz", "jade_dev"
 	};
 
 	public static final boolean isSpawnAdmin(final Player player) {
