@@ -18,8 +18,11 @@ import com.zenyte.game.world.entity.player.container.impl.ContainerType;
 import com.zenyte.plugins.item.CoalBag;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenCustomHashMap;
 import it.unimi.dsi.fastutil.ints.IntHash;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
+import lombok.val;
 import mgi.types.config.items.ItemDefinitions;
 import org.apache.logging.log4j.util.Strings;
 import org.jetbrains.annotations.NotNull;
@@ -295,7 +298,8 @@ public final class Shop {
     public static Shop get(@NonNull final String name, final boolean ironman, @NotNull final Player player) {
         val identifier = player.getNumericTemporaryAttributeOrDefault("shop_unique_identifier", player.getPlayerInformation().getUserIdentifier()).intValue();
         val shopIndex = identifier % SHOPS_DUPLICATOR_COUNT;
-        val shop = ironman ? ironmanShops.get(name + "|" + shopIndex) : shops.get(name + "|" + shopIndex);
+        final String key = USE_INSTANCED_SHOPS ? name + "|" + shopIndex : name;
+        final Shop shop = ironman ? ironmanShops.get(key) : shops.get(key);
         if (shop == null) throw new RuntimeException("Shop by the name of " + name + " does not exist.");
         return shop;
     }

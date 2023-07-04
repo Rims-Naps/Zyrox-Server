@@ -14,6 +14,7 @@ import org.apache.logging.log4j.util.Strings;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -109,9 +110,14 @@ public class GrandExchangeHandler implements Parse {
 
 	@Override
 	public void parse() throws Throwable {
-		offers = new HashMap<>();
+		final File file = new File(OFFERS_FILE_DIRECTORY);
+		if (!file.exists()) {
+			offers = new HashMap<>();
+			return;
+		}
 		final BufferedReader br = new BufferedReader(new FileReader(OFFERS_FILE_DIRECTORY));
 		val loadedOffers = World.getGson().fromJson(br, ExchangeOffer[].class);
+		offers = new HashMap<>(loadedOffers.length);
 		for (val offer : loadedOffers) {
 			Int2ObjectOpenHashMap<ExchangeOffer> currentMap = offers.get(offer.getUsername());
 			if (currentMap == null) {
