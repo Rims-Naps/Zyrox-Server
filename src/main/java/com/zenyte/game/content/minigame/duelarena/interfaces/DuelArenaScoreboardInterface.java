@@ -5,7 +5,7 @@ import com.zenyte.game.ui.Interface;
 import com.zenyte.game.world.World;
 import com.zenyte.game.world.entity.player.Player;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 30-11-2018 | 18:06

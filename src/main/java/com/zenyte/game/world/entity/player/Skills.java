@@ -25,7 +25,7 @@ import it.unimi.dsi.fastutil.ints.Int2DoubleOpenHashMap;
 import it.unimi.dsi.fastutil.ints.IntLists;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.enums.EnumDefinitions;
 
 import java.util.List;

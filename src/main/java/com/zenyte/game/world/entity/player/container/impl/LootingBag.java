@@ -8,7 +8,6 @@ import com.zenyte.game.world.entity.player.container.ContainerPolicy;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.val;
-import lombok.var;
 
 import java.util.Optional;
 

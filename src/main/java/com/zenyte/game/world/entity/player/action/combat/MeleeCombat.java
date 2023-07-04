@@ -19,21 +19,17 @@ import com.zenyte.game.world.entity.npc.NPC;
 import com.zenyte.game.world.entity.npc.combatdefs.AttackType;
 import com.zenyte.game.world.entity.pathfinding.events.player.CombatEntityEvent;
 import com.zenyte.game.world.entity.pathfinding.strategy.PredictedEntityStrategy;
-import com.zenyte.game.world.entity.player.MessageType;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.Skills;
 import com.zenyte.game.world.entity.player.container.impl.equipment.EquipmentSlot;
 import com.zenyte.game.world.entity.player.variables.TickVariable;
 import com.zenyte.game.world.region.area.plugins.EntityAttackPlugin;
 import com.zenyte.game.world.region.area.plugins.PlayerCombatPlugin;
-import mgi.types.config.items.ItemDefinitions;
 import lombok.val;
-import lombok.var;
+import mgi.types.config.items.ItemDefinitions;
 import org.apache.commons.lang3.ArrayUtils;
 
 import static com.zenyte.game.world.entity.player.action.combat.AttackStyle.AttackExperienceType.*;
-import static com.zenyte.game.world.entity.player.action.combat.CombatUtilities.GUTHANS_SET_GFX;
-import static com.zenyte.game.world.entity.player.action.combat.CombatUtilities.countInquisitorSet;
 
 /**
  * @author Kris | 5. jaan 2018 : 2:03.26

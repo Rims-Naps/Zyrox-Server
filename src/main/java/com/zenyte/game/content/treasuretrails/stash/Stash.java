@@ -21,7 +21,7 @@ import it.unimi.dsi.fastutil.ints.IntOpenHashSet;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.ObjectDefinitions;
 import org.jetbrains.annotations.NotNull;
 

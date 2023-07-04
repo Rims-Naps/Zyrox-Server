@@ -17,13 +17,9 @@ import com.zenyte.game.world.entity.player.container.impl.equipment.EquipmentSlo
 import com.zenyte.game.world.entity.player.dailychallenge.challenge.SkillingChallenge;
 import com.zenyte.plugins.itemonitem.ChipDarkEssenceBlockItemAction;
 import lombok.val;
-import lombok.var;
 import org.jetbrains.annotations.NotNull;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * @author Kris | 19. dets 2017 : 2:47.03

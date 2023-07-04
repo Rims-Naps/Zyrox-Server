@@ -17,7 +17,7 @@ import com.zenyte.game.world.entity.player.container.impl.equipment.EquipmentSlo
 import com.zenyte.game.world.entity.player.dailychallenge.challenge.SkillingChallenge;
 import com.zenyte.plugins.item.CoalBag;
 import lombok.val;
-import lombok.var;
+
 
 import static com.zenyte.game.content.skills.smithing.Smelting.GOLDSMITH_GAUNTLETS;
 

@@ -9,7 +9,7 @@ import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.container.ContainerWrapper;
 import com.zenyte.game.world.entity.player.container.impl.equipment.EquipmentSlot;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Kris | 25. aug 2018 : 23:12:34

@@ -4,7 +4,7 @@ import com.google.common.collect.ImmutableList;
 import com.zenyte.game.util.Utils;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
+
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;

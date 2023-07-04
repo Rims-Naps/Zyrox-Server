@@ -10,7 +10,7 @@ import com.zenyte.game.world.region.RSPolygon;
 import com.zenyte.game.world.region.area.Morytania;
 import com.zenyte.game.world.region.area.plugins.CycleProcessPlugin;
 import lombok.val;
-import lombok.var;
+
 
 import java.util.LinkedHashMap;
 import java.util.Map;

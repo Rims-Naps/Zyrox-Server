@@ -21,7 +21,6 @@ import com.zenyte.game.world.entity.player.action.combat.PlayerCombat;
 import com.zenyte.game.world.entity.player.perk.PerkWrapper;
 import com.zenyte.game.world.entity.player.variables.TickVariable;
 import lombok.val;
-import lombok.var;
 
 import java.util.ArrayList;
 

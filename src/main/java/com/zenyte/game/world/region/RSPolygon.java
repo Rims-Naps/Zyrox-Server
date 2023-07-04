@@ -1,10 +1,9 @@
 package com.zenyte.game.world.region;
 
 import com.zenyte.game.world.entity.Location;
+import com.zenyte.utils.efficientarea.Polygon;
 import it.unimi.dsi.fastutil.ints.IntArrayList;
 import lombok.Getter;
-
-import java.awt.*;
 
 /**
  * @author Kris | 16. mai 2018 : 01:33:57

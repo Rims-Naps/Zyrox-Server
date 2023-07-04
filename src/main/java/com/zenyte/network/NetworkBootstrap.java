@@ -43,16 +43,20 @@ public class NetworkBootstrap {
 	public static final int IDLE_TIMEOUT_MS = 30000;
 	public static final AttributeKey<Session> SESSION = AttributeKey.valueOf(Session.class.getSimpleName());
 
-	public static EventLoopGroup eventLoopGroup(int nThreads) {
-		return Epoll.isAvailable() ? new EpollEventLoopGroup(nThreads) : KQueue.isAvailable() ? new KQueueEventLoopGroup(nThreads) : new NioEventLoopGroup(nThreads);
+	public static EventLoopGroup eventLoopGroup(final int nThreads) {
+		return Epoll.isAvailable()
+				? new EpollEventLoopGroup(nThreads)
+				: KQueue.isAvailable()
+				? new KQueueEventLoopGroup(nThreads)
+				: new NioEventLoopGroup(nThreads);
 	}
 
 	public static Class<? extends ServerSocketChannel> serverSocketChannel(final EventLoopGroup group) {
-		return group instanceof EpollEventLoopGroup ? EpollServerSocketChannel.class : group instanceof KQueueEventLoopGroup ? KQueueServerSocketChannel.class : NioServerSocketChannel.class;
-	}
-
-	public static Class<? extends SocketChannel> socketChannel(final EventLoopGroup group) {
-		return group instanceof EpollEventLoopGroup ? EpollSocketChannel.class : group instanceof KQueueEventLoopGroup ? KQueueSocketChannel.class : NioSocketChannel.class;
+		return group instanceof EpollEventLoopGroup
+				? EpollServerSocketChannel.class
+				: group instanceof KQueueEventLoopGroup
+				? KQueueServerSocketChannel.class
+				: NioServerSocketChannel.class;
 	}
 
 	static {
@@ -64,17 +68,16 @@ public class NetworkBootstrap {
 		bootstrap.childOption(ChannelOption.SO_KEEPALIVE, true);
 		bootstrap.childOption(ChannelOption.TCP_NODELAY, true);
 		bootstrap.childOption(ChannelOption.WRITE_BUFFER_WATER_MARK, new WriteBufferWaterMark(2 << 18, 2 << 20));
-		bootstrap.childHandler(new ChannelInitializer<NioSocketChannel>() {
+		bootstrap.childHandler(new ChannelInitializer<SocketChannel>() {
 			@Override
-			protected void initChannel(NioSocketChannel ch) {
+			protected void initChannel(SocketChannel ch) {
 				val pipeline = ch.pipeline();
 				pipeline.addLast(IdleStateHandler.class.getSimpleName(), new IdleStateHandler(true, 0, 0, IDLE_TIMEOUT_MS, TimeUnit.MILLISECONDS));
 				pipeline.addLast(HandshakeDecoder.class.getSimpleName(), new HandshakeDecoder());
 				pipeline.addLast(HandshakeEncoder.class.getSimpleName(), new HandshakeEncoder());
 				pipeline.addLast(HandshakeHandler.class.getSimpleName(), new HandshakeHandler());
-            }
+			}
 		});
-
 	}
 
 	public static void bind(final int port) {

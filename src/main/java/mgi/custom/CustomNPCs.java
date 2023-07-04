@@ -1,10 +1,9 @@
 package mgi.custom;
 
-import mgi.types.config.npcs.NPCDefinitions;
-import mgi.custom.halloween.HalloweenNPCPacker;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.val;
-import lombok.var;
+import mgi.custom.halloween.HalloweenNPCPacker;
+import mgi.types.config.npcs.NPCDefinitions;
 
 import java.io.IOException;
 import java.util.Arrays;

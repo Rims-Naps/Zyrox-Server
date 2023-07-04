@@ -27,7 +27,7 @@ import com.zenyte.game.world.entity.player.Player;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.val;
-import lombok.var;
+
 import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;

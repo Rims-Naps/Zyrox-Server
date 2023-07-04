@@ -7,7 +7,7 @@ import com.zenyte.game.world.region.RSPolygon;
 import com.zenyte.game.world.region.area.plugins.CycleProcessPlugin;
 import com.zenyte.plugins.object.OldFirePit;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Kris | 24/01/2019 18:42

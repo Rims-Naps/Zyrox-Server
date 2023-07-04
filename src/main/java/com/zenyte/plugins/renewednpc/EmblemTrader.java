@@ -7,11 +7,11 @@ import com.zenyte.game.world.entity.npc.NPC;
 import com.zenyte.game.world.entity.npc.actions.NPCPlugin;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.dialogue.Dialogue;
-import mgi.types.config.items.ItemDefinitions;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.AllArgsConstructor;
 import lombok.val;
-import lombok.var;
+import mgi.types.config.items.ItemDefinitions;
+
 
 /**
  * @author Kris | 24/01/2019 16:22

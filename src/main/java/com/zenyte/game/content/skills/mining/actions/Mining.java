@@ -40,7 +40,7 @@ import com.zenyte.plugins.dialogue.PlainChat;
 import com.zenyte.plugins.itemonnpc.ItemOnBarricadeAction;
 import com.zenyte.plugins.itemonobject.PotionOnCastlewarsRocks;
 import lombok.val;
-import lombok.var;
+
 
 import java.util.Locale;
 

@@ -35,7 +35,7 @@ import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import lombok.AllArgsConstructor;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.AnimationDefinitions;
 import mgi.types.config.items.ItemDefinitions;
 import org.apache.commons.lang3.ArrayUtils;

@@ -5,7 +5,6 @@ import com.moandjiezana.toml.Toml;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
 import lombok.val;
-import lombok.var;
 import mgi.tools.parser.TypeProperty;
 import mgi.tools.parser.TypeReader;
 import mgi.types.Definitions;

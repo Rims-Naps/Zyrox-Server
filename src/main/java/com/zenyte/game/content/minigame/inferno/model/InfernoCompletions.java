@@ -5,7 +5,6 @@ import com.zenyte.game.parser.scheduled.ScheduledExternalizable;
 import com.zenyte.game.world.entity.player.GameMode;
 import com.zenyte.game.world.entity.player.Player;
 import lombok.val;
-import lombok.var;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.BufferedReader;

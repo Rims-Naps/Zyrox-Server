@@ -24,7 +24,6 @@ import com.zenyte.game.world.object.ObjectId;
 import com.zenyte.game.world.object.WorldObject;
 import com.zenyte.plugins.dialogue.PlainChat;
 import lombok.val;
-import lombok.var;
 
 import java.util.Objects;
 

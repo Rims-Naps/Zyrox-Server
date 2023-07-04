@@ -16,7 +16,7 @@ import com.zenyte.game.world.entity.npc.NpcId;
 import com.zenyte.game.world.entity.pathfinding.events.npc.NPCCollidingEvent;
 import com.zenyte.game.world.entity.pathfinding.strategy.EntityStrategy;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 29/11/2019 | 20:10

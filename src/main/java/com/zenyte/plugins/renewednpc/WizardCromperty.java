@@ -6,7 +6,7 @@ import com.zenyte.game.world.entity.npc.actions.NPCPlugin;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.dialogue.Dialogue;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Cresinkel

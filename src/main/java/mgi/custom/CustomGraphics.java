@@ -1,7 +1,6 @@
 package mgi.custom;
 
 import com.zenyte.game.util.Utils;
-import lombok.var;
 import mgi.types.config.GraphicsDefinitions;
 
 /**

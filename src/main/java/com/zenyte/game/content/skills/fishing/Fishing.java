@@ -25,7 +25,6 @@ import com.zenyte.game.world.entity.player.dailychallenge.challenge.SkillingChal
 import com.zenyte.plugins.dialogue.PlainChat;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.val;
-import lombok.var;
 import mgi.types.config.items.ItemDefinitions;
 
 import java.util.Arrays;

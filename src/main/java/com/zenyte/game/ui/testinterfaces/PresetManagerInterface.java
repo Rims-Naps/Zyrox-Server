@@ -23,7 +23,7 @@ import com.zenyte.game.world.entity.player.container.impl.equipment.EquipmentSlo
 import com.zenyte.game.world.entity.player.dialogue.Dialogue;
 import com.zenyte.plugins.events.InventoryItemSwitchEvent;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.items.ItemDefinitions;
 import org.apache.logging.log4j.util.Strings;
 import org.jetbrains.annotations.NotNull;

@@ -8,7 +8,6 @@ import com.zenyte.game.world.region.MapUtils;
 import it.unimi.dsi.fastutil.ints.*;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.val;
-import lombok.var;
 import mgi.custom.AnimationBase;
 import mgi.custom.FramePacker;
 import mgi.custom.christmas.ChristmasMapPacker;

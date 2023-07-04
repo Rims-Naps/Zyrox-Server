@@ -18,7 +18,7 @@ import com.zenyte.game.world.entity.player.dialogue.impl.NPCChat;
 import mgi.types.config.items.ItemDefinitions;
 import it.unimi.dsi.fastutil.ints.Int2IntFunction;
 import lombok.val;
-import lombok.var;
+
 import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;

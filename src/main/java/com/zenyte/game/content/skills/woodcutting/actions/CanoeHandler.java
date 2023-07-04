@@ -16,7 +16,6 @@ import com.zenyte.game.world.entity.player.Skills;
 import com.zenyte.game.world.entity.player.cutscene.FadeScreen;
 import com.zenyte.game.world.object.WorldObject;
 import lombok.val;
-import lombok.var;
 
 import java.util.Objects;
 

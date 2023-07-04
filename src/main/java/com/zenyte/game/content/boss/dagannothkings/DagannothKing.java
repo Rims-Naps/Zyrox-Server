@@ -4,7 +4,6 @@ import com.zenyte.game.RuneDate;
 import com.zenyte.game.content.achievementdiary.diaries.FremennikDiary;
 import com.zenyte.game.content.boss.BossRespawnTimer;
 import com.zenyte.game.content.combatachievements.combattasktiers.EliteTasks;
-import com.zenyte.game.content.combatachievements.combattasktiers.HardTasks;
 import com.zenyte.game.content.combatachievements.combattasktiers.MediumTasks;
 import com.zenyte.game.util.Direction;
 import com.zenyte.game.world.Projectile;
@@ -19,7 +18,7 @@ import com.zenyte.game.world.entity.npc.Spawnable;
 import com.zenyte.game.world.entity.npc.combat.CombatScript;
 import com.zenyte.game.world.entity.player.Player;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 19 mrt. 2018 : 20:39:19

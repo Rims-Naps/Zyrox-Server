@@ -5,7 +5,7 @@ import mgi.types.component.type.LayerComponent;
 import mgi.types.component.type.RectangleComponent;
 import mgi.types.component.type.TextComponent;
 import lombok.val;
-import lombok.var;
+
 
 import java.util.ArrayList;
 

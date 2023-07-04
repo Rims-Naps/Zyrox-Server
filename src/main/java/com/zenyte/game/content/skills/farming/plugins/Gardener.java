@@ -16,7 +16,6 @@ import com.zenyte.game.world.entity.player.dialogue.NPCMessage;
 import com.zenyte.plugins.dialogue.PlainChat;
 import com.zenyte.plugins.dialogue.PlayerChat;
 import lombok.val;
-import lombok.var;
 import org.apache.logging.log4j.util.Strings;
 
 import java.util.ArrayList;

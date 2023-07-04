@@ -6,7 +6,7 @@ import com.zenyte.game.util.Utils;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.Skills;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 10-11-2018 | 20:06

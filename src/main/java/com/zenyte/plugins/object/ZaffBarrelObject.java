@@ -9,7 +9,7 @@ import com.zenyte.game.world.entity.player.var.VarCollection;
 import com.zenyte.game.world.object.ObjectAction;
 import com.zenyte.game.world.object.WorldObject;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 25-4-2019 | 22:34

@@ -16,7 +16,7 @@ import com.zenyte.game.world.entity.player.dialogue.Dialogue;
 import com.zenyte.game.world.object.ObjectAction;
 import com.zenyte.game.world.object.WorldObject;
 import lombok.val;
-import lombok.var;
+
 
 import java.util.Date;
 

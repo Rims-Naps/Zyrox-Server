@@ -8,7 +8,6 @@ import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.flooritem.FloorItem;
 import com.zenyte.plugins.flooritem.FloorItemPlugin;
 import lombok.val;
-import lombok.var;
 import org.jetbrains.annotations.NotNull;
 
 /**

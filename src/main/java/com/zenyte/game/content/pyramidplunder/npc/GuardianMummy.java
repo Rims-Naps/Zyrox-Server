@@ -1,22 +1,10 @@
 package com.zenyte.game.content.pyramidplunder.npc;
 
-import com.zenyte.game.content.achievementdiary.DiaryReward;
-import com.zenyte.game.content.pyramidplunder.PlunderReward;
-import com.zenyte.game.content.pyramidplunder.PlunderRewardTier;
 import com.zenyte.game.content.pyramidplunder.PlunderRoom;
-import com.zenyte.game.item.Item;
-import com.zenyte.game.item.ItemChain;
 import com.zenyte.game.world.entity.npc.NpcId;
 import com.zenyte.game.world.entity.npc.actions.NPCPlugin;
 import com.zenyte.game.world.entity.player.Player;
-import com.zenyte.game.world.entity.player.dialogue.Dialogue;
-import lombok.val;
-import lombok.var;
-import mgi.types.config.items.ItemDefinitions;
 import org.jetbrains.annotations.NotNull;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author Christopher

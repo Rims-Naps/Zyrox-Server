@@ -10,7 +10,7 @@ import com.zenyte.game.world.entity.masks.ForceMovement;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.object.WorldObject;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Cresinkel

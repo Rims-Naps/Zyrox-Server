@@ -6,7 +6,6 @@ import com.zenyte.network.NetworkConstants;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import it.unimi.dsi.fastutil.objects.ObjectLinkedOpenHashSet;
 import lombok.val;
-import lombok.var;
 
 import java.util.LinkedList;
 import java.util.function.Predicate;

@@ -14,7 +14,7 @@ import com.zenyte.game.world.entity.Entity;
 import com.zenyte.game.world.entity.npc.NPC;
 import com.zenyte.game.world.entity.player.*;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.items.ItemDefinitions;
 import mgi.types.config.npcs.NPCDefinitions;
 

@@ -2,7 +2,7 @@ package mgi.tools.parser.readers;
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import lombok.val;
-import lombok.var;
+
 import mgi.tools.parser.TypeParser;
 import mgi.tools.parser.TypeProperty;
 import mgi.tools.parser.TypeReader;

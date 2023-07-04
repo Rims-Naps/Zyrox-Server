@@ -11,7 +11,7 @@ import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 import lombok.val;
-import lombok.var;
+
 import mgi.utilities.ByteBuffer;
 
 import java.util.Map;

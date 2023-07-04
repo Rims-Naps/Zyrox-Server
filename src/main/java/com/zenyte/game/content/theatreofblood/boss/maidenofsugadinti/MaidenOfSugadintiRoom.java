@@ -4,7 +4,6 @@ import com.zenyte.game.content.theatreofblood.TheatreOfBloodRaid;
 import com.zenyte.game.content.theatreofblood.TheatreRoom;
 import com.zenyte.game.content.theatreofblood.boss.TheatreArea;
 import com.zenyte.game.content.theatreofblood.boss.maidenofsugadinti.npc.MaidenOfSugadinti;
-import com.zenyte.game.content.theatreofblood.boss.pestilentbloat.npc.PestilentBloat;
 import com.zenyte.game.content.theatreofblood.plugin.entity.TheatreNPC;
 import com.zenyte.game.content.theatreofblood.shared.HealthBarType;
 import com.zenyte.game.util.Direction;
@@ -16,11 +15,8 @@ import com.zenyte.game.world.entity.masks.Hit;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.object.ObjectId;
 import com.zenyte.game.world.object.WorldObject;
-import com.zenyte.game.world.region.RSPolygon;
-import com.zenyte.game.world.region.area.plugins.DeathPlugin;
 import com.zenyte.game.world.region.dynamicregion.AllocatedArea;
 import lombok.val;
-import lombok.var;
 
 import java.util.Optional;
 

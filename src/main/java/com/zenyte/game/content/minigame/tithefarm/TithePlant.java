@@ -7,7 +7,6 @@ import com.zenyte.game.world.object.WorldObject;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.xml.bind.annotation.XmlElementDecl;
 import java.util.HashMap;
 import java.util.Map;
 

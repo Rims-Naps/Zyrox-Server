@@ -2,11 +2,10 @@ package com.zenyte.game.ui;
 
 import com.zenyte.game.constants.GameConstants;
 import com.zenyte.game.world.entity.player.Player;
-import mgi.types.component.ComponentDefinitions;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
-import lombok.var;
+import mgi.types.component.ComponentDefinitions;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.util.Strings;

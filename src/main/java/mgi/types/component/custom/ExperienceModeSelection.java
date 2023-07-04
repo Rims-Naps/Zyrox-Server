@@ -1,10 +1,12 @@
 package mgi.types.component.custom;
 
 import com.zenyte.game.util.AccessMask;
-import mgi.types.component.*;
-import mgi.types.component.type.*;
 import lombok.val;
-import lombok.var;
+import mgi.types.component.ComponentDefinitions;
+import mgi.types.component.type.GraphicComponent;
+import mgi.types.component.type.LayerComponent;
+import mgi.types.component.type.RectangleComponent;
+import mgi.types.component.type.TextComponent;
 
 import java.util.ArrayList;
 

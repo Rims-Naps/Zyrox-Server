@@ -10,7 +10,7 @@ import com.zenyte.game.world.object.ObjectAction;
 import com.zenyte.game.world.object.WorldObject;
 import com.zenyte.plugins.dialogue.PlainChat;
 import lombok.val;
-import lombok.var;
+
 import org.jetbrains.annotations.NotNull;
 
 /**

@@ -15,7 +15,6 @@ import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import it.unimi.dsi.fastutil.ints.IntOpenHashSet;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
-import lombok.var;
 import mgi.tools.jagcached.ArchiveType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -138,7 +137,7 @@ public class GlobalAreaManager {
                 val y = (id & 0xFF) << 6;
                 val chunkPolygon = new RSPolygon(new int[][]{new int[]{x, y}, new int[]{x + 64, y}, new int[]{x + 64,
                         y + 64}, new int[]{x, y + 64}}, 0).getPolygon();
-                val chunkArea = new java.awt.geom.Area(chunkPolygon);
+                val chunkArea = new com.zenyte.utils.efficientarea.Area(chunkPolygon);
                 for (val a : areas) {
                     for (val poly : a.getPolygons()) {
                         if (!poly.getPlanes().contains(z)) {
@@ -148,7 +147,7 @@ public class GlobalAreaManager {
                         if (!polygon.getBounds2D().intersects(chunkArea.getBounds2D())) {
                             continue;
                         }
-                        val area = new java.awt.geom.Area(polygon);
+                        val area = new com.zenyte.utils.efficientarea.Area(polygon);
                         area.intersect(chunkArea);
 
                         if (!area.isEmpty()) {
@@ -227,22 +226,22 @@ public class GlobalAreaManager {
 
 	private static boolean intersects(final Area first, final Area other) {
 	    for (int z = 0; z < 4; z++) {
-            val area = new java.awt.geom.Area();
+            val area = new com.zenyte.utils.efficientarea.Area();
 
             for (val polygon : first.getPolygons()) {
                 if (!polygon.getPlanes().contains(z))
                     continue;
-                area.add(new java.awt.geom.Area(polygon.getPolygon()));
+                area.add(new com.zenyte.utils.efficientarea.Area(polygon.getPolygon()));
             }
             if (area.isEmpty())
                 continue;
 
-            val otherArea = new java.awt.geom.Area();
+            val otherArea = new com.zenyte.utils.efficientarea.Area();
 
             for (val polygon : other.getPolygons()) {
                 if (!polygon.getPlanes().contains(z))
                     continue;
-                otherArea.add(new java.awt.geom.Area(polygon.getPolygon()));
+                otherArea.add(new com.zenyte.utils.efficientarea.Area(polygon.getPolygon()));
             }
             if (otherArea.isEmpty() || !area.getBounds2D().intersects(otherArea.getBounds2D()))
                 continue;

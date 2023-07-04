@@ -23,7 +23,7 @@ import com.zenyte.game.world.entity.player.dialogue.Dialogue;
 import com.zenyte.game.world.entity.player.dialogue.impl.NPCChat;
 import it.unimi.dsi.fastutil.ints.Int2IntAVLTreeMap;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.items.ItemDefinitions;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.logging.log4j.util.Strings;

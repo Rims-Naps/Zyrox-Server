@@ -16,7 +16,6 @@ import com.zenyte.game.world.entity.player.container.impl.Inventory;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
 import mgi.types.config.items.ItemDefinitions;
 import org.apache.commons.lang3.mutable.MutableBoolean;
 import org.jetbrains.annotations.NotNull;

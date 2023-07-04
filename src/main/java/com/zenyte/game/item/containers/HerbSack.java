@@ -8,7 +8,6 @@ import com.zenyte.game.world.entity.player.container.impl.ContainerType;
 import it.unimi.dsi.fastutil.ints.Int2ObjectLinkedOpenHashMap;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
 import org.apache.commons.lang3.ArrayUtils;
 
 import java.util.HashSet;

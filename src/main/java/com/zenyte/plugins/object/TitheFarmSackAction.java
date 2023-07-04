@@ -13,7 +13,6 @@ import com.zenyte.game.world.object.WorldObject;
 import com.zenyte.plugins.dialogue.DoubleItemChat;
 import com.zenyte.plugins.dialogue.ItemChat;
 import lombok.val;
-import sun.font.LayoutPathImpl;
 
 /**
  * @author Noele

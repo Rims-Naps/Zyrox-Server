@@ -12,7 +12,6 @@ import com.zenyte.game.world.entity.player.container.impl.bank.Bank;
 import com.zenyte.game.world.entity.player.container.impl.bank.BankSetting;
 import com.zenyte.plugins.dialogue.PlainChat;
 import lombok.val;
-import lombok.var;
 import mgi.types.config.InventoryDefinitions;
 
 import java.util.Optional;

@@ -1,6 +1,6 @@
 package mgi.custom;
 
-import lombok.var;
+
 import mgi.types.config.enums.EnumDefinitions;
 
 /**

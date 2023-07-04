@@ -13,7 +13,6 @@ import com.zenyte.game.world.entity.masks.Graphics;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.utils.ProjectileUtils;
 import lombok.val;
-import lombok.var;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;

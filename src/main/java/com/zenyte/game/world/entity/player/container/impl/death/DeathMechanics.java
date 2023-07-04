@@ -25,7 +25,6 @@ import com.zenyte.game.world.entity.player.container.ContainerPolicy;
 import com.zenyte.game.world.entity.player.container.impl.ContainerType;
 import com.zenyte.game.world.region.area.plugins.DeathPlugin;
 import lombok.val;
-import lombok.var;
 import mgi.types.config.enums.Enums;
 import mgi.types.config.items.ItemDefinitions;
 import org.apache.commons.lang3.ArrayUtils;

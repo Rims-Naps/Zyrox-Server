@@ -16,7 +16,6 @@ import com.zenyte.game.world.region.XTEALoader;
 import it.unimi.dsi.fastutil.ints.Int2ObjectAVLTreeMap;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
-import lombok.var;
 import mgi.custom.*;
 import mgi.custom.christmas.ChristmasMapPacker;
 import mgi.custom.christmas.ChristmasObject;

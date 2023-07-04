@@ -6,11 +6,11 @@ import com.zenyte.game.ui.Interface;
 import com.zenyte.game.ui.InterfacePosition;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.dialogue.impl.NPCChat;
-import mgi.types.config.identitykit.BeardStyle;
-import mgi.types.config.identitykit.HairStyle;
 import com.zenyte.plugins.dialogue.HairdresserD;
 import lombok.val;
-import lombok.var;
+import mgi.types.config.identitykit.BeardStyle;
+import mgi.types.config.identitykit.HairStyle;
+
 
 /**
  * @author Tommeh | 28-10-2018 | 18:48

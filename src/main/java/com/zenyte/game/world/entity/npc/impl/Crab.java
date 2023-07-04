@@ -17,7 +17,7 @@ import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.region.area.wilderness.WildernessArea;
 import it.unimi.dsi.fastutil.ints.Int2IntOpenHashMap;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Kris | 14. veebr 2018 : 0:29.28

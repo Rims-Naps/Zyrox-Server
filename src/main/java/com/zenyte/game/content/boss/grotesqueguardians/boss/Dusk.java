@@ -39,7 +39,6 @@ import com.zenyte.plugins.item.RingOfWealthItem;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.val;
-import lombok.var;
 import mgi.types.config.AnimationDefinitions;
 import org.apache.commons.lang3.ArrayUtils;
 import org.jetbrains.annotations.NotNull;

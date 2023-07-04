@@ -23,7 +23,7 @@ import com.zenyte.game.world.entity.npc.NpcId;
 import com.zenyte.game.world.entity.player.Player;
 import lombok.Setter;
 import lombok.val;
-import lombok.var;
+
 
 import java.util.ArrayList;
 import java.util.List;

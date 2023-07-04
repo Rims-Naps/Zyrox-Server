@@ -23,7 +23,6 @@ import com.zenyte.game.world.entity.npc.combatdefs.AttackType;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.variables.TickVariable;
 import lombok.val;
-import lombok.var;
 
 import java.util.ArrayList;
 import java.util.Collections;

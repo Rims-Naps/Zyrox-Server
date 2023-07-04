@@ -8,7 +8,6 @@ import com.zenyte.game.world.object.ObjectId;
 import com.zenyte.game.world.object.WorldObject;
 import com.zenyte.plugins.dialogue.PlayerChat;
 import lombok.val;
-import lombok.var;
 import org.checkerframework.checker.index.qual.NonNegative;
 import org.jetbrains.annotations.NotNull;
 

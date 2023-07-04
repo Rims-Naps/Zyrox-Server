@@ -17,7 +17,6 @@ import com.zenyte.game.world.entity.masks.HitType;
 import com.zenyte.game.world.entity.npc.NpcId;
 import com.zenyte.game.world.entity.player.Player;
 import lombok.val;
-import lombok.var;
 
 import java.awt.*;
 import java.util.ArrayList;

@@ -1,5 +1,10 @@
 package com.zenyte.game.world.region;
 
+import com.zenyte.utils.MultiwayArea;
+import com.zenyte.utils.efficientarea.Area;
+import com.zenyte.utils.efficientarea.EfficientArea;
+import com.zenyte.utils.efficientarea.Polygon;
+
 import com.zenyte.Game;
 import com.zenyte.game.music.Music;
 import com.zenyte.game.packet.out.LocAdd;
@@ -14,7 +19,6 @@ import com.zenyte.game.world.flooritem.FloorItem;
 import com.zenyte.game.world.flooritem.GlobalItem;
 import com.zenyte.game.world.object.WorldObject;
 import mgi.types.config.ObjectDefinitions;
-import com.zenyte.utils.MultiwayArea;
 import it.unimi.dsi.fastutil.shorts.Short2ObjectMap;
 import it.unimi.dsi.fastutil.shorts.Short2ObjectOpenHashMap;
 import lombok.Getter;
@@ -23,7 +27,6 @@ import lombok.val;
 import mgi.tools.jagcached.ArchiveType;
 import org.apache.logging.log4j.util.Strings;
 
-import java.awt.geom.Area;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Objects;

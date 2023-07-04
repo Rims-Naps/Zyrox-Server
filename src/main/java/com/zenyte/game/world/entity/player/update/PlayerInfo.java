@@ -16,7 +16,7 @@ import com.zenyte.network.io.BitBuffer;
 import com.zenyte.network.io.RSBuffer;
 import it.unimi.dsi.fastutil.objects.ObjectLinkedOpenHashSet;
 import lombok.val;
-import lombok.var;
+
 import org.jetbrains.annotations.NotNull;
 
 /**

@@ -6,7 +6,6 @@ import com.zenyte.game.world.entity.player.teleportsystem.TeleportScroll;
 import com.zenyte.plugins.item.CosmeticBox;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import lombok.val;
-import lombok.var;
 import mgi.types.config.items.ItemDefinitions;
 import org.apache.commons.lang3.ArrayUtils;
 

@@ -2,7 +2,6 @@ package com.zenyte.game.content.minigame.inferno.npc.impl;
 
 import com.zenyte.game.RuneDate;
 import com.zenyte.game.content.combatachievements.combattasktiers.GrandmasterTasks;
-import com.zenyte.game.content.combatachievements.combattasktiers.HardTasks;
 import com.zenyte.game.content.minigame.inferno.instance.Inferno;
 import com.zenyte.game.content.minigame.inferno.model.InfernoWave;
 import com.zenyte.game.content.minigame.inferno.npc.InfernoNPC;
@@ -19,9 +18,7 @@ import com.zenyte.game.world.entity.masks.Graphics;
 import com.zenyte.game.world.entity.masks.Hit;
 import com.zenyte.game.world.entity.masks.HitType;
 import com.zenyte.game.world.entity.npc.NpcId;
-import com.zenyte.game.world.entity.player.Player;
 import lombok.val;
-import lombok.var;
 
 import java.util.ArrayList;
 import java.util.List;

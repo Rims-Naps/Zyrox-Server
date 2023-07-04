@@ -9,7 +9,6 @@ import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.Skills;
 import com.zenyte.plugins.dialogue.PlainChat;
 import lombok.val;
-import lombok.var;
 
 import java.util.function.IntConsumer;
 

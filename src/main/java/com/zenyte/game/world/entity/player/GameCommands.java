@@ -107,7 +107,6 @@ import com.zenyte.tools.AnimationExtractor;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
-import lombok.var;
 import mgi.GhettoPacker;
 import mgi.Indice;
 import mgi.types.component.ComponentDefinitions;

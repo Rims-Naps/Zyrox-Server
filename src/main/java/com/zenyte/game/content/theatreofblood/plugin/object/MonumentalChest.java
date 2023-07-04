@@ -19,7 +19,7 @@ import com.zenyte.game.world.object.ObjectAction;
 import com.zenyte.game.world.object.ObjectId;
 import com.zenyte.game.world.object.WorldObject;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Cresinkel

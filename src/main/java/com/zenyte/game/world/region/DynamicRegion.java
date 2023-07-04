@@ -4,7 +4,6 @@ import com.zenyte.Game;
 import com.zenyte.game.world.World;
 import com.zenyte.game.world.object.WorldObject;
 import com.zenyte.game.world.region.dynamicregion.CoordinateUtilities;
-import mgi.types.config.ObjectDefinitions;
 import it.unimi.dsi.fastutil.bytes.Byte2ByteOpenHashMap;
 import it.unimi.dsi.fastutil.bytes.Byte2IntOpenHashMap;
 import it.unimi.dsi.fastutil.bytes.Byte2ObjectOpenHashMap;
@@ -12,8 +11,8 @@ import it.unimi.dsi.fastutil.bytes.ByteOpenHashSet;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
-import lombok.var;
 import mgi.tools.jagcached.ArchiveType;
+import mgi.types.config.ObjectDefinitions;
 import mgi.utilities.ByteBuffer;
 import org.apache.logging.log4j.util.Strings;
 

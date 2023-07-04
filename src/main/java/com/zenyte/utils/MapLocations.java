@@ -24,8 +24,11 @@
  */
 package com.zenyte.utils;
 
+import com.zenyte.utils.efficientarea.Area;
+import com.zenyte.utils.efficientarea.Polygon;
+import com.zenyte.utils.efficientarea.Shape;
+
 import java.awt.*;
-import java.awt.geom.Area;
 import java.util.ArrayList;
 import java.util.List;
 

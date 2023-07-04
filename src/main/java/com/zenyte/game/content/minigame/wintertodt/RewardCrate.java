@@ -18,7 +18,7 @@ import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
-import lombok.var;
+
 import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;

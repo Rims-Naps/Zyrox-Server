@@ -2,14 +2,13 @@ package com.zenyte.plugins.dialogue.magebank;
 
 import com.zenyte.game.constants.GameConstants;
 import com.zenyte.game.content.achievementdiary.DiaryReward;
-import com.zenyte.game.item.Item;
 import com.zenyte.game.item.ItemId;
 import com.zenyte.game.util.Utils;
 import com.zenyte.game.world.entity.npc.NPC;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.dialogue.Dialogue;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Cresinkel

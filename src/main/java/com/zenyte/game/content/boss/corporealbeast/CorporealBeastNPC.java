@@ -1,8 +1,6 @@
 package com.zenyte.game.content.boss.corporealbeast;
 
-import com.zenyte.game.content.combatachievements.combattasktiers.EasyTasks;
 import com.zenyte.game.content.combatachievements.combattasktiers.EliteTasks;
-import com.zenyte.game.content.combatachievements.combattasktiers.MediumTasks;
 import com.zenyte.game.item.Item;
 import com.zenyte.game.tasks.WorldTask;
 import com.zenyte.game.tasks.WorldTasksManager;
@@ -21,14 +19,12 @@ import com.zenyte.game.world.entity.npc.NPC;
 import com.zenyte.game.world.entity.npc.combat.CombatScript;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.Skills;
-import com.zenyte.game.world.entity.player.action.combat.magic.CombatSpell;
 import com.zenyte.game.world.region.Area;
 import com.zenyte.game.world.region.CharacterLoop;
 import com.zenyte.game.world.region.GlobalAreaManager;
 import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
 
 import java.util.ArrayList;
 import java.util.List;

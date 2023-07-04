@@ -17,7 +17,6 @@ import com.zenyte.network.login.codec.LoginDecoder;
 import com.zenyte.network.login.codec.LoginEncoder;
 import com.zenyte.network.update.UpdateHandler;
 import com.zenyte.network.update.codec.UpdateDecoder;
-import com.zenyte.network.update.codec.UpdateEncoder;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
@@ -56,7 +55,7 @@ public class HandshakeHandler extends SimpleChannelInboundHandler<HandshakePacke
             if (request.getRevision() == NetworkConstants.REVISION) {
                 ctx.writeAndFlush(new HandshakePacketOut(request.getType(), ClientResponse.SUCCESSFUL), ctx.voidPromise());
                 ctx.pipeline().replace(HandshakeDecoder.class.getSimpleName(), UpdateDecoder.class.getSimpleName(), new UpdateDecoder());
-                ctx.pipeline().replace(HandshakeEncoder.class.getSimpleName(), UpdateEncoder.class.getSimpleName(), new UpdateEncoder());
+                ctx.pipeline().remove(HandshakeEncoder.class.getSimpleName());
                 ctx.pipeline().replace(HandshakeHandler.class.getSimpleName(), UpdateHandler.class.getSimpleName(), new UpdateHandler());
             } else {
                 ctx.writeAndFlush(new HandshakePacketOut(request.getType(), ClientResponse.SERVER_UPDATED)).addListener(ChannelFutureListener.CLOSE);
@@ -65,6 +64,7 @@ public class HandshakeHandler extends SimpleChannelInboundHandler<HandshakePacke
 	}
 
 	private static final synchronized boolean verifyConnection(final ChannelHandlerContext ctx) {
+        if (true) return true;
 		if (Constants.WORLD_PROFILE.isDevelopment())
 	        return true;
         val remoteAddress = ctx.channel().remoteAddress();

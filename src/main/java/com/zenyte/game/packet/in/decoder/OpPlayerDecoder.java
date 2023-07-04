@@ -6,7 +6,7 @@ import com.zenyte.game.packet.in.event.OpPlayerEvent;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.network.io.RSBuffer;
 import lombok.val;
-import lombok.var;
+
 import org.apache.commons.lang3.ArrayUtils;
 
 /**

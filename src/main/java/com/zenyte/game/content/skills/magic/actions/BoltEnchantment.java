@@ -1,8 +1,5 @@
 package com.zenyte.game.content.skills.magic.actions;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.zenyte.game.content.skills.magic.Magic;
 import com.zenyte.game.content.skills.magic.SpellState;
 import com.zenyte.game.content.skills.magic.spells.MagicSpell;
@@ -13,10 +10,12 @@ import com.zenyte.game.world.entity.player.Action;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.Skills;
 import com.zenyte.plugins.dialogue.PlainChat;
-
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
+
+import java.util.ArrayList;
+import java.util.List;
+
 
 /**
  * @author Tommeh | 16 dec. 2017 : 23:22:49

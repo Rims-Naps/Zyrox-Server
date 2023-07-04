@@ -28,7 +28,7 @@ import kotlin.ranges.IntRange;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 7 aug. 2018 | 13:25:40

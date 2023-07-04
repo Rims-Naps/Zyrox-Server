@@ -1,7 +1,6 @@
 package mgi.tools.parser.readers;
 
 import lombok.val;
-import lombok.var;
 import mgi.tools.parser.TypeProperty;
 import mgi.tools.parser.TypeReader;
 import mgi.types.Definitions;

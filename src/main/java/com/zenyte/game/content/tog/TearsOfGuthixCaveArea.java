@@ -27,7 +27,7 @@ import com.zenyte.game.world.region.area.plugins.DeathPlugin;
 import com.zenyte.game.world.region.area.plugins.EquipmentPlugin;
 import com.zenyte.game.world.region.area.plugins.TeleportPlugin;
 import lombok.val;
-import lombok.var;
+
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;

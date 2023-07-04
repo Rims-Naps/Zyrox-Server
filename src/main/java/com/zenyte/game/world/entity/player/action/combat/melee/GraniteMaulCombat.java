@@ -5,7 +5,7 @@ import com.zenyte.game.world.entity.Entity;
 import com.zenyte.game.world.entity.player.action.combat.MeleeCombat;
 import it.unimi.dsi.fastutil.longs.LongArrayList;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Kris | 2. juuni 2018 : 22:50:30

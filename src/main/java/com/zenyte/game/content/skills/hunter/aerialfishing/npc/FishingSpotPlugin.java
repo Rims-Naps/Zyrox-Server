@@ -22,7 +22,7 @@ import com.zenyte.game.world.entity.player.container.impl.Inventory;
 import com.zenyte.game.world.entity.player.container.impl.equipment.EquipmentSlot;
 import com.zenyte.game.world.entity.player.dailychallenge.challenge.SkillingChallenge;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Cresinkel

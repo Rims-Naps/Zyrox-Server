@@ -19,11 +19,10 @@ import com.zenyte.game.world.entity.npc.impl.slayer.Gargoyle;
 import com.zenyte.game.world.entity.pathfinding.events.player.EntityEvent;
 import com.zenyte.game.world.entity.pathfinding.strategy.DistancedEntityStrategy;
 import com.zenyte.game.world.entity.player.Player;
-import mgi.types.config.AnimationDefinitions;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.val;
-import lombok.var;
+import mgi.types.config.AnimationDefinitions;
 
 import java.util.ArrayList;
 

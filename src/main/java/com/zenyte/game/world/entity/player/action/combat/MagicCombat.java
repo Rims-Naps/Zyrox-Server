@@ -36,7 +36,6 @@ import com.zenyte.game.world.region.area.plugins.EntityAttackPlugin;
 import com.zenyte.game.world.region.area.plugins.PlayerCombatPlugin;
 import com.zenyte.plugins.item.TomeOfFire;
 import lombok.val;
-import lombok.var;
 import mgi.types.config.items.ItemDefinitions;
 import org.apache.commons.lang3.ArrayUtils;
 import org.jetbrains.annotations.NotNull;

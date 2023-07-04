@@ -21,7 +21,6 @@ import com.zenyte.utils.ProjectileUtils;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
-import lombok.var;
 import org.apache.logging.log4j.util.Strings;
 import org.intellij.lang.annotations.MagicConstant;
 import org.jetbrains.annotations.NotNull;

@@ -6,7 +6,7 @@ import com.zenyte.game.ui.InterfacePosition;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.dialogue.Dialogue;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 26-1-2019 | 16:29

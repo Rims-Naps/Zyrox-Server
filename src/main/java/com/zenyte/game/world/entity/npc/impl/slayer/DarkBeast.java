@@ -18,7 +18,7 @@ import com.zenyte.game.world.entity.player.action.combat.CombatUtilities;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Kris | 13. veebr 2018 : 21:27.20

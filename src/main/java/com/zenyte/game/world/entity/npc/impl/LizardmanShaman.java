@@ -29,7 +29,6 @@ import com.zenyte.game.world.region.CharacterLoop;
 import com.zenyte.utils.ProjectileUtils;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.val;
-import lombok.var;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;

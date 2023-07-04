@@ -22,7 +22,7 @@ import com.zenyte.game.world.region.area.plugins.*;
 import it.unimi.dsi.fastutil.ints.IntOpenHashSet;
 import it.unimi.dsi.fastutil.ints.IntSet;
 import lombok.val;
-import lombok.var;
+
 import org.jetbrains.annotations.Nullable;
 
 import java.util.HashSet;

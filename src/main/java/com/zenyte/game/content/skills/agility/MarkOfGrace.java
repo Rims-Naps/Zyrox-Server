@@ -11,7 +11,6 @@ import com.zenyte.game.world.entity.player.Setting;
 import com.zenyte.game.world.entity.player.Skills;
 import com.zenyte.plugins.item.RingOfWealthItem;
 import lombok.val;
-import lombok.var;
 
 import static com.zenyte.game.item.ItemId.MARK_OF_GRACE;
 
