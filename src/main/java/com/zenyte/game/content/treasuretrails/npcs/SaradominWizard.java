@@ -12,7 +12,7 @@ import com.zenyte.game.world.entity.npc.combatdefs.AttackType;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.action.combat.magic.CombatSpell;
 import lombok.val;
-import lombok.var;
+
 import org.jetbrains.annotations.NotNull;
 
 /**

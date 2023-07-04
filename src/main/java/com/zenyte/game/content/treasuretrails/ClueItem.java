@@ -9,7 +9,6 @@ import it.unimi.dsi.fastutil.ints.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.OptionalInt;

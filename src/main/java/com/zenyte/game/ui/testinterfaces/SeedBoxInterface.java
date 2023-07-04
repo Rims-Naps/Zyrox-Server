@@ -7,7 +7,7 @@ import com.zenyte.game.util.AccessMask;
 import com.zenyte.game.util.Examine;
 import com.zenyte.game.world.entity.player.Player;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 2-1-2019 | 21:36

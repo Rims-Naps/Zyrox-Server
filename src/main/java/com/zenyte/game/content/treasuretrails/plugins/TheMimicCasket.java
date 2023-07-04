@@ -18,7 +18,7 @@ import com.zenyte.game.world.region.area.Entrana;
 import com.zenyte.plugins.dialogue.ItemChat;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.items.ItemDefinitions;
 
 import java.util.Arrays;

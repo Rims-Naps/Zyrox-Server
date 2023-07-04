@@ -16,7 +16,7 @@ import com.zenyte.game.world.entity.player.dailychallenge.challenge.SkillingChal
 import com.zenyte.plugins.dialogue.PlainChat;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.enums.EnumDefinitions;
 
 /**

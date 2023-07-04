@@ -8,7 +8,7 @@ import com.zenyte.game.ui.Interface;
 import com.zenyte.game.util.TextUtils;
 import com.zenyte.game.world.entity.player.Player;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 27-10-2018 | 19:18

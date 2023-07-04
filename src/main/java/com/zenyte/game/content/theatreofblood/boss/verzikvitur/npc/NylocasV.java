@@ -26,7 +26,7 @@ import com.zenyte.game.world.entity.player.action.combat.CombatUtilities;
 import com.zenyte.game.world.entity.player.container.impl.equipment.EquipmentSlot;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
+
 import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;

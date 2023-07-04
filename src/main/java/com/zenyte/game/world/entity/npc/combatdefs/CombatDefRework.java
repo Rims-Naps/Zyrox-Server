@@ -6,13 +6,12 @@ import com.zenyte.game.world.World;
 import com.zenyte.game.world.entity.AnimationMap;
 import com.zenyte.game.world.entity.masks.Animation;
 import com.zenyte.game.world.entity.npc.OldNPCCombatDefinitions;
-import mgi.Indice;
-import mgi.types.config.npcs.NPCDefinitions;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
-import lombok.var;
+import mgi.Indice;
+import mgi.types.config.npcs.NPCDefinitions;
 import org.apache.logging.log4j.util.Strings;
 
 import java.io.BufferedReader;

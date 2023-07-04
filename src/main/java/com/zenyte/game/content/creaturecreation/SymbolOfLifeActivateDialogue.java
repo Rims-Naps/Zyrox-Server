@@ -7,7 +7,7 @@ import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.dialogue.Dialogue;
 import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.items.ItemDefinitions;
 import mgi.types.config.npcs.NPCDefinitions;
 import org.jetbrains.annotations.NotNull;

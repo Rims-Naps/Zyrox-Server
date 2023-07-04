@@ -5,7 +5,7 @@ import com.zenyte.game.world.entity.npc.NPC;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.flooritem.FloorItem;
 import com.zenyte.game.world.object.WorldObject;
-import com.zenyte.utils.EfficientArea;
+import com.zenyte.utils.efficientarea.EfficientArea;
 import it.unimi.dsi.fastutil.shorts.Short2ObjectMap;
 import it.unimi.dsi.fastutil.shorts.Short2ObjectOpenHashMap;
 import lombok.AllArgsConstructor;

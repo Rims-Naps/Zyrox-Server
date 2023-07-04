@@ -10,7 +10,6 @@ import com.zenyte.game.world.entity.player.dailychallenge.reward.RewardType;
 import com.zenyte.game.world.entity.player.dailychallenge.reward.impl.ExperienceReward;
 import com.zenyte.game.world.entity.player.dailychallenge.reward.impl.ItemReward;
 import lombok.val;
-import lombok.var;
 
 import java.util.Optional;
 

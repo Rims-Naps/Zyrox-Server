@@ -8,7 +8,7 @@ group = "com.zenyte"
 version = "0.1.0-SNAPSHOT"
 
 kotlin {
-    jvmToolchain(8)
+    jvmToolchain(17)
 }
 
 dependencies {
@@ -38,7 +38,7 @@ dependencies {
     implementation("de.btobastian.sdcf4j:sdcf4j-javacord:$sdcf4j")
 
     implementation("pl.allegro.finance:tradukisto:1.12.0")
-    implementation("io.netty:netty-all:4.1.93.Final")
+    implementation("io.netty:netty-all:4.1.94.Final")
     implementation("com.jolbox:bonecp:0.8.0.RELEASE")
     implementation("io.github.classgraph:classgraph:4.8.160")
     implementation("org.ow2.asm:asm:9.5")
@@ -67,13 +67,15 @@ val defaultJvmArgs = arrayOf(
     //"-XX:+UseZGC",
     "-Xmx8g",
     "-Xms2g",
+
     "-XX:-OmitStackTraceInFastThrow",
-    /*    "--add-opens=java.base/java.time=ALL-UNNAMED",
-        "--add-exports=java.base/sun.nio.ch=ALL-UNNAMED",
-        "--add-opens=java.base/java.lang=ALL-UNNAMED",
-        "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED",
-        "--add-opens=java.base/java.io=ALL-UNNAMED",
-        "--add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED"*/
+
+    "--add-opens=java.base/java.time=ALL-UNNAMED",
+    "--add-exports=java.base/sun.nio.ch=ALL-UNNAMED",
+    "--add-opens=java.base/java.lang=ALL-UNNAMED",
+    "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED",
+    "--add-opens=java.base/java.io=ALL-UNNAMED",
+    "--add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED"
 )
 
 val defaultMainClassName = "com.zenyte.GameEngine"

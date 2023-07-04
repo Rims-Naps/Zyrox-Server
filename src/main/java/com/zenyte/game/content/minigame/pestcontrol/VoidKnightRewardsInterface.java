@@ -12,7 +12,7 @@ import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.Skills;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.var;
+
 import mgi.types.config.enums.Enums;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;

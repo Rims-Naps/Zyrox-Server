@@ -1,15 +1,13 @@
 package com.zenyte.game.world.entity.player.dailychallenge.reward.impl;
 
 import com.zenyte.game.util.Utils;
-import com.zenyte.game.world.entity.player.ExperienceMode;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.Skills;
 import com.zenyte.game.world.entity.player.dailychallenge.reward.ChallengeReward;
 import com.zenyte.game.world.entity.player.dailychallenge.reward.RewardType;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 04/05/2019 | 14:03

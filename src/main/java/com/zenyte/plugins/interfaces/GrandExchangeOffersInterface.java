@@ -9,9 +9,9 @@ import com.zenyte.game.ui.testinterfaces.GrandExchangeOffersViewerInterface;
 import com.zenyte.game.util.Examine;
 import com.zenyte.game.util.Utils;
 import com.zenyte.game.world.entity.player.Player;
-import mgi.types.config.items.ItemDefinitions;
 import lombok.val;
-import lombok.var;
+import mgi.types.config.items.ItemDefinitions;
+
 
 /**
  * @author Tommeh | 25 nov. 2017 : 19:53:40

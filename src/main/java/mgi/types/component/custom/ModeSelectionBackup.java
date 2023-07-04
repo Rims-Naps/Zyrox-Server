@@ -4,7 +4,7 @@ import com.zenyte.game.util.AccessMask;
 import mgi.types.component.*;
 import mgi.types.component.type.*;
 import lombok.val;
-import lombok.var;
+
 
 import java.util.ArrayList;
 

@@ -2,11 +2,10 @@ package com.zenyte.game.content.skills.farming;
 
 import com.zenyte.game.world.World;
 import com.zenyte.game.world.entity.Location;
-import mgi.types.config.ObjectDefinitions;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
+import mgi.types.config.ObjectDefinitions;
 
 import java.awt.*;
 import java.util.LinkedHashSet;

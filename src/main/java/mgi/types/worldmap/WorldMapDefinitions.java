@@ -7,7 +7,7 @@ import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
-import lombok.var;
+
 import mgi.tools.jagcached.ArchiveType;
 import mgi.tools.jagcached.cache.File;
 import mgi.tools.jagcached.cache.Group;

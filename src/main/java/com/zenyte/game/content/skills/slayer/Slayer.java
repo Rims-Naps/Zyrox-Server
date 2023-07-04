@@ -37,7 +37,7 @@ import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.enums.Enums;
 import mgi.types.config.items.ItemDefinitions;
 

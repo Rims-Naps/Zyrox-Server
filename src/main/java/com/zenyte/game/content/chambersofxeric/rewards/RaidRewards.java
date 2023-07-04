@@ -26,7 +26,7 @@ import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.items.ItemDefinitions;
 import org.apache.commons.lang3.tuple.Pair;
 import org.apache.logging.log4j.util.Strings;

@@ -16,7 +16,7 @@ import com.zenyte.game.world.entity.player.Skills;
 import com.zenyte.game.world.entity.player.container.impl.equipment.EquipmentSlot;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
+
 
 import java.util.*;
 

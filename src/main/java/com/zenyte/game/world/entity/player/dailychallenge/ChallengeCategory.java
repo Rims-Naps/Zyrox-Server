@@ -1,13 +1,11 @@
 package com.zenyte.game.world.entity.player.dailychallenge;
 
-import com.zenyte.Constants;
 import com.zenyte.game.util.TextUtils;
 import com.zenyte.game.util.Utils;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.Skills;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
-import lombok.var;
 
 import static com.zenyte.game.world.entity.player.dailychallenge.ChallengeDifficulty.*;
 

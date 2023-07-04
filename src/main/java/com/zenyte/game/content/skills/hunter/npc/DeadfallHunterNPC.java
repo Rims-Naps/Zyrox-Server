@@ -20,7 +20,6 @@ import com.zenyte.game.world.entity.pathfinding.strategy.TileStrategy;
 import com.zenyte.game.world.entity.player.Skills;
 import com.zenyte.game.world.object.WorldObject;
 import lombok.val;
-import lombok.var;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;

@@ -8,7 +8,6 @@ import com.zenyte.game.world.entity.npc.Spawnable;
 import com.zenyte.game.world.entity.player.Player;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.val;
-import lombok.var;
 import org.jetbrains.annotations.NotNull;
 
 import java.lang.ref.WeakReference;

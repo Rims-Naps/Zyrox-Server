@@ -38,7 +38,7 @@ import com.zenyte.game.world.object.WorldObject;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.items.ItemDefinitions;
 
 import java.util.Objects;

@@ -18,7 +18,6 @@ import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
 import mgi.types.config.enums.Enums;
 import mgi.types.config.items.ItemDefinitions;
 

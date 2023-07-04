@@ -8,7 +8,7 @@ import com.zenyte.game.world.entity.player.dialogue.Dialogue;
 import com.zenyte.plugins.item.LightSourceItem;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Corey

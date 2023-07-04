@@ -5,7 +5,6 @@ import it.unimi.dsi.fastutil.ints.Int2IntOpenHashMap;
 import it.unimi.dsi.fastutil.ints.Int2ObjectAVLTreeMap;
 import it.unimi.dsi.fastutil.ints.IntAVLTreeSet;
 import lombok.val;
-import lombok.var;
 import mgi.custom.christmas.ChristmasMapPacker;
 import mgi.tools.parser.TypeParser;
 import mgi.types.config.AnimationDefinitions;

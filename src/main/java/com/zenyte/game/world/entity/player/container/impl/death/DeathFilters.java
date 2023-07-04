@@ -15,9 +15,9 @@ import com.zenyte.game.world.entity.player.container.impl.LootingBag;
 import com.zenyte.game.world.region.area.wilderness.WildernessArea;
 import it.unimi.dsi.fastutil.ints.Int2IntOpenHashMap;
 import lombok.val;
-import lombok.var;
 import mgi.types.config.items.ItemDefinitions;
 import org.apache.logging.log4j.util.Strings;
+
 import static com.zenyte.game.item.ItemId.*;
 
 /**

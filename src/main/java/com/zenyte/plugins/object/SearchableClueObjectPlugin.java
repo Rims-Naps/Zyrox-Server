@@ -6,7 +6,7 @@ import com.zenyte.game.world.object.WorldObject;
 import it.unimi.dsi.fastutil.ints.Int2IntOpenHashMap;
 import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
 import lombok.val;
-import lombok.var;
+
 import org.jetbrains.annotations.NotNull;
 
 /**

@@ -13,7 +13,7 @@ import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.items.ItemDefinitions;
 import org.apache.logging.log4j.util.Strings;
 import org.jetbrains.annotations.NotNull;

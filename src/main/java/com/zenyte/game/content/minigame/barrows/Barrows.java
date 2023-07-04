@@ -23,14 +23,13 @@ import com.zenyte.game.world.entity.player.container.ContainerPolicy;
 import com.zenyte.game.world.entity.player.container.impl.ContainerType;
 import com.zenyte.game.world.entity.player.container.impl.equipment.EquipmentSlot;
 import com.zenyte.game.world.entity.player.perk.PerkWrapper;
-import mgi.types.config.npcs.NPCDefinitions;
 import com.zenyte.plugins.events.InitializationEvent;
 import com.zenyte.utils.ProjectileUtils;
 import it.unimi.dsi.fastutil.ints.IntArrayList;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.val;
-import lombok.var;
+import mgi.types.config.npcs.NPCDefinitions;
 
 import java.lang.ref.WeakReference;
 import java.util.*;

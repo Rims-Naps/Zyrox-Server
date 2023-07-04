@@ -15,7 +15,7 @@ import com.zenyte.game.world.object.WorldObject;
 import com.zenyte.game.world.region.CharacterLoop;
 import com.zenyte.plugins.dialogue.ItemChat;
 import lombok.val;
-import lombok.var;
+
 import org.apache.commons.lang3.mutable.MutableInt;
 
 import java.util.ArrayList;

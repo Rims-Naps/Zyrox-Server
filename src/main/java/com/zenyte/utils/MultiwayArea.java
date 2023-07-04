@@ -6,16 +6,18 @@ import com.zenyte.game.world.World;
 import com.zenyte.game.world.entity.Location;
 import com.zenyte.game.world.region.Chunk;
 import com.zenyte.game.world.region.RSPolygon;
+import com.zenyte.utils.efficientarea.Area;
+import com.zenyte.utils.efficientarea.EfficientArea;
+import com.zenyte.utils.efficientarea.Polygon;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import it.unimi.dsi.fastutil.ints.IntOpenHashSet;
 import lombok.Getter;
 import lombok.extern.java.Log;
 import lombok.val;
-import lombok.var;
+
 import mgi.tools.jagcached.ArchiveType;
 
 import java.awt.*;
-import java.awt.geom.Area;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -285,9 +287,10 @@ public class MultiwayArea implements MapPrinter {
         }
         for (RSPolygon polygon : polygonList) {
             graphics.setColor(cyan);
-            graphics.fillPolygon(polygon.getPolygon());
+            Polygon p = polygon.getPolygon();
+            graphics.fillPolygon(p.xpoints, p.ypoints, p.npoints);
             graphics.setColor(purple);
-            graphics.drawPolygon(polygon.getPolygon());
+            graphics.fillPolygon(p.xpoints, p.ypoints, p.npoints);
         }
     }
 

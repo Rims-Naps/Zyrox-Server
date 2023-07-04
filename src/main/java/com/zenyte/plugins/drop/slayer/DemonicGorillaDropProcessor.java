@@ -5,7 +5,7 @@ import com.zenyte.game.world.entity.npc.NPC;
 import com.zenyte.game.world.entity.npc.drop.matrix.Drop;
 import com.zenyte.game.world.entity.npc.drop.matrix.DropProcessor;
 import com.zenyte.game.world.entity.player.Player;
-import lombok.var;
+
 
 /**
  * @author Kris | 10/06/2019 03:38

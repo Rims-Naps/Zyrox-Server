@@ -18,7 +18,7 @@ import com.zenyte.game.world.object.WorldObject;
 import com.zenyte.game.world.region.RSPolygon;
 import com.zenyte.game.world.region.dynamicregion.AllocatedArea;
 import lombok.val;
-import lombok.var;
+
 
 import java.util.Optional;
 

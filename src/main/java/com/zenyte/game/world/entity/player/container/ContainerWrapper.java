@@ -5,7 +5,6 @@ import com.zenyte.game.world.World;
 import com.zenyte.game.world.entity.player.Player;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
 
 import java.util.Collection;
 

@@ -7,7 +7,6 @@ import com.zenyte.game.world.entity.npc.drop.matrix.Drop;
 import com.zenyte.game.world.entity.npc.drop.matrix.DropProcessor;
 import com.zenyte.game.world.entity.player.Player;
 import lombok.val;
-import lombok.var;
 import org.jetbrains.annotations.NotNull;
 
 /**

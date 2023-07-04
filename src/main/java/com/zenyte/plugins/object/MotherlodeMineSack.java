@@ -8,7 +8,7 @@ import com.zenyte.plugins.dialogue.ItemChat;
 import com.zenyte.plugins.dialogue.PlainChat;
 import it.unimi.dsi.fastutil.ints.IntArrayList;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Noele

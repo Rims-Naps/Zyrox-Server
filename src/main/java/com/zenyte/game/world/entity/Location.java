@@ -6,7 +6,6 @@ import com.zenyte.game.util.Direction;
 import com.zenyte.game.util.Utils;
 import com.zenyte.game.world.Position;
 import lombok.val;
-import lombok.var;
 import org.jetbrains.annotations.NotNull;
 
 /**

@@ -10,7 +10,7 @@ import com.zenyte.game.world.entity.npc.NPC;
 import com.zenyte.game.world.entity.npc.Spawnable;
 import com.zenyte.game.world.entity.player.Emote;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Noele

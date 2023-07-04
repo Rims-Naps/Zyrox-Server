@@ -2,7 +2,6 @@ package com.zenyte.game.world.entity;
 
 import it.unimi.dsi.fastutil.objects.Object2ObjectMap;
 import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
-import lombok.var;
 import org.jetbrains.annotations.NotNull;
 
 public final class ForceTalk {

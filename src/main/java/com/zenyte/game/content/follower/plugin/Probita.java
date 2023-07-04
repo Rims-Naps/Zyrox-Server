@@ -15,7 +15,7 @@ import com.zenyte.game.world.entity.player.MemberRank;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.dialogue.Dialogue;
 import lombok.val;
-import lombok.var;
+
 import mgi.types.config.enums.EnumDefinitions;
 import mgi.types.config.items.ItemDefinitions;
 

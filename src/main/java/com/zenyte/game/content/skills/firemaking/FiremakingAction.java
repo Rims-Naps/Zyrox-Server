@@ -16,7 +16,6 @@ import com.zenyte.game.world.object.WorldObject;
 import com.zenyte.game.world.region.area.plugins.LayableObjectPlugin;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
-import lombok.var;
 
 import java.util.Optional;
 

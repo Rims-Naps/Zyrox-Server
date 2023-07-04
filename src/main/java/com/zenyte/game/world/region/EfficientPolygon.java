@@ -1,5 +1,7 @@
 package com.zenyte.game.world.region;
 
+import com.zenyte.utils.efficientarea.Polygon;
+
 import java.awt.*;
 import java.util.Arrays;
 

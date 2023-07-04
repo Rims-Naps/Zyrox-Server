@@ -8,7 +8,7 @@ import com.zenyte.game.world.entity.player.Player;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
-import lombok.var;
+
 import org.jetbrains.annotations.NotNull;
 
 /**

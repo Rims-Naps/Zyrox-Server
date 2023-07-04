@@ -4,7 +4,7 @@ import com.zenyte.game.content.consumables.drinks.Potion;
 import com.zenyte.game.item.Item;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;

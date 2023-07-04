@@ -8,7 +8,7 @@ import com.zenyte.game.world.entity.player.dialogue.Dialogue;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Corey

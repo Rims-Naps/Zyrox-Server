@@ -6,7 +6,7 @@ import com.zenyte.game.util.Utils;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.val;
-import lombok.var;
+
 
 @AllArgsConstructor
 public enum PVPEquipment {

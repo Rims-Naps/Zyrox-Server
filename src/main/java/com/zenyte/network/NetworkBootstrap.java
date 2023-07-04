@@ -43,16 +43,20 @@ public class NetworkBootstrap {
 	public static final int IDLE_TIMEOUT_MS = 30000;
 	public static final AttributeKey<Session> SESSION = AttributeKey.valueOf(Session.class.getSimpleName());
 
-	public static EventLoopGroup eventLoopGroup(int nThreads) {
-		return Epoll.isAvailable() ? new EpollEventLoopGroup(nThreads) : KQueue.isAvailable() ? new KQueueEventLoopGroup(nThreads) : new NioEventLoopGroup(nThreads);
+	public static EventLoopGroup eventLoopGroup(final int nThreads) {
+		return Epoll.isAvailable()
+				? new EpollEventLoopGroup(nThreads)
+				: KQueue.isAvailable()
+				? new KQueueEventLoopGroup(nThreads)
+				: new NioEventLoopGroup(nThreads);
 	}
 
 	public static Class<? extends ServerSocketChannel> serverSocketChannel(final EventLoopGroup group) {
-		return group instanceof EpollEventLoopGroup ? EpollServerSocketChannel.class : group instanceof KQueueEventLoopGroup ? KQueueServerSocketChannel.class : NioServerSocketChannel.class;
-	}
-
-	public static Class<? extends SocketChannel> socketChannel(final EventLoopGroup group) {
-		return group instanceof EpollEventLoopGroup ? EpollSocketChannel.class : group instanceof KQueueEventLoopGroup ? KQueueSocketChannel.class : NioSocketChannel.class;
+		return group instanceof EpollEventLoopGroup
+				? EpollServerSocketChannel.class
+				: group instanceof KQueueEventLoopGroup
+				? KQueueServerSocketChannel.class
+				: NioServerSocketChannel.class;
 	}
 
 	static {
@@ -72,9 +76,8 @@ public class NetworkBootstrap {
 				pipeline.addLast(HandshakeDecoder.class.getSimpleName(), new HandshakeDecoder());
 				pipeline.addLast(HandshakeEncoder.class.getSimpleName(), new HandshakeEncoder());
 				pipeline.addLast(HandshakeHandler.class.getSimpleName(), new HandshakeHandler());
-            }
+			}
 		});
-
 	}
 
 	public static void bind(final int port) {

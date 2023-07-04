@@ -8,7 +8,7 @@ import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.update.UpdateMask;
 import com.zenyte.network.io.RSBuffer;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Kris | 7. mai 2018 : 17:05:32

@@ -16,7 +16,7 @@ import com.zenyte.game.world.entity.player.dialogue.impl.NPCChat;
 import mgi.types.config.enums.EnumDefinitions;
 import mgi.types.config.npcs.NPCDefinitions;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 24-11-2018 | 13:50

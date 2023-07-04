@@ -1,11 +1,10 @@
 package mgi.custom;
 
 import com.zenyte.game.world.entity.pathfinding.events.RouteEvent;
-import mgi.types.config.ObjectDefinitions;
+import lombok.val;
 import mgi.custom.christmas.ChristmasObjectPacker;
 import mgi.custom.halloween.HalloweenObjectPacker;
-import lombok.val;
-import lombok.var;
+import mgi.types.config.ObjectDefinitions;
 
 import java.io.IOException;
 import java.util.Arrays;

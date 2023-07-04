@@ -6,7 +6,7 @@ import com.zenyte.game.world.entity.player.action.combat.magic.CombatSpell;
 import com.zenyte.game.world.object.ObjectAction;
 import com.zenyte.game.world.object.WorldObject;
 
-import lombok.var;
+
 
 /**
  * @author Tommeh | 2 jun. 2018 | 19:46:35

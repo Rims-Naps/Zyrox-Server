@@ -10,7 +10,7 @@ import com.zenyte.game.world.region.CharacterLoop;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.val;
-import lombok.var;
+
 
 public class NPCCombat {
 

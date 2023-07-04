@@ -4,7 +4,7 @@ import com.zenyte.game.packet.ClientProtDecoder;
 import com.zenyte.game.packet.in.event.EventKeyboardEvent;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.network.io.RSBuffer;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 28 jul. 2018 | 19:52:33

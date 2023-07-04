@@ -30,7 +30,7 @@ import com.zenyte.game.world.region.dynamicregion.AllocatedArea;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.val;
-import lombok.var;
+
 
 import java.util.*;
 

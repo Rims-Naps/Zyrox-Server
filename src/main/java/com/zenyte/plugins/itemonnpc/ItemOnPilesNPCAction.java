@@ -8,7 +8,6 @@ import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.dialogue.Dialogue;
 import com.zenyte.game.world.entity.player.dialogue.impl.NPCChat;
 import lombok.val;
-import lombok.var;
 import org.apache.commons.lang3.ArrayUtils;
 
 /**

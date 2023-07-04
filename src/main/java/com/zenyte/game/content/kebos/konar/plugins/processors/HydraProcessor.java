@@ -8,7 +8,7 @@ import com.zenyte.game.world.entity.npc.NPC;
 import com.zenyte.game.world.entity.npc.drop.matrix.Drop;
 import com.zenyte.game.world.entity.npc.drop.matrix.DropProcessor;
 import com.zenyte.game.world.entity.player.Player;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 02/11/2019 | 15:33

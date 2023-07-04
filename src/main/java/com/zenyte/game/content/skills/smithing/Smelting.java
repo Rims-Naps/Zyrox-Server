@@ -18,7 +18,7 @@ import com.zenyte.plugins.dialogue.PlainChat;
 import com.zenyte.plugins.item.CoalBag;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
-import lombok.var;
+
 
 /**
  * @author Tommeh | 25 aug. 2018 | 19:05:36
