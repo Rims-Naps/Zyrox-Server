@@ -12,8 +12,6 @@ import com.zenyte.game.util.Colour;
 import com.zenyte.game.util.StringUtilities;
 import com.zenyte.game.world.World;
 import com.zenyte.game.world.entity.player.Player;
-import com.zenyte.game.world.entity.player.collectionlog.CollectionLog;
-import com.zenyte.game.world.entity.player.collectionlog.CollectionLogItem;
 import com.zenyte.game.world.entity.player.container.Container;
 import com.zenyte.game.world.entity.player.container.ContainerPolicy;
 import com.zenyte.game.world.entity.player.container.impl.ContainerType;
@@ -43,6 +41,8 @@ import java.util.function.Consumer;
 @Getter
 @Slf4j
 public final class Shop {
+
+    private static final boolean USE_INSTANCED_SHOPS = false;
 
     static final int SHOPS_DUPLICATOR_COUNT = 5;
     static final int DEFAULT_RESTOCK_TIMER = 15;
@@ -253,19 +253,30 @@ public final class Shop {
                     val reader = new BufferedReader(new FileReader(file));
                     val shop = World.getGson().fromJson(reader, JsonShop.class);
                     if (shop == null) continue;
+                    final String name = shop.getShopName();
                     //General stores should not get duplicated.
                     if (shop.getSellPolicy() == ShopPolicy.CAN_SELL) {
-                        val normalShop = new Shop(shop, false);
-                        val ironmanShop = new Shop(shop, true);
-                        for (int i = 0; i < SHOPS_DUPLICATOR_COUNT; i++) {
-                            shops.put(shop.getShopName() + "|" + i, normalShop);
-                            ironmanShops.put(shop.getShopName() + "|" + i, ironmanShop);
+                        final Shop normalShop = new Shop(shop, false);
+                        final Shop ironmanShop = new Shop(shop, true);
+                        if (USE_INSTANCED_SHOPS) {
+                            for (int i = 0; i < SHOPS_DUPLICATOR_COUNT; i++) {
+                                shops.put(name + "|" + i, normalShop);
+                                ironmanShops.put(name + "|" + i, ironmanShop);
+                            }
+                        } else {
+                            shops.put(name, normalShop);
+                            ironmanShops.put(name, ironmanShop);
                         }
                         continue;
                     }
-                    for (int i = 0; i < SHOPS_DUPLICATOR_COUNT; i++) {
-                        shops.put(shop.getShopName() + "|" + i, new Shop(shop, false));
-                        ironmanShops.put(shop.getShopName() + "|" + i, new Shop(shop, true));
+                    if (USE_INSTANCED_SHOPS) {
+                        for (int i = 0; i < SHOPS_DUPLICATOR_COUNT; i++) {
+                            shops.put(name + "|" + i, new Shop(shop, false));
+                            ironmanShops.put(name + "|" + i, new Shop(shop, true));
+                        }
+                    } else {
+                        shops.put(name, new Shop(shop, false));
+                        ironmanShops.put(name, new Shop(shop, true));
                     }
                 }
             }
