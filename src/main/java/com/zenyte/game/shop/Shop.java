@@ -42,7 +42,7 @@ import java.util.function.Consumer;
 @Slf4j
 public final class Shop {
 
-    public static final boolean USE_INSTANCED_SHOPS = false;
+    private static final boolean USE_INSTANCED_SHOPS = false;
 
     static final int SHOPS_DUPLICATOR_COUNT = 5;
     static final int DEFAULT_RESTOCK_TIMER = 15;
@@ -256,8 +256,8 @@ public final class Shop {
                     final String name = shop.getShopName();
                     //General stores should not get duplicated.
                     if (shop.getSellPolicy() == ShopPolicy.CAN_SELL) {
-                        val normalShop = new Shop(shop, false);
-                        val ironmanShop = new Shop(shop, true);
+                        final Shop normalShop = new Shop(shop, false);
+                        final Shop ironmanShop = new Shop(shop, true);
                         if (USE_INSTANCED_SHOPS) {
                             for (int i = 0; i < SHOPS_DUPLICATOR_COUNT; i++) {
                                 shops.put(name + "|" + i, normalShop);
