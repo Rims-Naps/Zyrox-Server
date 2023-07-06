@@ -59,7 +59,7 @@ public class NylocasRoom extends TheatreArea implements HitProcessPlugin {
 
     public NylocasRoom(final TheatreOfBloodRaid raid, final AllocatedArea area, final TheatreRoom room) {
         super(raid, area, room);
-        phase = NylocasPhase.MINIONS;
+        phase = NylocasPhase.BOSS;
         wave = WaveDefinition.WAVE_1;
         boss = new NylocasVasilias(this);
         nylos = new HashMap<>();
