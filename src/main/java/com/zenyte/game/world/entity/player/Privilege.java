@@ -10,7 +10,8 @@ import lombok.RequiredArgsConstructor;
  * @author Tommeh | 5-4-2019 | 16:34
  * @see <a href="https://www.rune-server.ee/members/tommeh/">Rune-Server profile</a>}
  */
-public enum Privilege {
+public enum
+Privilege {
 
 	PLAYER(0, "", "000000"),
 	BOOSTER(0, "<img=21>", "BA55D3"), //change icon back to 0
@@ -39,7 +40,7 @@ public enum Privilege {
         }
     },
 	ADMINISTRATOR(2, "<img=1>", "e4df28"),
-    SPAWN_ADMINISTRATOR(2, "<img=1>", "e4df28") {
+    SPAWN_ADMINISTRATOR(2, "<img=1>", "3ded97") {
 	    @Override
         public String toString() {
 	        return "Management";

@@ -44,6 +44,7 @@ import com.zenyte.game.content.event.halloween2019.HalloweenUtils;
 import com.zenyte.game.content.follower.Follower;
 import com.zenyte.game.content.follower.PetInsurance;
 import com.zenyte.game.content.follower.PetWrapper;
+import com.zenyte.utils.FieldModifiersHelper;
 import com.zenyte.game.content.godwars.npcs.GeneralGraardor;
 import com.zenyte.game.content.grandexchange.GrandExchange;
 import com.zenyte.game.content.kebos.alchemicalhydra.npc.AlchemicalHydra;
@@ -467,7 +468,7 @@ public class Player extends Entity {
     @Getter
     private MemberRank memberRank = MemberRank.NONE;
     @Getter
-    private ExperienceMode experienceMode = ExperienceMode.TIMES_10;
+    private ExperienceMode experienceMode = ExperienceMode.TIMES_100;
     @Expose
     @Getter
     private Privilege privilege = Privilege.PLAYER;
@@ -1878,29 +1879,27 @@ public class Player extends Entity {
             }
             setNulled(true);
             unlink();
-            val fields = getClass().getDeclaredFields();
-            for (val field : fields) {
-                val modifier = field.getModifiers();
+            final Field[] fields = getClass().getDeclaredFields();
+            for (final Field field : fields) {
+                final int modifier = field.getModifiers();
                 if (Modifier.isStatic(modifier) || field.getType().isPrimitive()) {
                     continue;
                 }
                 field.setAccessible(true);
                 try {
-                    Field modifiersField = Field.class.getDeclaredField("modifiers");
-                    modifiersField.setAccessible(true);
-                    modifiersField.setInt(field, field.getModifiers() & ~Modifier.FINAL);
+                    FieldModifiersHelper.definalize(field);
                 } catch (Exception e) {
-                    log.error(Strings.EMPTY, e);
+                    log.error("", e);
                 }
                 try {
                     field.set(this, null);
                 } catch (IllegalAccessException e) {
-                    log.error(Strings.EMPTY, e);
+                    log.error("", e);
                 }
             }
             this.postSaveFunction = null;
         } catch (Exception e) {
-            log.error(Strings.EMPTY, e);
+            log.error("", e);
         }
     }
 

@@ -11,9 +11,6 @@ import it.unimi.dsi.fastutil.doubles.DoubleLists;
 import it.unimi.dsi.fastutil.ints.IntArrayList;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import it.unimi.dsi.fastutil.objects.ObjectList;
-import lombok.NonNull;
-import lombok.extern.slf4j.Slf4j;
-import lombok.val;
 import mgi.Indice;
 import mgi.types.config.GraphicsDefinitions;
 import org.apache.logging.log4j.util.Strings;
@@ -33,44 +30,39 @@ import java.security.MessageDigest;
 import java.security.SecureRandom;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Enumeration;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Random;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.IntStream;
 
-@Slf4j
 public final class Utils {
-
-    public static final byte[] DIRECTION_DELTA_X = new byte[]{-1, 0, 1, -1, 1, -1, 0, 1};
-    public static final byte[] DIRECTION_DELTA_Y = new byte[]{-1, -1, -1, 0, 0, 1, 1, 1};
-
-    public static final byte[] NPC_DIRECTION_DELTA_X = new byte[]{-1, 0, 1, -1, 1, -1, 0, 1};
-    public static final byte[] NPC_DIRECTION_DELTA_Y = new byte[]{1, 1, 1, 0, 0, -1, -1, -1};
-
+    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(Utils.class);
+    public static final byte[] DIRECTION_DELTA_X = new byte[] {-1, 0, 1, -1, 1, -1, 0, 1};
+    public static final byte[] DIRECTION_DELTA_Y = new byte[] {-1, -1, -1, 0, 0, 1, 1, 1};
+    public static final byte[] NPC_DIRECTION_DELTA_X = new byte[] {-1, 0, 1, -1, 1, -1, 0, 1};
+    public static final byte[] NPC_DIRECTION_DELTA_Y = new byte[] {1, 1, 1, 0, 0, -1, -1, -1};
     private static final String[] tensNames = {"", " ten", " twenty", " thirty", " forty", " fifty", " sixty", " seventy", " eighty", " ninety"};
-
-	public static final String[] numNames = { "", " one", " two", " three", " four", " five", " six", " seven", " eight", " nine", " ten", " eleven", " twelve", " thirteen", " " +
-                                                                                                                                                                                      "fourteen", " fifteen", " sixteen", " seventeen", " eighteen", " nineteen"};
-
+    public static final String[] numNames = {"", " one", " two", " three", " four", " five", " six", " seven", " eight", " nine", " ten", " eleven", " twelve", " thirteen", " fourteen", " fifteen", " sixteen", " seventeen", " eighteen", " nineteen"};
     private static final int[] FONT_494_CHAR_WIDTHS = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 5, 9, 7, 11, 7, 4, 3, 3, 7, 7, 4, 5, 3, 4, 7, 4, 7, 6, 5, 6, 7, 6, 7, 7, 3, 4, 6, 6, 6, 6, 10, 7, 7, 7, 7, 5, 5, 7, 7, 3, 6, 6, 5, 8, 7, 7, 7, 7, 7, 7, 5, 7, 7, 9, 7, 5, 7, 4, 4, 4, 7, 7, 4, 6, 6, 5, 6, 6, 5, 6, 6, 3, 5, 5, 3, 7, 6, 6, 6, 6, 5, 6, 4, 6, 7, 7, 7, 6, 6, 3, 3, 3, 8, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7, 7, 8, 7, 3, 8, 5, 10, 6, 7, 7, 4, 10, 4, 5, 7, 5, 5, 5, 6, 7, 3, 4, 4, 5, 7, 9, 9, 9, 6, 7, 7, 7, 7, 7, 7, 9, 7, 6, 6, 6, 6, 3, 3, 4, 3, 7, 7, 7, 7, 7, 7, 7, 6, 7, 7, 7, 7, 7, 7, 5, 7, 6, 6, 6, 6, 6, 6, 9, 5, 6, 6, 6, 6, 3, 3, 4, 3, 6, 6, 6, 6, 6, 6, 6, 7, 6, 6, 6, 6, 6, 6, 5, 6};
-
     private static final Object ALGORITHM_LOCK = new Object();
-
     public static final SecureRandom SECURE_RANDOM = new SecureRandom();
-
     private static final Random r = new Random();
+
+    public static final <T> T random(List<T> list) {
+        final int size = list.size();
+        return size < 1 ? null
+                : size == 1 ? list.get(0)
+                : list.get(randomNoPlus(size));
+    }
+
+    public static int randomNoPlus(final int i) {
+        return randomNoPlus(ThreadLocalRandom.current(), i);
+    }
+
+    public static int randomNoPlus(final Random random, final int i) {
+        return random.nextInt(i);
+    }
 
     public static int random(final Random random, final int i) {
         return random.nextInt(i + 1);
@@ -78,10 +70,6 @@ public final class Utils {
 
     public static int random(final int i) {
         return random(r, i);
-    }
-
-    public static boolean rollDie(int sides, int chance) {
-        return random(1, sides) <= chance;
     }
 
     public static final double randomDouble(final Random random) {
@@ -110,7 +98,7 @@ public final class Utils {
      * @return a unique user id.
      */
     public static final long generateSnowflake(final int seed) {
-        return ((System.currentTimeMillis() & 0x3FFFFFFFFFFL) << 22) | (seed & 0x3FFFFF);
+        return ((System.currentTimeMillis() & 4398046511103L) << 22) | (seed & 4194303);
     }
 
     /**
@@ -120,7 +108,7 @@ public final class Utils {
      * @return the 22-bit integer seed used for the UUID generation.
      */
     public static final int getSeed(final long snowflake) {
-        return (int) (snowflake & 0x3FFFFF);
+        return (int) (snowflake & 4194303);
     }
 
     /**
@@ -130,7 +118,7 @@ public final class Utils {
      * @return the 42-bit long seed used in the UUID generation, which is {@link System#currentTimeMillis()}.
      */
     public static final long getTimestamp(final long snowflake) {
-        return (snowflake >> 22) & 0x3FFFFFFFFFFL;
+        return (snowflake >> 22) & 4398046511103L;
     }
 
     public static byte charToByteCp1252(char var0) {
@@ -194,29 +182,27 @@ public final class Utils {
         } else {
             var1 = 63;
         }
-
         return var1;
     }
 
     public static final boolean collides(final Location first, final int firstSize, final Location second, final int secondSize, final int extraDistance) {
-        val distanceX = first.getX() - second.getX();
-        val distanceY = first.getY() - second.getY();
-        val size1 = firstSize + extraDistance;
-        val size2 = secondSize + extraDistance;
+        final int distanceX = first.getX() - second.getX();
+        final int distanceY = first.getY() - second.getY();
+        final int size1 = firstSize + extraDistance;
+        final int size2 = secondSize + extraDistance;
         return distanceX < (size2) && distanceX > (-size1) && distanceY < (size2) && distanceY > (-size1);
     }
 
-    public static final Optional<Location> findEmptySquare(@NotNull final Location center, final int seekRadius, final int emptyRadius,
-                                                           final Optional<Predicate<Location>> optionalPredicate) {
+    public static final Optional<Location> findEmptySquare(@NotNull final Location center, final int seekRadius, final int emptyRadius, final Optional<Predicate<Location>> optionalPredicate) {
         assert emptyRadius > 0;
         assert seekRadius >= emptyRadius;
-        val predicate = optionalPredicate.orElse(null);
-        val px = center.getX();
-        val py = center.getY();
-        val plane = center.getPlane();
+        final java.util.function.Predicate<com.zenyte.game.world.entity.Location> predicate = optionalPredicate.orElse(null);
+        final int px = center.getX();
+        final int py = center.getY();
+        final int plane = center.getPlane();
         int radius = 0;
         if (isSquareFree(px, py, plane, emptyRadius)) {
-            val tile = new Location(px, py, plane);
+            final com.zenyte.game.world.entity.Location tile = new Location(px, py, plane);
             if (predicate == null || predicate.test(tile)) {
                 return Optional.of(tile);
             }
@@ -226,39 +212,32 @@ public final class Utils {
                 if (!isSquareFree(px - radius, y, plane, emptyRadius)) {
                     continue;
                 }
-                val tile = new Location(px - radius, y, plane);
-                if (predicate != null && !predicate.test(tile))
-                    continue;
+                final com.zenyte.game.world.entity.Location tile = new Location(px - radius, y, plane);
+                if (predicate != null && !predicate.test(tile)) continue;
                 return Optional.of(tile);
             }
-
             for (int x = px - radius; x < px + radius; x++) {
                 if (!isSquareFree(x, py + radius, plane, emptyRadius)) {
                     continue;
                 }
-                val tile = new Location(x, py + radius, plane);
-                if (predicate != null && !predicate.test(tile))
-                    continue;
+                final com.zenyte.game.world.entity.Location tile = new Location(x, py + radius, plane);
+                if (predicate != null && !predicate.test(tile)) continue;
                 return Optional.of(tile);
             }
-
             for (int y = py + radius; y >= py - radius; y--) {
                 if (!isSquareFree(px + radius, y, plane, emptyRadius)) {
                     continue;
                 }
-                val tile = new Location(px + radius, y, plane);
-                if (predicate != null && !predicate.test(tile))
-                    continue;
+                final com.zenyte.game.world.entity.Location tile = new Location(px + radius, y, plane);
+                if (predicate != null && !predicate.test(tile)) continue;
                 return Optional.of(tile);
             }
-
             for (int x = px + radius - 1; x >= px - radius; x--) {
                 if (!isSquareFree(x, py - radius, plane, emptyRadius)) {
                     continue;
                 }
-                val tile = new Location(x, py - radius, plane);
-                if (predicate != null && !predicate.test(tile))
-                    continue;
+                final com.zenyte.game.world.entity.Location tile = new Location(x, py - radius, plane);
+                if (predicate != null && !predicate.test(tile)) continue;
                 return Optional.of(tile);
             }
         }
@@ -271,36 +250,32 @@ public final class Utils {
             return ((World.getMask(z, x, y) & (Flags.OBJECT | Flags.FLOOR | Flags.FLOOR_DECORATION)) == 0);
         }
         for (int a = 0; a < radius; a++) {
-            val mask = World.getMask(z, x, y + a);
+            final int mask = World.getMask(z, x, y + a);
             if ((mask & (Flags.OBJECT | Flags.FLOOR | Flags.FLOOR_DECORATION | Flags.WALL_EAST)) != 0) {
                 return false;
             }
         }
-
         for (int a = 0; a < radius; a++) {
-            val mask = World.getMask(z, x + a, y);
+            final int mask = World.getMask(z, x + a, y);
             if ((mask & (Flags.OBJECT | Flags.FLOOR | Flags.FLOOR_DECORATION | Flags.WALL_NORTH)) != 0) {
                 return false;
             }
         }
-
         for (int a = 0; a < radius; a++) {
-            val mask = World.getMask(z, (x + radius) - 1, y + a);
+            final int mask = World.getMask(z, (x + radius) - 1, y + a);
             if ((mask & (Flags.OBJECT | Flags.FLOOR | Flags.FLOOR_DECORATION | Flags.WALL_WEST)) != 0) {
                 return false;
             }
         }
-
         for (int a = 0; a < radius; a++) {
-            val mask = World.getMask(z, x + a, (y + radius) - 1);
+            final int mask = World.getMask(z, x + a, (y + radius) - 1);
             if ((mask & (Flags.OBJECT | Flags.FLOOR | Flags.FLOOR_DECORATION | Flags.WALL_SOUTH)) != 0) {
                 return false;
             }
         }
-
         for (int a = 1; a < (radius - 2); a++) {
             for (int b = 1; b < (radius - 2); b++) {
-                val mask = World.getMask(z, x + a, y + b);
+                final int mask = World.getMask(z, x + a, y + b);
                 if ((mask & (Flags.OBJECT | Flags.FLOOR | Flags.FLOOR_DECORATION)) != 0) {
                     return false;
                 }
@@ -311,27 +286,23 @@ public final class Utils {
 
     @SafeVarargs
     public static <T, V> Map<V, T> populateMap(final T[] array, final Map<V, T> map, final Function<T, V>... funs) {
-        for (val t : array) {
-            for (val fun : funs) {
+        for (final T t : array) {
+            for (final java.util.function.Function<T, V> fun : funs) {
                 map.put(fun.apply(t), t);
             }
         }
         return map;
     }
 
-	public static <T, V> Map<V, T> populateMap(final T[] array, final Map<V, T> map, final Function<T, V> func) {
-	    for (val t : array) {
-	        map.put(func.apply(t), t);
+    public static <T, V> Map<V, T> populateMap(final T[] array, final Map<V, T> map, final Function<T, V> func) {
+        for (final T t : array) {
+            map.put(func.apply(t), t);
         }
         return map;
     }
 
-    public static <V, T> void populateObjectListMap(T[] array,
-                                                    Map<V, ObjectList<T>> map, Function<T, V> func) {
-        val keys = Arrays.stream(array)
-                .map(func)
-                .collect(HashSet<V>::new, HashSet::add, HashSet::addAll);
-
+    public static <V, T> void populateObjectListMap(T[] array, Map<V, ObjectList<T>> map, Function<T, V> func) {
+        final java.util.HashSet<V> keys = Arrays.stream(array).map(func).collect(HashSet<V>::new, HashSet::add, HashSet::addAll);
         keys.forEach(key -> {
             ObjectList<T> values = new ObjectArrayList<>();
             for (T value : array) {
@@ -344,7 +315,7 @@ public final class Utils {
     }
 
     public static <T, V> Map<V, T> populateMap(final List<T> list, final Map<V, T> map, final Function<T, V> func) {
-        for (val t : list) {
+        for (final T t : list) {
             map.put(func.apply(t), t);
         }
         return map;
@@ -369,12 +340,11 @@ public final class Utils {
      *                                  negative.
      * @since 11
      */
-
     public static String repeatString(final String string, final int count) {
         if (count < 0) {
             throw new IllegalArgumentException("count is negative: " + count);
         }
-        val value = string.getBytes();
+        final byte[] value = string.getBytes();
         if (count == 1) {
             return string;
         }
@@ -388,8 +358,7 @@ public final class Utils {
             return new String(single);
         }
         if (Integer.MAX_VALUE / count < len) {
-            throw new OutOfMemoryError("Repeating " + len + " bytes String " + count +
-                    " times will produce a String exceeding maximum size.");
+            throw new OutOfMemoryError("Repeating " + len + " bytes String " + count + " times will produce a String exceeding maximum size.");
         }
         final int limit = len * count;
         final byte[] multiple = new byte[limit];
@@ -400,7 +369,6 @@ public final class Utils {
         }
         System.arraycopy(multiple, 0, multiple, copied, limit - copied);
         return new String(multiple);
-
     }
 
     public static int secureRandom(final int i) {
@@ -418,24 +386,24 @@ public final class Utils {
             return collection;
         }
         try {
-            for (val value : values) {
+            for (final T value : values) {
                 ((Collection<T>) collection).add(value);
             }
         } catch (final Exception e) {
             log.error(Strings.EMPTY, e);
-		}
-		return collection;
-	}
+        }
+        return collection;
+    }
 
-	@SafeVarargs
-	public static final <T> T getRandomElement(final T... elements) {
-		if (elements.length == 0) {
-			throw new IllegalStateException("Array cannot be empty!");
-		}
-		return elements[random(elements.length - 1)];
-	}
+    @SafeVarargs
+    public static final <T> T getRandomElement(final T... elements) {
+        if (elements.length == 0) {
+            throw new IllegalStateException("Array cannot be empty!");
+        }
+        return elements[random(elements.length - 1)];
+    }
 
-	public static <T> ArrayList<T> getArrayList(final T... elements) {
+    public static <T> ArrayList<T> getArrayList(final T... elements) {
         return new ArrayList<>(Arrays.asList(elements));
     }
 
@@ -460,7 +428,7 @@ public final class Utils {
      */
     public static final <T> T findMatching(final T[] array, final Predicate<T> predicate, final T defaultValue) {
         for (int i = 0; i < array.length; i++) {
-            val object = array[i];
+            final T object = array[i];
             if (predicate.test(object)) {
                 return object;
             }
@@ -486,7 +454,7 @@ public final class Utils {
     }
 
     public static final <T> T findMatching(final Set<T> list, final Predicate<T> predicate, final T defaultValue) {
-        for (val object : list) {
+        for (final T object : list) {
             if (predicate.test(object)) {
                 return object;
             }
@@ -498,13 +466,13 @@ public final class Utils {
         return value == 1 ? "" : "s";
     }
 
-    @NonNull
+    @NotNull
     public static <E> E getRandomCollectionElement(final Collection<E> e) {
-        val size = e.size();
+        final int size = e.size();
         if (size == 0) {
             throw new RuntimeException("Collection cannot be empty.");
         }
-        val random = Utils.random(e.size() - 1);
+        final int random = Utils.random(e.size() - 1);
         int i = 0;
         for (final E value : e) {
             if (i == random) {
@@ -513,71 +481,71 @@ public final class Utils {
             i++;
         }
         throw new RuntimeException("Concurrent modification performed on the collection.");
-	}
+    }
 
-	public static final <T> T getOrDefault(final T primary, final T defaultValue) {
-		return primary == null ? defaultValue : primary;
-	}
+    public static final <T> T getOrDefault(final T primary, final T defaultValue) {
+        return primary == null ? defaultValue : primary;
+    }
 
     public static final <T> T computeIfAbsent(final T primary, final Function<Void, T> defaultValue) {
         return primary == null ? defaultValue.apply(null) : primary;
     }
 
-	/**
-	 * Returns a random reference of the given chance. If the random call value
-	 * is equal to or less than the input percentage chance, method returns
-	 * true.
-	 *
-	 * @param chance
-	 *            the percentage chance to roll against.
-	 * @return whether the random roll is true or false.
-	 */
-	public static final boolean percentage(final int chance) {
-		return random(99) < chance;
-	}
+    /**
+     * Returns a random reference of the given chance. If the random call value
+     * is equal to or less than the input percentage chance, method returns
+     * true.
+     *
+     * @param chance
+     *            the percentage chance to roll against.
+     * @return whether the random roll is true or false.
+     */
+    public static final boolean percentage(final int chance) {
+        return random(99) < chance;
+    }
 
-	public static final void printGraphicsUsingSameAnimation(final int graphics) {
-		final int animation = GraphicsDefinitions.get(graphics).getAnimationId();
-		for (int i = 0; i < Utils.getIndiceSize(Indice.GRAPHICS_DEFINITIONS); i++) {
-			val definitions = GraphicsDefinitions.get(i);
-			if (definitions == null) {
-				continue;
-			}
-			if (definitions.getAnimationId() == animation) {
-				System.err.println("Graphics: " + i);
-			}
-		}
-	}
+    public static final void printGraphicsUsingSameAnimation(final int graphics) {
+        final int animation = GraphicsDefinitions.get(graphics).getAnimationId();
+        for (int i = 0; i < Utils.getIndiceSize(Indice.GRAPHICS_DEFINITIONS); i++) {
+            final mgi.types.config.GraphicsDefinitions definitions = GraphicsDefinitions.get(i);
+            if (definitions == null) {
+                continue;
+            }
+            if (definitions.getAnimationId() == animation) {
+                System.err.println("Graphics: " + i);
+            }
+        }
+    }
 
-	private static final String VOWELS = "aeiouAEIOU";
+    private static final String VOWELS = "aeiouAEIOU";
 
-	public static final boolean startWithVowel(final String string) {
-		return VOWELS.indexOf(string.charAt(0)) != -1;
-	}
+    public static final boolean startWithVowel(final String string) {
+        return VOWELS.indexOf(string.charAt(0)) != -1;
+    }
 
-	/**
-	 * Gets the hex colour code for the level. Method is taken from the client
-	 * for displaying the combat level of other players.
-	 *
-	 * @param level
-	 *            player's level.
-	 * @param otherLevel
-	 *            other player's level
-	 * @return hex colour prefix.
-	 */
-	public static final String getLevelColour(final int level, final int otherLevel) {
-		final int difference = level - otherLevel;
-		if (difference <= -1) {
-			return "<col=ff0000>";
-		}
-		if (difference > 0) {
-			return "<col=40ff00>";
-		}
-		if (difference == 1) {
-			return "<col=ff7000>";
-		}
-		return "<col=ffffff>";
-	}
+    /**
+     * Gets the hex colour code for the level. Method is taken from the client
+     * for displaying the combat level of other players.
+     *
+     * @param level
+     *            player's level.
+     * @param otherLevel
+     *            other player's level
+     * @return hex colour prefix.
+     */
+    public static final String getLevelColour(final int level, final int otherLevel) {
+        final int difference = level - otherLevel;
+        if (difference <= -1) {
+            return "<col=ff0000>";
+        }
+        if (difference > 0) {
+            return "<col=40ff00>";
+        }
+        if (difference == 1) {
+            return "<col=ff7000>";
+        }
+        return "<col=ffffff>";
+    }
 
     /**
      * Gets the hex colour code for the level.
@@ -590,22 +558,14 @@ public final class Utils {
      */
     public static final String getPreciseLevelColour(final int level, final int otherLevel) {
         final int difference = level - otherLevel;
-        if (difference < -9)
-            return getColourPrefix(16711680);
-        else if (difference < -6)
-            return getColourPrefix(16723968);
-        else if (difference < -3)
-            return getColourPrefix(16740352);
-        else if (difference < 0)
-            return getColourPrefix(16756736);
-        else if (difference > 9)
-            return getColourPrefix(65280);
-        else if (difference > 6)
-            return getColourPrefix(4259584);
-        else if (difference > 3)
-            return getColourPrefix(8453888);
-        else if (difference > 0)
-            return getColourPrefix(12648192);
+        if (difference < -9) return getColourPrefix(16711680);
+        else if (difference < -6) return getColourPrefix(16723968);
+        else if (difference < -3) return getColourPrefix(16740352);
+        else if (difference < 0) return getColourPrefix(16756736);
+        else if (difference > 9) return getColourPrefix(65280);
+        else if (difference > 6) return getColourPrefix(4259584);
+        else if (difference > 3) return getColourPrefix(8453888);
+        else if (difference > 0) return getColourPrefix(12648192);
         return getColourPrefix(16776960);
     }
 
@@ -700,7 +660,7 @@ public final class Utils {
         output = output.replace("(info)", "");
         output = output.replace("reward points (Nightmare Zone)", "");
         output = output.replace("%", "");
-        output = output.replace(" ", "");
+        output = output.replace(" ", "");
         output = output.replace("(approx)", "");
         output = output.replace("•", "");
         output = output.replace("(during quest)", "");
@@ -743,18 +703,15 @@ public final class Utils {
                     fieldBuilder.append(" " + (fieldName[i].length() == 1 ? fieldName[i].toUpperCase() : fieldName[i].toLowerCase()));
                 }
                 strings.add(fieldBuilder.toString() + ": " + val);
-
                 System.out.println(fieldBuilder.toString() + ": " + val);
             } catch (final Throwable e) {
                 log.error(Strings.EMPTY, e);
-			}
-		}
-		return strings;
-	}
+            }
+        }
+        return strings;
+    }
 
-
-    public static DoubleLists.UnmodifiableList linearInterpolate(final double x0, final double y0, final double x1,
-                                                                 final double y1, final IntStream inputs) {
+    public static DoubleLists.UnmodifiableList linearInterpolate(final double x0, final double y0, final double x1, final double y1, final IntStream inputs) {
         return linearInterpolate(x0, y0, x1, y1, inputs.asDoubleStream().toArray());
     }
 
@@ -766,21 +723,17 @@ public final class Utils {
      * @param inputs the x values we wish to find y values for.
      * @return The interpolated values for the x coordinates given as input.
      */
-    public static DoubleLists.UnmodifiableList linearInterpolate(final double x0, final double y0, final double x1,
-                                                                 final double y1, final double... inputs) {
-        Preconditions.checkArgument(x1 - x0 != 0, "Can not interpolate value for vertical line. Ensure that both x " +
-                "coordinates are not equal.");
-        val list = new DoubleArrayList();
+    public static DoubleLists.UnmodifiableList linearInterpolate(final double x0, final double y0, final double x1, final double y1, final double... inputs) {
+        Preconditions.checkArgument(x1 - x0 != 0, "Can not interpolate value for vertical line. Ensure that both x coordinates are not equal.");
+        final it.unimi.dsi.fastutil.doubles.DoubleArrayList list = new DoubleArrayList();
         for (double input : inputs) {
             list.add(linearInterpolate(x0, y0, x1, y1, input));
         }
         return (DoubleLists.UnmodifiableList) DoubleLists.unmodifiable(list);
     }
 
-    public static double linearInterpolate(final double x0, final double y0, final double x1, final double y1,
-                                           final double input) {
-        Preconditions.checkArgument(x1 - x0 != 0, "Can not interpolate value for vertical line. Ensure that both x " +
-                "coordinates are not equal.");
+    public static double linearInterpolate(final double x0, final double y0, final double x1, final double y1, final double input) {
+        Preconditions.checkArgument(x1 - x0 != 0, "Can not interpolate value for vertical line. Ensure that both x coordinates are not equal.");
         return y0 + (input - x0) * ((y1 - y0) / (x1 - x0));
     }
 
@@ -788,59 +741,57 @@ public final class Utils {
         return minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
     }
 
-	private static final Object getValue(final Object object, final Field field) throws Throwable {
-		field.setAccessible(true);
-		final Class<?> type = field.getType();
-		if (field.get(object) == null) {
-			return DEFAULT;
-		}
-		if (type == boolean.class && (boolean) (field.get(object)) == false) {
-			return DEFAULT;
-		}
-		if (type == int.class && (int) (field.get(object)) == 0) {
-			return DEFAULT;
-		}
-		if (type == int[][].class) {
-			return Arrays.toString((int[][]) field.get(object));
-		} else if (type == int[].class) {
-			return Arrays.toString((int[]) field.get(object));
-		} else if (type == byte[].class) {
-			return Arrays.toString((byte[]) field.get(object));
-		} else if (type == short[].class) {
-			return Arrays.toString((short[]) field.get(object));
-		} else if (type == double[].class) {
-			return Arrays.toString((double[]) field.get(object));
-		} else if (type == float[].class) {
-			return Arrays.toString((float[]) field.get(object));
-		} else if (type == String[].class) {
-			if (field.get(object) == null) {
-				return "null";
-			}
-			return "[" + String.join(", ", (String[]) field.get(object)) + "]";
-		} else if (type == Object[].class) {
-			return Arrays.toString((Object[]) field.get(object));
-		}
-		return field.get(object);
-	}
+    private static final Object getValue(final Object object, final Field field) throws Throwable {
+        field.setAccessible(true);
+        final Class<?> type = field.getType();
+        if (field.get(object) == null) {
+            return DEFAULT;
+        }
+        if (type == boolean.class && (boolean) (field.get(object)) == false) {
+            return DEFAULT;
+        }
+        if (type == int.class && (int) (field.get(object)) == 0) {
+            return DEFAULT;
+        }
+        if (type == int[][].class) {
+            return Arrays.toString((int[][]) field.get(object));
+        } else if (type == int[].class) {
+            return Arrays.toString((int[]) field.get(object));
+        } else if (type == byte[].class) {
+            return Arrays.toString((byte[]) field.get(object));
+        } else if (type == short[].class) {
+            return Arrays.toString((short[]) field.get(object));
+        } else if (type == double[].class) {
+            return Arrays.toString((double[]) field.get(object));
+        } else if (type == float[].class) {
+            return Arrays.toString((float[]) field.get(object));
+        } else if (type == String[].class) {
+            if (field.get(object) == null) {
+                return "null";
+            }
+            return "[" + String.join(", ", (String[]) field.get(object)) + "]";
+        } else if (type == Object[].class) {
+            return Arrays.toString((Object[]) field.get(object));
+        }
+        return field.get(object);
+    }
 
-	public static final double getRandomDouble(final double maxValue) {
-		return (randomDouble() * maxValue);
-	}
+    public static final double getRandomDouble(final double maxValue) {
+        return (randomDouble() * maxValue);
+    }
 
-	public static final double getRandomDouble(final int minValue, final int maxValue) {
-		final int random = random(minValue, maxValue - 1);
-		final double randomDouble = r.nextDouble();
-		return random + randomDouble;
-	}
+    public static final double getRandomDouble(final int minValue, final int maxValue) {
+        final int random = random(minValue, maxValue - 1);
+        final double randomDouble = r.nextDouble();
+        return random + randomDouble;
+    }
 
     public static final double getRandomDouble(final double minValue, final double maxValue) {
         final int random = random((int) minValue, (int) maxValue - 1);
         final double randomDouble = r.nextDouble();
         double value = random + randomDouble;
-        if (value > maxValue)
-            value = maxValue;
-        if (value < minValue)
-            value = minValue;
+        if (value > maxValue) value = maxValue;
+        if (value < minValue) value = minValue;
         return value;
     }
 
@@ -859,198 +810,196 @@ public final class Utils {
 
     public static final String checkPlural(final String input) {
         return (input.endsWith("s") && !input.toLowerCase().equals("bass") ? "some " : getAOrAn(input) + " ") + input;
-	}
+    }
 
-	public static final int getShiftedValue(final int total, final int id) {
-		final int val = ((total >> id) & 1);
-		if (val == 1) {
-			return total & (1 << id ^ -1);
-		}
-		return total | 1 << id;
-	}
+    public static final int getShiftedValue(final int total, final int id) {
+        final int val = ((total >> id) & 1);
+        if (val == 1) {
+            return total & (1 << id ^ -1);
+        }
+        return total | 1 << id;
+    }
 
-	public static final int getShiftedValue(final int total, final int id, final boolean toggled) {
-		final int val = ((total >> id) & 1);
-		if (val == 1 && !toggled) {
-			return total & (1 << id ^ -1);
-		} else if (val == 0 && toggled) {
-			return total | 1 << id;
-		}
-		return total;
-	}
+    public static final int getShiftedValue(final int total, final int id, final boolean toggled) {
+        final int val = ((total >> id) & 1);
+        if (val == 1 && !toggled) {
+            return total & (1 << id ^ -1);
+        } else if (val == 0 && toggled) {
+            return total | 1 << id;
+        }
+        return total;
+    }
 
-	public static final boolean getShiftedBoolean(final int total, final int id) {
-		return ((total >> id) & 1) == 1;
-	}
+    public static final boolean getShiftedBoolean(final int total, final int id) {
+        return ((total >> id) & 1) == 1;
+    }
 
-	public static final int getDistance(final int coordX1, final int coordY1, final int coordX2, final int coordY2) {
-		final int deltaX = coordX2 - coordX1;
-		final int deltaY = coordY2 - coordY1;
-		return ((int) Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2)));
-	}
+    public static final int getDistance(final int coordX1, final int coordY1, final int coordX2, final int coordY2) {
+        final int deltaX = coordX2 - coordX1;
+        final int deltaY = coordY2 - coordY1;
+        return ((int) Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2)));
+    }
 
     public static final int getFaceDirection(final Location destination, final Location location) {
-        return ((int) ((Math.atan2(-(destination.getX() - location.getX()), -(destination.getY() - location.getY())) * 325.949D)) & 0x7ff);
+        return ((int) ((Math.atan2(-(destination.getX() - location.getX()), -(destination.getY() - location.getY())) * 325.949)) & 2047);
     }
 
     public static final int getFaceDirection(final double xOffset, final double yOffset) {
-		return ((int) ((Math.atan2(-xOffset, -yOffset) * 325.949D)) & 0x7ff);
-	}
+        return ((int) ((Math.atan2(-xOffset, -yOffset) * 325.949)) & 2047);
+    }
 
-	public static int getMapArchiveId(final int regionX, final int regionY) {
-		return regionX | regionY << 7;
-	}
+    public static int getMapArchiveId(final int regionX, final int regionY) {
+        return regionX | regionY << 7;
+    }
 
-	public static final int getMoveDirection(final int xOffset, final int yOffset) {
-		if (xOffset < 0) {
-			if (yOffset < 0) {
-				return 0;
-			} else if (yOffset > 0) {
-				return 5;
-			} else {
-				return 3;
-			}
-		} else if (xOffset > 0) {
-			if (yOffset < 0) {
-				return 2;
-			} else if (yOffset > 0) {
-				return 7;
-			} else {
-				return 4;
-			}
-		} else {
-			if (yOffset < 0) {
-				return 1;
-			} else if (yOffset > 0) {
-				return 6;
-			} else {
-				return -1;
-			}
-		}
-	}
+    public static final int getMoveDirection(final int xOffset, final int yOffset) {
+        if (xOffset < 0) {
+            if (yOffset < 0) {
+                return 0;
+            } else if (yOffset > 0) {
+                return 5;
+            } else {
+                return 3;
+            }
+        } else if (xOffset > 0) {
+            if (yOffset < 0) {
+                return 2;
+            } else if (yOffset > 0) {
+                return 7;
+            } else {
+                return 4;
+            }
+        } else {
+            if (yOffset < 0) {
+                return 1;
+            } else if (yOffset > 0) {
+                return 6;
+            } else {
+                return -1;
+            }
+        }
+    }
 
-	public static final int getNPCWalkingDirection(final int dir) {
-		final int dx = Utils.NPC_DIRECTION_DELTA_X[dir];
-		final int dy = Utils.NPC_DIRECTION_DELTA_Y[dir];
-		if (dx == 0 && dy == 1) {
-			return 6;
-		} else if (dx == 1 && dy == 1) {
-			return 7;
-		} else if (dx == -1 && dy == 0) {
-			return 3;
-		} else if (dx == 1 && dy == 0) {
-			return 4;
-		} else if (dx == -1 && dy == -1) {
-			return 0;
-		} else if (dx == 0 && dy == -1) {
-			return 1;
-		} else if (dx == 1 && dy == -1) {
-			return 2;
-		} else {
-			return 5;
-		}
-	}
+    public static final int getNPCWalkingDirection(final int dir) {
+        final int dx = Utils.NPC_DIRECTION_DELTA_X[dir];
+        final int dy = Utils.NPC_DIRECTION_DELTA_Y[dir];
+        if (dx == 0 && dy == 1) {
+            return 6;
+        } else if (dx == 1 && dy == 1) {
+            return 7;
+        } else if (dx == -1 && dy == 0) {
+            return 3;
+        } else if (dx == 1 && dy == 0) {
+            return 4;
+        } else if (dx == -1 && dy == -1) {
+            return 0;
+        } else if (dx == 0 && dy == -1) {
+            return 1;
+        } else if (dx == 1 && dy == -1) {
+            return 2;
+        } else {
+            return 5;
+        }
+    }
 
-	public static int getPlayerRunningDirection(final int dx, final int dy) {
-		if (dx == -2 && dy == -2) {
-			return 0;
-		}
-		if (dx == -1 && dy == -2) {
-			return 1;
-		}
-		if (dx == 0 && dy == -2) {
-			return 2;
-		}
-		if (dx == 1 && dy == -2) {
-			return 3;
-		}
-		if (dx == 2 && dy == -2) {
-			return 4;
-		}
-		if (dx == -2 && dy == -1) {
-			return 5;
-		}
-		if (dx == 2 && dy == -1) {
-			return 6;
-		}
-		if (dx == -2 && dy == 0) {
-			return 7;
-		}
-		if (dx == 2 && dy == 0) {
-			return 8;
-		}
-		if (dx == -2 && dy == 1) {
-			return 9;
-		}
-		if (dx == 2 && dy == 1) {
-			return 10;
-		}
-		if (dx == -2 && dy == 2) {
-			return 11;
-		}
-		if (dx == -1 && dy == 2) {
-			return 12;
-		}
-		if (dx == 0 && dy == 2) {
-			return 13;
-		}
-		if (dx == 1 && dy == 2) {
-			return 14;
-		}
-		if (dx == 2 && dy == 2) {
-			return 15;
-		}
-		return -1;
-	}
+    public static int getPlayerRunningDirection(final int dx, final int dy) {
+        if (dx == -2 && dy == -2) {
+            return 0;
+        }
+        if (dx == -1 && dy == -2) {
+            return 1;
+        }
+        if (dx == 0 && dy == -2) {
+            return 2;
+        }
+        if (dx == 1 && dy == -2) {
+            return 3;
+        }
+        if (dx == 2 && dy == -2) {
+            return 4;
+        }
+        if (dx == -2 && dy == -1) {
+            return 5;
+        }
+        if (dx == 2 && dy == -1) {
+            return 6;
+        }
+        if (dx == -2 && dy == 0) {
+            return 7;
+        }
+        if (dx == 2 && dy == 0) {
+            return 8;
+        }
+        if (dx == -2 && dy == 1) {
+            return 9;
+        }
+        if (dx == 2 && dy == 1) {
+            return 10;
+        }
+        if (dx == -2 && dy == 2) {
+            return 11;
+        }
+        if (dx == -1 && dy == 2) {
+            return 12;
+        }
+        if (dx == 0 && dy == 2) {
+            return 13;
+        }
+        if (dx == 1 && dy == 2) {
+            return 14;
+        }
+        if (dx == 2 && dy == 2) {
+            return 15;
+        }
+        return -1;
+    }
 
-	public static byte[] cryptRSA(final byte[] data, final BigInteger exponent, final BigInteger modulus) {
-		return new BigInteger(data).modPow(exponent, modulus).toByteArray();
-	}
+    public static byte[] cryptRSA(final byte[] data, final BigInteger exponent, final BigInteger modulus) {
+        return new BigInteger(data).modPow(exponent, modulus).toByteArray();
+    }
 
-	public static int getPlayerWalkingDirection(final int dx, final int dy) {
-		if (dx == -1 && dy == -1) {
-			return 0;
-		}
-		if (dx == 0 && dy == -1) {
-			return 1;
-		}
-		if (dx == 1 && dy == -1) {
-			return 2;
-		}
-		if (dx == -1 && dy == 0) {
-			return 3;
-		}
-		if (dx == 1 && dy == 0) {
-			return 4;
-		}
-		if (dx == -1 && dy == 1) {
-			return 5;
-		}
-		if (dx == 0 && dy == 1) {
-			return 6;
-		}
-		if (dx == 1 && dy == 1) {
-			return 7;
-		}
-		return -1;
-	}
+    public static int getPlayerWalkingDirection(final int dx, final int dy) {
+        if (dx == -1 && dy == -1) {
+            return 0;
+        }
+        if (dx == 0 && dy == -1) {
+            return 1;
+        }
+        if (dx == 1 && dy == -1) {
+            return 2;
+        }
+        if (dx == -1 && dy == 0) {
+            return 3;
+        }
+        if (dx == 1 && dy == 0) {
+            return 4;
+        }
+        if (dx == -1 && dy == 1) {
+            return 5;
+        }
+        if (dx == 0 && dy == 1) {
+            return 6;
+        }
+        if (dx == 1 && dy == 1) {
+            return 7;
+        }
+        return -1;
+    }
 
-	public static long currentTimeMillis() {
-		return System.currentTimeMillis();
-	}
+    public static long currentTimeMillis() {
+        return System.currentTimeMillis();
+    }
 
-	public static final boolean isOnRange(final int x1, final int y1, final int size1, final int x2, final int y2, final int size2, final int maxDistance) {
-		final int distanceX = x1 - x2;
-		final int distanceY = y1 - y2;
+    public static final boolean isOnRange(final int x1, final int y1, final int size1, final int x2, final int y2, final int size2, final int maxDistance) {
+        final int distanceX = x1 - x2;
+        final int distanceY = y1 - y2;
         return distanceX <= size2 + maxDistance && distanceX >= -size1 - maxDistance && distanceY <= size2 + maxDistance && distanceY >= -size1 - maxDistance;
     }
 
     public static final boolean isDiagonal(final int x1, final int y1, final int size1, final int x2, final int y2, final int size2) {
         // if (px == x - 1 && py == y - 1 || px == x + 4 && py == y - 1
         // || px == x + 4 && py == y + 4 || px == x - 1 && py == y + 4) {
-
         return x1 == (x2 - size1) && y1 == (y2 - size1) || x1 == (x2 + size2) && y1 == (y2 - size1) || x1 == (x2 + size2) && y1 == (y2 + size2) || x1 == (x2 - size1) && y1 == (y2 + size2);
-
         // if (distanceX > size2|| distanceX < -size1 || distanceY > size2 ||
         // distanceY < -size1) {
         // return false;
@@ -1114,7 +1063,7 @@ public final class Utils {
      * @return the value in milliseconds.
      */
     public static final double nanoToMilli(final long nanoseconds) {
-        final double num = nanoseconds / 1000000F;
+        final double num = nanoseconds / 1000000.0F;
         return Double.parseDouble(DECIMAL_FORMAT.format(num));
     }
 
@@ -1123,15 +1072,13 @@ public final class Utils {
     }
 
     public static String formatString(String str) {
-        if (str == null || str.isEmpty())
-            return str;
+        if (str == null || str.isEmpty()) return str;
         char[] array = str.toLowerCase().toCharArray();
         // Uppercase first letter.
         array[0] = Character.toUpperCase(array[0]);
         if (array[0] == '_') {
             array[0] = ' ';
         }
-
         // Uppercase all letters that follow a whitespace character.
         for (int i = 1; i < array.length; i++) {
             if (Character.isWhitespace(array[i - 1])) {
@@ -1140,7 +1087,6 @@ public final class Utils {
                 array[i - 1] = ' ';
             }
         }
-
         return new String(array);
     }
 
@@ -1156,9 +1102,12 @@ public final class Utils {
      * @param string the string to convert.
      * @return a suitable string.
      */
-    public static final String convertToNameFormat(@NonNull final String string) {
-        val builder = new StringBuilder();
-        for (val c : string.toCharArray()) {
+    public static final String convertToNameFormat(@NotNull final String string) {
+        if (string == null) {
+            throw new NullPointerException("string is marked non-null but is null");
+        }
+        final java.lang.StringBuilder builder = new StringBuilder();
+        for (final char c : string.toCharArray()) {
             if (Character.isLetter(c) || Character.isDigit(c) || c == '_' || c == ' ') {
                 builder.append(c);
             }
@@ -1167,7 +1116,7 @@ public final class Utils {
     }
 
     public static final int getAngle(final int xOffset, final int yOffset) {
-        return ((int) (Math.atan2(-xOffset, -yOffset) * 2607.5945876176133)) & 0x3fff;
+        return ((int) (Math.atan2(-xOffset, -yOffset) * 2607.5945876176133)) & 16383;
     }
 
     public static final int getAngle(final Location from, final Location target) {
@@ -1205,7 +1154,7 @@ public final class Utils {
             xs[(4 + ((size - fakeSize) * 4)) + 3] = -fakeSize + 1;
             xy[(4 + ((size - fakeSize) * 4)) + 3] = -size;
         }
-        return new int[][]{xs, xy};
+        return new int[][] {xs, xy};
     }
 
     public static final void shuffleIntegerArray(final int[] array) {
@@ -1235,6 +1184,7 @@ public final class Utils {
     public static String asWords(final int number) {
         return ValueConverters.ENGLISH_INTEGER.asWords(number);
     }
+
     public static String format(final int number) {
         return NumberFormat.getNumberInstance().format(number);
     }
@@ -1248,8 +1198,8 @@ public final class Utils {
     }
 
     public static Item[] concatenate(final Item[]... arrays) {
-        val list = new ArrayList<Item>();
-        for (val array : arrays) {
+        final java.util.ArrayList<com.zenyte.game.item.Item> list = new ArrayList<Item>();
+        for (final com.zenyte.game.item.Item[] array : arrays) {
             Arrays.stream(array).filter(Objects::nonNull).forEach(list::add);
         }
         final Item[] items = new Item[list.size()];
@@ -1296,7 +1246,7 @@ public final class Utils {
      * @return amount of archives/files (depending on indice type).
      */
     public static int getIndiceSize(final Indice indice, final int archiveId) {
-        val cache = Game.getCacheMgi();
+        final mgi.tools.jagcached.cache.Cache cache = Game.getCacheMgi();
         if (indice.getArchive() == -1 && archiveId == -1) {
             return cache.getArchive(indice.getIndice()).groupCount();
         }
@@ -1309,14 +1259,12 @@ public final class Utils {
 
     private static String convertLessThanOneThousand(int number) {
         String soFar;
-
         if (number % 100 < 20) {
             soFar = numNames[number % 100];
             number /= 100;
         } else {
             soFar = numNames[number % 10];
             number /= 10;
-
             soFar = tensNames[number % 10] + soFar;
             number /= 10;
         }
@@ -1331,14 +1279,11 @@ public final class Utils {
         if (number == 0) {
             return "zero";
         }
-
         String snumber = Long.toString(number);
-
         // pad with "0"
         final String mask = "000000000000";
         final DecimalFormat df = new DecimalFormat(mask);
         snumber = df.format(number);
-
         // XXXnnnnnnnnn
         final int billions = Integer.parseInt(snumber.substring(0, 3));
         // nnnXXXnnnnnn
@@ -1347,7 +1292,6 @@ public final class Utils {
         final int hundredThousands = Integer.parseInt(snumber.substring(6, 9));
         // nnnnnnnnnXXX
         final int thousands = Integer.parseInt(snumber.substring(9, 12));
-
         String tradBillions;
         switch (billions) {
             case 0:
@@ -1360,7 +1304,6 @@ public final class Utils {
                 tradBillions = convertLessThanOneThousand(billions) + " billion ";
         }
         String result = tradBillions;
-
         String tradMillions;
         switch (millions) {
             case 0:
@@ -1373,7 +1316,6 @@ public final class Utils {
                 tradMillions = convertLessThanOneThousand(millions) + " million ";
         }
         result = result + tradMillions;
-
         String tradHundredThousands;
         switch (hundredThousands) {
             case 0:
@@ -1386,17 +1328,15 @@ public final class Utils {
                 tradHundredThousands = convertLessThanOneThousand(hundredThousands) + " thousand ";
         }
         result = result + tradHundredThousands;
-
         String tradThousand;
         tradThousand = convertLessThanOneThousand(thousands);
         result = result + tradThousand;
-
         // remove extra spaces!
         return result.replaceAll("^\\s+", "").replaceAll("\\b\\s{2,}\\b", " ");
     }
 
     public static String suffixOrdinal(final int i) {
-        final String[] sufixes = new String[]{"th", "st", "nd", "rd", "th", "th", "th", "th", "th", "th"};
+        final String[] sufixes = new String[] {"th", "st", "nd", "rd", "th", "th", "th", "th", "th", "th"};
         switch (i % 100) {
             case 11:
             case 12:
@@ -1404,7 +1344,6 @@ public final class Utils {
                 return i + "th";
             default:
                 return i + sufixes[i % 10];
-
         }
     }
 
@@ -1419,7 +1358,7 @@ public final class Utils {
         if (fc == 'a' || fc == 'e' || fc == 'i' || fc == 'u' || fc == 'o') {
             return "an";
         } else {
-            final char sc = (s.length() > 1) ? s.charAt(1) : '\0';
+            final char sc = (s.length() > 1) ? s.charAt(1) : '\000';
             if (fc == 'x' && !(sc == 'a' || sc == 'e' || sc == 'i' || sc == 'o' || sc == 'u')) {
                 return "an";
             } else {
@@ -1429,14 +1368,14 @@ public final class Utils {
     }
 
     public static int rgbToHSL16(int red, int green, int blue) {
-        val rgb = ((red & 0x0ff) << 16) | ((green & 0x0ff) << 8) | (blue & 0x0ff);
+        final int rgb = ((red & 255) << 16) | ((green & 255) << 8) | (blue & 255);
         return rgbToHSL16(rgb);
     }
 
     public static int rgbToHSL16(int rgb) {
-        double r = (double) (rgb >> 16 & 0xff) / 256.0;
-        double g = (double) (rgb >> 8 & 0xff) / 256.0;
-        double b = (double) (rgb & 0xff) / 256.0;
+        double r = (double) (rgb >> 16 & 255) / 256.0;
+        double g = (double) (rgb >> 8 & 255) / 256.0;
+        double b = (double) (rgb & 255) / 256.0;
         double min = r;
         if (g < min) {
             min = g;
@@ -1492,7 +1431,7 @@ public final class Utils {
         } else if (l > 179) {
             s >>= 1;
         }
-        return ((l >> 1) + (((h & 0xff) >> 2 << 10) + (s >> 5 << 7)));
+        return ((l >> 1) + (((h & 255) >> 2 << 10) + (s >> 5 << 7)));
     }
 
     public static int getTextWidth(final int font, final String text) {
@@ -1505,7 +1444,6 @@ public final class Utils {
             int var2 = -1;
             int var3 = -1;
             int var4 = 0;
-
             for (int var5 = 0; var5 < text.length(); ++var5) {
                 char var6 = text.charAt(var5);
                 if (var6 == '<') {
@@ -1528,87 +1466,73 @@ public final class Utils {
                                 }
                                 continue;
                             }
-
                             var6 = '>';
                         }
                     }
-
                     if (var6 == 160) {
                         var6 = ' ';
                     }
-
                     if (var2 == -1) {
                         var4 += FONT_494_CHAR_WIDTHS[(char) (charToByteCp1252(var6) & 255)];
 						/*if (this.field3765 != null && var3 != -1) {
 							var4 += this.field3765[var6 + (var3 << 8)];
 						}*/
+                        var3 = var6;
+                    }
+                }
+            }
+            return var4;
+        }
+    }
 
-						var3 = var6;
-					}
-				}
-			}
-
-			return var4;
-		}
-	}
-
-	public static int parseInt(CharSequence var0, int var1, boolean var2) {
-		if(var1 >= 2 && var1 <= 36) {
-			boolean var3 = false;
-			boolean var4 = false;
-			int var5 = 0;
-			int var6 = var0.length();
-
-			for(int var7 = 0; var7 < var6; ++var7) {
-				char var8 = var0.charAt(var7);
-				if(var7 == 0) {
-					if(var8 == '-') {
-						var3 = true;
-						continue;
-					}
-
-					if(var8 == '+') {
-						continue;
-					}
-				}
-
-				int var10;
-				if(var8 >= '0' && var8 <= '9') {
-					var10 = var8 - '0';
-				} else if(var8 >= 'A' && var8 <= 'Z') {
-					var10 = var8 - '7';
-				} else {
-					if(var8 < 'a' || var8 > 'z') {
-						throw new NumberFormatException();
-					}
-
-					var10 = var8 - 'W';
-				}
-
-				if(var10 >= var1) {
-					throw new NumberFormatException();
-				}
-
-				if(var3) {
-					var10 = -var10;
-				}
-
-				int var9 = var10 + var5 * var1;
-				if(var9 / var1 != var5) {
-					throw new NumberFormatException();
-				}
-
-				var5 = var9;
-				var4 = true;
-			}
-
-			if(!var4) {
-				throw new NumberFormatException();
-			} else {
-				return var5;
-			}
-		} else {
-			throw new IllegalArgumentException("");
-		}
-	}
+    public static int parseInt(CharSequence var0, int var1, boolean var2) {
+        if (var1 >= 2 && var1 <= 36) {
+            boolean var3 = false;
+            boolean var4 = false;
+            int var5 = 0;
+            int var6 = var0.length();
+            for (int var7 = 0; var7 < var6; ++var7) {
+                char var8 = var0.charAt(var7);
+                if (var7 == 0) {
+                    if (var8 == '-') {
+                        var3 = true;
+                        continue;
+                    }
+                    if (var8 == '+') {
+                        continue;
+                    }
+                }
+                int var10;
+                if (var8 >= '0' && var8 <= '9') {
+                    var10 = var8 - '0';
+                } else if (var8 >= 'A' && var8 <= 'Z') {
+                    var10 = var8 - '7';
+                } else {
+                    if (var8 < 'a' || var8 > 'z') {
+                        throw new NumberFormatException();
+                    }
+                    var10 = var8 - 'W';
+                }
+                if (var10 >= var1) {
+                    throw new NumberFormatException();
+                }
+                if (var3) {
+                    var10 = -var10;
+                }
+                int var9 = var10 + var5 * var1;
+                if (var9 / var1 != var5) {
+                    throw new NumberFormatException();
+                }
+                var5 = var9;
+                var4 = true;
+            }
+            if (!var4) {
+                throw new NumberFormatException();
+            } else {
+                return var5;
+            }
+        } else {
+            throw new IllegalArgumentException("");
+        }
+    }
 }

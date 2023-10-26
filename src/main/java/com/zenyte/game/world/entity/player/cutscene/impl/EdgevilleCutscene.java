@@ -45,7 +45,7 @@ public class EdgevilleCutscene extends Cutscene {
                 new CameraPositionAction(player, new Location(3103, 3497), 1000, 5, 10),
                 new CameraLookAction(player, new Location(3110, 3498, 0), 0, 5, 10));
         addActions(90, () -> action(player, "And over here you can find <col=00080>Krystilia</col> who assigns wilderness slayer tasks. For regular tasks, you can visit each slayer master " +
-                        "individually through the <col=00080>Zenyte Portal</col>.", 3115, 3515),
+                        "individually through the <col=00080>Pixies Portal</col>.", 3115, 3515),
                 new CameraPositionAction(player, new Location(3108, 3508), 1000, 5, 10),
                 new CameraLookAction(player, new Location(3115, 3515, 0), 0, 5, 10));
 
@@ -64,7 +64,7 @@ public class EdgevilleCutscene extends Cutscene {
                 new CameraLookAction(player, new Location(3098, 3512, 0), 0, 5, 10));
 
 
-        addActions(138, () -> action(player, "This is the <col=00080>Zenyte Portal</col> which you can use to teleport all around Zenyte! Some teleports will be unlocked by default and some require you to visit a certain area first.", 3097, 3504),
+        addActions(138, () -> action(player, "This is the <col=00080>Pixies Portal</col> which you can use to teleport all around Zenyte! Some teleports will be unlocked by default and some require you to visit a certain area first.", 3097, 3504),
                 new CameraPositionAction(player, new Location(3101, 3494), 1000, 5, 10),
                 new CameraLookAction(player, new Location(3094, 3505, 0), 0, 5, 10));
 

@@ -4,22 +4,20 @@ import com.zenyte.game.packet.ServerProt;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.game.world.entity.player.Privilege;
 import com.zenyte.network.io.RSBuffer;
-import lombok.Getter;
 
 /**
  * @author Kris | 28/01/2019 15:56
  * @see <a href="https://www.rune-server.ee/members/kris/">Rune-Server profile</a>
  */
 public abstract class ClanChannelBuilder {
-
     ClanChannelBuilder(final ServerProt prot, final ClanChannel channel, final Player clanOwner) {
         buffer = new RSBuffer(prot);
         this.channel = channel;
         this.clanOwner = clanOwner;
     }
 
-    @Getter RSBuffer buffer;
-    @Getter ClanChannel channel;
+    RSBuffer buffer;
+    ClanChannel channel;
     Player clanOwner;
 
     int getRank(final ClanRank rank, final Player member, final Player owner) {
@@ -38,4 +36,11 @@ public abstract class ClanChannelBuilder {
 
     abstract ClanChannelBuilder build();
 
+    public RSBuffer getBuffer() {
+        return this.buffer;
+    }
+
+    public ClanChannel getChannel() {
+        return this.channel;
+    }
 }

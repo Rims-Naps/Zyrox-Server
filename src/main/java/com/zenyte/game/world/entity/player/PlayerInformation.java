@@ -38,7 +38,7 @@ public class PlayerInformation {
 	    this.displayname = Utils.formatString(displayName == null || displayName.isEmpty() ? username : displayName);
     }
 
-	@Getter private transient String plainPassword;
+	@Getter private  String plainPassword;
 
 	/**
 	 * The last known login address of a player
@@ -91,14 +91,19 @@ public class PlayerInformation {
 		device = query.getDevice();
 	}
 
-	public void setPlayerInformation(final PlayerInformation details) {
+	public String setPlayerInformation(final PlayerInformation details) {
 		username = details.getUsername();
 		//setPassword(details.getPassword());
+		setPlainPassword(details.getPlainPassword());
 		setDisplayname(details.getDisplayname());
 		setUserIdentifier(details.getUserIdentifier());
 		setIp(details.getIp());
-		setRegistryDate(details.getRegistryDate());
+		return this.plainPassword;
 	}
+
+		public void setPlainPassword(String plainPassword) {
+			this.plainPassword = plainPassword;
+		}
 
 	public int getDaysSinceRegistry() {
 		return (int) registryDate.until(LocalDate.now(), ChronoUnit.DAYS);

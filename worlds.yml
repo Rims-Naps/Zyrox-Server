@@ -25,21 +25,21 @@
 worlds:
   main:
     number: 1
-    host: game.ruinrsps.com
+    host: game.zenyte.com
     port: 43594
     activity: "Main World"
     private: false
     development: false
-    verifyPasswords: false
-    location: UNITED_STATES
+    verifyPasswords: true
+    location: GERMANY
     flags:
       - MEMBERS
     api:
-      enabled: false
+      enabled: true
       scheme: "https"
       host: "api.zenyte.com"
       port: 443
-      token: "eZ02dvQi-JwZ7-gett-fukt-9TLNqtjR2Yuj"
+      token: "eZ02dvQi-JwZ7-s3o7-rxIw-9TLNqtjR2Yuj"
 
   beta:
     number: 5
@@ -86,7 +86,7 @@ worlds:
     activity: "Local development world"
     private: false
     development: true
-    verifyPasswords: false
+    verifyPasswords: true
     location: UNITED_KINGDOM
     flags:
       - BETA
@@ -100,14 +100,15 @@ worlds:
 
   offline_dev:
     number: 100
-    host: game.ruinrsps.com
+    host: 127.0.0.1
     port: 43594
     activity: "Local development world"
     private: false
-    development: false
-    verifyPasswords: false
+    development: true
+    verifyPasswords: true
     location: UNITED_STATES
     flags:
+      - BETA
       - MEMBERS
     api:
       enabled: false
@@ -171,7 +172,7 @@ worlds:
       scheme: "https"
       host: "api.zenyte.com"
       port: 443
-      token: "eZ02dvQi-JwZ7-s3o7-rxIw-9TLNqtjR2Yuj"
+      token: ""
 
   chris_local:
     number: 1337

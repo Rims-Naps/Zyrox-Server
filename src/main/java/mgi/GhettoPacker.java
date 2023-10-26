@@ -241,7 +241,7 @@ public class GhettoPacker {
         packComponents();
         packInterfaces();
         packMaps();
-        packClientBackground(Files.readAllBytes(Paths.get("assets/sprites/background/background_desktop.png")),
+        packClientBackground(Files.readAllBytes(Paths.get("assets/sprites/background/RUIN.png")),
                 Files.readAllBytes(Paths.get("assets/sprites/background/background_mobile.png")),
                 Files.readAllBytes(Paths.get("assets/sprites/background/background_logo.png")));
     }
@@ -504,7 +504,7 @@ public class GhettoPacker {
     private static void packSprites() throws IOException {
         var sprite = new SpriteGroupDefinitions(423, 13, 13);
         sprite.setImage(0, ImageIO.read(new File("./assets/sprites/chat_icons/sprite_423_0.png")));
-        sprite.setImage(1, ImageIO.read(new File("./assets/sprites/chat_icons/sprite_423_1.png")));
+        sprite.setImage(1, ImageIO.read(new File("./assets/sprites/chat_icons/owner.png")));
         sprite.setImage(2, ImageIO.read(new File("./assets/sprites/chat_icons/sprite_423_2.png")));
         sprite.setImage(3, ImageIO.read(new File("./assets/sprites/chat_icons/sprite_423_3.png")));
         sprite.setImage(4, ImageIO.read(new File("./assets/sprites/chat_icons/ranks/in-game/support.png")));

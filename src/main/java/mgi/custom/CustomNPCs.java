@@ -47,9 +47,9 @@ public class CustomNPCs {
         def.setOptions(new String[]{"Talk-to", "Practice Mode", null, null, null});
         def.pack();
 
-        //Zenyte teleport wizard
+        //Pixies teleport wizard
         def = NPCDefinitions.get(4398);
-        def.setName("Zenyte Teleporter");
+        def.setName("Pixies Teleporter");
         def.setId(10000);
         def.setModels(new int[]{28220, 214, 250, 28991, 28226, 28224, 177, 534, 10698, 28223, 29249});
         def.setOptions(new String[]{"Teleport", null, null, "Teleport-previous", null});

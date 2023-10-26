@@ -84,7 +84,7 @@ public class NetworkBootstrap {
 		try {
 			bootstrap.bind(port).syncUninterruptibly();
 		} catch (final Exception e) {
-            log.error(Strings.EMPTY, e);
+            log.error(Strings.EMPTY + port, e);
 		}
 	}
 

@@ -35,7 +35,7 @@ public class WorldBroadcasts {
             "Did you know: Loyalty points are given to those actively playing Zenyte. These points can be spent at the achievement hall for cosmetic items.",
             "Did you know: You can imbue items such as slayer helmets and dagannoth rings using Imbue Tokens purchasable from the loyalty store.",
             "Did you know: The box of restoration can be used once every ten minutes (or less) to restore your stats including hitpoints and prayer, run energy, and cure poison.",
-            "Did you know: You can use regular teleports, fairy rings, spirit trees, gnome gliders and the Zenyte portal to travel around the world.",
+            "Did you know: You can use regular teleports, fairy rings, spirit trees, gnome gliders and the Pixies portal to travel around the world.",
             "Did you know: You can complete daily challenges to obtain extra experience.",
             "Did you know: Zenyte has full RuneLite integration? You can click the wrench icon on the client to customize the RuneLite settings to your liking.",
             "Did you know: You can enable two factor authentication (2FA) to prevent unauthorized logins to your accounts. Enable it in the Game noticeboard tab!",

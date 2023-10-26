@@ -17,6 +17,6 @@ public final class JackOLanternD extends Dialogue {
 	public void buildDialogue() {
 		npc("Listen friend.. I have a family too...");
 		npc("If you don't try to light me like Felix's water pipe...");
-		npc("I would like to wish you a Happy Halloween from the Zenyte Team, " + player);
+		npc("I would like to wish you a Happy Halloween from the Pixies Team, " + player);
 	}
 }

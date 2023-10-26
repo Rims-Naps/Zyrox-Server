@@ -88,7 +88,7 @@ public class CustomObjects {
 
 
         def = ObjectDefinitions.get(15478); //zenyte portal
-        def.setName("Zenyte Portal");
+        def.setName("Pixies Portal");
         def.setId(35000);
         def.setOptions(new String[] { "Teleport", "Teleport-previous", null, null, null });
         //def.getModels()[0] = 38000;

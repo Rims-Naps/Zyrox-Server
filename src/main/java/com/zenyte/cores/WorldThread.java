@@ -309,7 +309,7 @@ public final class WorldThread implements Runnable {
                     WORLD_CYCLE % 500 == 0 ? (playerSaveNano - purgeNano) : 0, finishNano - playerSaveNano, finishNano - nano, World.getPlayers().size(),
                     World.getNPCs().size(), WorldTasksManager.count(), publicStaff, privateStaff);
 
-            tickLogger.info(gson.toJson(tickLog));
+            //tickLogger.info(gson.toJson(tickLog));
 
 
             if (Constants.CYCLE_DEBUG) {

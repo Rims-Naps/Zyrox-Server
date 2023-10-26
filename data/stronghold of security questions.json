@@ -118,7 +118,7 @@
       {
         "option": "Respond quickly so as not to miss the offer.",
         "message": [
-          "Wrong! Zenyte staff will NEVER make offers like this - it is an attempt to obtain your account details. Please report the incident using the appropriate forum section."
+          "Wrong! Pixies staff will NEVER make offers like this - it is an attempt to obtain your account details. Please report the incident using the appropriate forum section."
         ]
       },
       {
@@ -159,7 +159,7 @@
   {
     "question": {
       "strings": [
-        "Is it OK to buy or sell a Zenyte account?"
+        "Is it OK to buy or sell a Pixies account?"
       ]
     },
     "answers": [
@@ -176,7 +176,7 @@
         ]
       },
       {
-        "option": "No, you should never buy a Zenyte account.",
+        "option": "No, you should never buy a Pixies account.",
         "message": [
           "Correct! Buying accounts is against the rules and you could lose the account at any time if you get caught."
         ]
@@ -193,7 +193,7 @@
       {
         "option": "Your real life bank PIN.",
         "message": [
-          "This is a bad idea as if someone happens to find out your bank PIN on Zenyte, they then have your real life bank PIN! Never use personal details for passwords or bank PINs!"
+          "This is a bad idea as if someone happens to find out your bank PIN on Pixies, they then have your real life bank PIN! Never use personal details for passwords or bank PINs!"
         ]
       },
       {
@@ -329,19 +329,19 @@
       {
         "option": "Nothing.",
         "message": [
-          "This is one solution, however someone will fall for this scam sooner or later. Remember that moderators are hand picked by Zenyte admins and contact is made through"
+          "This is one solution, however someone will fall for this scam sooner or later. Remember that moderators are hand picked by Pixies admins and contact is made through"
         ]
       },
       {
         "option": "Give them my password.",
         "message": [
-          "Wrong! This will almost certainly lead to your account being hijacked. Noone can make you a moderator as they are hand picked by Zenyte admins."
+          "Wrong! This will almost certainly lead to your account being hijacked. Noone can make you a moderator as they are hand picked by Pixies admins."
         ]
       },
       {
-        "option": "Inform Zenyte staff members by reporting the player on the forums",
+        "option": "Inform Pixies staff members by reporting the player on the forums",
         "message": [
-          "Correct! By informing us we can have the site taken down so that other players won't have their accounts hijacked by this scam. Remember that Moderators are hand picked by Zenyte admins. Make sure you don't",
+          "Correct! By informing us we can have the site taken down so that other players won't have their accounts hijacked by this scam. Remember that Moderators are hand picked by Pixies admins. Make sure you don't",
           " give out any personal details or passwords."
         ]
       }
@@ -369,7 +369,7 @@
       {
         "option": "Don't tell them anything and report them",
         "message": [
-          "Correct! Reporting scammers will make Zenyte a better game!"
+          "Correct! Reporting scammers will make Pixies a better game!"
         ]
       }
     ]
@@ -388,7 +388,7 @@
         ]
       },
       {
-        "option": "Report the stream as a scam. Zenyte never has double xp",
+        "option": "Report the stream as a scam. Pixies never has double xp",
         "message": [
           "Correct! This is a common phishing method and puts your account at risk!"
         ]
@@ -423,7 +423,7 @@
       {
         "option": "Politely tell them no and then use the 'Report Abuse' button.",
         "message": [
-          "Correct! Report any attempt to gain your account details as it is a very serious breach of Zenyte's rules. Never use personal details for passwords or bank PINs!"
+          "Correct! Report any attempt to gain your account details as it is a very serious breach of Pixies's rules. Never use personal details for passwords or bank PINs!"
         ]
       }
     ]
@@ -431,20 +431,20 @@
   {
     "question": {
       "strings": [
-        "Will Zenyte prevent me from saying my PIN in game?"
+        "Will Pixies prevent me from saying my PIN in game?"
       ]
     },
     "answers": [
       {
         "option": "Yes.",
         "message": [
-          "Wrong! Zenyte does NOT block your PIN so don't type it! Never use personal details for passwords or bank PINs!"
+          "Wrong! Pixies does NOT block your PIN so don't type it! Never use personal details for passwords or bank PINs!"
         ]
       },
       {
         "option": "No.",
         "message": [
-          "Correct! Zenyte will not block your PIN so don't type it! Never use personal details for passwords or bank PINs!"
+          "Correct! Pixies will not block your PIN so don't type it! Never use personal details for passwords or bank PINs!"
         ]
       }
     ]
@@ -486,19 +486,19 @@
       {
         "option": "Do as the email says!",
         "message": [
-          "Wrong! Zenyte will NEVER email to ask for account details. Please report the email on the forums."
+          "Wrong! Pixies will NEVER email to ask for account details. Please report the email on the forums."
         ]
       },
       {
         "option": "Respond quickly so that they can unlock your account.",
         "message": [
-          "Wrong! Zenyte will NEVER email to ask for account details. Please report the email on the forums."
+          "Wrong! Pixies will NEVER email to ask for account details. Please report the email on the forums."
         ]
       },
       {
         "option": "Don't click any links, report the email adress.",
         "message": [
-          "Correct! Zenyte will NEVER email you unless you've used the website to change your account. Account details can only be verified through using the forums on the official website, NOT",
+          "Correct! Pixies will NEVER email you unless you've used the website to change your account. Account details can only be verified through using the forums on the official website, NOT",
           "through responding to emails."
         ]
       }
@@ -514,13 +514,13 @@
       {
         "option": "Do what they ask you, using the provided link in the video description.",
         "message": [
-          "Incorrect! Don't trust these types of link even if they look similar to the Zenyte's website."
+          "Incorrect! Don't trust these types of link even if they look similar to the Pixies's website."
         ]
       },
       {
         "option": "Report the player for phishing.",
         "message": [
-          "Correct! Always be wary of these links and double check you are on the official Zenyte website before entering your login details!"
+          "Correct! Always be wary of these links and double check you are on the official Pixies website before entering your login details!"
         ]
       },
       {
@@ -541,11 +541,11 @@
       {
         "option": "Post on social media about it.",
         "message": [
-          "Wrong! Social media will often not solve the problem directly and will only succeed in directing you to the Zenyte website to regain access to your account."
+          "Wrong! Social media will often not solve the problem directly and will only succeed in directing you to the Pixies website to regain access to your account."
         ]
       },
       {
-        "option": "Secure my device and reset my Zenyte password.",
+        "option": "Secure my device and reset my Pixies password.",
         "message": [
           "Correct! Securing your systems with virus and malware scans is important before resetting your account password to ensure your details are not compromised again. Don't forget to secure your email account too!"
         ]
@@ -555,20 +555,20 @@
   {
     "question": {
       "strings": [
-        "How do I set up two-factor authentication for my Zenyte account?"
+        "How do I set up two-factor authentication for my Pixies account?"
       ]
     },
     "answers": [
       {
-        "option": "Through account settings on Zenyte.com.",
+        "option": "Through account settings on Pixies.com.",
         "message": [
-          "Correct! Visiting zenyte.com and using the Support link at the top of the page will allow you to set up two-factor authentication."
+          "Correct! Visiting Pixies.com and using the Support link at the top of the page will allow you to set up two-factor authentication."
         ]
       },
       {
         "option": "By messaging moderators.",
         "message": [
-          "Wrong! Visiting Zenyte.com and using the account settings at the top of the page will allow you to set up two-factor authentication."
+          "Wrong! Visiting Pixies.com and using the account settings at the top of the page will allow you to set up two-factor authentication."
         ]
       }
     ]
@@ -581,7 +581,7 @@
     },
     "answers": [
       {
-        "option": "Talk to any banker in Zenyte.",
+        "option": "Talk to any banker in Pixies.",
         "message": [
           "Correct! Simply talking to a banker will give you the option to set a bank PIN. Never use personal details for passwords or bank PINs!"
         ]
@@ -641,7 +641,7 @@
         ]
       },
       {
-        "option": "Use an email address just for Zenyte.",
+        "option": "Use an email address just for Pixies.",
         "message": [
           "Wrong! Even if you don't use your email address elsewhere there is still a risk that somebody could access it."
         ]
@@ -651,26 +651,26 @@
   {
     "question": {
       "strings": [
-        "A player says that Zenyte prevents you from saying your password backwards in game. What do you do?"
+        "A player says that Pixies prevents you from saying your password backwards in game. What do you do?"
       ]
     },
     "answers": [
       {
         "option": "Type my password in backwards.",
         "message": [
-          "Incorrect! Zenyte will not prevent this - never say your password in game in any form."
+          "Incorrect! Pixies will not prevent this - never say your password in game in any form."
         ]
       },
       {
         "option": "Don't type in my password backwards and report the player.",
         "message": [
-          "Correct! Zenyte won't prevent you saying your password backwards in game - doing so could compromise your account!"
+          "Correct! Pixies won't prevent you saying your password backwards in game - doing so could compromise your account!"
         ]
       },
       {
         "option": "1drowssaP.",
         "message": [
-          "Incorrect! Zenyte will not prevent this - never say your password in game in any form."
+          "Incorrect! Pixies will not prevent this - never say your password in game in any form."
         ]
       }
     ]
@@ -821,13 +821,13 @@
       {
         "option": "Me.",
         "message": [
-          "Correct! Make sure to use the tools Zenyte recommend such as the authenticator to do so!"
+          "Correct! Make sure to use the tools Pixies recommend such as the authenticator to do so!"
         ]
       },
       {
-        "option": "Zenyte.",
+        "option": "Pixies.",
         "message": [
-          "Incorrect! Zenyte offer tools such as the authenticator to help, but you must make sure to keep your info safe!"
+          "Incorrect! Pixies offer tools such as the authenticator to help, but you must make sure to keep your info safe!"
         ]
       },
       {

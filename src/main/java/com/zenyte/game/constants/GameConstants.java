@@ -11,6 +11,6 @@ public class GameConstants {
 	public static final int LOGIN_PORT = 43596;
     public static final boolean DEV_DEBUG = true;
     public static final Location REGISTRATION_LOCATION = new Location(2325, 2913, 0);
-    public static final String SERVER_NAME = "Ruin";
+    public static final String SERVER_NAME = "Pixies";
     public static final int XP_RATE_MODIFIER = 1;
 }

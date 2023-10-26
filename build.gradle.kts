@@ -7,9 +7,7 @@ plugins {
 group = "com.zenyte"
 version = "0.1.0-SNAPSHOT"
 
-kotlin {
-    jvmToolchain(17)
-}
+
 
 dependencies {
     implementation(":lombok-edge")

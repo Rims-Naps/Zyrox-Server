@@ -103,6 +103,8 @@ public enum PortalTeleport implements Teleport {
 
     GIANT_MOLE(BOSSES, "Falador Park Underground", "Location: Falador Park Underground", UnlockType.DEFAULT,
             new Location(1752, 5235, 0)),
+    HIGH_REVENANTS(WILDERNESS, "Revenants", "Location: Revenants, level 39 entrance.", UnlockType.DEFAULT, new Location(3129, 3831, 0)),
+    LOW_REVENANTS(WILDERNESS, "Revenants", "Location: Revenants, level 17 entrance.", UnlockType.DEFAULT, new Location(3076, 3650, 0)),
     KALPHITE_QUEEN(BOSSES, "Desert, Kalphite Lair Entrance", "Location: Desert, Kalphite Lair Entrance",
             UnlockType.DEFAULT, new Location(3230, 3109, 0)),
     GODWARS(BOSSES, "Godwars Dungeon", "Location: Godwars Dungeon", UnlockType.SCROLL, new Location(2912, 3747, 0)),
@@ -184,7 +186,8 @@ public enum PortalTeleport implements Teleport {
     BLAST_FURNACE(MINIGAMES, "Blast Furnace", "Location: Keldagrim", UnlockType.DEFAULT, new Location(2931, 10196, 0)),
     WINTERTODT(BOSSES, "Wintertodt Camp", "Location: Northern Tundras of Great Kourend", UnlockType.DEFAULT, new Location(1624, 3929, 0)),
     TYRAS_CAMP(MISC, "Tyras Camp", "Location: Tyras Camp", UnlockType.DEFAULT, new Location(2186, 3147, 0)),
-    
+
+
     ;
 
 

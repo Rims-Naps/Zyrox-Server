@@ -12,8 +12,8 @@ import lombok.val;
 @RequiredArgsConstructor
 public enum ExperienceMode {
 
-    TIMES_10(10),
-    TIMES_50(50);
+    TIMES_50(50),
+    TIMES_100(100);
 
     private final int rate;
 

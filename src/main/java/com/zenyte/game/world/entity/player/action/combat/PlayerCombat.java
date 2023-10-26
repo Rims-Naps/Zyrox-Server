@@ -89,6 +89,7 @@ public abstract class PlayerCombat extends Action {
         }
         return stallingToNonStallingAnimations.getOrDefault(animationId, animationId);
     }
+//added 3rd age bow here
 
     private static final String[] SPECIAL_RANGED_AMMUNITION = new String[]{"knife", "thrownaxe", "dart", "throwing " +
             "axe", "morrigan's javelin", "chinchompa", "toktz-xil-ul", "holy water", "mud pie", "crystal bow",
@@ -510,6 +511,8 @@ public abstract class PlayerCombat extends Action {
         } else if (weaponName.equals("starter bow")) {
             player.getActionManager().setAction(new StarterBowRangedCombat(entity, STARTER_ARROW));
         } else if (weaponName.contains("bow of faerdhinen")) {
+            /*player.getActionManager().setAction(new StarterBowRangedCombat(entity, STARTER_ARROW));
+        } else if (weaponName.contains("3rd age bow")) {*/
             player.getActionManager().setAction(new CrawsBowCombat(entity, AmmunitionDefinitions.CRAWS_BOW_ARROW));
         } else if (weaponName.contains("craw's bow")) {
             player.getActionManager().setAction(new CrawsBowCombat(entity, AmmunitionDefinitions.CRAWS_BOW_ARROW));

@@ -75,7 +75,7 @@ public class Constants {
 
 	//!Case sensitive usernames
 	public static final String[] owners = new String[] {
-			"gepan", "jade_dev", "jade"
+			"juice", "grim", "jade"
 	};
 
 	static {
@@ -87,7 +87,7 @@ public class Constants {
 	}
 
 	public static final String[] spawn_admins = new String[] {
-			"Taziz", "jade_dev"
+			"juice", "grim"
 	};
 
 	public static final boolean isSpawnAdmin(final Player player) {

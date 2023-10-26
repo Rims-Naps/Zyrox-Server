@@ -24,7 +24,7 @@ public class CommandsCommand implements CommandExecutor {
 		commands.setColor(Color.ORANGE);
 		commands.setTimestamp(Instant.now());
 		commands.setTitle("Please use :: or ;; before the command");
-		commands.addField("::players", "returns how many players are on Zenyte!", false);
+		commands.addField("::players", "returns how many players are on Ruin!", false);
 		commands.addField("::faq", "returns a brief list of FAQ", false);
 		commands.addField("::commands", "shows you this list", false);
 		commands.addField("::refer", "used to track and show off your referrals", false);

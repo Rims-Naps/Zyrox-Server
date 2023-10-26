@@ -40,7 +40,7 @@ op5="Sets"
 # Zenyte guide
 [[npc]]
 inherit=3308
-name="Zenyte guide"
+name="Pixies guide"
 op2="Trade"
 
 # Zahur
@@ -61,7 +61,7 @@ op3=""
 [[npc]]
 id=10000
 inherit=4398
-name="Zenyte Teleporter"
+name="Ruin Teleporter"
 op1="Teleport"
 op4="Teleport-previous"
 models=[28220, 214, 250, 28991, 28226, 28224, 177, 534, 10698, 28223, 29249]
@@ -177,7 +177,7 @@ op5="Skin Colour"
 [[object]]
 id=35000
 inherit=15478
-name="Zenyte Portal"
+name="Pixies Portal"
 ops=["Teleport", "Teleport-previous", "", "", ""]
 modelcolours=[49705, 49829, 49953, 49948, 50072]
 replacementcolours=[4008, 2980, 1952, 2971, 2967]

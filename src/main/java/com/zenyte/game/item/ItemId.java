@@ -10486,6 +10486,7 @@ public class ItemId {
     public static final int MOUNTED_DIGSITE_PENDANT = 22709;
     public static final int CURATORS_MEDALLION = 22710;
     public static final int COLLECTION_LOG = 22711;
+    public static final int COMBAT_ACHIEVMENTS = 32239;
     public static final int STARFACE = 22713;
     public static final int TREE_TOP = 22715;
     public static final int TREE_SKIRT = 22717;

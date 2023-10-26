@@ -28,17 +28,16 @@ import it.unimi.dsi.fastutil.Function;
 import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
 import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
 import it.unimi.dsi.fastutil.objects.ObjectSets;
-import lombok.Getter;
-import lombok.extern.slf4j.Slf4j;
-import lombok.val;
 import org.apache.commons.lang3.mutable.MutableBoolean;
 import org.apache.logging.log4j.util.Strings;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.PrintWriter;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Queue;
@@ -53,114 +52,100 @@ import java.util.function.Consumer;
  * @author Kris | 25/02/2019 00:02
  * @see <a href="https://www.rune-server.ee/members/kris/">Rune-Server profile</a>
  */
-@Slf4j
 public class LoginManager {
+    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LoginManager.class);
+
 
     private enum Response {
-        VOID,
-        CANCELLED
+        VOID, CANCELLED;
     }
 
     /**
      * A set of usernames of the characters who have been modified since the last backup occurred.
      */
     final Set<String> modifiedCharacters = ObjectSets.synchronize(new ObjectOpenHashSet<>(1000));
-
     /**
      * A map of cached loaded up players; the player is cached whenever it is loaded up externally outside of a login. The entry is cleared if either more than 10 minutes have
      * passed since its caching, or the user logs in.
      */
     private static final Map<String, CachedEntry> cachedPlayers = new ConcurrentHashMap<>();
-
     /**
      * The player save directory that all serialized files are placed.
      */
-    static final String PLAYER_SAVE_DIRECTORY = "./data/characters/";
-
+    static final Path PLAYER_SAVE_DIRECTORY = Path.of("data", "characters");
     /**
      * The file format extension we are serailizing information in.
      */
     private static final String EXTENSION = ".json";
-
     /**
      * The gson object we initiate upon calling our game loader.
      */
-    private static final Gson gson =
-            new GsonBuilder()
+    private static final ThreadLocal<Gson> gson = ThreadLocal.withInitial(
+            () -> new GsonBuilder()
                     .registerTypeAdapter(Perk.class, new PerkAdapter())
                     .registerTypeAdapter(FarmingSpot.class, Farming.deserializer())
-                    .registerTypeAdapter(VarManager.class, VarManager.deserializer()).disableHtmlEscaping()
+                    .registerTypeAdapter(VarManager.class, VarManager.deserializer())
+                    .disableHtmlEscaping()
                     .registerTypeAdapter(DailyChallenge.class, new ChallengeAdapter())
-                    .create();
-
+                    .create());
     /**
      * The forkjoin pool that will be processing load and save requests of the characters.
      */
     private final ForkJoinPool pool = new ForkJoinPool();
-
     /**
      * A concurrent queue used for passing on requests to load the user; thread safety reasons.
      */
     private final Queue<Function<Void, Response>> loadRequests = new ConcurrentLinkedQueue<>();
-
     /**
      * A concurrent queue used for passing on requests to save the user; thread safety reasons.
      */
     private final Queue<Runnable> saveRequests = new ConcurrentLinkedQueue<>();
-
     /**
      * A map for user saving requests, wherein key is the username of the account which will also be the name of the
      * file we save, thus eliminating any sort of overwriting or other sort of problems. Additionally ensures there
      * are no duplicate requests.
      */
     private final Map<String, Callable<Void>> saveRequestMap = new Object2ObjectOpenHashMap<>();
-
     /**
      * A map for user load requests, wherein key is the username of the account which will also be the name of the
      * file we load, thus eliminating any sort of problems with file loading. Additionally ensures there are no
      * duplicate requests.
      */
     private final Map<String, Callable<Void>> loadRequestsMap = new Object2ObjectOpenHashMap<>();
-
     /**
      * The current stage of the login system, starting off in the {@link ShutdownStage#RUNNING} stage.
      */
     @NotNull
     private ShutdownStage shutdownStage = ShutdownStage.RUNNING;
-
     public static final Object writeLock = new Object();
-
     /**
      * The default thread sleep frequency - if there are no pending requests, the thread will sleep for the defined
      * duration(milliseconds).
      */
     private static final int THREAD_SLEEP_FREQUENCY = 20;
-
     /**
      * The maximum number of requests the server may process per a single tick.
      */
-    private static final int MAXIMUM_ALLOWED_REQUESTS_PER_SECOND =
-            (int) TimeUnit.SECONDS.toMillis(1) / THREAD_SLEEP_FREQUENCY;
-
+    private static final int MAXIMUM_ALLOWED_REQUESTS_PER_SECOND = (int) TimeUnit.SECONDS.toMillis(1) / THREAD_SLEEP_FREQUENCY;
     /**
      * The remaining allowed logins count at this moment.
      */
     private int loads = MAXIMUM_ALLOWED_REQUESTS_PER_SECOND;
     private MutableBoolean sleeping = new MutableBoolean(false);
-
     /**
      * The thread that executes the loading and saving of the accounts.
      */
-    @Getter private Thread thread;
-
-    @Getter
+    private Thread thread;
     private final Set<Player> awaitingSave = new ObjectOpenHashSet<>();
-
     MutableBoolean status = new MutableBoolean();
 
     static {
-        if (new File(PLAYER_SAVE_DIRECTORY).mkdirs()) {
-            log.info("Characters folder created.");
+        if (Files.notExists(PLAYER_SAVE_DIRECTORY)) {
+            try {
+                Files.createDirectories(PLAYER_SAVE_DIRECTORY);
+            } catch (final IOException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 
@@ -179,6 +164,7 @@ public class LoginManager {
                         while (loadRequests.isEmpty() && saveRequests.isEmpty()) {
                             Thread.sleep(THREAD_SLEEP_FREQUENCY);
                         }
+
                         sleeping.setFalse();
                         LoginManager.this.process();
                         if (LoginManager.this.isShutdown()) {
@@ -237,6 +223,7 @@ public class LoginManager {
      */
     public void save(@NotNull final Player player) {
         if (player.isNulled()) {
+            log.warn("Not saving player {} because the player is nulled.", player);
             return;
         }
         modifiedCharacters.add(player.getUsername());
@@ -266,10 +253,9 @@ public class LoginManager {
      * @param consumer          the consumer that will use the loaded player object.
      */
     public void load(final long time, @NotNull final PlayerInformation playerInformation, @NotNull final Consumer<Player> consumer) {
-        val username = Utils.formatUsername(playerInformation.getUsername());
-        loadRequests.add((voidObject) -> {
-            if (World.getPlayers().size() >= 2000
-                    || System.currentTimeMillis() - time >= java.util.concurrent.TimeUnit.SECONDS.toMillis(30)) {
+        final java.lang.String username = Utils.formatUsername(playerInformation.getUsername());
+        loadRequests.add(voidObject -> {
+            if (World.getPlayers().size() >= 2000 || System.currentTimeMillis() - time >= java.util.concurrent.TimeUnit.SECONDS.toMillis(30)) {
                 return Response.CANCELLED;
             }
             if (!playerInformation.getSession().getChannel().isOpen()) {
@@ -277,20 +263,15 @@ public class LoginManager {
             }
             loadRequestsMap.put(username, () -> {
                 try {
-                    if (World.getPlayers().size() >= 2000
-                            || System.currentTimeMillis() - time >= java.util.concurrent.TimeUnit.SECONDS.toMillis(30)) {
+                    if (World.getPlayers().size() >= 2000 || System.currentTimeMillis() - time >= java.util.concurrent.TimeUnit.SECONDS.toMillis(30)) {
                         return null;
                     }
                     if (!playerInformation.getSession().getChannel().isOpen()) {
                         return null;
                     }
-                    val existingPlayer = getPlayer(username);
-                    val player = new Player(playerInformation, existingPlayer == null ?
-                                                               null :
-                                                               existingPlayer.getAuthenticator());
-                    val forumAccountInfo = Constants.WORLD_PROFILE.getApi().isEnabled() ?
-                                           new AccountInformationRequest(username).execute() :
-                                           null;
+                    final com.zenyte.game.world.entity.player.Player existingPlayer = getPlayer(username);
+                    final com.zenyte.game.world.entity.player.Player player = new Player(playerInformation, existingPlayer == null ? null : existingPlayer.getAuthenticator());
+                    final com.zenyte.api.client.query.AccountInformationRequestResults forumAccountInfo = Constants.WORLD_PROFILE.getApi().isEnabled() ? new AccountInformationRequest(username).execute() : null;
                     if (existingPlayer == null) {
                         if (Constants.isOwner(player)) {
                             player.setPrivilege(Privilege.SPAWN_ADMINISTRATOR);
@@ -346,24 +327,21 @@ public class LoginManager {
      *                          executed directly from the {@link this#pool}
      * @param consumer          the optional consumer that will use the loaded player object.
      */
-    public void load(@NotNull final String requestedUsername, final boolean sync,
-                     @NotNull final Consumer<Optional<Player>> consumer) {
-        val username = Utils.formatUsername(requestedUsername);
-        val cached = cachedPlayers.get(username);
+    public void load(@NotNull final String requestedUsername, final boolean sync, @NotNull final Consumer<Optional<Player>> consumer) {
+        final java.lang.String username = Utils.formatUsername(requestedUsername);
+        final com.zenyte.game.world.entity.player.login.CachedEntry cached = cachedPlayers.get(username);
         if (cached != null && !cached.getCachedAccount().isNulled()) {
             consumer.accept(Optional.ofNullable(cached.getCachedAccount()));
             return;
         }
-        loadRequests.add((voidObject) -> {
+        loadRequests.add(voidObject -> {
             loadRequestsMap.put(username, () -> {
                 try {
-                    val player = getPlayer(username);
+                    final com.zenyte.game.world.entity.player.Player player = getPlayer(username);
                     if (player != null) {
                         cachedPlayers.put(username, new CachedEntry(System.currentTimeMillis(), player));
                     }
-                    WorldTasksManager.scheduleOrExecute(() -> consumer.accept(Optional.ofNullable(player)), sync ?
-                                                                                                            0 :
-                                                                                                            -1);
+                    WorldTasksManager.scheduleOrExecute(() -> consumer.accept(Optional.ofNullable(player)), sync ? 0 : -1);
                 } catch (Exception e) {
                     System.err.println(requestedUsername + " FAILED REQUEST");
                     e.printStackTrace();
@@ -380,8 +358,8 @@ public class LoginManager {
      * @param player the player that was created.
      */
     private void setDefaults(final Player player) {
-        val info = player.getPlayerInformation();
-        val addr = info.getSession().getChannel().remoteAddress().toString();
+        final com.zenyte.game.world.entity.player.PlayerInformation info = player.getPlayerInformation();
+        final java.lang.String addr = info.getSession().getChannel().remoteAddress().toString();
         info.setIp(addr.substring(1, addr.indexOf(":")));
         player.setDefaultSettings();
     }
@@ -392,7 +370,7 @@ public class LoginManager {
      * finished executing. Finally, continues off to process all of the load requests.
      */
     public void process() {
-        synchronized(writeLock) {
+        synchronized (writeLock) {
             status.setTrue();
             Runnable request;
             while (decrementSaves() && (request = saveRequests.poll()) != null) {
@@ -400,7 +378,7 @@ public class LoginManager {
             }
             Function<Void, Response> function;
             while ((function = loadRequests.poll()) != null) {
-                val returnCode = function.apply(null);
+                final com.zenyte.game.world.entity.player.login.LoginManager.Response returnCode = function.apply(null);
                 if (returnCode == Response.CANCELLED) {
                     continue;
                 }
@@ -408,7 +386,6 @@ public class LoginManager {
                     break;
                 }
             }
-
             if (!saveRequestMap.isEmpty()) {
                 pool.invokeAll(saveRequestMap.values());
                 saveRequestMap.clear();
@@ -428,7 +405,7 @@ public class LoginManager {
         if (shutdownStage.equals(ShutdownStage.RUNNING)) {
             throw new IllegalStateException("Cannot request for shutdown waiting until the shutdown has commenced.");
         }
-        while(!shutdownStage.equals(ShutdownStage.SHUT_DOWN)) {
+        while (!shutdownStage.equals(ShutdownStage.SHUT_DOWN)) {
             try {
                 Thread.sleep(1);
             } catch (InterruptedException e) {
@@ -461,12 +438,16 @@ public class LoginManager {
      * @param username the username of the player.
      * @return the player object.
      */
-    private final Player getPlayer(@NotNull final String username) {
-        val file = new File(PLAYER_SAVE_DIRECTORY + Utils.formatUsername(username) + EXTENSION);
-        if (!file.exists()) {
+    private Player getPlayer(@NotNull final String username) {
+        final Gson gson = LoginManager.gson.get();
+
+        final String formattedUsername = Utils.formatUsername(username);
+        final String fileName = formattedUsername + EXTENSION;
+        final Path filePath = PLAYER_SAVE_DIRECTORY.resolve(fileName);
+        if (Files.notExists(filePath)) {
             return null;
         }
-        try (final BufferedReader reader = new BufferedReader(new FileReader(file))) {
+        try (final BufferedReader reader = Files.newBufferedReader(filePath)) {
             return gson.fromJson(reader, Player.class);
         } catch (final Exception e) {
             throw new IllegalStateException(e);
@@ -482,24 +463,35 @@ public class LoginManager {
         if (player.isNulled()) {
             return;
         }
-        val json = gson.toJson(player);
-        val saveFile = new File(PLAYER_SAVE_DIRECTORY + player.getUsername() + EXTENSION);
-        try (val writer = new PrintWriter(saveFile, "UTF-8")) {
-            writer.println(json);
-        } catch (final Exception e) {
+
+        final String json = gson.get().toJson(player);
+
+        final String username = player.getUsername();
+        final String fileName = username + EXTENSION;
+        try {
+            final Path tempFile = Files.createTempFile(PLAYER_SAVE_DIRECTORY, fileName, ".tmp");
+            Files.writeString(tempFile, json, StandardCharsets.UTF_8);
+
+            final Path finalFile = PLAYER_SAVE_DIRECTORY.resolve(fileName);
+            Files.move(tempFile, finalFile, StandardCopyOption.ATOMIC_MOVE, StandardCopyOption.REPLACE_EXISTING);
+        } catch (final IOException e) {
             throw new IllegalStateException(e);
         }
-        val runnable = player.getPostSaveFunction();
+
+        final Runnable runnable = player.getPostSaveFunction();
         if (runnable != null) {
             CoresManager.getServiceProvider().executeWithDelay(runnable, 300);
         }
     }
 
+
     /**
      * An enum containing the shutdown stages used for the forkjoinpool to determine whether or not the system has
      * fully shut down.
      */
-    private enum ShutdownStage {RUNNING, SHUTTING_DOWN, SHUT_DOWN}
+    private enum ShutdownStage {
+        RUNNING, SHUTTING_DOWN, SHUT_DOWN;
+    }
 
     /**
      * Sets the serialized fields of a player based on the deserialized fields from the loaded account.
@@ -507,7 +499,7 @@ public class LoginManager {
      * @param player the constructed played that will be logging in.
      * @param parser the loaded deserialized account.
      */
-    public static void setFields(final Player player, final Player parser) {
+    private static void setFields(final Player player, final Player parser) {
         player.setLastLocation(parser.getLocation());
         player.getPlayerInformation().setPlayerInformation(parser.getPlayerInformation());
         player.setBank(new Bank(player, parser.getBank()));
@@ -540,7 +532,6 @@ public class LoginManager {
         player.getLootingBag().initialize(parser.getLootingBag());
         player.getHerbSack().initialize(parser.getHerbSack());
         player.getGemBag().initialize(parser.getGemBag());
-        player.getGnomishFirelighter().initialize(parser.getGnomishFirelighter());
         player.getGrandExchange().initialize(parser.getGrandExchange());
         player.getTeleportManager().initialize(parser.getTeleportManager());
         player.getPetInsurance().initialize(parser.getPetInsurance());
@@ -553,16 +544,14 @@ public class LoginManager {
         PluginManager.post(new PostInitializationEvent(player));
     }
 
-    public static final Player getPlayerSave(@NotNull final String username) {
-        val file = new File(PLAYER_SAVE_DIRECTORY + Utils.formatUsername(username) + EXTENSION);
-        if (!file.exists()) {
-            return null;
-        }
-        try (final BufferedReader reader = new BufferedReader(new FileReader(file))) {
-            return gson.fromJson(reader, Player.class);
-        } catch (final Exception e) {
-            throw new IllegalStateException(e);
-        }
+    /**
+     * The thread that executes the loading and saving of the accounts.
+     */
+    public Thread getThread() {
+        return this.thread;
     }
 
+    public Set<Player> getAwaitingSave() {
+        return this.awaitingSave;
+    }
 }

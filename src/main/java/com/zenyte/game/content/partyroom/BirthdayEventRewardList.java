@@ -2,6 +2,7 @@ package com.zenyte.game.content.partyroom;
 
 import com.google.common.eventbus.Subscribe;
 import com.zenyte.cores.CoresManager;
+import com.zenyte.game.constants.GameConstants;
 import com.zenyte.game.item.Item;
 import com.zenyte.game.item.ItemId;
 import com.zenyte.game.parser.scheduled.ScheduledExternalizable;
@@ -11,7 +12,6 @@ import com.zenyte.game.world.World;
 import com.zenyte.game.world.entity.player.Player;
 import com.zenyte.plugins.events.LoginEvent;
 import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
-import lombok.val;
 import org.apache.logging.log4j.util.Strings;
 import org.jetbrains.annotations.NotNull;
 
@@ -23,13 +23,13 @@ import java.util.Set;
  * @see <a href="https://www.rune-server.ee/members/kris/">Rune-Server profile</a>
  */
 public class BirthdayEventRewardList implements ScheduledExternalizable {
-
     private static final Set<String> usernames = new ObjectOpenHashSet<>();
     private static final String path = "data/birthday event.json";
 
     private static final void load(final BufferedReader reader) {
-        val set = World.getGson().fromJson(reader, String[].class);
-        for (val username : set) {
+        final java.lang.String[] set = World.getGson().fromJson(reader, String[].class);
+        if (set == null) return;
+        for (final java.lang.String username : set) {
             usernames.add(Utils.formatUsername(username));
         }
     }
@@ -45,7 +45,7 @@ public class BirthdayEventRewardList implements ScheduledExternalizable {
     }
 
     public static final void refreshAll() {
-        for (val username : usernames) {
+        for (final java.lang.String username : usernames) {
             World.getPlayer(username).ifPresent(BirthdayEventRewardList::addReward);
         }
     }
@@ -55,7 +55,7 @@ public class BirthdayEventRewardList implements ScheduledExternalizable {
             return;
         }
         player.getTrackedHolidayItems().add(ItemId.BIRTHDAY_CAKE);
-        player.sendMessage(Colour.RS_GREEN.wrap("You have received a birthday cake for participating in the 2020 Zenyte birthday event."));
+        player.sendMessage(Colour.RS_GREEN.wrap("You have received a birthday cake for participating in the 2020 " + GameConstants.SERVER_NAME + " birthday event."));
         player.sendMessage(Colour.RS_GREEN.wrap("Should you lose the cake, you can reclaim it from Diango in Draynor Village."));
         player.getInventory().addOrDrop(new Item(ItemId.BIRTHDAY_CAKE));
     }
@@ -70,8 +70,8 @@ public class BirthdayEventRewardList implements ScheduledExternalizable {
     public static final void addUsername(@NotNull final String username) {
         if (usernames.add(Utils.formatUsername(username))) {
             CoresManager.getServiceProvider().submit(() -> {
-                val array = usernames.toArray(new String[0]);
-                val toJson = World.getGson().toJson(array);
+                final java.lang.String[] array = usernames.toArray(new String[0]);
+                final java.lang.String toJson = World.getGson().toJson(array);
                 try {
                     final PrintWriter pw = new PrintWriter(path, "UTF-8");
                     pw.println(toJson);
@@ -96,7 +96,6 @@ public class BirthdayEventRewardList implements ScheduledExternalizable {
 
     @Override
     public void write() {
-
     }
 
     @Override

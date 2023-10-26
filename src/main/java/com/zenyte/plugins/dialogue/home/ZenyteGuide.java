@@ -18,7 +18,7 @@ public class ZenyteGuide extends NPCPlugin {
 
                    {
                        player(100, "How can I start training?");
-                       npc("You will want to use the Zenyte Portal located north of the Grand Exchange and click training....");
+                       npc("You will want to use the Pixies Portal located north of the Grand Exchange and click training....");
                        npc("This will bring you to a list of different places and monsters you can train on. ");
                        player("Thank you!");
                    }

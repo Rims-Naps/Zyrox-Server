@@ -160132,7 +160132,7 @@
         "aggressiveAnimation": 390,
         "controlledAnimation": 390,
         "defensiveAnimation": 390,
-        "attackSpeed": 6,
+        "attackSpeed": 8,
         "interfaceVarbit": 17,
         "normalAttackDistance": 0,
         "longAttackDistance": 0
@@ -160164,7 +160164,7 @@
         "aggressiveAnimation": 426,
         "controlledAnimation": 426,
         "defensiveAnimation": 426,
-        "attackSpeed": 6,
+        "attackSpeed": 8,
         "interfaceVarbit": 3,
         "normalAttackDistance": 6,
         "longAttackDistance": 8
@@ -160196,7 +160196,7 @@
         "aggressiveAnimation": 406,
         "controlledAnimation": 400,
         "defensiveAnimation": 400,
-        "attackSpeed": 5,
+        "attackSpeed": 6,
         "interfaceVarbit": 23,
         "normalAttackDistance": 0,
         "longAttackDistance": 0
@@ -166121,6 +166121,7 @@
     "equipmentType": "DEFAULT"
   },
   {
+  //dragon hunter cbow(b)
     "id": 32197,
     "weight": 7.0,
     "slot": 3,
@@ -166152,6 +166153,7 @@
     "equipmentType": "DEFAULT"
   },
   {
+  //dragon hunter cbow(t)
     "id": 32199,
     "weight": 7.0,
     "slot": 3,
@@ -166827,6 +166829,35 @@
     },
     "equipmentType": "DEFAULT"
   },
+  //CODE ADDED BY @TAZIZ
+  {
+    "id": 22842,
+    "weight": 0.0,
+    "slot": 3,
+    "equipmentDefinition": {
+      "bonuses": "-100, -100, -50, 0, 0, 0, 0, 0, 0, 0, -10, 0, 0, 0",
+      "weaponDefinition": {
+        "twoHanded": false,
+        "blockAnimation": 0,
+        "standAnimation": 0,
+        "walkAnimation": 0,
+        "runAnimation": 0,
+        "standTurnAnimation": 823,
+        "rotate90Animation": 821,
+        "rotate180Animation": 820,
+        "rotate270Animation": 821,
+        "accurateAnimation": 390,
+        "aggressiveAnimation": 390,
+        "controlledAnimation": 390,
+        "defensiveAnimation": 424,
+        "attackSpeed": 5,
+        "interfaceVarbit": 0,
+        "normalAttackDistance": 0,
+        "longAttackDistance": 0
+      }
+    },
+    "equipmentType": "DEFAULT"
+  },
   {
     "id": 32367,
     "weight": 1.0,
@@ -166874,7 +166905,7 @@
     "weight": 0.453,
     "slot": 3,
     "equipmentDefinition": {
-      "bonuses": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0",
+      "bonuses": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0",
       "weaponDefinition": {
         "twoHanded": false,
         "blockAnimation": 424,
