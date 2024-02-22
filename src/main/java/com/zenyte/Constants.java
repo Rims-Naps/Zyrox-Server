@@ -42,7 +42,7 @@ public class Constants {
 	public static boolean STORE_ENABLED = true && SQL_ENABLED;
 	public static boolean VOTE_ENABLED = true && SQL_ENABLED;
 
-	public static boolean SPAWN_MODE = false;
+	public static boolean SPAWN_MODE = true;
 	public static boolean ISAAC = true;
 	public static boolean CYCLE_DEBUG = false;
 	public static final boolean CHRISTMAS = true;
@@ -118,17 +118,17 @@ public class Constants {
 	public static final int UNIQUE_PACKET_LIMIT = 10;
 	public static final int CUMULATIVE_PACKETS_LIMIT = 0xFF;
 
-	public static boolean BOOSTED_XP = false;
-	public static boolean BOOSTED_COX = false;
-	public static boolean BOOSTED_TOB = false;
+	public static boolean BOOSTED_XP = true;
+	public static boolean BOOSTED_COX = true;
+	public static boolean BOOSTED_TOB = true;
 
 	public static boolean EVENTSET = false;
 	public static Location EVENTHOSTLOCATION = new Location(0,0,0);
 
-	public static boolean BOOSTED_SKILLING_PETS = false;
+	public static boolean BOOSTED_SKILLING_PETS = true;
 	public static final double BOOSTED_SKILLING_PET_RATE = 0.15; // this is a 15% boost
 	
-	public static boolean BOOSTED_BOSS_PETS = false;
+	public static boolean BOOSTED_BOSS_PETS = true;
 	public static final double BOOSTED_BOSS_PET_RATE = 0.15; // this is a 15% boost
 	
 	public static int BOOSTED_XP_MODIFIER = 50;
